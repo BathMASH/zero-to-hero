@@ -1,1 +1,3 @@
 # Differentiation
+
+We often want to be able to find the gradient of a curved line. For that we need a new technique that will give us a rule (a new function) to work out the gradient at any point on the curve.
