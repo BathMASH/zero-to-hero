@@ -1,0 +1,38 @@
+project:
+  output-dir: docs
+  type: book
+
+book:
+  title: "zero-to-hero"
+  author: "Ed Southwood"
+  date: "09/09/2022"
+  chapters:
+    - index.qmd
+    - 01-negative_numbers.qmd
+    - 02-algebraic_expressions.qmd
+    - 03-expressions_with_brackets.qmd
+    - 04-fractions.qmd
+    - 05-solving_equations.qmd
+    - 06-straight_line_graphs.qmd
+    - 07-quadratics.qmd
+    - 08-indices.qmd
+    - 09-exponetial_function.qmd
+    - 10-logarithms.qmd
+    - 11-differentiation.qmd
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrbook
+    papersize: a4
+    include-in-header:
+      file: "preamble.tex"
+  docx:
+    toc: true
+    number-sections: true
+    highlight-style: github
+
+
+
+

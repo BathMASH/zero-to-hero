@@ -1,0 +1,82 @@
+# Expressions with brackets
+
+Dealing with algebraic expressions containing brackets is a useful skill. This section looks at removing brackets by *expanding* and adding brackets back in by *factorising*.
+
+## Expanding
+
+### Single brackets
+
+Expanding a bracket in an algebraic expression is an example of the distributive law. You probably are already familiar with that law. Here is an example of how the law could be used to work out $6 \times 15$ using a mental method.
+
+$$
+\begin{aligned} 
+6 \times 15 &= 6 \times (10 + 5)\\
+&= 6 \times 10 + 6 \times 5\\
+&= 60 + 30\\
+&= 90 
+\end{aligned}
+$$
+
+The same procedure is followed with an algebraic expression. 
+
+$$
+\begin{aligned} 
+6(2x+5) &= 6 \times (2x + 5) \\
+&= 6 \times 2x + 6 \times 5 \\
+&= 12x + 30
+\end{aligned}
+$$
+
+The number of terms within the bracket isn't limited to two. For example:
+
+$$
+\begin{aligned} x(y + 3x -5) &= x \times (y + 3x -5) \\
+&= x \times y + x \times 3x + x \times -5\\
+&= xy + 3x^2 - 5x
+\end{aligned}
+$$
+
+Finally, another common pattern is to have a negative sign before a bracket. This just means everything inside the bracket is multiplied by $-1$. It just *flips* the sign of everything in the brackets.
+
+$$
+\begin{aligned} -(3-x) &= -1 \times (3-x) \\
+&= -1 \times 3 + -1 \times -x \\
+&= -3+ x
+\end{aligned}
+$$
+
+Here are some practice questions.
+
+```{r, echo=FALSE}
+knitr::include_url("https://numbas.mathcentre.ac.uk/question/127002/algebra-expanding-single-brackets/embed/?token=7f05cd3a-ac38-4f05-8866-e3fa3c6b280c", height="800px")
+```
+
+### Expanding pairs of brackets
+
+This will be covered in [Quadratics](#quadratics-1).
+
+## Factorising
+
+The reverse of expanding brackets is called factorising. We look for a common factor in each term to take outside of the bracket.
+
+### Factorising - single bracket
+
+For each term in the expression look for a common factor. We can then write this in front of the bracket so when you expand the bracket the original expression is returned. For example:
+
+$$
+\begin{aligned} 12x^2 - 15x &= 3x \times 4x + 3x \times -5 \\
+&= 3x(4x-5)
+\end{aligned}
+$$
+
+Notice that $3x$ is a factor of both $12x^2$ and $-15x$. Also, if we expand our answer we should get back to where we started from.
+
+Here are some practice questions.
+
+```{r, echo=FALSE}
+knitr::include_url("https://numbas.mathcentre.ac.uk/question/127099/algebra-factorising-single-brackets/embed/?token=29498934-17cf-45ab-96cb-ab4a6d7523ed", height="800px")
+```
+
+### Factorising - pairs of brackets
+
+This will be covered in the [Quadratics](#quadratics-1) section.

@@ -1,0 +1,4 @@
+"0","library(webshot2)"
+"0","knitr::opts_chunk$set("
+"0","  screenshot.opts = list(delay = 2, cliprect = 'viewport', vheight = 800)"
+"0",")"

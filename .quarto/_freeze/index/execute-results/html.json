@@ -1,0 +1,14 @@
+{
+  "hash": "5cb2f844f1d594f580cb2c02c833a35f",
+  "result": {
+    "markdown": "\n\n\n# Welcome {-}\nThis course is designed to refresh your knowledge of maths to get you ready to use calculus in your course. There is no right or wrong way to use it. Each section includes written notes, ~~a video (with the same content as the notes)~~ and practice questions. It's chunked into bitesized sections to allow you make progress in 10 min windows. You may like to try the questions first and then just go back to the notes if you get stuck. Feel free to start anywhere you like.\n\nThis is a work in progress, things may change! If you find a mistake please email edrs20@bath.ac.uk and good luck!\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

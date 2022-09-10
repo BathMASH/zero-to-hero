@@ -1,0 +1,185 @@
+# Solving equations
+
+When we workout the value of an unknown, say $x$, in an equation we say that we *are solving for $x$*. To workout the value we are free to apply any mathematical operation we like to the equation so long as we *do the same to both sides*. 
+
+Note: We can't quite do any operation. Division by zero, $\div 0$, is not allowed as it is undefined. 
+
+## Linear equations
+
+### Single unknown
+
+Keeping the idea of doing the same thing to both sides in mind lets solve the following equation by *undoing* each operation with it's inverse.
+
+$$
+3x + 8 = 10
+$$
+First subtract $8$ from each side.
+
+$$
+\begin{aligned} 3x+8 -8 &= 10 -8 \\
+3x &= 2
+\end{aligned}
+$$
+
+Now divide both sides by $3$ to find the value of one $x$.
+
+$$
+\begin{aligned} \frac{3x}{3} &= \frac{2}{3} \\
+x &= \frac{2}{3}
+\end{aligned}
+$$
+
+The nice thing here is that we can leave the answer as $\frac{2}{3}$. No need to find a decimal fraction if we don't need to.
+
+Solve the following equations by applying the same operation to both sides. Remember the questions come with full solutions, so, if you get stuck have a look at the answers and then try a different one.
+
+```{r, echo=FALSE}
+knitr::include_url("https://numbas.mathcentre.ac.uk/question/90637/equations-linear-equations-1a-rational-answers/embed/?token=8b0eebe4-9011-49a1-a3aa-d0a1298634be", height="800px")
+```
+
+### Unknown on both sides
+
+If the unknown appears twice in an equation collect the unknown like terms first and then solve as before.
+
+Given $\frac{4y}{y-9}=-2$, we can multiply both sides by $(y-9)$ to get rid of the fraction, then get all the $y$s on one side, then finally solve as before.
+
+$$
+\begin{aligned} \frac{4y}{y-9} &= -2 \\
+\frac{4y}{y-9} \times (y-9) &= -2 \times (y-9) \\
+\frac{4y}{\cancel{y-9}} \times \cancel{(y-9)} &= -2 \times y -2 \times -9 \\
+4y &= -2y + 18 \\
+4y + 2y &= -2y + 18 +2y\\
+6y &= 18\\
+\frac{6y}{6} &= \frac{18}{6}\\
+y &= 3
+\end{aligned}
+$$
+
+Have a go at some questions. You'll need a pen and paper to work these out.
+
+```{r, echo=FALSE}
+knitr::include_url("https://numbas.mathcentre.ac.uk/question/104234/equations-linear-equations-2-unknowns-on-both-sides/embed/?token=c65c1027-db21-4273-bc3c-7e1a348e8510", height="800px")
+```
+
+## Inequalities
+
+Solving inequalities works just like solving a normal equation except when you divide or multiply by a negative number the inequality symbol changes direction. Here are some examples. 
+
+Addition and subtraction work.
+
+$$
+\begin{aligned} 1 &< 2 \\
+1 + 5 &< 2 + 5\\
+6 &< 7\\
+&\checkmark&\\
+\end{aligned}
+$$
+$$
+\begin{aligned} 1 &<& 2 \\
+1 -4 &< 2 -4\\
+-3 &< -2\\
+&\checkmark
+\end{aligned}
+$$
+
+Remember $-3$ is less than $-2$ since it is further to the left on a numberline. In other words $-3$ is more negative than $-2$.
+
+Multiplication and division work as expected with positive numbers.
+
+$$
+\begin{aligned} 4 &< 6 \\
+4 \times 2 &< 6 \times 2\\
+8 &< 12\\
+&\checkmark
+\end{aligned}
+$$
+$$
+\begin{aligned} 4 &< 6 \\
+4 \div 2 &< 6 \div 2\\
+2 &< 3\\
+&\checkmark
+\end{aligned}
+$$
+
+We need to be careful when multiplying and dividing by negative numbers.
+
+$$
+\begin{aligned} 4 &<& 6 \\
+4 \times -2 &< 6 \times -2\\
+-8 &\nless -12\\
+-8 &> -12
+\end{aligned}
+$$
+
+Remember the following key point when using inequalities: 
+
+> When multiplying or dividing by a negative number change the direction of the inequality.
+
+## Simultaneous equations
+
+Sometimes equations have more than one unknown. Take $x + y = 4$ for example. There are infinitely many pairs of numbers, $x$ and $y$, that work for this. Take the following pairs for example: $x = 1$ and $y=3$, $x = -100$ and $y=104$, and $x = 0.1$ and $y=3.9$. **Pro-tip** These pairs of solutions are often given as co-ordinate pairs like $(1,3)$, $(-100,104)$ and $(0.1,3.9)$. We'll do more about co-ordinates later.
+
+However, if I give you some more information, say $x = y$, now there is only one solution, namely $x = 2$ and $y=2$. We can use the information in two equations together to find the values that satisfy both equations.
+
+### Elimination method
+
+The idea with this method is to combine the two equations to create a new equation with only one variable in it. 
+
+$$
+\begin{aligned}
+4x + 2y &= -6 &(1)\\
+-2x + 3y &= 7 &(2)
+\end{aligned}
+$$
+
+To get a solution for $y$, if we multiply equation $(2)$ by $2$ we will have two equations with equal and opposite x-coefficients:
+
+$$
+\begin{aligned}
+4x + 2y &= -6   \\
+-4x + 6y &= 14 &(3)
+\end{aligned}
+$$
+
+If we add equation $(1)$ to equation $(3)$ this eliminates the $x$-terms, leaving us with one equation in terms of $y$:
+
+$$
+\begin{aligned}
+(2+6)y &= -6 + 14   \\
+8y &= 8 \\
+y &= 1
+\end{aligned}
+$$
+
+To obtain a solution for $x$ we can substitute this $y$-value into either of our initial equations. Using equation $(1)$, we obtain:
+
+$$
+\begin{aligned}
+4x + 2 \times 1 &= -6 \\
+4x + 2 &= -6 \\
+4x &= -8 \\
+x &= -2
+\end{aligned}
+$$
+
+We can check our values for $x$ and $y$ by substituting them into equation $2$.
+
+$$
+\begin{aligned}
+-2x + 3y &= 7 \\
+-2 \times -2 + 3 \times 1 &= 7 \\
+4 + 3 &= 7
+\end{aligned}
+$$
+
+Which works out!
+
+You can try other examples in the exercise below. Sometime you may have to multiply both of your starting equations in order to get the same amount of one variable. Also, don't worry if you have eliminated the other variable - it doesn't matter which you get rid of first, you should get the same answer in the end.
+
+```{r, echo=FALSE}
+knitr::include_url("https://numbas.mathcentre.ac.uk/question/104646/simultaneous-equations-linear-equations-with-integer-solutions/embed/?token=22ea59f8-3c89-478a-acd8-d114edcba808", height="800px")
+```
+
+### Substitution method
+
+It is also possible to re-arrange one equation and substitute it into the other. This method will be covered in the [Quadratics](#quadratics-1) section.
