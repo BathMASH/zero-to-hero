@@ -2,6 +2,9 @@ project:
   output-dir: docs
   type: book
 
+execute:
+  keep-md: true
+  
 book:
   title: "zero-to-hero"
   author: "Ed Southwood"
@@ -32,11 +35,3 @@ format:
     toc: true
     number-sections: true
     highlight-style: github
-
-knitr:
-    opts_chunk:
-        R.options:
-            knitr.screenshot.opts.cliprect: viewport
-
-
-
