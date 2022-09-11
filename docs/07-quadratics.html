@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.0.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>zero-to-hero - 7&nbsp; Quadratics</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./08-indices.html" rel="next">
+<link href="./06-straight_line_graphs.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Quadratics</span></h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">zero-to-hero</a> 
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">Welcome</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./01-negative_numbers.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Negative numbers</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./02-algebraic_expressions.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Algebraic expressions</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./03-expressions_with_brackets.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Expressions with brackets</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./04-fractions.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Fractions</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./05-solving_equations.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Solving equations</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./06-straight_line_graphs.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Straight line graphs</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./07-quadratics.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Quadratics</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./08-indices.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Indices</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./09-exponetial_function.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Exponetial function</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./10-logarithms.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Logarithms</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./11-differentiation.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Differentiation</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#expanding-paris-of-brackets" id="toc-expanding-paris-of-brackets" class="nav-link active" data-scroll-target="#expanding-paris-of-brackets"> <span class="header-section-number">7.1</span> Expanding paris of brackets</a></li>
+  <li><a href="#factorising-pairs-of-brackets" id="toc-factorising-pairs-of-brackets" class="nav-link" data-scroll-target="#factorising-pairs-of-brackets"> <span class="header-section-number">7.2</span> Factorising pairs of brackets</a></li>
+  <li><a href="#solving-quadratics" id="toc-solving-quadratics" class="nav-link" data-scroll-target="#solving-quadratics"> <span class="header-section-number">7.3</span> Solving Quadratics</a>
+  <ul class="collapse">
+  <li><a href="#factorisation" id="toc-factorisation" class="nav-link" data-scroll-target="#factorisation"> <span class="header-section-number">7.3.1</span> Factorisation</a></li>
+  <li><a href="#quadratic-formula" id="toc-quadratic-formula" class="nav-link" data-scroll-target="#quadratic-formula"> <span class="header-section-number">7.3.2</span> Quadratic Formula</a></li>
+  </ul></li>
+  <li><a href="#simultaneous-equations" id="toc-simultaneous-equations" class="nav-link" data-scroll-target="#simultaneous-equations"> <span class="header-section-number">7.4</span> Simultaneous equations</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Quadratics</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    
+  </div>
+  
+
+</header>
+
+<p>Quadratics often appear in mathematics, they occur when you have something squared, like <span class="math inline">\(x^2\)</span>. They produce ‘U’ shaped graphs that can be either way up (depending on the sign of the <span class="math inline">\(x^2\)</span> term), and, a powerful formula is know that we can use to solve them.</p>
+<p>A plot of <span class="math inline">\(y=x^2\)</span> is below:</p>
+<div class="cell">
+<iframe src="https://www.desmos.com/calculator/ufd5zwqegu?embed" width="672" height="400px" data-external="1">
+</iframe>
+</div>
+<p>Quadratics can occur when we expand pairs of brackets, so I’ve included in this section.</p>
+<section id="expanding-paris-of-brackets" class="level2" data-number="7.1">
+<h2 data-number="7.1" class="anchored" data-anchor-id="expanding-paris-of-brackets"><span class="header-section-number">7.1</span> Expanding paris of brackets</h2>
+<p>Expanding a pair of brackets is much the same as a single bracket. However there is a little more going on. Consider this example of a mental method to calculate <span class="math inline">\(25 \times 16\)</span>.</p>
+<p><span class="math display">\[
+\begin{aligned} 25 \times 16 &amp;= (20 + 5) \times (10 + 6) \\
+&amp;= \overbrace{20 \times 10 + 20 \times 6}^{20 \times (10 + 6)} + \overbrace{5 \times 10 + 5 \times 6}^{5 \times (10 + 6)}\\
+&amp;= 200 + 120 + 50 + 30 \\
+&amp;= 400
+\end{aligned}
+\]</span></p>
+<p>With algebra it works in the same way:</p>
+<p><span class="math display">\[
+\begin{aligned} (a+b)(c+d) &amp;= (a+b) \times (c+d) \\
+&amp;= \overbrace{a \times c + a \times d}^{a \times (c+d)} + \overbrace{b \times c + b \times d}^{b \times (c+d)}\\
+&amp;= ac + ad + bc + bd
+\end{aligned}
+\]</span></p>
+<p>Here are some practice questions. <strong>NEED to create on NUMBAS placeholder only</strong></p>
+<div class="cell">
+<iframe src="https://numbas.mathcentre.ac.uk/question/126318/algebra-substitution/embed/?token=83a5d483-0d29-43d9-9569-f3b4d04ca26e" width="672" height="800px" data-external="1">
+</iframe>
+</div>
+</section>
+<section id="factorising-pairs-of-brackets" class="level2" data-number="7.2">
+<h2 data-number="7.2" class="anchored" data-anchor-id="factorising-pairs-of-brackets"><span class="header-section-number">7.2</span> Factorising pairs of brackets</h2>
+<p>To factorise a quadratic in the form <span class="math inline">\(x^2 +bx +c\)</span> into a pair of brackets like <span class="math inline">\((x+p)(x+q)\)</span>. We look to see if there are a pair of numbers <span class="math inline">\(p\)</span> and <span class="math inline">\(q\)</span> that add to get <span class="math inline">\(b\)</span>, <span class="math inline">\(p+q = b\)</span>, and multiply to get <span class="math inline">\(c\)</span>, <span class="math inline">\(pq=c\)</span>. If we can find this pair of numbers we can factorise the quadratic. For example for the quadratic <span class="math inline">\(x^2 + 8x +12\)</span> we can look at the factors of <span class="math inline">\(12\)</span> to help us.</p>
+<p><span class="math display">\[
+\begin{aligned} 12 &amp;= 1 \times 12, &amp;\ \  \  1+12 &amp;= 13\\
+12 &amp;= 2 \times 6, &amp;\ \  \  2+6 &amp;= 8\\
+12 &amp;= 3 \times 4, &amp;\ \  \  3+4 &amp;= 7\\
+\end{aligned}
+\]</span></p>
+<p>Notice how <span class="math inline">\(2\)</span> and <span class="math inline">\(6\)</span> multiply to get <span class="math inline">\(12\)</span> but add to get <span class="math inline">\(8\)</span>. This means we have the correct pair. So we can now factorise the quadratic:</p>
+<p><span class="math display">\[
+x^2 + 8x +12 = (x+2)(x+6)
+\]</span></p>
+<p>Here are some practice questions.</p>
+<div class="cell">
+<iframe src="https://numbas.mathcentre.ac.uk/question/64384/quadratics-factorisation-1/embed/?token=1e79515a-591e-457e-afe3-d82103bb02e9" width="672" height="800px" data-external="1">
+</iframe>
+</div>
+</section>
+<section id="solving-quadratics" class="level2" data-number="7.3">
+<h2 data-number="7.3" class="anchored" data-anchor-id="solving-quadratics"><span class="header-section-number">7.3</span> Solving Quadratics</h2>
+<p>Interestingly three things can happen when we solve a quadratic. There can be:</p>
+<ul>
+<li>two different values that satisfy the equation</li>
+<li>one <em>repeated</em> value</li>
+<li>no real values (only <a href="https://en.wikipedia.org/wiki/Imaginary_number">imaginary ones</a> - and yes that is a thing!)</li>
+</ul>
+<section id="factorisation" class="level3" data-number="7.3.1">
+<h3 data-number="7.3.1" class="anchored" data-anchor-id="factorisation"><span class="header-section-number">7.3.1</span> Factorisation</h3>
+<p>We can solve some quadratics by factorisation. Take for example the following equation <span class="math inline">\(x^2 + 8x = -12\)</span>. To solve via factorisation we must first make it equal to zero and then factorise. So we have:</p>
+<p><span class="math display">\[
+\begin{aligned} x^2 + 8x &amp;= -12 \\
+x^2 + 8x +12 &amp;= -12 +12 \\
+x^2 + 8x +12 &amp;= 0
+\end{aligned}
+\]</span></p>
+<p>Now, with a little sense of deja vu (see the example in the previous section) we can factorise our quadratic to get <span class="math inline">\((x+2)(x+6)=0\)</span>. Notice that this is one bracket multiplied by another to get the answer zero. When this happens, i.e.&nbsp;when you multiply two numbers and the answer is zero, either the first number is zero or the second one is. This means either <span class="math inline">\(x+2=0\)</span> or <span class="math inline">\(x+6=0\)</span>. Solving these two mini-equations gives the two solutions: either <span class="math inline">\(x=-2\)</span> or <span class="math inline">\(x=-6\)</span>.</p>
+<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Pro tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>We can quickly get from the factorised quadratic to the solutions by <em>flipping</em> the signs in the bracket.</p>
+</div>
+</div>
+<p>Try some questions.</p>
+<div class="cell">
+<iframe src="https://numbas.mathcentre.ac.uk/question/105345/quadratics-solving-by-factorisation/embed/?token=84458480-2b4c-4902-9920-c43792afedcd" width="672" height="800px" data-external="1">
+</iframe>
+</div>
+</section>
+<section id="quadratic-formula" class="level3" data-number="7.3.2">
+<h3 data-number="7.3.2" class="anchored" data-anchor-id="quadratic-formula"><span class="header-section-number">7.3.2</span> Quadratic Formula</h3>
+<p>For a quadratic equation of the form <span class="math inline">\(ax^2 + bx + c = 0\)</span> we can use the quardrtic formula to find solutions for <span class="math inline">\(x\)</span>.</p>
+<p><span class="math display">\[
+x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}
+\]</span></p>
+<p>We can use the formula on the equation <span class="math inline">\(x^2 -4x +2 = 0\)</span>. In this example the values of <span class="math inline">\(a\)</span>, <span class="math inline">\(b\)</span> and <span class="math inline">\(c\)</span> are:</p>
+<p><span class="math inline">\(a=1\)</span> since <span class="math inline">\(x^2\)</span> means <span class="math inline">\(1 \times x^2\)</span> <span class="math inline">\(b=-4\)</span> notice how the negative sign is <em>owned</em> by the <span class="math inline">\(x\)</span> coefficient <span class="math inline">\(c=2\)</span> finially we just have <span class="math inline">\(2\)</span></p>
+<p>Substituting into the quadratic formula we have:</p>
+<p><span class="math display">\[
+\begin{aligned} x &amp;= \frac{-(-4) \pm \sqrt{(-4)^2-4(1)(2)}}{2(1)} \\
+&amp;= \frac{4 \pm \sqrt{16-8}}{2} \\
+&amp;= \frac{4 \pm \sqrt{8}}{2}
+\end{aligned}
+\]</span></p>
+<p>It is possible to simplify the square roots in this answer to give <span class="math inline">\(2 \pm \sqrt{2}\)</span>. So don’t be surprised if your calculator gives you that answer.</p>
+<p>Finally, we must deal with the <span class="math inline">\(\pm\)</span> symbol. This means do the calculation once using <span class="math inline">\(+\)</span> and another time using <span class="math inline">\(-\)</span>. This will give two possible answers for <span class="math inline">\(x\)</span>, given to <span class="math inline">\(2\)</span> decimal places.</p>
+<p><span class="math display">\[
+\begin{aligned} x_1 &amp;= \frac{4 + \sqrt{8}}{2} \\
+&amp;= 3.41
+\end{aligned}
+\]</span></p>
+<p>and</p>
+<p><span class="math display">\[
+\begin{aligned} x_2 &amp;= \frac{4 - \sqrt{8}}{2} \\
+&amp;= 0.59
+\end{aligned}
+\]</span></p>
+<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Pro tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Notice the use of <span class="math inline">\(x_1\)</span> and <span class="math inline">\(x_2\)</span>. It is common in maths to use subscript numbers to show different particular values of the same variable. That’s all it’s doing <span class="math inline">\(x_1\)</span> is just a value for <span class="math inline">\(x\)</span> named <span class="math inline">\(x_1\)</span> and <span class="math inline">\(x_2\)</span> is just a value for <span class="math inline">\(x\)</span> named <span class="math inline">\(x_2\)</span>.</p>
+</div>
+</div>
+<div class="cell">
+<iframe src="https://numbas.mathcentre.ac.uk/question/64345/quadratics-using-the-quadratic-formula/embed/?token=df746faf-a094-4dd6-8e2b-19ae44306fc8" width="672" height="800px" data-external="1">
+</iframe>
+</div>
+</section>
+</section>
+<section id="simultaneous-equations" class="level2" data-number="7.4">
+<h2 data-number="7.4" class="anchored" data-anchor-id="simultaneous-equations"><span class="header-section-number">7.4</span> Simultaneous equations</h2>
+<p>We are going to solve this type of equation by substitution i.e.&nbsp;substituting one equation into another.</p>
+<p>To solve a pair of simultaneous equations of this type we want to rearrange the linear equation such that it is in terms of <span class="math inline">\(x\)</span> or <span class="math inline">\(y\)</span>, which we can then substitute into the equation with the quadratic terms. This will result in a quadratic equation in terms of one variable only.</p>
+<p>For the equations:</p>
+<p><span class="math display">\[
+\begin{aligned} 2x+y &amp;\ = 1  &amp;\ (1) \\
+3x^2+3y^2 &amp;\ = 4 &amp;\ (2)
+\end{aligned}
+\]</span></p>
+<p>we can rearrange equation <span class="math inline">\((1)\)</span> to make <span class="math inline">\(y\)</span> the subject:</p>
+<p><span class="math display">\[
+\begin{aligned} y = 1-2x &amp;\ &amp;\ (3) \end{aligned}
+\]</span></p>
+<p>Substituting equation <span class="math inline">\((3)\)</span> into equation <span class="math inline">\((2)\)</span> we have:</p>
+<p><span class="math display">\[
+\begin{aligned}
+3x^2+3y^2 &amp;\ = 4 \\
+3x^2+3(1-2x)^2 &amp;\ = 4 \\
+3x^2+3(1-4x+4x^2) &amp;\ = 4 \\
+3x^2+3-12x+12x^2 &amp;\ = 4 \\
+15x^2-12x-1 &amp;\ = 0
+\end{aligned}
+\]</span></p>
+<div class="callout-warning callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>There are a few things to be careful of here:</p>
+<ul>
+<li><span class="math inline">\((1-2x)^2\)</span> was expanded as a pair of brackets, <span class="math inline">\((1-2x)(1-2x)\)</span> before being multiplied by <span class="math inline">\(3\)</span>.</li>
+<li>The finial stage was to make the equation equal zero so we can use the quadratic formula.</li>
+</ul>
+</div>
+</div>
+<p>Now we have an equation we can solve we can use the quadratic formula. To find values of <span class="math inline">\(x\)</span>. This gives two solutions <span class="math inline">\(x_1 = -0.08\)</span> to 2 decimal places, and, <span class="math inline">\(x_2 = -0.88\)</span> again to 2 decimal places.</p>
+<p>Finally, since our equations for <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span> we need to find corresponding <span class="math inline">\(y\)</span> values for each <span class="math inline">\(x\)</span>. The easiest way to do this is to use equation <span class="math inline">\((3)\)</span>. This gives, $ y_1 =1.15 $ and <span class="math inline">\(y_2 = -0.75\)</span>. Note, to maintain accuracy you’ll need to put your <em>full</em> values for <span class="math inline">\(x_1\)</span> and <span class="math inline">\(x_2\)</span> into equation (3) and then round to <span class="math inline">\(2\)</span> decimal places afterwards.</p>
+<p>This gives two pairs of numbers for our answer. <span class="math inline">\((x_1,y_1) = (-0.08,1.15)\)</span> and <span class="math inline">\((x_2,y_2)=(0.88,-0.75)\)</span>.</p>
+<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Pro tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>notice our answers look a lot like co-ordinates on a graph. That’s because they are. If you plot the lines <span class="math inline">\(2x+y = 1\)</span> and <span class="math inline">\(3x^2+3y^2 = 4\)</span> on the same graph (don’t do this by hand! Use something like <a href="https://www.desmos.com/calculator">desmos</a>) the places where the two lines cross will correspond with our answers.</p>
+</div>
+</div>
+<p>Here are some practice questions. Don’t forget you can graph them if it helps.</p>
+<div class="cell">
+<iframe src="https://numbas.mathcentre.ac.uk/question/65155/simultaneous-equations-quadratics-1/embed/?token=582d176f-c880-4353-abdf-8f51e0c575b6" width="672" height="800px" data-external="1">
+</iframe>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./06-straight_line_graphs.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Straight line graphs</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./08-indices.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Indices</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>

@@ -84,7 +84,11 @@ $$
 
 Now, with a little sense of deja vu (see the example in the previous section) we can factorise our quadratic to get $(x+2)(x+6)=0$. Notice that this is one bracket multiplied by another to get the answer zero. When this happens, i.e. when you multiply two numbers and the answer is zero, either the first number is zero or the second one is. This means either $x+2=0$ or $x+6=0$. Solving these two mini-equations gives the two solutions: either $x=-2$ or $x=-6$. 
 
-**Pro tip** We can quickly get from the factorised quadratic to the solutions by *flipping* the signs in the bracket. 
+:::{.callout-tip}
+## Pro tip
+
+We can quickly get from the factorised quadratic to the solutions by *flipping* the signs in the bracket. 
+:::
 
 Try some questions. 
 
@@ -131,7 +135,11 @@ $$
 &= 0.59
 \end{aligned}
 $$
-**Pro tip** Notice the use of $x_1$ and $x_2$. It is common in maths to use subscript numbers to show different particular values of the same variable. That's all it's doing $x_1$ is just a value for $x$ named $x_1$ and $x_2$ is just a value for $x$ named $x_2$.
+:::{.callout-tip}
+## Pro tip
+
+Notice the use of $x_1$ and $x_2$. It is common in maths to use subscript numbers to show different particular values of the same variable. That's all it's doing $x_1$ is just a value for $x$ named $x_1$ and $x_2$ is just a value for $x$ named $x_2$.
+:::
 
 ```{r, echo=FALSE}
 knitr::include_url("https://numbas.mathcentre.ac.uk/question/64345/quadratics-using-the-quadratic-formula/embed/?token=df746faf-a094-4dd6-8e2b-19ae44306fc8", height="800px")
@@ -169,10 +177,12 @@ $$
 \end{aligned}
 $$
 
+:::{.callout-warning}
 There are a few things to be careful of here:
 
 * $(1-2x)^2$ was expanded as a pair of brackets, $(1-2x)(1-2x)$ before being multiplied by $3$.
 * The finial stage was to make the equation equal zero so we can use the quadratic formula.
+:::
 
 Now we have an equation we can solve we can use the quadratic formula. To find values of $x$. This gives two solutions $x_1 = -0.08$ to 2 decimal places, and, $x_2 = -0.88$ again to 2 decimal places.
 
@@ -180,7 +190,11 @@ Finally, since our equations for $x$ and $y$ we need to find corresponding $y$ v
 
 This gives two pairs of numbers for our answer. $(x_1,y_1) = (-0.08,1.15)$ and $(x_2,y_2)=(0.88,-0.75)$.
 
-**Pro tip** notice our answers look a lot like co-ordinates on a graph. That's because they are. If you plot the lines $2x+y = 1$ and $3x^2+3y^2 = 4$ on the same graph (don't do this by hand! Use something like [desmos](https://www.desmos.com/calculator)) the places where the two lines cross will correspond with our answers.
+:::{.callout-tip}
+## Pro tip
+
+notice our answers look a lot like co-ordinates on a graph. That's because they are. If you plot the lines $2x+y = 1$ and $3x^2+3y^2 = 4$ on the same graph (don't do this by hand! Use something like [desmos](https://www.desmos.com/calculator)) the places where the two lines cross will correspond with our answers.
+:::
 
 Here are some practice questions. Don't forget you can graph them if it helps.
 

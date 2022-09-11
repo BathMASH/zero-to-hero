@@ -6,9 +6,11 @@ Indices is another word for powers. In this section we move beyond the idea that
 
 Being comfortable moving between different ways to write powers helps when rearranging algebra.
 
-> | $x^0 = 1$ except when $x=0$ then it's undefined
-> | $x^-n = \frac{1}{x^n}$
-> | $x^{\frac{1}{n}} = \sqrt[n]x$
+:::{.callout-note}
+* $x^0 = 1$ except when $x=0$ then it's undefined
+* $x^-n = \frac{1}{x^n}$
+* $x^{\frac{1}{n}} = \sqrt[n]x$
+:::
 
 Here are some examples:
 
@@ -30,7 +32,11 @@ We can write roots too:
 $$
 16^{\frac{1}{2}} = \sqrt{16} = \pm4
 $$
-**Pro tip** When taking square roots remember there are two possible solutions. Since in the above example $4 \times 4 = 16$ and  $-4 \times -4 = 16$. So either answer is just fine.
+:::{.callout-tip}
+## Pro tip
+
+When taking square roots remember there are two possible solutions. Since in the above example $4 \times 4 = 16$ and  $-4 \times -4 = 16$. So either answer is just fine.
+:::
 
 ### But why?
 
@@ -53,9 +59,11 @@ I'll come back to the justification about square roots after the next section.
 
 There is a neat set of rules we can use when combining numbers with indices:
 
-> | $x^n \times x^m = x^{n+m}$
-> | $x^n \div x^m = x^{n-m}$
-> | $(x^n)^m = x^{n \times m}$
+:::{.callout-note}
+* $x^n \times x^m = x^{n+m}$
+* $x^n \div x^m = x^{n-m}$
+* $(x^n)^m = x^{n \times m}$
+:::
 
 When you multiply terms you add the powers.
 

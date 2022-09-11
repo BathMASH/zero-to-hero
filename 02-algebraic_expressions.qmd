@@ -77,12 +77,14 @@ Notice that the two different types of term are $x$ and $x^2$. Also, I could hav
 
 Take care when simplifying multiples of different letters $3xy + 5yx$ can be simplified. This is because the order of multiplication doesn't matter so $3xy + 5yx = 3xy + 5xy = 8xy$. Terms are normally written in alphabetical order with the highest powers first. 
 
-Key point:
+:::{.callout-note}
+## Key point:
 
-> | $x \times x = x^2$
-> | $x + x = 2x$
-> | $x$ is different from $X$
-> | $1x$ is written as $x$
+$x \times x = x^2$
+$x + x = 2x$
+$x$ is different from $X$
+$1x$ is written as $x$
+:::
 
 Have a go at simplifying with these questions.
 

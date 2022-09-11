@@ -55,6 +55,11 @@ y &= 3
 \end{aligned}
 $$
 
+:::{.callout-note}
+* To solve equations to the same thing to both sides.
+* If the unknown appears twice - collect like terms first.
+:::
+
 Have a go at some questions. You'll need a pen and paper to work these out.
 
 ```{r, echo=FALSE}
@@ -82,7 +87,7 @@ $$
 \end{aligned}
 $$
 
-Remember $-3$ is less than $-2$ since it is further to the left on a numberline. In other words $-3$ is more negative than $-2$.
+Remember $-3$ is less than $-2$ since it is further to the left on a number line. In other words $-3$ is more negative than $-2$.
 
 Multiplication and division work as expected with positive numbers.
 
@@ -111,9 +116,11 @@ $$
 \end{aligned}
 $$
 
+:::{.callout-note}
 Remember the following key point when using inequalities: 
 
-> When multiplying or dividing by a negative number change the direction of the inequality.
+When multiplying or dividing by a negative number change the direction of the inequality.
+:::
 
 ## Simultaneous equations
 

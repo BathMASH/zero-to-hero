@@ -12,11 +12,11 @@ It is often useful to plot graphs of functions to gain an understanding of what 
 
 To build a picture of a function we work out pairs of values that satisfy the function. Take for example $y=\frac{1}{2}x+1$. If we choose values of $x$ we can work out the corresponding $y$ values.
 
-$$
-\begin{array} {|r|r|}\hline x & y \\ \hline 0 & \frac{1}{2}(0)+1=1 \\
-\hline 1 & \frac{1}{2}(1)+1=1.5 \\
-\hline 2 & \frac{1}{2}(2)+1=2 \\ \hline  \end{array}
-$$
+| $x$ | $y$ |
+|:---:|:---:|
+| $0$ | $\frac{1}{2}(0)+1=1$ |
+| $1$ | $\frac{1}{2}(1)+1=1.5$ |
+| $2$ | $\frac{1}{2}(2)+1=2$ |
 
 Once we have these values they can be plotted on graph.
 ```{r, echo=FALSE}
@@ -82,7 +82,11 @@ The gradient of a graph is a measure of how much steep the line is. The value of
 
 The gradient can also be found by calculating the change in the $y$ direction divided by the change in the $x$ direction. The graph below shows how you could calculate the gradient of the line. The line shown has a gradient of $\frac{2}{3}$.
 
-**Pro tip** A change in a quantity is often represented by the Greek letter delta, $\Delta$, so we can rewrite $m$ as: $m = \frac{\Delta y}{\Delta x}$
+:::{.callout-tip}
+## Pro tip
+
+A change in a quantity is often represented by the Greek letter delta, $\Delta$, so we can rewrite $m$ as: $m = \frac{\Delta y}{\Delta x}$
+:::
 
 ```{r, echo=FALSE}
 knitr::include_url("https://www.desmos.com/calculator/a3c9vcaede?embed", height="500px")
@@ -93,6 +97,12 @@ Click on the graph below and then change the value of $m$ with the slider. Notic
 ```{r, echo=FALSE}
 knitr::include_url("https://www.desmos.com/calculator/z9r3fkyrcf?embed", height="500px")
 ```
+
+:::{.callout-note}
+* $m$ is the gradient - the amount it goes up for each one you go across
+* $c$ where the line crosses the $y$ axis
+* $m$ and $c$ only make sense when the line is in the form $y=mx+c$
+:::
 
 Using you knowledge of $y=mx+c$ try the following questions. Don't be afraid to look at the answers and then try a fresh set of questions if it seems tricky at first.
 
