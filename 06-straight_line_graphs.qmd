@@ -2,7 +2,7 @@
 
 ```{r, include=FALSE}
 knitr::opts_chunk$set(
-  screenshot.opts = list(delay = 2, cliprect = 'viewport')
+  screenshot.opts = list(cliprect = 'viewport', delay = 2)
 )
 ```
 

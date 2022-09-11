@@ -33,6 +33,10 @@ format:
     number-sections: true
     highlight-style: github
 
+knitr:
+    opts_chunk:
+        R.options:
+            knitr.screenshot.opts.cliprect: viewport
 
 
 
