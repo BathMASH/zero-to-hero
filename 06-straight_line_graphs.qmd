@@ -1,8 +1,8 @@
 # Straight line graphs
 
-```{r chunk-set, include=FALSE}
+```{r, include=FALSE}
 knitr::opts_chunk$set(
-  screenshot.opts = list(file = 'img.png', cliprect = 'viewport', delay = 2)
+  dev = 'png', screenshot.opts = list(cliprect = 'viewport', delay = 2)
 )
 ```
 
@@ -19,7 +19,7 @@ $$
 $$
 
 Once we have these values they can be plotted on graph.
-```{r desmos-img-1, echo=FALSE}
+```{r, echo=FALSE}
 knitr::include_url("https://www.desmos.com/calculator/jzyasdusre?embed")
 ```
 The red dots show the points and the blue line shows the equation.
