@@ -1,7 +1,7 @@
 project:
   output-dir: docs
   type: book
-  
+
 book:
   title: "zero-to-hero"
   author: "Ed Southwood"
@@ -32,3 +32,7 @@ format:
     toc: true
     number-sections: true
     highlight-style: github
+
+knitr:
+  opts_chunk:
+    dev: 'png'
