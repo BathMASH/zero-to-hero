@@ -4,7 +4,7 @@ Logarithms, or logs for short, are the same as powers just written in another wa
 
 ## Reverse of indices
 
-:::{callout-note}
+:::{.callout-note}
 ## Key point:
 
 If $a^y =x$ then $y = \log_{a} x$.
@@ -23,7 +23,7 @@ This is the same fact written in index notation and as a logarithm.
 
 Just as there are rules when dealing with indices, there are the corresponding rules when dealing with logarithms too.
 
-:::{callout-note}
+:::{.callout-note}
 ## Key point:
 
 * $\log_{a} x + \log_{a} y = \log_{a} xy$
@@ -94,7 +94,7 @@ Some bases in logarithms come up more than others, becasuse of that some bases h
 
 A logarithm that has $e$ as it's base is known as the natural logarithm and has it's own symbol.
 
-:::{callout-note}
+:::{.callout-note}
 ## Key point:
 
 $$
@@ -106,7 +106,7 @@ $$
 
 A logarithm that has $10$ as it's base has it's own symbol.
 
-:::{callout-note}
+:::{.callout-note}
 ## Key point:
 
 $$
@@ -120,7 +120,7 @@ You just don't bother writing the base.
 
 The rule for differentiating $\ln{x}$ is:
 
-:::{callout-note}
+:::{.callout-note}
 ## Key point:
 
 if $y = k\ln{ax}$ then $\frac{dy}{dx}= \frac{k}{x}$.

@@ -263,77 +263,42 @@
     "href": "11-logarithms.html",
     "title": "11  Logarithms",
     "section": "",
-    "text": "Logarithms, or logs for short, are the same as powers just written in another way.\n\\(a\\) is called the base of the logarithm. When dealing with logs it’s often useful to think of a numerical example to keep the idea straight in your head.\n\\[\n\\begin{aligned} 10^3 &= 1000 \\\\\n3 &= \\log_{10} 1000\n\\end{aligned}\n\\]\nThis is the same fact written in index notation and as a logarithm.\nWe can use these rules to manipulate algebraic expressions. For example, let’s write the following as a single logarithm:\n\\[\n\\begin{aligned}\n3\\log_{10} 2 + \\log_{10} 5 - \\log_{10} 4 &= \\log_{10} 2^3 + \\log_{10} 5 -  \\log_{10} 4 \\\\\n&= \\log_{10} 8 + \\log_{10} 5 -  \\log_{10} 4 \\\\\n&= \\log_{10} (8 \\times 5)  -  \\log_{10} 4 \\\\\n&= \\log_{10} 40  -  \\log_{10} 4 \\\\\n&= \\log_{10} (\\frac{40}{4}) \\\\\n&= \\log_{10} (10) \\\\\n&= 1\n\\end{aligned}\n\\]\nThis is how it was done: * First we used the power rule \\(\\log_{a} x^n = n\\log_{a} x\\), * then the addition rule \\(\\log_{a} x + \\log_{a} y = \\log_{a} xy\\), * and finally, the subtraction rule \\(\\log_{a} x - \\log_{a} y = \\log_{a}{\\frac{x}{y}}\\). * Then notice \\(\\log_{10} (10)= 1\\) since \\(10^1=10\\).\nHave a go at these simplification questions.\nYou just don’t bother writing the base.\nUse that rule to try the following questions."
+    "text": "Logarithms, or logs for short, are the same as powers just written in another way."
   },
   {
     "objectID": "11-logarithms.html#reverse-of-indices",
     "href": "11-logarithms.html#reverse-of-indices",
     "title": "11  Logarithms",
     "section": "11.1 Reverse of indices",
-    "text": "11.1 Reverse of indices"
-  },
-  {
-    "objectID": "11-logarithms.html#key-point",
-    "href": "11-logarithms.html#key-point",
-    "title": "11  Logarithms",
-    "section": "11.2 Key point:",
-    "text": "11.2 Key point:\nIf \\(a^y =x\\) then \\(y = \\log_{a} x\\)."
+    "text": "11.1 Reverse of indices\n\n\n\n\n\n\nKey point:\n\n\n\nIf \\(a^y =x\\) then \\(y = \\log_{a} x\\).\n\n\n\\(a\\) is called the base of the logarithm. When dealing with logs it’s often useful to think of a numerical example to keep the idea straight in your head.\n\\[\n\\begin{aligned} 10^3 &= 1000 \\\\\n3 &= \\log_{10} 1000\n\\end{aligned}\n\\]\nThis is the same fact written in index notation and as a logarithm."
   },
   {
     "objectID": "11-logarithms.html#rules-of-logarithms",
     "href": "11-logarithms.html#rules-of-logarithms",
     "title": "11  Logarithms",
-    "section": "11.3 Rules of logarithms",
-    "text": "11.3 Rules of logarithms\nJust as there are rules when dealing with indices, there are the corresponding rules when dealing with logarithms too."
-  },
-  {
-    "objectID": "11-logarithms.html#key-point-1",
-    "href": "11-logarithms.html#key-point-1",
-    "title": "11  Logarithms",
-    "section": "11.4 Key point:",
-    "text": "11.4 Key point:\n\n\\(\\log_{a} x + \\log_{a} y = \\log_{a} xy\\)\n\\(\\log_{a} x - \\log_{a} y = \\log_{a}{\\frac{x}{y}}\\)\n\\(\\log_{a} x^n = n\\log_{a} x\\)"
+    "section": "11.2 Rules of logarithms",
+    "text": "11.2 Rules of logarithms\nJust as there are rules when dealing with indices, there are the corresponding rules when dealing with logarithms too.\n\n\n\n\n\n\nKey point:\n\n\n\n\n\\(\\log_{a} x + \\log_{a} y = \\log_{a} xy\\)\n\\(\\log_{a} x - \\log_{a} y = \\log_{a}{\\frac{x}{y}}\\)\n\\(\\log_{a} x^n = n\\log_{a} x\\)\n\n\n\nWe can use these rules to manipulate algebraic expressions. For example, let’s write the following as a single logarithm:\n\\[\n\\begin{aligned}\n3\\log_{10} 2 + \\log_{10} 5 - \\log_{10} 4 &= \\log_{10} 2^3 + \\log_{10} 5 -  \\log_{10} 4 \\\\\n&= \\log_{10} 8 + \\log_{10} 5 -  \\log_{10} 4 \\\\\n&= \\log_{10} (8 \\times 5)  -  \\log_{10} 4 \\\\\n&= \\log_{10} 40  -  \\log_{10} 4 \\\\\n&= \\log_{10} (\\frac{40}{4}) \\\\\n&= \\log_{10} (10) \\\\\n&= 1\n\\end{aligned}\n\\]\nThis is how it was done: * First we used the power rule \\(\\log_{a} x^n = n\\log_{a} x\\), * then the addition rule \\(\\log_{a} x + \\log_{a} y = \\log_{a} xy\\), * and finally, the subtraction rule \\(\\log_{a} x - \\log_{a} y = \\log_{a}{\\frac{x}{y}}\\). * Then notice \\(\\log_{10} (10)= 1\\) since \\(10^1=10\\).\nHave a go at these simplification questions."
   },
   {
     "objectID": "11-logarithms.html#solving-equations-with-logarithms-in",
     "href": "11-logarithms.html#solving-equations-with-logarithms-in",
     "title": "11  Logarithms",
-    "section": "11.5 Solving equations with logarithms in",
-    "text": "11.5 Solving equations with logarithms in\nFor example, let’s solve \\(3\\log_{10} x + \\log_{10} 2 = \\log_{10} 250\\). First we’ll apply the power rule \\(\\log_{a} x^n = n\\log_{a} x\\), then the addition rule \\(\\log_{a} x + \\log_{a} y = \\log_{a} xy\\):\n\\[\n\\begin{aligned}\n3\\log_{10} x + \\log_{10} 2 &= \\log_{10} 250 \\\\\n\\log_{10} x^3 + \\log_{10} 2 &= \\log_{10} 250 \\\\\n\\log_{10} 2x^3 &= \\log_{10} 250\n\\end{aligned}\n\\]\nNow since the two sides are equal the values inside the logarithm must be equal. We can then go ahead and solve the resulting equation as normal.\n\\[\n\\begin{aligned}\n\\log_{10} 2x^3 &= \\log_{10} 250 \\\\\n2x^3 &= 250 \\\\\nx^3 &= 125 \\\\\nx &= \\sqrt[3]{125} \\\\\n&= 5\n\\end{aligned}\n\\]\nHave a go at the following questions:"
+    "section": "11.3 Solving equations with logarithms in",
+    "text": "11.3 Solving equations with logarithms in\nFor example, let’s solve \\(3\\log_{10} x + \\log_{10} 2 = \\log_{10} 250\\). First we’ll apply the power rule \\(\\log_{a} x^n = n\\log_{a} x\\), then the addition rule \\(\\log_{a} x + \\log_{a} y = \\log_{a} xy\\):\n\\[\n\\begin{aligned}\n3\\log_{10} x + \\log_{10} 2 &= \\log_{10} 250 \\\\\n\\log_{10} x^3 + \\log_{10} 2 &= \\log_{10} 250 \\\\\n\\log_{10} 2x^3 &= \\log_{10} 250\n\\end{aligned}\n\\]\nNow since the two sides are equal the values inside the logarithm must be equal. We can then go ahead and solve the resulting equation as normal.\n\\[\n\\begin{aligned}\n\\log_{10} 2x^3 &= \\log_{10} 250 \\\\\n2x^3 &= 250 \\\\\nx^3 &= 125 \\\\\nx &= \\sqrt[3]{125} \\\\\n&= 5\n\\end{aligned}\n\\]\nHave a go at the following questions:"
   },
   {
     "objectID": "11-logarithms.html#some-important-bases",
     "href": "11-logarithms.html#some-important-bases",
     "title": "11  Logarithms",
-    "section": "11.6 Some important bases",
-    "text": "11.6 Some important bases\nSome bases in logarithms come up more than others, becasuse of that some bases have their own notation.\n\n11.6.1 The natural logarithm\nA logarithm that has \\(e\\) as it’s base is known as the natural logarithm and has it’s own symbol."
-  },
-  {
-    "objectID": "11-logarithms.html#key-point-2",
-    "href": "11-logarithms.html#key-point-2",
-    "title": "11  Logarithms",
-    "section": "11.7 Key point:",
-    "text": "11.7 Key point:\n\\[\n\\log_{e} x = \\ln{x}\n\\]"
-  },
-  {
-    "objectID": "11-logarithms.html#key-point-3",
-    "href": "11-logarithms.html#key-point-3",
-    "title": "11  Logarithms",
-    "section": "11.8 Key point:",
-    "text": "11.8 Key point:\n\\[\n\\log_{10} x = \\log{x}\n\\]"
+    "section": "11.4 Some important bases",
+    "text": "11.4 Some important bases\nSome bases in logarithms come up more than others, becasuse of that some bases have their own notation.\n\n11.4.1 The natural logarithm\nA logarithm that has \\(e\\) as it’s base is known as the natural logarithm and has it’s own symbol.\n\n\n\n\n\n\nKey point:\n\n\n\n\\[\n\\log_{e} x = \\ln{x}\n\\]\n\n\n\n\n11.4.2 Base 10\nA logarithm that has \\(10\\) as it’s base has it’s own symbol.\n\n\n\n\n\n\nKey point:\n\n\n\n\\[\n\\log_{10} x = \\log{x}\n\\]\n\n\nYou just don’t bother writing the base."
   },
   {
     "objectID": "11-logarithms.html#differentiating-lnx",
     "href": "11-logarithms.html#differentiating-lnx",
     "title": "11  Logarithms",
-    "section": "11.9 Differentiating \\(\\ln{x}\\)",
-    "text": "11.9 Differentiating \\(\\ln{x}\\)\nThe rule for differentiating \\(\\ln{x}\\) is:"
-  },
-  {
-    "objectID": "11-logarithms.html#key-point-4",
-    "href": "11-logarithms.html#key-point-4",
-    "title": "11  Logarithms",
-    "section": "11.10 Key point:",
-    "text": "11.10 Key point:\nif \\(y = k\\ln{ax}\\) then \\(\\frac{dy}{dx}= \\frac{k}{x}\\)."
+    "section": "11.5 Differentiating \\(\\ln{x}\\)",
+    "text": "11.5 Differentiating \\(\\ln{x}\\)\nThe rule for differentiating \\(\\ln{x}\\) is:\n\n\n\n\n\n\nKey point:\n\n\n\nif \\(y = k\\ln{ax}\\) then \\(\\frac{dy}{dx}= \\frac{k}{x}\\).\n\n\nUse that rule to try the following questions."
   },
   {
     "objectID": "12-further-differentiation.html",
