@@ -2,18 +2,17 @@
 
 On a number line negative numbers are typically written to the left of zero and have values smaller than zero. Negative numbers are tricky. Often when an error creeps into a calculation it's due to a misplaced minus sign, they are a source of problems for everyone - don't worry if they seem tricky, they have only relatively recently lost their mysteriousness. The evidence of humans counting dates from $35,000$BCE yet as recently as $1758$ British mathematician Francis Maseres said that negative numbers...
 
-> *"... darken the very whole doctrines of the equations and make dark of the things which are in their nature excessively obvious and simple".*
-
+*"... darken the very whole doctrines of the equations and make dark of the things which are in their nature excessively obvious and simple".*
 
 ## Multiplication and Division
 
 When multiplying and dividing using negative numbers the answer will be the same as the equivalent calculation with positive numbers only, but, you may have to change the sign - to either positive or negative. The rules for deciding if the answer is positive or negative are below:
 
 :::{.callout-note}
-positive $\times$ positive $=$ positive
-negative $\times$ positive $=$ negative
-positive $\times$ negative $=$ negative
-negative $\times$ negative $=$ positive
+* positive $\times$ positive $=$ positive
+* negative $\times$ positive $=$ negative
+* positive $\times$ negative $=$ negative
+* negative $\times$ negative $=$ positive
 :::
 
 Notice that the order is not important. Here are some examples:
@@ -29,8 +28,8 @@ $$
 If you have more that two numbers to multiplying you can just count the number of negative numbers and apply the following rule:
 
 :::{.callout-note}
-If the total number of negative numbers is **even** the answer is **positive**.
-If the total number of negative numbers is **odd** the answer is **negative**.
+* If the total number of negative numbers is **even** the answer is **positive**.
+* If the total number of negative numbers is **odd** the answer is **negative**.
 :::
 
 Here's a longer example:

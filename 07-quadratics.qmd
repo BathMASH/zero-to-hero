@@ -1,6 +1,3 @@
----
-always_allow_html: yes
----
 # Quadratics
 
 Quadratics often appear in mathematics, they occur when you have something squared, like $x^2$. They produce 'U' shaped graphs that can be either way up (depending on the sign of the $x^2$ term), and, a powerful formula is know that we can use to solve them.
@@ -33,12 +30,6 @@ $$
 &= ac + ad + bc + bd
 \end{aligned}
 $$
-
-Here are some practice questions. **NEED to create on NUMBAS placeholder only**
-
-```{r, echo=FALSE}
-knitr::include_url("https://numbas.mathcentre.ac.uk/question/126318/algebra-substitution/embed/?token=83a5d483-0d29-43d9-9569-f3b4d04ca26e", height="800px")
-```
 
 ## Factorising pairs of brackets
 

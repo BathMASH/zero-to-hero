@@ -11,14 +11,14 @@
     "href": "01-negative_numbers.html",
     "title": "1  Negative numbers",
     "section": "",
-    "text": "On a number line negative numbers are typically written to the left of zero and have values smaller than zero. Negative numbers are tricky. Often when an error creeps into a calculation it’s due to a misplaced minus sign, they are a source of problems for everyone - don’t worry if they seem tricky, they have only relatively recently lost their mysteriousness. The evidence of humans counting dates from \\(35,000\\)BCE yet as recently as \\(1758\\) British mathematician Francis Maseres said that negative numbers…"
+    "text": "On a number line negative numbers are typically written to the left of zero and have values smaller than zero. Negative numbers are tricky. Often when an error creeps into a calculation it’s due to a misplaced minus sign, they are a source of problems for everyone - don’t worry if they seem tricky, they have only relatively recently lost their mysteriousness. The evidence of humans counting dates from \\(35,000\\)BCE yet as recently as \\(1758\\) British mathematician Francis Maseres said that negative numbers…\n“… darken the very whole doctrines of the equations and make dark of the things which are in their nature excessively obvious and simple”."
   },
   {
     "objectID": "01-negative_numbers.html#multiplication-and-division",
     "href": "01-negative_numbers.html#multiplication-and-division",
     "title": "1  Negative numbers",
     "section": "1.1 Multiplication and Division",
-    "text": "1.1 Multiplication and Division\nWhen multiplying and dividing using negative numbers the answer will be the same as the equivalent calculation with positive numbers only, but, you may have to change the sign - to either positive or negative. The rules for deciding if the answer is positive or negative are below:\n\n\n\n\n\n\nNote\n\n\n\npositive \\(\\times\\) positive \\(=\\) positive negative \\(\\times\\) positive \\(=\\) negative positive \\(\\times\\) negative \\(=\\) negative negative \\(\\times\\) negative \\(=\\) positive\n\n\nNotice that the order is not important. Here are some examples:\n\\[\n-2 \\times 3 = -6\n\\]\n\\[\n10 \\times -5 = -50\n\\]\n\\[\n-4 \\times -6 = 24\n\\]\nIf you have more that two numbers to multiplying you can just count the number of negative numbers and apply the following rule:\n\n\n\n\n\n\nNote\n\n\n\nIf the total number of negative numbers is even the answer is positive. If the total number of negative numbers is odd the answer is negative.\n\n\nHere’s a longer example:\n\\[\n-2 \\times -2 \\times -2 \\times -2 = 16\n\\]\nsince there are even number of negatives in the question the answer will be positive.\nSince division and multiplication are so closely related, division works in exactly the same way. For example:\n\\[\n\\frac{-3 \\times -6}{-9} = -2\n\\].\nYou can practice these techniques with the following questions. You can refresh the question to change the numbers. Try them as much as you like.\n\n\n\n\n\n1.1.1 But why?!!?\nBuilding a physical idea of a negative number is tricky. For example thinking of \\(2 \\times 3\\) as two lots of 3 things is fine, but what does \\(-2 \\times -3\\) even mean? Hopefully but looking at the pattern below it will be become clear that our definition of what happens with two negative numbers is the only one that makes sense. Consider extending the two times table into negative numbers.\n\\[\n\\begin{array}{ccccc}\n3 &\\times& 2& =& 6\\\\\n2 &\\times& 2& =& 4\\\\\n1 &\\times& 2& =& 2\\\\\n0 &\\times& 2& =& 0\\\\\n-1 &\\times& 2& =& -2\\\\\n-2 &\\times& 2& =& -4\\\\\n-3 &\\times& 2& =& -6\\\\\n\\end{array}\n\\]\nNow with the negative two times table.\n\\[\n\\begin{array}{ccccc}\n3 &\\times& -2& =& -6\\\\\n2 &\\times& -2& =& -4\\\\\n1 &\\times& -2& =& -2\\\\\n0 &\\times& -2& =& 0\\\\\n-1 &\\times& -2& =& 2\\\\\n-2 &\\times& -2& =& 4\\\\\n-3 &\\times& -2& =& 6\\\\\n\\end{array}\n\\]\nOur definition fits the pattern. Horrah!"
+    "text": "1.1 Multiplication and Division\nWhen multiplying and dividing using negative numbers the answer will be the same as the equivalent calculation with positive numbers only, but, you may have to change the sign - to either positive or negative. The rules for deciding if the answer is positive or negative are below:\n\n\n\n\n\n\nNote\n\n\n\n\npositive \\(\\times\\) positive \\(=\\) positive\nnegative \\(\\times\\) positive \\(=\\) negative\npositive \\(\\times\\) negative \\(=\\) negative\nnegative \\(\\times\\) negative \\(=\\) positive\n\n\n\nNotice that the order is not important. Here are some examples:\n\\[\n-2 \\times 3 = -6\n\\]\n\\[\n10 \\times -5 = -50\n\\]\n\\[\n-4 \\times -6 = 24\n\\]\nIf you have more that two numbers to multiplying you can just count the number of negative numbers and apply the following rule:\n\n\n\n\n\n\nNote\n\n\n\n\nIf the total number of negative numbers is even the answer is positive.\nIf the total number of negative numbers is odd the answer is negative.\n\n\n\nHere’s a longer example:\n\\[\n-2 \\times -2 \\times -2 \\times -2 = 16\n\\]\nsince there are even number of negatives in the question the answer will be positive.\nSince division and multiplication are so closely related, division works in exactly the same way. For example:\n\\[\n\\frac{-3 \\times -6}{-9} = -2\n\\].\nYou can practice these techniques with the following questions. You can refresh the question to change the numbers. Try them as much as you like.\n\n\n\n\n\n1.1.1 But why?!!?\nBuilding a physical idea of a negative number is tricky. For example thinking of \\(2 \\times 3\\) as two lots of 3 things is fine, but what does \\(-2 \\times -3\\) even mean? Hopefully but looking at the pattern below it will be become clear that our definition of what happens with two negative numbers is the only one that makes sense. Consider extending the two times table into negative numbers.\n\\[\n\\begin{array}{ccccc}\n3 &\\times& 2& =& 6\\\\\n2 &\\times& 2& =& 4\\\\\n1 &\\times& 2& =& 2\\\\\n0 &\\times& 2& =& 0\\\\\n-1 &\\times& 2& =& -2\\\\\n-2 &\\times& 2& =& -4\\\\\n-3 &\\times& 2& =& -6\\\\\n\\end{array}\n\\]\nNow with the negative two times table.\n\\[\n\\begin{array}{ccccc}\n3 &\\times& -2& =& -6\\\\\n2 &\\times& -2& =& -4\\\\\n1 &\\times& -2& =& -2\\\\\n0 &\\times& -2& =& 0\\\\\n-1 &\\times& -2& =& 2\\\\\n-2 &\\times& -2& =& 4\\\\\n-3 &\\times& -2& =& 6\\\\\n\\end{array}\n\\]\nOur definition fits the pattern. Horrah!"
   },
   {
     "objectID": "01-negative_numbers.html#addition-and-subtraction",
@@ -46,7 +46,7 @@
     "href": "02-algebraic_expressions.html#simplification",
     "title": "2  Algebraic expressions",
     "section": "2.2 Simplification",
-    "text": "2.2 Simplification\nAlgebraic expressions are made up of terms. Similar terms can be combined to create a simplified expression, this processes is called collecting like terms. For example \\(2a + 3a\\) can be simplified to \\(5a\\) by collecting the \\(a\\) terms. Here’s another example with a bit more going on:\n\\[\n5x + 7y - 3x + 3y = \\overbrace{5x - 3x}^{x\\text{ terms}} + \\overbrace{7y + 3y}^{y\\text{ terms}} = 2x + 10y\n\\]\nNotice that the like terms were grouped first to make it easier to simplify. Also, each term owns the positive of negative symbol ahead of it.\nTerms can be more complex too. Although it’s tempting to find something to simplify there are no like terms in this expression: \\(3xy + 6x^2 + 2x - 5y\\). Only the exact same multiples can be simplified. For example:\n\\[\n6x^2 + 2x - 5x^2 -8x = \\overbrace{6x^2 -5x^2}^{x^2\\text{ terms}} + \\overbrace{2x-8x}^{x\\text{ terms}}=x^2-6x\n\\]\nNotice that the two different types of term are \\(x\\) and \\(x^2\\). Also, I could have written \\(1x^2\\) but we normally don’t bother with the \\(1\\). It’s also important to note that capitalisation matters; \\(x\\) is different from \\(X\\).\nTake care when simplifying multiples of different letters \\(3xy + 5yx\\) can be simplified. This is because the order of multiplication doesn’t matter so \\(3xy + 5yx = 3xy + 5xy = 8xy\\). Terms are normally written in alphabetical order with the highest powers first.\n\n\n\n\n\n\nKey point:\n\n\n\n\\(x \\times x = x^2\\) \\(x + x = 2x\\) \\(x\\) is different from \\(X\\) \\(1x\\) is written as \\(x\\)\n\n\nHave a go at simplifying with these questions."
+    "text": "2.2 Simplification\nAlgebraic expressions are made up of terms. Similar terms can be combined to create a simplified expression, this processes is called collecting like terms. For example \\(2a + 3a\\) can be simplified to \\(5a\\) by collecting the \\(a\\) terms. Here’s another example with a bit more going on:\n\\[\n5x + 7y - 3x + 3y = \\overbrace{5x - 3x}^{x\\text{ terms}} + \\overbrace{7y + 3y}^{y\\text{ terms}} = 2x + 10y\n\\]\nNotice that the like terms were grouped first to make it easier to simplify. Also, each term owns the positive of negative symbol ahead of it.\nTerms can be more complex too. Although it’s tempting to find something to simplify there are no like terms in this expression: \\(3xy + 6x^2 + 2x - 5y\\). Only the exact same multiples can be simplified. For example:\n\\[\n6x^2 + 2x - 5x^2 -8x = \\overbrace{6x^2 -5x^2}^{x^2\\text{ terms}} + \\overbrace{2x-8x}^{x\\text{ terms}}=x^2-6x\n\\]\nNotice that the two different types of term are \\(x\\) and \\(x^2\\). Also, I could have written \\(1x^2\\) but we normally don’t bother with the \\(1\\). It’s also important to note that capitalisation matters; \\(x\\) is different from \\(X\\).\nTake care when simplifying multiples of different letters \\(3xy + 5yx\\) can be simplified. This is because the order of multiplication doesn’t matter so \\(3xy + 5yx = 3xy + 5xy = 8xy\\). Terms are normally written in alphabetical order with the highest powers first.\n\n\n\n\n\n\nKey point:\n\n\n\n\n\\(x \\times x = x^2\\)\n\\(x + x = 2x\\)\n\\(x\\) is different from \\(X\\)\n\\(1x\\) is written as \\(x\\)\n\n\n\nHave a go at simplifying with these questions."
   },
   {
     "objectID": "03-expressions_with_brackets.html",
@@ -158,7 +158,7 @@
     "href": "07-quadratics.html#expanding-paris-of-brackets",
     "title": "7  Quadratics",
     "section": "7.1 Expanding paris of brackets",
-    "text": "7.1 Expanding paris of brackets\nExpanding a pair of brackets is much the same as a single bracket. However there is a little more going on. Consider this example of a mental method to calculate \\(25 \\times 16\\).\n\\[\n\\begin{aligned} 25 \\times 16 &= (20 + 5) \\times (10 + 6) \\\\\n&= \\overbrace{20 \\times 10 + 20 \\times 6}^{20 \\times (10 + 6)} + \\overbrace{5 \\times 10 + 5 \\times 6}^{5 \\times (10 + 6)}\\\\\n&= 200 + 120 + 50 + 30 \\\\\n&= 400\n\\end{aligned}\n\\]\nWith algebra it works in the same way:\n\\[\n\\begin{aligned} (a+b)(c+d) &= (a+b) \\times (c+d) \\\\\n&= \\overbrace{a \\times c + a \\times d}^{a \\times (c+d)} + \\overbrace{b \\times c + b \\times d}^{b \\times (c+d)}\\\\\n&= ac + ad + bc + bd\n\\end{aligned}\n\\]\nHere are some practice questions. NEED to create on NUMBAS placeholder only"
+    "text": "7.1 Expanding paris of brackets\nExpanding a pair of brackets is much the same as a single bracket. However there is a little more going on. Consider this example of a mental method to calculate \\(25 \\times 16\\).\n\\[\n\\begin{aligned} 25 \\times 16 &= (20 + 5) \\times (10 + 6) \\\\\n&= \\overbrace{20 \\times 10 + 20 \\times 6}^{20 \\times (10 + 6)} + \\overbrace{5 \\times 10 + 5 \\times 6}^{5 \\times (10 + 6)}\\\\\n&= 200 + 120 + 50 + 30 \\\\\n&= 400\n\\end{aligned}\n\\]\nWith algebra it works in the same way:\n\\[\n\\begin{aligned} (a+b)(c+d) &= (a+b) \\times (c+d) \\\\\n&= \\overbrace{a \\times c + a \\times d}^{a \\times (c+d)} + \\overbrace{b \\times c + b \\times d}^{b \\times (c+d)}\\\\\n&= ac + ad + bc + bd\n\\end{aligned}\n\\]"
   },
   {
     "objectID": "07-quadratics.html#factorising-pairs-of-brackets",
@@ -203,17 +203,171 @@
     "text": "8.2 Rules of indices\nThere is a neat set of rules we can use when combining numbers with indices:\n\n\n\n\n\n\nNote\n\n\n\n\n\\(x^n \\times x^m = x^{n+m}\\)\n\\(x^n \\div x^m = x^{n-m}\\)\n\\((x^n)^m = x^{n \\times m}\\)\n\n\n\nWhen you multiply terms you add the powers.\n\\[\n\\begin{aligned} 3x^4 \\times 5x^6 &= 3 \\times 5 \\times x^4 \\times x^5 \\\\\n&= 15 \\times x^{4+5} \\\\\n&= 15x^9\n\\end{aligned}\n\\]\nLets put it all together with a complicated example:\nTo rewrite \\(\\dfrac{\\sqrt[4]{x^5x^3}}{\\sqrt[3]{x} \\sqrt[6]{x^3}}\\) in the form \\(x^n\\), we need to use the following rules:\n\n\\(a^n a^m = a^{n+m}\\);\n\\(\\sqrt[n]{a} = a^{1/n}\\);\n\\(\\left(a^n\\right)^m = a^{n \\times m}\\);\n\\(\\frac{a^n}{a^m} = a^{n-m}\\).\n\nWe will simplify the numerator and denominator separately to make the steps clearer. Firstly, applying rule 1, then rule 2, and then rule 3 to the numerator:\n\\[\n\\begin{aligned} \\dfrac{\\sqrt[4]{x^5x^3}}{\\sqrt[3]{x} \\sqrt[6]{x^3}} &= \\dfrac{\\sqrt[4]{x^8}}{\\sqrt[3]{x} \\sqrt[6]{x^3}} \\\\\n&= \\dfrac{(x^8)^{1/4}}{\\sqrt[3]{x} \\sqrt[6]{x^3}} \\\\\n&= \\dfrac{x^2}{\\sqrt[3]{x} \\sqrt[6]{x^3}}\n\\end{aligned}\n\\]\nTo simplify the denominator, we want to apply rule 2, then rule 3, and then rule 1:\n\\[\n\\begin{aligned} \\dfrac{x^2}{\\sqrt[3]{x} \\sqrt[6]{x^3}} &= \\dfrac{x^2}{x^{1/3} (x^3)^{1/6}} \\\\\n&= \\dfrac{x^2}{x^{1/3} x^{1/2}} \\\\\n&= \\dfrac{x^2}{x^{5/6}}\n\\end{aligned}\n\\]\nRemember that we’ll need to get common denominators when adding the fractions at the end:\n\\[\n\\begin{aligned} \\frac{1}{3} + \\frac{1}{2} &= \\frac{1\\times2}{3\\times2}  + \\frac{1\\times3}{2\\times3} \\\\\n&= \\frac{2}{6}  + \\frac{3}{6} \\\\\n&= \\frac{5}{6}\n\\end{aligned}\n\\]\nFinally, applying rule 4 and simplifying,\n\\[\n\\begin{aligned} \\dfrac{x^2}{x^{5/6}} &=x^2 \\times x^{-5/6} \\\\\n&= x^{2-5/6} \\\\\n&= x^{12/6-5/6} \\\\\n&= x^{7/6}\n\\end{aligned}\n\\]\nLots of work with fractions here!\nNow try these questions. Don’t worry if it takes a while to just solve one!\n\n\n\n\n\n8.2.1 But why? Square roots\nAs promised here is an explanation of why \\(x^{\\frac{1}{n}} = \\sqrt[n]x\\).\nWhen we take a square root we look for the a number that when it is multiplied by it’s self we get the answer i.e. \\(? \\times ? = x\\). Since one \\(x\\) is the same as \\(x^1\\) we can rewrite out statement again:\n\\[\n\\begin{aligned} ? \\times ? &= x^1 \\\\\nx^? \\times x^? &= x^1 \\\\\nx^{?+?} &= x^1\n\\end{aligned}\n\\]\nThis means \\(? + ? = 1\\) so \\(?=\\frac{1}{2}\\) so \\(x^{\\frac{1}{2}} = \\sqrt{x}\\)."
   },
   {
-    "objectID": "10-logarithms.html#rules-of-logarithms",
-    "href": "10-logarithms.html#rules-of-logarithms",
-    "title": "10  Logarithms",
-    "section": "10.2 Rules of logarithms",
-    "text": "10.2 Rules of logarithms"
+    "objectID": "09-differentiation.html",
+    "href": "09-differentiation.html",
+    "title": "9  Differentiation",
+    "section": "",
+    "text": "We often want to be able to find the gradient of a curved line. For that we need a new technique, called differentiation, that will give us a rule (a new function) to work out the gradient at any point on the curve."
   },
   {
-    "objectID": "11-differentiation.html",
-    "href": "11-differentiation.html",
-    "title": "11  Differentiation",
+    "objectID": "09-differentiation.html#the-tangent-to-a-curve",
+    "href": "09-differentiation.html#the-tangent-to-a-curve",
+    "title": "9  Differentiation",
+    "section": "9.1 The tangent to a curve",
+    "text": "9.1 The tangent to a curve\nThe gradient at a point on a curve is the same as the gradient of the tangent at that point. A tangent to a curve is a straight line that just touches curve at that point. Below is a picture of the tangent to the curve when \\(x=5\\). You can open up the graph and move the point around with the slider.\n\n\n\n\nNotice that the gradient will change depending on which value of \\(x\\) you use."
+  },
+  {
+    "objectID": "09-differentiation.html#the-rules-of-differentiation",
+    "href": "09-differentiation.html#the-rules-of-differentiation",
+    "title": "9  Differentiation",
+    "section": "9.2 The rules of differentiation",
+    "text": "9.2 The rules of differentiation\nLuckily finding the rule to get the gradient of a curve is straight forward. The language we use for this process is like this. When function is differentiated a new function, the derivative, is found. The derivative enables you to find the gradient. There are lots of ways write this in mathematical notation. Here are the most common.\n\n\n\noriginal function\nderivative\n\n\n\n\n\\(y\\)\n\\(\\frac{dy}{dx}\\)\n\n\n\\(f(x)\\)\n\\(f'(x)\\)\n\n\n\nThe rule for differentiating polynomials (functions made up of adding different powers of \\(x\\))is:\n\n\n\n\n\n\nNote\n\n\n\n\nif \\(y=ax^n\\) then \\(\\frac{dy}{dx} = anx^{n-1}\\), or,\nif \\(f(x)=ax^n\\) then \\(f'(x) = anx^{n-1}\\) Times by the power, then take one off the power\n\n\n\nHere are some examples:\nIf \\(y = 3x^4\\) then \\(\\frac{dy}{dx} = 3 \\times 4 \\times x^{4-1} = 12x^3\\)\nMultiple terms added together are differentiated one by one then added together:\n\\[\n\\begin{aligned} y &= 6x^3 + 2x^2 + 4x + 5 \\\\\n\\frac{dy}{dx} &= 6x^3 + 2x^2 + 4x^1 + 5x^0 \\\\\n&= 3\\times6x^{3-1} + 2\\times x^{2-1} + 1\\times 4x^{1-1} + 0\\times5x^{0-1} \\\\\n&= 18x^2 + 2x^1 + 4x^{0} + 0 \\\\\n&= 18x^2 + 2x + 4\n\\end{aligned}\n\\]\nIn the above example we’ve used the following mathematical facts:\n\n\\(x=x^1\\), \\(x\\) on it’s own is \\(x^1\\)\n\\(x^0=1\\), you can always multiply by \\(x^0\\) since it’s \\(1\\)\n\\(0 \\times a = 0\\) anything times zero is zero\n\nThe take away from this is that constant terms, terms without \\(x\\) in, disappear, and terms with just \\(x\\) in loose the \\(x\\).\nTry these questions to get to grips with the rules of differentiation."
+  },
+  {
+    "objectID": "09-differentiation.html#finding-gradient-at-a-point",
+    "href": "09-differentiation.html#finding-gradient-at-a-point",
+    "title": "9  Differentiation",
+    "section": "9.3 Finding gradient at a point",
+    "text": "9.3 Finding gradient at a point\nTo find the gradient at a point. Differentiate the original function and then substitute the \\(x\\) value of the point into the derivative.\nFor example to find the gradient when \\(x=3\\) for the function \\(y=x^2\\). We would differentiate and then substitute in \\(x=3\\).\n\\[\n\\begin{aligned} y &= x^2 \\\\\n\\frac{dy}{dx} &= 2x \\\\\n&= 2(3) \\\\\n&= 2 \\times 3 \\\\\n&= 6\n\\end{aligned}\n\\]\nSo the gradient at \\(x=3\\) on the curve \\(y=x^2\\) is \\(6\\)."
+  },
+  {
+    "objectID": "10-exponetial_function.html",
+    "href": "10-exponetial_function.html",
+    "title": "10  Exponential functions",
     "section": "",
-    "text": "We often want to be able to find the gradient of a curved line. For that we need a new technique that will give us a rule (a new function) to work out the gradient at any point on the curve."
+    "text": "Exponential functions crop up in applied mathematics everywhere. This section looks at these important functions, so important that, Professor Albert Bartlett said the following about them in this lecture Arithmetic, Population and Energy.\nThe greatest shortcoming of the human race is our inability to understand the exponential function."
+  },
+  {
+    "objectID": "10-exponetial_function.html#getting-to-know-exponential-functions",
+    "href": "10-exponetial_function.html#getting-to-know-exponential-functions",
+    "title": "10  Exponential functions",
+    "section": "10.1 Getting to know exponential functions",
+    "text": "10.1 Getting to know exponential functions\nAn exponential function comes in the for, \\(y=a^x\\). They can increase incredibly fast. Take for example \\(y=2^x\\)\n\n\n\n\\(x\\)\n\\(y=2^x\\)\n\n\n\n\n\\(-2\\)\n\\(y = 2^{-2} = \\frac{1}{2^2} = \\frac{1}{4}\\)\n\n\n\\(-1\\)\n\\(y = 2^{-1} = \\frac{1}{2^1} = \\frac{1}{2}\\)\n\n\n\\(0\\)\n\\(y = 2^{0} = 1\\)\n\n\n\\(1\\)\n\\(y = 2^{1} = 2\\)\n\n\n\\(2\\)\n\\(y = 2^{2} = 4\\)\n\n\n\\(3\\)\n\\(y = 2^{3} = 8\\)\n\n\n\\(4\\)\n\\(y = 2^{4} = 16\\)\n\n\n\nPlotting these points give a graph that looks like:\n\n\n\n\nNotice the following key points about the graph.\n\n\n\n\n\n\nNote\n\n\n\n\nThe graph quickly increases.\nIt crosses the \\(y\\) axis at \\(1\\) (all exponential graphs do this).\nIt never goes under the \\(x\\) axis."
+  },
+  {
+    "objectID": "10-exponetial_function.html#the-exponetial-function",
+    "href": "10-exponetial_function.html#the-exponetial-function",
+    "title": "10  Exponential functions",
+    "section": "10.2 The exponetial function",
+    "text": "10.2 The exponetial function\nThere is one exponential function that is so important that it is called the exponential function. It is written as \\(y=e^x\\) where \\(e\\) is an irrational number (an infinitely long decimal number that doesn’t repeat itself, \\(/pi\\) is an irrational number too). The value of \\(e\\) is:\n\\[\ne = 2.71828182845904523536028747135266249775724709369995...\n\\]\nish.\nThe reason why it is special is that when \\(y=e^x\\), the derivative is itself, that is \\(\\frac{dy}{dx}=e^x\\). Below is a graph of \\(y=a^x\\) and it derivative, you can open it up and change the value of \\(a\\) from \\(2\\) to \\(4\\). \\(a\\) is set to \\(2\\) to begin with, notice how the derivative is beneath the curve \\(y=a^x\\). When \\(a\\) is increased the derivative moves above \\(y=a^x\\). The point where the two curves overlap is when \\(a=e\\).\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nIf \\(y=e^x\\) then \\(\\frac{dy}{dx}=e^x\\)."
+  },
+  {
+    "objectID": "10-exponetial_function.html#differentiating-ex",
+    "href": "10-exponetial_function.html#differentiating-ex",
+    "title": "10  Exponential functions",
+    "section": "10.3 Differentiating \\(e^x\\)",
+    "text": "10.3 Differentiating \\(e^x\\)\nThe rule for differentiating \\(e^x\\) is if \\(y = ke^{ax}\\) then \\(\\frac{dy}{dx}= ake^{ax}\\).\nUse that rule to try the following questions."
+  },
+  {
+    "objectID": "11-logarithms.html",
+    "href": "11-logarithms.html",
+    "title": "11  Logarithms",
+    "section": "",
+    "text": "Logarithms, or logs for short, are the same as powers just written in another way.\n\\(a\\) is called the base of the logarithm. When dealing with logs it’s often useful to think of a numerical example to keep the idea straight in your head.\n\\[\n\\begin{aligned} 10^3 &= 1000 \\\\\n3 &= \\log_{10} 1000\n\\end{aligned}\n\\]\nThis is the same fact written in index notation and as a logarithm.\nWe can use these rules to manipulate algebraic expressions. For example, let’s write the following as a single logarithm:\n\\[\n\\begin{aligned}\n3\\log_{10} 2 + \\log_{10} 5 - \\log_{10} 4 &= \\log_{10} 2^3 + \\log_{10} 5 -  \\log_{10} 4 \\\\\n&= \\log_{10} 8 + \\log_{10} 5 -  \\log_{10} 4 \\\\\n&= \\log_{10} (8 \\times 5)  -  \\log_{10} 4 \\\\\n&= \\log_{10} 40  -  \\log_{10} 4 \\\\\n&= \\log_{10} (\\frac{40}{4}) \\\\\n&= \\log_{10} (10) \\\\\n&= 1\n\\end{aligned}\n\\]\nThis is how it was done: * First we used the power rule \\(\\log_{a} x^n = n\\log_{a} x\\), * then the addition rule \\(\\log_{a} x + \\log_{a} y = \\log_{a} xy\\), * and finally, the subtraction rule \\(\\log_{a} x - \\log_{a} y = \\log_{a}{\\frac{x}{y}}\\). * Then notice \\(\\log_{10} (10)= 1\\) since \\(10^1=10\\).\nHave a go at these simplification questions.\nYou just don’t bother writing the base.\nUse that rule to try the following questions."
+  },
+  {
+    "objectID": "11-logarithms.html#reverse-of-indices",
+    "href": "11-logarithms.html#reverse-of-indices",
+    "title": "11  Logarithms",
+    "section": "11.1 Reverse of indices",
+    "text": "11.1 Reverse of indices"
+  },
+  {
+    "objectID": "11-logarithms.html#key-point",
+    "href": "11-logarithms.html#key-point",
+    "title": "11  Logarithms",
+    "section": "11.2 Key point:",
+    "text": "11.2 Key point:\nIf \\(a^y =x\\) then \\(y = \\log_{a} x\\)."
+  },
+  {
+    "objectID": "11-logarithms.html#rules-of-logarithms",
+    "href": "11-logarithms.html#rules-of-logarithms",
+    "title": "11  Logarithms",
+    "section": "11.3 Rules of logarithms",
+    "text": "11.3 Rules of logarithms\nJust as there are rules when dealing with indices, there are the corresponding rules when dealing with logarithms too."
+  },
+  {
+    "objectID": "11-logarithms.html#key-point-1",
+    "href": "11-logarithms.html#key-point-1",
+    "title": "11  Logarithms",
+    "section": "11.4 Key point:",
+    "text": "11.4 Key point:\n\n\\(\\log_{a} x + \\log_{a} y = \\log_{a} xy\\)\n\\(\\log_{a} x - \\log_{a} y = \\log_{a}{\\frac{x}{y}}\\)\n\\(\\log_{a} x^n = n\\log_{a} x\\)"
+  },
+  {
+    "objectID": "11-logarithms.html#solving-equations-with-logarithms-in",
+    "href": "11-logarithms.html#solving-equations-with-logarithms-in",
+    "title": "11  Logarithms",
+    "section": "11.5 Solving equations with logarithms in",
+    "text": "11.5 Solving equations with logarithms in\nFor example, let’s solve \\(3\\log_{10} x + \\log_{10} 2 = \\log_{10} 250\\). First we’ll apply the power rule \\(\\log_{a} x^n = n\\log_{a} x\\), then the addition rule \\(\\log_{a} x + \\log_{a} y = \\log_{a} xy\\):\n\\[\n\\begin{aligned}\n3\\log_{10} x + \\log_{10} 2 &= \\log_{10} 250 \\\\\n\\log_{10} x^3 + \\log_{10} 2 &= \\log_{10} 250 \\\\\n\\log_{10} 2x^3 &= \\log_{10} 250\n\\end{aligned}\n\\]\nNow since the two sides are equal the values inside the logarithm must be equal. We can then go ahead and solve the resulting equation as normal.\n\\[\n\\begin{aligned}\n\\log_{10} 2x^3 &= \\log_{10} 250 \\\\\n2x^3 &= 250 \\\\\nx^3 &= 125 \\\\\nx &= \\sqrt[3]{125} \\\\\n&= 5\n\\end{aligned}\n\\]\nHave a go at the following questions:"
+  },
+  {
+    "objectID": "11-logarithms.html#some-important-bases",
+    "href": "11-logarithms.html#some-important-bases",
+    "title": "11  Logarithms",
+    "section": "11.6 Some important bases",
+    "text": "11.6 Some important bases\nSome bases in logarithms come up more than others, becasuse of that some bases have their own notation.\n\n11.6.1 The natural logarithm\nA logarithm that has \\(e\\) as it’s base is known as the natural logarithm and has it’s own symbol."
+  },
+  {
+    "objectID": "11-logarithms.html#key-point-2",
+    "href": "11-logarithms.html#key-point-2",
+    "title": "11  Logarithms",
+    "section": "11.7 Key point:",
+    "text": "11.7 Key point:\n\\[\n\\log_{e} x = \\ln{x}\n\\]"
+  },
+  {
+    "objectID": "11-logarithms.html#key-point-3",
+    "href": "11-logarithms.html#key-point-3",
+    "title": "11  Logarithms",
+    "section": "11.8 Key point:",
+    "text": "11.8 Key point:\n\\[\n\\log_{10} x = \\log{x}\n\\]"
+  },
+  {
+    "objectID": "11-logarithms.html#differentiating-lnx",
+    "href": "11-logarithms.html#differentiating-lnx",
+    "title": "11  Logarithms",
+    "section": "11.9 Differentiating \\(\\ln{x}\\)",
+    "text": "11.9 Differentiating \\(\\ln{x}\\)\nThe rule for differentiating \\(\\ln{x}\\) is:"
+  },
+  {
+    "objectID": "11-logarithms.html#key-point-4",
+    "href": "11-logarithms.html#key-point-4",
+    "title": "11  Logarithms",
+    "section": "11.10 Key point:",
+    "text": "11.10 Key point:\nif \\(y = k\\ln{ax}\\) then \\(\\frac{dy}{dx}= \\frac{k}{x}\\)."
+  },
+  {
+    "objectID": "12-further-differentiation.html",
+    "href": "12-further-differentiation.html",
+    "title": "12  Further differentiation",
+    "section": "",
+    "text": "So far we have looked at differentiating powers of \\(x\\) when they are added together. This section introduces differentiating \\(e^x\\) and \\(\\ln{x}\\), then goes on to look at how to differentiate, functions inside functions, products of functions (when functions are multiplied together) and quotients of functions (when functions are divided by each other)."
+  },
+  {
+    "objectID": "12-further-differentiation.html#standard-results",
+    "href": "12-further-differentiation.html#standard-results",
+    "title": "12  Further differentiation",
+    "section": "12.1 Standard results",
+    "text": "12.1 Standard results\nWe can now expand our table of derivatives. Here are all the rules from the last differentiation along with some new ones.\n\n\n\noriginal function\nderivative\n\n\n\n\n\\(y\\)\n\\(\\frac{dy}{dx}\\)\n\n\n\\(f(x)\\)\n\\(f'(x)\\)\n\n\n\\(f(x) + g(x)\\)\n\\(f'(x) + g'(x)\\)\n\n\n\\(ax^n\\)\n\\(anx^{n-1}\\)\n\n\n\\(e^x\\)\n\\(e^x\\)\n\n\n\\(e^{ax}\\)\n\\(ae^{ax}\\)\n\n\n\\(\\ln{x}\\)\n\\(\\frac{1}{x}\\)\n\n\n\\(\\ln{ax}\\)\n\\(\\frac{1}{x}\\)\n\n\n\nWe can now happily just apply the rules (and some rules of indices for good measure). For example:\n\\[\n\\begin{aligned}\ny &= 2x^4 + e^{2x} + \\ln{x} + \\sqrt{x} + 100 \\\\\n&= 2x^4 + e^{2x} + \\ln{x} + x^{1/2} + 100 \\\\\n\\frac{dy}{dx} &= 8x^3 + 2e^{2x} + \\frac{1}{x} + \\frac{1}{2}x^{-1/2}\n\\end{aligned}\n\\]\nNotice that \\(\\sqrt{x}\\) was rewritten as \\(x^{1/2}\\) to be able to apply the rule \\(ax^n\\) goes to \\(anx^{n-1}\\).\nTry some differentiation with some fractional powers:"
+  },
+  {
+    "objectID": "12-further-differentiation.html#the-chain-rule",
+    "href": "12-further-differentiation.html#the-chain-rule",
+    "title": "12  Further differentiation",
+    "section": "12.2 The chain rule",
+    "text": "12.2 The chain rule\nThe chain rule is used when we have functions inside other functions.\nIf we have a function of the form \\(y=f(g(x))\\), sometimes described as a function of a function, to calculate its derivative we need to use the chain rule:\n\\[\n\\frac{dy}{dx} = \\frac{du}{dx} \\times \\frac{dy}{du}\n\\]\nThis can be split up into steps:\nLet \\(u=g(x)\\); Rewrite \\(y\\) in terms of \\(u\\), such that \\(y=f(u)\\); Calculate \\(\\frac{du}{dx}\\) and \\(\\frac{dy}{du}\\); Write \\(\\frac{dy}{dx}\\) as a product of \\(\\frac{du}{dx}\\) and \\(\\frac{dy}{du}\\); Make sure \\(\\frac{dy}{dx}\\) is only in terms of \\(x\\). Ensure any \\(u\\) terms have been replaced using the initial substitution.\nFollowing this process, we must first identify \\(g(x)\\). Since the function is of the form \\(y=f(g(x))\\), we are looking for the ‘inner’ function.\nSo, for \\(y=-(4x^2+1)^4\\),\n\\[\ng(x)=4x^2+1.\n\\]\nIf we now set \\(u=g(x)\\), we can rewrite \\(y\\) in terms of \\(u\\) such that \\(y=f(u)\\):\n\\[\ny=-u^4\n\\]\nNext, we calculate the two derivatives \\(\\frac{du}{dx}\\) and \\(\\frac{dy}{du}\\):\n\\[\n\\frac{du}{dx}=8x, \\quad \\frac{dy}{du}=-4u^3\n\\]\nPlugging these into the chain rule:\n\\[\n\\begin{aligned}\n\\frac{dy}{dx} &= \\frac{du}{dx} \\times \\frac{dy}{du}, \\\\\n&= 8x \\times-4u^3, \\\\\n&= -32xu^3.\n\\end{aligned}\n\\]\nFinally, we need to express \\(\\frac{dy}{dx}\\) only in terms of \\(x\\), so we must replace the \\(u\\) term using the initial substitution \\(u=4x^2+1\\):\n\\[\n\\frac{dy}{dx} =-32x(4x^2+1)^3.\n\\]\nPhew! Time for a cup of tea, or maybe some more questions…"
+  },
+  {
+    "objectID": "12-further-differentiation.html#the-product-rule",
+    "href": "12-further-differentiation.html#the-product-rule",
+    "title": "12  Further differentiation",
+    "section": "12.3 The product rule",
+    "text": "12.3 The product rule\nIf we have a function of the form \\(y=u(x)v(x)\\), to calculate its derivative we need to use the product rule:\n\\[\n\\dfrac{dy}{dx} = u(x) \\times \\dfrac{dv}{dx} + v(x) \\times\\dfrac{du}{dx}.\n\\]\nThis can be split up into steps:\nIdentify the functions \\(u(x)\\) and \\(v(x)\\); Calculate their derivatives \\(\\tfrac{du}{dx}\\) and \\(\\tfrac{dv}{dx}\\); Substitute these into the formula for the product rule to obtain an expression for \\(\\tfrac{dy}{dx}\\); Simplify \\(\\tfrac{dy}{dx}\\) where possible.\nFollowing this process, we must first identify \\(u(x)\\) and \\(v(x)\\).\nAs\n\\[\ny=e^x ln(6x),\n\\]\nlet\n\\[\nu(x) = e^x \\quad \\text{and} \\quad v(x)=ln(6x).\n\\]\nNext, we need to find the derivatives, \\(\\tfrac{du}{dx}\\) and \\(\\tfrac{dv}{dx}\\):\n\\[\n\\dfrac{du}{dx} = e^x\\quad \\text{and} \\quad\\dfrac{dv}{dx}=\\dfrac{1}{x}.\n\\]\nSubstituting these results into the product rule formula we can obtain an expression for \\(\\tfrac{dy}{dx}\\):\n\\[\n\\begin{aligned}\n\\dfrac{dy}{dx} &\\,= \\dfrac{du}{dx}\\times v(x) + u(x) \\times\\dfrac{dv}{dx} \\\\ \\\\\n&\\,=e^x \\times\\ln(6x) +e^x \\times \\dfrac{1}{x}.\n\\end{aligned}\n\\]\nSimplifying,\n\\[\n\\begin{aligned}\n\\dfrac{dy}{dx} &\\,= e^x\\ln(6x) +e^x \\dfrac{1}{x} \\\\\n&\\,= e^x (\\ln(6x) +\\dfrac{1}{x}).\n\\end{aligned}\n\\]\nNow your turn…"
+  },
+  {
+    "objectID": "12-further-differentiation.html#the-quotient-rule",
+    "href": "12-further-differentiation.html#the-quotient-rule",
+    "title": "12  Further differentiation",
+    "section": "12.4 The quotient rule",
+    "text": "12.4 The quotient rule\nIf we have a function of the form \\(y=\\tfrac{u(x)}{v(x)}\\), to calculate its derivative we need to use the quotient rule:\n\\[\n\\dfrac{dy}{dx} = \\dfrac{v(x) \\times \\frac{du}{dx} - u(x) \\times\\frac{dv}{dx}}{[v(x)]^2}\\,.\n\\]\nThis can be split up into steps:\nIdentify the functions \\(u(x)\\) and \\(v(x)\\); Calculate their derivatives \\(\\tfrac{du}{dx}\\) and \\(\\tfrac{dv}{dx}\\); Substitute these into the formula for the quotient rule to obtain an expression for \\(\\tfrac{dy}{dx}\\); Simplify \\(\\tfrac{dy}{dx}\\) where possible.\nFollowing this process, we must first identify \\(u(x)\\) and \\(v(x)\\).\nAs\n\\[\ny=\\frac{e^{2x}}{3x^2+4x+5},\n\\]\nlet\n\\[\nu(x) = e^{2x} \\quad \\text{and} \\quad v(x)=3x^2+4x+5.\n\\]\nNext, we need to find the derivatives, \\(\\tfrac{du}{dx}\\) and \\(\\tfrac{dv}{dx}\\):\n\\[\n\\dfrac{du}{dx} = 2e^{2x} \\quad \\text{and} \\quad \\dfrac{dv}{dx} = 6x+4.\n\\]\nSubstituting these results into the quotient rule formula we can obtain an expression for \\(\\tfrac{dy}{dx}\\):\n\\[\n\\begin{aligned}\n\\dfrac{dy}{dx} &\\,= \\dfrac{v(x) \\times \\frac{du}{dx} - u(x) \\times\\frac{dv}{dx}}{[v(x)]^2} \\\\ \\\\\n&\\,=\\dfrac{(3x^2+4x+5) \\times 2e^{2x} - e^{2x} \\times (6x+4)}{(3x^2+4x+5)^2}.\n\\end{aligned}\n\\]\nSimplifying,\n\\[\n\\begin{aligned}\n\\dfrac{dy}{dx} &\\,=\\dfrac{2e^{2x}(3x^2+4x+5) - e^{2x}(6x+4)}{(3x^2+4x+5)^2} \\\\ \\\\\n&\\,=\\dfrac{e^{2x}[(6x^2+8x+10) - (6x+4)]}{(3x^2+4x+5)^2} \\\\ \\\\\n&\\,=\\dfrac{e^{2x}(6x^2+8x+10 - 6x - 4)}{(3x^2+4x+5)^2} \\\\ \\\\\n&\\,=\\dfrac{e^{2x}(6x^2+2x+6)}{(3x^2+4x+5)^2} \\\\ \\\\\n&\\,=\\dfrac{2e^{2x}(3x^2+x+3)}{(3x^2+4x+5)^2}.\n\\end{aligned}\n\\]\nNow have a go at these:"
   }
 ]

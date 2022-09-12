@@ -80,10 +80,10 @@ Take care when simplifying multiples of different letters $3xy + 5yx$ can be sim
 :::{.callout-note}
 ## Key point:
 
-$x \times x = x^2$
-$x + x = 2x$
-$x$ is different from $X$
-$1x$ is written as $x$
+* $x \times x = x^2$
+* $x + x = 2x$
+* $x$ is different from $X$
+* $1x$ is written as $x$
 :::
 
 Have a go at simplifying with these questions.

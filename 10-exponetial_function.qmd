@@ -1,0 +1,62 @@
+# Exponential functions
+
+Exponential functions crop up in applied mathematics everywhere. This section looks at these important functions, so important that, Professor Albert Bartlett said the following about them in this lecture [Arithmetic, Population and Energy](https://www.youtube.com/watch?v=sI1C9DyIi_8).
+
+*The greatest shortcoming of the human race is our inability to understand the exponential function.*
+
+## Getting to know exponential functions
+
+An exponential function comes in the for, $y=a^x$. They can increase incredibly fast. Take for example $y=2^x$
+
+| $x$ | $y=2^x$ |
+|:--:|:--:|
+| $-2$ | $y = 2^{-2} = \frac{1}{2^2} = \frac{1}{4}$ |
+| $-1$ | $y = 2^{-1} = \frac{1}{2^1} = \frac{1}{2}$ |
+| $0$ | $y = 2^{0} = 1$ |
+| $1$ | $y = 2^{1} = 2$ |
+| $2$ | $y = 2^{2} = 4$ |
+| $3$ | $y = 2^{3} = 8$ |
+| $4$ | $y = 2^{4} = 16$ |
+
+Plotting these points give a graph that looks like:
+
+```{r, echo=FALSE}
+knitr::include_url("https://www.desmos.com/calculator/u1nuc4eumz?embed")
+```
+
+Notice the following key points about the graph.
+
+:::{.callout-note}
+* The graph quickly increases.
+* It crosses the $y$ axis at $1$ (all exponential graphs do this).
+* It never goes under the $x$ axis.
+:::
+
+## The exponetial function
+
+There is one exponential function that is so important that it is called **the** exponential function. It is written as $y=e^x$ where $e$ is an irrational number (an infinitely long decimal number that doesn't repeat itself, $/pi$ is an irrational number too). The value of $e$ is:
+
+$$
+e = 2.71828182845904523536028747135266249775724709369995...
+$$
+ish.
+
+The reason why it is special is that when $y=e^x$, the derivative is itself, that is $\frac{dy}{dx}=e^x$. Below is a graph of $y=a^x$ and it derivative, you can open it up and change the value of $a$ from $2$ to $4$. $a$ is set to $2$ to begin with, notice how the derivative is beneath the curve $y=a^x$. When $a$ is increased the derivative moves above $y=a^x$. The point where the two curves overlap is when $a=e$.
+
+```{r, echo=FALSE}
+knitr::include_url("https://www.desmos.com/calculator/uxvmkixg70?embed")
+```
+
+:::{.callout-note}
+If $y=e^x$ then $\frac{dy}{dx}=e^x$.
+:::
+
+## Differentiating $e^x$
+
+The rule for differentiating $e^x$ is if $y = ke^{ax}$ then $\frac{dy}{dx}= ake^{ax}$.
+
+Use that rule to try the following questions.
+
+```{r, echo=FALSE}
+knitr::include_url("https://numbas.mathcentre.ac.uk/question/62791/differentiation-using-a-table-of-derivatives-4/embed/?token=c0e0c050-43ee-44bf-ac18-9377c9d3a522", height="800px")
+```

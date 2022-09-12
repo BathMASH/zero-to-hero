@@ -1,0 +1,216 @@
+# Further differentiation
+
+So far we have looked at differentiating powers of $x$ when they are added together. This section introduces differentiating $e^x$ and $\ln{x}$, then goes on to look at how to differentiate, functions inside functions, products of functions (when functions are multiplied together) and quotients of functions (when functions are divided by each other).
+
+## Standard results
+
+We can now expand our table of derivatives. Here are all the rules from the last differentiation along with some new ones. 
+
+| original function | derivative |
+|:--:|:--:|
+| $y$ | $\frac{dy}{dx}$ |
+| $f(x)$ | $f'(x)$ |
+| $f(x) + g(x)$ | $f'(x) + g'(x)$ |
+| $ax^n$ | $anx^{n-1}$ |
+| $e^x$ | $e^x$ |
+| $e^{ax}$ | $ae^{ax}$ |
+| $\ln{x}$ | $\frac{1}{x}$ |
+| $\ln{ax}$ | $\frac{1}{x}$ |
+
+We can now happily just apply the rules (and some rules of indices for good measure). For example:
+
+$$
+\begin{aligned}
+y &= 2x^4 + e^{2x} + \ln{x} + \sqrt{x} + 100 \\
+&= 2x^4 + e^{2x} + \ln{x} + x^{1/2} + 100 \\
+\frac{dy}{dx} &= 8x^3 + 2e^{2x} + \frac{1}{x} + \frac{1}{2}x^{-1/2} 
+\end{aligned}
+$$
+Notice that $\sqrt{x}$ was rewritten as $x^{1/2}$ to be able to apply the rule $ax^n$ goes to $anx^{n-1}$.
+
+Try some differentiation with some fractional powers:
+
+```{r, echo=FALSE}
+knitr::include_url("https://numbas.mathcentre.ac.uk/question/67872/differentiation-harder-powers-negative-and-fractions-2/embed/?token=b5b58960-1ea3-4d94-9695-bc2e4070486e", height="340px")
+```
+
+## The chain rule
+
+The chain rule is used when we have functions inside other functions. 
+
+If we have a function of the form $y=f(g(x))$, sometimes described as a function of a function, to calculate its derivative we need to use the chain rule:
+
+$$
+\frac{dy}{dx} = \frac{du}{dx} \times \frac{dy}{du}
+$$
+
+This can be split up into steps:
+
+Let $u=g(x)$;
+Rewrite $y$ in terms of $u$, such that $y=f(u)$;
+Calculate $\frac{du}{dx}$ and $\frac{dy}{du}$;
+Write $\frac{dy}{dx}$ as a product of $\frac{du}{dx}$ and $\frac{dy}{du}$;
+Make sure $\frac{dy}{dx}$ is only in terms of $x$. Ensure any $u$ terms have been replaced using the initial substitution.
+
+Following this process, we must first identify $g(x)$. Since the function is of the form $y=f(g(x))$, we are looking for the 'inner' function.
+
+So, for $y=-(4x^2+1)^4$, 
+$$
+g(x)=4x^2+1.
+$$
+
+If we now set $u=g(x)$, we can rewrite $y$ in terms of $u$ such that $y=f(u)$:
+
+$$
+y=-u^4
+$$
+
+Next, we calculate the two derivatives $\frac{du}{dx}$ and $\frac{dy}{du}$:
+
+$$
+\frac{du}{dx}=8x, \quad \frac{dy}{du}=-4u^3
+$$
+
+Plugging these into the chain rule:
+
+$$
+\begin{aligned}
+\frac{dy}{dx} &= \frac{du}{dx} \times \frac{dy}{du}, \\
+&= 8x \times-4u^3, \\ 
+&= -32xu^3. 
+\end{aligned} 
+$$
+
+Finally, we need to express $\frac{dy}{dx}$ only in terms of $x$, so we must replace the $u$ term using the initial substitution $u=4x^2+1$:
+
+$$
+\frac{dy}{dx} =-32x(4x^2+1)^3.
+$$
+
+Phew! Time for a cup of tea, or maybe some more questions...
+
+```{r, echo=FALSE}
+knitr::include_url("https://numbas.mathcentre.ac.uk/question/91317/differentiation-chain-rule-3/embed/?token=0ac77949-e57a-40a4-9e69-200c7817cc9e", height="340px")
+```
+
+## The product rule
+
+If we have a function of the form $y=u(x)v(x)$, to calculate its derivative we need to use the product rule:
+
+$$
+\dfrac{dy}{dx} = u(x) \times \dfrac{dv}{dx} + v(x) \times\dfrac{du}{dx}.
+$$
+
+This can be split up into steps:
+
+Identify the functions $u(x)$ and $v(x)$;
+Calculate their derivatives $\tfrac{du}{dx}$ and $\tfrac{dv}{dx}$;
+Substitute these into the formula for the product rule to obtain an expression for $\tfrac{dy}{dx}$;
+Simplify $\tfrac{dy}{dx}$ where possible.
+
+
+
+
+Following this process, we must first identify $u(x)$ and $v(x)$.
+
+As 
+$$
+y=e^x ln(6x),
+$$
+
+let
+$$
+u(x) = e^x \quad \text{and} \quad v(x)=ln(6x).
+$$
+
+Next, we need to find the derivatives, $\tfrac{du}{dx}$ and $\tfrac{dv}{dx}$:
+
+$$
+\dfrac{du}{dx} = e^x\quad \text{and} \quad\dfrac{dv}{dx}=\dfrac{1}{x}.
+$$
+
+Substituting these results into the product rule formula we can obtain an expression for $\tfrac{dy}{dx}$:
+
+$$
+\begin{aligned}
+\dfrac{dy}{dx} &\,= \dfrac{du}{dx}\times v(x) + u(x) \times\dfrac{dv}{dx} \\ \\
+&\,=e^x \times\ln(6x) +e^x \times \dfrac{1}{x}. 
+\end{aligned}
+$$
+
+Simplifying,
+
+$$
+\begin{aligned}
+\dfrac{dy}{dx} &\,= e^x\ln(6x) +e^x \dfrac{1}{x} \\ 
+&\,= e^x (\ln(6x) +\dfrac{1}{x}).
+\end{aligned}
+$$
+
+Now your turn...
+
+```{r, echo=FALSE}
+knitr::include_url("https://numbas.mathcentre.ac.uk/question/101423/differentiation-product-rule-6/embed/?token=95bdacf5-d008-407f-86b9-4605fa18c389", height="340px")
+```
+
+## The quotient rule
+
+If we have a function of the form $y=\tfrac{u(x)}{v(x)}$, to calculate its derivative we need to use the quotient rule:
+
+$$
+\dfrac{dy}{dx} = \dfrac{v(x) \times \frac{du}{dx} - u(x) \times\frac{dv}{dx}}{[v(x)]^2}\,.
+$$
+
+This can be split up into steps:
+
+Identify the functions $u(x)$ and $v(x)$;
+Calculate their derivatives $\tfrac{du}{dx}$ and $\tfrac{dv}{dx}$;
+Substitute these into the formula for the quotient rule to obtain an expression for $\tfrac{dy}{dx}$;
+Simplify $\tfrac{dy}{dx}$ where possible.
+
+Following this process, we must first identify $u(x)$ and $v(x)$.
+
+As 
+
+$$
+y=\frac{e^{2x}}{3x^2+4x+5},
+$$
+
+let
+
+$$
+u(x) = e^{2x} \quad \text{and} \quad v(x)=3x^2+4x+5.
+$$
+
+Next, we need to find the derivatives, $\tfrac{du}{dx}$ and $\tfrac{dv}{dx}$:
+
+$$
+\dfrac{du}{dx} = 2e^{2x} \quad \text{and} \quad \dfrac{dv}{dx} = 6x+4.
+$$
+
+Substituting these results into the quotient rule formula we can obtain an expression for $\tfrac{dy}{dx}$:
+
+$$
+\begin{aligned}
+\dfrac{dy}{dx} &\,= \dfrac{v(x) \times \frac{du}{dx} - u(x) \times\frac{dv}{dx}}{[v(x)]^2} \\ \\
+&\,=\dfrac{(3x^2+4x+5) \times 2e^{2x} - e^{2x} \times (6x+4)}{(3x^2+4x+5)^2}.
+\end{aligned}
+$$
+
+Simplifying,
+
+$$
+\begin{aligned}
+\dfrac{dy}{dx} &\,=\dfrac{2e^{2x}(3x^2+4x+5) - e^{2x}(6x+4)}{(3x^2+4x+5)^2} \\ \\
+&\,=\dfrac{e^{2x}[(6x^2+8x+10) - (6x+4)]}{(3x^2+4x+5)^2} \\ \\
+&\,=\dfrac{e^{2x}(6x^2+8x+10 - 6x - 4)}{(3x^2+4x+5)^2} \\ \\
+&\,=\dfrac{e^{2x}(6x^2+2x+6)}{(3x^2+4x+5)^2} \\ \\
+&\,=\dfrac{2e^{2x}(3x^2+x+3)}{(3x^2+4x+5)^2}.
+\end{aligned}
+$$
+
+Now have a go at these:
+
+```{r, echo=FALSE}
+knitr::include_url("https://numbas.mathcentre.ac.uk/question/67315/differentiation-quotient-rule-4/embed/?token=bce25b63-b091-4e64-811d-5e064743c9d4", height="340px")
+```
