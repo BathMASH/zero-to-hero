@@ -21,7 +21,7 @@ Luckily finding the rule to get the gradient of a curve is straight forward. The
 | $y$ | $\frac{dy}{dx}$ |
 | $f(x)$ | $f'(x)$ |
 
-$\frac{dy}{dx}$ is pronounced dee $y$ by dee $x$, and $f'(x)$ is read as f dash of $x$.
+$\frac{dy}{dx}$ is pronounced 'dee $y$ by dee $x$', and $f'(x)$ is read as 'f dash of $x$'.
 
 The rule for differentiating polynomials (functions made up of adding different powers of $x$)is:
 
