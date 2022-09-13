@@ -6,6 +6,10 @@ On a number line negative numbers are typically written to the left of zero and 
 
 ## Multiplication and Division
 
+```{r, echo=FALSE, eval=(knittr::pandoc_to("html"))}
+knitr::include_url("https://uniofbath.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=97e9f149-2470-426f-92ad-af0f00c80630&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all", height="405px", width="720")
+```
+
 When multiplying and dividing using negative numbers the answer will be the same as the equivalent calculation with positive numbers only, but, you may have to change the sign - to either positive or negative. The rules for deciding if the answer is positive or negative are below:
 
 :::{.callout-note}
