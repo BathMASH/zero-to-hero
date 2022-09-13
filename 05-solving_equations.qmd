@@ -1,6 +1,6 @@
 # Solving equations
 
-When we workout the value of an unknown, say $x$, in an equation we say that we *are solving for $x$*. To workout the value we are free to apply any mathematical operation we like to the equation so long as we *do the same to both sides*. 
+When we work out the value of an unknown, say $x$, in an equation we say that we *are solving for $x$*. To work out the value we are free to apply any mathematical operation we like to the equation so long as we *do the same to both sides*. 
 
 Note: We can't quite do any operation. Division by zero, $\div 0$, is not allowed as it is undefined. 
 
@@ -56,7 +56,7 @@ y &= 3
 $$
 
 :::{.callout-note}
-* To solve equations to the same thing to both sides.
+* To solve equations do the same thing to both sides.
 * If the unknown appears twice - collect like terms first.
 :::
 
@@ -80,7 +80,7 @@ $$
 \end{aligned}
 $$
 $$
-\begin{aligned} 1 &<& 2 \\
+\begin{aligned} 1 &< 2 \\
 1 -4 &< 2 -4\\
 -3 &< -2\\
 &\checkmark
@@ -109,7 +109,7 @@ $$
 We need to be careful when multiplying and dividing by negative numbers.
 
 $$
-\begin{aligned} 4 &<& 6 \\
+\begin{aligned} 4 &< 6 \\
 4 \times -2 &< 6 \times -2\\
 -8 &\nless -12\\
 -8 &> -12
@@ -124,7 +124,13 @@ When multiplying or dividing by a negative number change the direction of the in
 
 ## Simultaneous equations
 
-Sometimes equations have more than one unknown. Take $x + y = 4$ for example. There are infinitely many pairs of numbers, $x$ and $y$, that work for this. Take the following pairs for example: $x = 1$ and $y=3$, $x = -100$ and $y=104$, and $x = 0.1$ and $y=3.9$. **Pro-tip** These pairs of solutions are often given as co-ordinate pairs like $(1,3)$, $(-100,104)$ and $(0.1,3.9)$. We'll do more about co-ordinates later.
+Sometimes equations have more than one unknown. Take $x + y = 4$ for example. There are infinitely many pairs of numbers, $x$ and $y$, that work for this. Take the following pairs for example: $x = 1$ and $y=3$, $x = -100$ and $y=104$, and $x = 0.1$ and $y=3.9$. 
+
+:::{.callout-tip}
+## Pro-tip 
+
+These pairs of solutions are often given as co-ordinate pairs like $(1,3)$, $(-100,104)$ and $(0.1,3.9)$. We'll do more about co-ordinates later.
+:::
 
 However, if I give you some more information, say $x = y$, now there is only one solution, namely $x = 2$ and $y=2$. We can use the information in two equations together to find the values that satisfy both equations.
 

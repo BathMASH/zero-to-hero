@@ -132,7 +132,9 @@ $$
 \end{aligned}
 $$
 
-If the denominators are different we must make equivalent fractions with a common denominators first. It's like simplification, or cancelling down, in reverse.
+If the denominators are different we must make equivalent fractions with a common denominators first. Finding a common denominator is like simplification, or cancelling down, in reverse.
+
+If we want to add $\frac{2}{3}$ and \frac{2}{9}$ for example, we want to rewrite the first fraction so that it has $9$ as the denominator. To do this, we multiply the top and bottom of the fraction by $3$ (Remember to multiply **both** by $3$ to make sure the fractions are equivalent!) :
 
 $$
 \begin{aligned} \frac{2}{3} + \frac{2}{9} &= \frac{2 \times 3}{3 \times 3} + \frac{2}{9} \\
