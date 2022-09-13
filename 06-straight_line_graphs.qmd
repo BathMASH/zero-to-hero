@@ -99,12 +99,12 @@ knitr::include_url("https://www.desmos.com/calculator/z9r3fkyrcf?embed", height=
 ```
 
 :::{.callout-note}
-* $m$ is the gradient - the amount it goes up for each one you go across
+* $m$ is the gradient - the amount $y$ changes for an incease in $1$ in the $x$ direction
 * $c$ where the line crosses the $y$ axis
 * $m$ and $c$ only make sense when the line is in the form $y=mx+c$
 :::
 
-Using you knowledge of $y=mx+c$ try the following questions. Don't be afraid to look at the answers and then try a fresh set of questions if it seems tricky at first.
+Using your knowledge of $y=mx+c$ try the following questions. Don't be afraid to look at the answers and then try a fresh set of questions if it seems tricky at first.
 
 ```{r, echo=FALSE}
 knitr::include_url("https://numbas.mathcentre.ac.uk/question/104226/linear-graphs-reading-gradient-and-intercept-from-an-equation/embed/?token=2d71329a-7508-4dfa-9115-96abe822746a", height="800px")
