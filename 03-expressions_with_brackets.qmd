@@ -6,6 +6,10 @@ Dealing with algebraic expressions containing brackets is a useful skill. This s
 
 ### Single brackets
 
+```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
+knitr::include_url("https://uniofbath.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=cf10708c-0d3f-4774-8eb6-af0f010a32b1&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all", height="405px")
+```
+
 Expanding a bracket in an algebraic expression is an example of the distributive law. You probably are already familiar with that law. Here is an example of how the law could be used to work out $6 \times 15$ using a mental method.
 
 $$
@@ -53,13 +57,17 @@ knitr::include_url("https://numbas.mathcentre.ac.uk/question/127002/algebra-expa
 
 ### Expanding pairs of brackets
 
-This will be covered in [Quadratics](#quadratics-1).
+This will be covered in [Quadratics].
 
 ## Factorising
 
 The reverse of expanding brackets is called factorising. We look for a common factor in each term to take outside of the bracket.
 
-### Factorising - single bracket
+### Factorising - single brackets
+
+```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
+knitr::include_url("https://uniofbath.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=91f5961f-93fc-4d24-b6fc-af0f010a32aa&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all", height="405px")
+```
 
 For each term in the expression look for a common factor. We can then write this in front of the bracket so when you expand the bracket the original expression is returned. For example:
 
@@ -79,4 +87,4 @@ knitr::include_url("https://numbas.mathcentre.ac.uk/question/127099/algebra-fact
 
 ### Factorising - pairs of brackets
 
-This will be covered in the [Quadratics](#quadratics-1) section.
+This will be covered in the [Quadratics] section.
