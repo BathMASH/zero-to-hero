@@ -6,6 +6,10 @@ Note: We can't quite do any operation. Division by zero, $\div 0$, is not allowe
 
 ## Linear equations
 
+```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
+knitr::include_url("https://uniofbath.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=eca65592-c3b3-4871-ba84-af1000daa8b7&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all", height="405px")
+```
+
 ### Single unknown
 
 Keeping the idea of doing the same thing to both sides in mind lets solve the following equation by *undoing* each operation with it's inverse.
@@ -67,6 +71,10 @@ knitr::include_url("https://numbas.mathcentre.ac.uk/question/104234/equations-li
 ```
 
 ## Inequalities
+
+```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
+knitr::include_url("https://uniofbath.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=3d9d8b04-e088-46de-b34a-af1000daa8b7&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all", height="405px")
+```
 
 Solving inequalities works just like solving a normal equation except when you divide or multiply by a negative number the inequality symbol changes direction. Here are some examples. 
 
@@ -135,6 +143,10 @@ These pairs of solutions are often given as co-ordinate pairs like $(1,3)$, $(-1
 However, if I give you some more information, say $x = y$, now there is only one solution, namely $x = 2$ and $y=2$. We can use the information in two equations together to find the values that satisfy both equations.
 
 ### Elimination method
+
+```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
+knitr::include_url("https://uniofbath.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=3694ee27-0ebf-4d10-9368-af1000daa8c0&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all", height="405px")
+```
 
 The idea with this method is to combine the two equations to create a new equation with only one variable in it. 
 

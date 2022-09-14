@@ -1,6 +1,6 @@
 # Quadratics
 
-Quadratics often appear in mathematics, they occur when you have something squared, like $x^2$. They produce 'U' shaped graphs that can be either way up (depending on the sign of the $x^2$ term), and, a powerful formula is know that we can use to solve them.
+Quadratics often appear in mathematics, they occur when you have something squared, like $x^2$. They produce 'U' shaped graphs that can be either way up (depending on the sign of the $x^2$ term), and, a powerful formula is known that we can use to solve them.
 
 A plot of $y=x^2$ is below:
 
@@ -33,7 +33,13 @@ $$
 
 ## Factorising pairs of brackets
 
-To factorise a quadratic in the form $x^2 +bx +c$ into a pair of brackets like $(x+p)(x+q)$. We look to see if there are a pair of numbers $p$ and $q$ that add to get $b$, $p+q = b$, and multiply to get $c$, $pq=c$. If we can find this pair of numbers we can factorise the quadratic. For example for the quadratic $x^2 + 8x +12$ we can look at the factors of $12$ to help us.
+To factorise a quadratic in the form $x^2 +bx +c$ into a pair of brackets like $(x+p)(x+q)$, we look to see if there are a pair of numbers $p$ and $q$ that add to get $b$ and multiply to get $c$.
+
+$$
+p+q = b \quad \quad p \times q = c
+$$
+
+If we can find this pair of numbers we can factorise the quadratic. For example for the quadratic $x^2 + 8x +12$ we can look at the factors of $12$ to help us.
 
 $$
 \begin{aligned} 12 &= 1 \times 12, &\ \  \  1+12 &= 13\\
@@ -42,7 +48,7 @@ $$
 \end{aligned}
 $$
 
-Notice how $2$ and $6$ multiply to get $12$ but add to get $8$. This means we have the correct pair. So we can now factorise the quadratic:
+Notice how $2$ and $6$ multiply to get $12$ **and** add to get $8$. This means we have the correct pair. So we can now factorise the quadratic:
 
 $$
 x^2 + 8x +12 = (x+2)(x+6)
@@ -89,7 +95,7 @@ knitr::include_url("https://numbas.mathcentre.ac.uk/question/105345/quadratics-s
 
 ### Quadratic Formula
 
-For a quadratic equation of the form $ax^2 + bx + c = 0$ we can use the quardrtic formula to find solutions for $x$.
+For a quadratic equation of the form $ax^2 + bx + c = 0$ we can use the quadratic formula to find solutions for $x$.
 
 $$
 x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}
