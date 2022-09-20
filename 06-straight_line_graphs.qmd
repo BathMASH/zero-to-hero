@@ -4,6 +4,7 @@
 knitr::opts_chunk$set(
   dev = 'png', screenshot.opts = list(cliprect = 'viewport', delay = 2)
 )
+warning = ""
 ```
 
 It is often useful to plot graphs of functions to gain an understanding of what they mean. Straight line graphs are produced by linear equations. Linear equations like $y=2x+4$ only have $x$ to the power of one only. Note: this doesn't just apply to $x$, it could be whatever variable you are using.
@@ -76,6 +77,14 @@ Click on the graph below and play with the slider for $c$. Notice how the graph 
 knitr::include_url("https://www.desmos.com/calculator/llcrsdgmvo?embed", height="500px")
 ```
 
+```{r, out.width = "150px", echo=FALSE, eval=(knitr::pandoc_to("html"))}
+knitr::include_graphics("img/desmos.gif")
+warning =  "The graphs and diagrams created in [desmos](https://www.desmos.com/calculator) are interactive just click on the 'edit in desmos' button to open the desmos graph in a new tab."
+```
+
+`r warning`
+
+
 ### The gradient: $m$
 
 The gradient of a graph is a measure of how much steep the line is. The value of $m$ is the change in the $y$ axis for each increase of $1$ in the $x$ axis. So a gradient of $m=2$ would mean the $y$ values increase by $2$ for each increase of $1$ in the $x$ direction. This is a positive gradient. Contrast this to a value of $m$ such as $-0.5$. This means for each increase of $1$ in the $x$ direction, the corresponding $y$ value decreases by $0.5$ or a half. This is a negative gradient.
@@ -102,6 +111,16 @@ knitr::include_url("https://www.desmos.com/calculator/z9r3fkyrcf?embed", height=
 * $m$ is the gradient - the amount $y$ changes for an incease in $1$ in the $x$ direction
 * $c$ where the line crosses the $y$ axis
 * $m$ and $c$ only make sense when the line is in the form $y=mx+c$
+:::
+
+:::{.callout-warning}
+## Different notation - same thing
+
+The equation of a straight line can be written using different letters. They all mean the same thing. You may see:
+
+* $y = mx + b$
+* $y = mx + y_0$
+* $y = ax + b$
 :::
 
 Using your knowledge of $y=mx+c$ try the following questions. Don't be afraid to look at the answers and then try a fresh set of questions if it seems tricky at first.

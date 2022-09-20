@@ -3,6 +3,7 @@ library(webshot2)
 knitr::opts_chunk$set(
   screenshot.opts = list(delay = 5)
 )
+warning = ""
 ```
 
 # Welcome {-}
@@ -11,5 +12,11 @@ This course is designed to refresh your knowledge of maths to get you ready to u
 :::{.callout-warning}
 The videos are hosted on the University's Panopto Re:view server. You will have to login to watch them - it mau also force a pop-up window.
 :::
+
+```{r, out.width = "150px", echo=FALSE, eval=(knitr::pandoc_to("html"))}
+knitr::include_graphics("img/desmos.gif")
+warning =  "The graphs and diagrams created in [desmos](https://www.desmos.com/calculator) are interactive just click on the 'edit in desmos' button to open the desmos graph in a new tab."
+```
+`r warning`
 
 This is a work in progress, the videos are appearing and things may change! If you find a mistake please email edrs20@bath.ac.uk and good luck!
