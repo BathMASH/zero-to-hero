@@ -5,6 +5,18 @@ knitr::opts_chunk$set(
   dev = 'png', screenshot.opts = list(cliprect = 'viewport', delay = 2)
 )
 warning = ""
+open_desmos_warning = ""
+close_desmos_warning = ""
+```
+```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
+warning =  ":::{.callout-tip}
+## Using Desmos
+![]('img/desmos.gif')The graphs and diagrams created in [desmos](https://www.desmos.com/calculator) are interactive just click on the 'edit in desmos' button to open the desmos graph in a new tab.
+:::"
+open_desmos_warning = ":::{.callout-tip}
+## Using Desmos"
+close_desmos_warning = "The graphs and diagrams created in [desmos](https://www.desmos.com/calculator) are interactive just click on the 'edit in desmos' button to open the desmos graph in a new tab.
+:::"
 ```
 
 It is often useful to plot graphs of functions to gain an understanding of what they mean. Straight line graphs are produced by linear equations. Linear equations like $y=2x+4$ only have $x$ to the power of one only. Note: this doesn't just apply to $x$, it could be whatever variable you are using.
@@ -77,13 +89,15 @@ Click on the graph below and play with the slider for $c$. Notice how the graph 
 knitr::include_url("https://www.desmos.com/calculator/llcrsdgmvo?embed", height="500px")
 ```
 
+`r open_desmos_warning`
+
 ```{r, out.width = "150px", echo=FALSE, eval=(knitr::pandoc_to("html"))}
 knitr::include_graphics("img/desmos.gif")
-warning =  "The graphs and diagrams created in [desmos](https://www.desmos.com/calculator) are interactive just click on the 'edit in desmos' button to open the desmos graph in a new tab."
 ```
 
-`r warning`
+`r close_desmos_warning`
 
+`r warning`
 
 ### The gradient: $m$
 
