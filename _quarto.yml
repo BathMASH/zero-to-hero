@@ -12,6 +12,7 @@ book:
   downloads: [pdf, epub]
   chapters:
     - index.qmd
+    - 00-reading_mathematics.qmd
     - 01-negative_numbers.qmd
     - 02-algebraic_expressions.qmd
     - 03-expressions_with_brackets.qmd
