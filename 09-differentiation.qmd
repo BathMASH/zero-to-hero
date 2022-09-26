@@ -7,7 +7,7 @@ We often want to be able to find the gradient of a curved line. For that we need
 The gradient at a point on a curve is the same as the gradient of the tangent at that point. A tangent to a curve is a straight line that just touches curve at that point. Below is a picture of the tangent to the curve when $x=5$. You can open up the graph and move the point around with the slider. 
 
 ```{r, echo=FALSE}
-knitr::include_url("https://www.desmos.com/calculator/vufqtttmvw?embed")
+knitr::include_url("https://www.desmos.com/calculator/ahtukw0jwz?embed")
 ```
 
 Notice that the gradient will change depending on which value of $x$ you use. 

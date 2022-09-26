@@ -6,6 +6,10 @@ book:
   title: "zero-to-hero"
   author: "Ed Southwood"
   date: "09/09/2022"
+  search: true
+  repo-url: https://github.com/BathMASH/zero-to-hero
+  repo-actions: [source]
+  downloads: [pdf, epub]
   chapters:
     - index.qmd
     - 01-negative_numbers.qmd

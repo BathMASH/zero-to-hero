@@ -79,6 +79,24 @@ ul.task-list{list-style: none;}
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">zero-to-hero</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/BathMASH/zero-to-hero" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
+    <a href="" title="Download" id="sidebar-tool-dropdown-0" class="sidebar-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-download"></i></a>
+    <ul class="dropdown-menu" aria-labelledby="sidebar-tool-dropdown-0">
+        <li>
+          <a class="dropdown-item sidebar-tools-main-item" href="./zero-to-hero.pdf">
+            <i class="bi bi-bi-file-pdf pe-1"></i>
+          Download PDF
+          </a>
+        </li>
+        <li>
+          <a class="dropdown-item sidebar-tools-main-item" href="./zero-to-hero.epub">
+            <i class="bi bi-bi-journal pe-1"></i>
+          Download ePub
+          </a>
+        </li>
+    </ul>
+</div>
     </div>
       </div>
       <div class="mt-2 flex-shrink-0 align-items-center">
@@ -167,7 +185,7 @@ ul.task-list{list-style: none;}
   <li><a href="#the-product-rule" id="toc-the-product-rule" class="nav-link" data-scroll-target="#the-product-rule"> <span class="header-section-number">12.3</span> The product rule</a></li>
   <li><a href="#the-quotient-rule" id="toc-the-quotient-rule" class="nav-link" data-scroll-target="#the-quotient-rule"> <span class="header-section-number">12.4</span> The quotient rule</a></li>
   </ul>
-</nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/BathMASH/zero-to-hero/blob/main/12-further-differentiation.qmd" class="toc-action">View source</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -251,6 +269,10 @@ y &amp;= 2x^4 + e^{2x} + \ln{x} + \sqrt{x} + 100 \\
 </section>
 <section id="the-chain-rule" class="level2" data-number="12.2">
 <h2 data-number="12.2" class="anchored" data-anchor-id="the-chain-rule"><span class="header-section-number">12.2</span> The chain rule</h2>
+<div class="cell" data-hash="12-further-differentiation_cache/html/unnamed-chunk-2_116215e34fe1dc36a47fc4c6c8145eff">
+<iframe src="https://uniofbath.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=5238a1c4-4c8d-4353-8846-af1900d67729&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=true&amp;showbrand=true&amp;captions=false&amp;interactivity=all" width="672" height="405px" data-external="1">
+</iframe>
+</div>
 <p>The chain rule is used when we have functions inside other functions.</p>
 <p>If we have a function of the form <span class="math inline">\(y=f(g(x))\)</span>, sometimes described as a function of a function, to calculate its derivative we need to use the chain rule:</p>
 <p><span class="math display">\[
@@ -284,13 +306,17 @@ y=-u^4
 \frac{dy}{dx} =-32x(4x^2+1)^3.
 \]</span></p>
 <p>Phew! Time for a cup of tea, or maybe some more questions…</p>
-<div class="cell" data-hash="12-further-differentiation_cache/html/unnamed-chunk-2_de59e98d59421b73004874efadb291c5">
+<div class="cell" data-hash="12-further-differentiation_cache/html/unnamed-chunk-3_bcec71dfa7c703bae0c5ac74fed223ec">
 <iframe src="https://numbas.mathcentre.ac.uk/question/91317/differentiation-chain-rule-3/embed/?token=0ac77949-e57a-40a4-9e69-200c7817cc9e" width="672" height="340px" data-external="1">
 </iframe>
 </div>
 </section>
 <section id="the-product-rule" class="level2" data-number="12.3">
 <h2 data-number="12.3" class="anchored" data-anchor-id="the-product-rule"><span class="header-section-number">12.3</span> The product rule</h2>
+<div class="cell" data-hash="12-further-differentiation_cache/html/unnamed-chunk-4_d995f5d0ba7279d6add80544543ad1b3">
+<iframe src="https://uniofbath.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=1df133c8-c017-4c77-b789-af1900d67728&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=true&amp;showbrand=true&amp;captions=false&amp;interactivity=all" width="672" height="405px" data-external="1">
+</iframe>
+</div>
 <p>If we have a function of the form <span class="math inline">\(y=u(x)v(x)\)</span>, to calculate its derivative we need to use the product rule:</p>
 <p><span class="math display">\[
 \dfrac{dy}{dx} = u(x) \times \dfrac{dv}{dx} + v(x) \times\dfrac{du}{dx}.
@@ -325,13 +351,17 @@ u(x) = e^x \quad \text{and} \quad v(x)=ln(6x).
 \end{aligned}
 \]</span></p>
 <p>Now your turn…</p>
-<div class="cell" data-hash="12-further-differentiation_cache/html/unnamed-chunk-3_935ad9287a1f86758064107e668d04b5">
+<div class="cell" data-hash="12-further-differentiation_cache/html/unnamed-chunk-5_4f608bc20c76fd40d944c28840448a35">
 <iframe src="https://numbas.mathcentre.ac.uk/question/101423/differentiation-product-rule-6/embed/?token=95bdacf5-d008-407f-86b9-4605fa18c389" width="672" height="340px" data-external="1">
 </iframe>
 </div>
 </section>
 <section id="the-quotient-rule" class="level2" data-number="12.4">
 <h2 data-number="12.4" class="anchored" data-anchor-id="the-quotient-rule"><span class="header-section-number">12.4</span> The quotient rule</h2>
+<div class="cell" data-hash="12-further-differentiation_cache/html/unnamed-chunk-6_7a620201d3a59751f00ce55e628c57fd">
+<iframe src="https://uniofbath.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=9f4d08b5-c796-4082-8171-af1900d67737&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=true&amp;showbrand=true&amp;captions=false&amp;interactivity=all" width="672" height="405px" data-external="1">
+</iframe>
+</div>
 <p>If we have a function of the form <span class="math inline">\(y=\tfrac{u(x)}{v(x)}\)</span>, to calculate its derivative we need to use the quotient rule:</p>
 <p><span class="math display">\[
 \dfrac{dy}{dx} = \dfrac{v(x) \times \frac{du}{dx} - u(x) \times\frac{dv}{dx}}{[v(x)]^2}\,.
@@ -369,7 +399,7 @@ u(x) = e^{2x} \quad \text{and} \quad v(x)=3x^2+4x+5.
 \end{aligned}
 \]</span></p>
 <p>Now have a go at these:</p>
-<div class="cell" data-hash="12-further-differentiation_cache/html/unnamed-chunk-4_26f2a153b66eacc67901dfce4c49723b">
+<div class="cell" data-hash="12-further-differentiation_cache/html/unnamed-chunk-7_704d9f2621ff4a6fa9eb316ccf25d038">
 <iframe src="https://numbas.mathcentre.ac.uk/question/67315/differentiation-quotient-rule-4/embed/?token=bce25b63-b091-4e64-811d-5e064743c9d4" width="672" height="340px" data-external="1">
 </iframe>
 </div>

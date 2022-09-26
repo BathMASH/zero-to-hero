@@ -12,6 +12,10 @@ Quadratics can occur when we expand pairs of brackets, so I've included in this 
 
 ## Expanding paris of brackets
 
+```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
+knitr::include_url("https://uniofbath.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=7f1f15a0-c8f5-4690-be57-af1900d6772b&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all", height="405px")
+```
+
 Expanding a pair of brackets is much the same as a single bracket. However there is a little more going on. Consider this example of a mental method to calculate $25 \times 16$.
 
 $$
@@ -32,6 +36,10 @@ $$
 $$
 
 ## Factorising pairs of brackets
+
+```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
+knitr::include_url("https://uniofbath.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=a20516c1-acee-4f45-b4d3-af1900d68850&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all", height="405px")
+```
 
 To factorise a quadratic in the form $x^2 +bx +c$ into a pair of brackets like $(x+p)(x+q)$, we look to see if there are a pair of numbers $p$ and $q$ that add to get $b$ and multiply to get $c$.
 
