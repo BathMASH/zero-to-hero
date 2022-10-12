@@ -12,12 +12,12 @@ book:
   downloads: [pdf, epub]
   chapters:
     - index.qmd
-    - 00-reading_mathematics.qmd
     - 01-negative_numbers.qmd
     - 02-algebraic_expressions.qmd
     - 03-expressions_with_brackets.qmd
     - 04-fractions.qmd
     - 05-solving_equations.qmd
+    - 00-reading_mathematics.qmd
     - 06-straight_line_graphs.qmd
     - 07-quadratics.qmd
     - 08-indices.qmd

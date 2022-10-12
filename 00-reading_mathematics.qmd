@@ -52,3 +52,10 @@ The table below contains common sets you may see. Each lower set contains the on
 ```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
 knitr::include_graphics("./img/types_of_numbers.jpeg")
 ```
+
+Practice with your knowledge of sets with these questions:
+
+```{r, echo=FALSE}
+knitr::include_url("https://numbas.mathcentre.ac.uk/question/100368/sets-set-notation/embed/", height="800px")
+```
+
