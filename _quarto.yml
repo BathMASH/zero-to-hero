@@ -5,7 +5,6 @@ project:
 book:
   title: "zero-to-hero"
   author: "Ed Southwood"
-  date: "09/09/2022"
   search: true
   repo-url: https://github.com/BathMASH/zero-to-hero
   repo-actions: [source]
@@ -25,10 +24,11 @@ book:
     - 10-exponetial_function.qmd
     - 11-logarithms.qmd
     - 12-further-differentiation.qmd
+#    - 13-optimisation.qmd
 
 format:
   html:
-    theme: 
+    theme:
       light: cosmo
       dark: darkly
   pdf:

@@ -1,0 +1,81 @@
+# Optimisation
+
+Differentiation can be used to find the maximum on minimum values of a function. This is useful when optimising systems, for example:
+
+* optimise profits by finding a maximum
+* optimise a journey cost by finding minimum fuel use
+
+If a situation can be defined with a function, differentiation can be used to help optomise it.
+
+## Turning points on a curve
+
+Maximum and minimum values of a function happen at turning points on a graph. At a turning point on a graph the gradient is zero. 
+
+```{r, echo=FALSE}
+knitr::include_url("https://www.desmos.com/calculator/yge6iy1mwg?embed")
+```
+
+Notice that the gradient will change depending on which value of $x$ you use. 
+
+## The rules of differentiation
+
+Luckily finding the rule to get the gradient of a curve is straight forward. The language we use for this process is like this. When function is differentiated a new function, the derivative, is found. The derivative enables you to find the gradient. There are lots of ways write this in mathematical notation. Here are the most common.
+
+| original function | derivative |
+|:--:|:--:|
+| $y$ | $\frac{dy}{dx}$ |
+| $f(x)$ | $f'(x)$ |
+
+$\frac{dy}{dx}$ is pronounced 'dee $y$ by dee $x$', and $f'(x)$ is read as 'f dash of $x$'.
+
+The rule for differentiating polynomials (functions made up of adding different powers of $x$)is:
+
+:::{.callout-note}
+* if $y=ax^n$ then $\frac{dy}{dx} = anx^{n-1}$, or,
+* if $f(x)=ax^n$ then $f'(x) = anx^{n-1}$
+**Times by the power, then take one off the power**
+:::
+
+Here are some examples:
+
+If $y = 3x^4$ then $\frac{dy}{dx} = 3 \times 4 \times x^{4-1} = 12x^3$
+
+Multiple terms added together are differentiated one by one then added together:
+
+$$
+\begin{aligned} y &= 6x^3 + 2x^2 + 4x + 5 \\
+\frac{dy}{dx} &= 6x^3 + 2x^2 + 4x^1 + 5x^0 \\
+&= 3\times6x^{3-1} + 2\times x^{2-1} + 1\times 4x^{1-1} + 0\times5x^{0-1} \\
+&= 18x^2 + 2x^1 + 4x^{0} + 0 \\
+&= 18x^2 + 2x + 4
+\end{aligned}
+$$
+In the above example we've used the following mathematical facts:
+
+* $x=x^1$, $x$ on it's own is $x^1$
+* $x^0=1$, you can always multiply by $x^0$ since it's $1$
+* $0 \times a = 0$ anything times zero is zero
+
+The take away from this is that constant terms, terms without $x$ in, disappear, and terms with just $x$ in loose the $x$.
+
+Try these questions to get to grips with the rules of differentiation.
+
+```{r, echo=FALSE}
+knitr::include_url("https://numbas.mathcentre.ac.uk/question/62756/differentiation-using-a-table-of-derivatives-2/embed/?token=f1dc60aa-32b9-4906-98f2-4ddde19c9b79", height="340px")
+```
+
+## Finding gradient at a point
+
+To find the gradient at a point. Differentiate the original function and then substitute the $x$ value of the point into the derivative. 
+
+For example to find the gradient when $x=3$ for the function $y=x^2$. We would differentiate and then substitute in $x=3$.
+
+$$
+\begin{aligned} y &= x^2 \\
+\frac{dy}{dx} &= 2x \\
+&= 2(3) \\
+&= 2 \times 3 \\
+&= 6
+\end{aligned}
+$$
+So the gradient at $x=3$ on the curve $y=x^2$ is $6$.

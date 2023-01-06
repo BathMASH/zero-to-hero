@@ -1,3 +1,8 @@
+---
+date: "`r Sys.Date()`"
+---
+
+
 ```{r, setup, include=FALSE}
 library(webshot2)
 knitr::opts_chunk$set(
@@ -13,7 +18,7 @@ warning = '<img src="img/desmos.gif" style="float: left;" height="75px"><p>The g
 This course is designed to refresh your knowledge of maths to get you ready to use calculus in your course. There is no right or wrong way to use it. Each section includes written notes, a video (with the same content as the notes) and practice questions. It's chunked into bitesized sections to allow you make progress in 10 min windows. You may like to try the questions first and then just go back to the notes if you get stuck. Feel free to start anywhere you like.
 
 :::{.callout-warning}
-The videos are hosted on the University's Panopto Re:view server. You will have to login to watch them - it mau also force a pop-up window.
+The videos are hosted on the University's Panopto Re:view server. You will have to login to watch them - it may also force a pop-up window.
 :::
 
 `r warning`

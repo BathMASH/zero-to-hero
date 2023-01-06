@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.0.38">
+<meta name="generator" content="quarto-1.2.269">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -11,10 +11,15 @@
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-span.underline{text-decoration: underline;}
-div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
 </style>
 
 
@@ -185,18 +190,18 @@ ul.task-list{list-style: none;}
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc">
+        <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#expanding-pairs-of-brackets" id="toc-expanding-pairs-of-brackets" class="nav-link active" data-scroll-target="#expanding-pairs-of-brackets"> <span class="header-section-number">8.1</span> Expanding pairs of brackets</a></li>
-  <li><a href="#factorising-pairs-of-brackets" id="toc-factorising-pairs-of-brackets" class="nav-link" data-scroll-target="#factorising-pairs-of-brackets"> <span class="header-section-number">8.2</span> Factorising pairs of brackets</a></li>
-  <li><a href="#solving-quadratics" id="toc-solving-quadratics" class="nav-link" data-scroll-target="#solving-quadratics"> <span class="header-section-number">8.3</span> Solving Quadratics</a>
+  <li><a href="#expanding-pairs-of-brackets" id="toc-expanding-pairs-of-brackets" class="nav-link active" data-scroll-target="#expanding-pairs-of-brackets"><span class="toc-section-number">8.1</span>  Expanding pairs of brackets</a></li>
+  <li><a href="#factorising-pairs-of-brackets" id="toc-factorising-pairs-of-brackets" class="nav-link" data-scroll-target="#factorising-pairs-of-brackets"><span class="toc-section-number">8.2</span>  Factorising pairs of brackets</a></li>
+  <li><a href="#solving-quadratics" id="toc-solving-quadratics" class="nav-link" data-scroll-target="#solving-quadratics"><span class="toc-section-number">8.3</span>  Solving Quadratics</a>
   <ul class="collapse">
-  <li><a href="#factorisation" id="toc-factorisation" class="nav-link" data-scroll-target="#factorisation"> <span class="header-section-number">8.3.1</span> Factorisation</a></li>
-  <li><a href="#quadratic-formula" id="toc-quadratic-formula" class="nav-link" data-scroll-target="#quadratic-formula"> <span class="header-section-number">8.3.2</span> Quadratic Formula</a></li>
+  <li><a href="#factorisation" id="toc-factorisation" class="nav-link" data-scroll-target="#factorisation"><span class="toc-section-number">8.3.1</span>  Factorisation</a></li>
+  <li><a href="#quadratic-formula" id="toc-quadratic-formula" class="nav-link" data-scroll-target="#quadratic-formula"><span class="toc-section-number">8.3.2</span>  Quadratic Formula</a></li>
   </ul></li>
-  <li><a href="#simultaneous-equations" id="toc-simultaneous-equations" class="nav-link" data-scroll-target="#simultaneous-equations"> <span class="header-section-number">8.4</span> Simultaneous equations</a></li>
+  <li><a href="#simultaneous-equations" id="toc-simultaneous-equations" class="nav-link" data-scroll-target="#simultaneous-equations"><span class="toc-section-number">8.4</span>  Simultaneous equations</a></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/BathMASH/zero-to-hero/blob/main/07-quadratics.qmd" class="toc-action">View source</a></p></div></div></nav>
     </div>
@@ -213,6 +218,7 @@ ul.task-list{list-style: none;}
 <div class="quarto-title-meta">
 
     
+  
     
   </div>
   
@@ -333,26 +339,13 @@ x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}
 \begin{aligned} x_1 &amp;= \frac{4 + \sqrt{8}}{2} \\
 &amp;= 3.41
 \end{aligned}
-\]</span></p>
-<p>and</p>
+\]</span> and</p>
 <p><span class="math display">\[
 \begin{aligned} x_2 &amp;= \frac{4 - \sqrt{8}}{2} \\
 &amp;= 0.59
 \end{aligned}
-\]</span></p>
-<div class="callout-tip callout callout-style-default callout-captioned">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-caption-container flex-fill">
-Pro tip
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Notice the use of <span class="math inline">\(x_1\)</span> and <span class="math inline">\(x_2\)</span>. It is common in maths to use subscript numbers to show different particular values of the same variable. That’s all it’s doing <span class="math inline">\(x_1\)</span> is just a value for <span class="math inline">\(x\)</span> named <span class="math inline">\(x_1\)</span> and <span class="math inline">\(x_2\)</span> is just a value for <span class="math inline">\(x\)</span> named <span class="math inline">\(x_2\)</span>.</p>
-</div>
-</div>
+\]</span> :::{.callout-tip} ## Pro tip</p>
+<p>Notice the use of <span class="math inline">\(x_1\)</span> and <span class="math inline">\(x_2\)</span>. It is common in maths to use subscript numbers to show different particular values of the same variable. That’s all it’s doing <span class="math inline">\(x_1\)</span> is just a value for <span class="math inline">\(x\)</span> named <span class="math inline">\(x_1\)</span> and <span class="math inline">\(x_2\)</span> is just a value for <span class="math inline">\(x\)</span> named <span class="math inline">\(x_2\)</span>. :::</p>
 <div class="cell" data-hash="07-quadratics_cache/html/unnamed-chunk-6_10876d5621e3f91bd302196f8ca832c0">
 <iframe src="https://numbas.mathcentre.ac.uk/question/64345/quadratics-using-the-quadratic-formula/embed/?token=df746faf-a094-4dd6-8e2b-19ae44306fc8" width="672" height="800px" data-external="1">
 </iframe>
@@ -498,6 +491,16 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         }
       }
     }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
   }
   const isFileUrl = () => { 
     return window.location.protocol === 'file:';
@@ -549,7 +552,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   // Switch to dark mode if need be
   if (hasAlternateSentinel()) {
     toggleColorMode(true);
-  } 
+  } else {
+    toggleColorMode(false);
+  }
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
@@ -571,7 +576,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -599,31 +621,50 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   for (var i=0; i<noterefs.length; i++) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
-      let href = ref.getAttribute('href');
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
     });
   }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>
