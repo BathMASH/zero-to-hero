@@ -5,6 +5,8 @@ project:
 book:
   title: "zero-to-hero"
   author: "Ed Southwood"
+# date removed from here and added to the index.qmd to enable using
+# r code for automatic date
   search: true
   repo-url: https://github.com/BathMASH/zero-to-hero
   repo-actions: [source]

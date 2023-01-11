@@ -46,8 +46,8 @@ The table below contains common sets you may see. Each lower set contains the on
 | $\mathbb{N}$ | the natural numbers | positive whole numbers $1,2,3,4...$, this sometimes includes zero |
 | $\mathbb{Z}$ | the integers | positive and negative whole numbers $..., -2, -1, 0, 1,2,...$ |
 | $\mathbb{Q}$ | the rational numbers | including fractions $-\frac{1}{2}, 0, \frac{1}{2},1,...$ |
-| $\mathbb{R}$ | the real numbers | no we introduce $e$ and $\pi$ |
-| $\mathbb{C}$ | the complex numbers | including all the a |
+| $\mathbb{R}$ | the real numbers | now we introduce $e$ and $\pi$, numbers with infinite and non-repeating decimal expansions |
+| $\mathbb{C}$ | the complex numbers | $\sqrt{-1}$ is now allowed, this enables any polynomial to be solved |
 
 ```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
 knitr::include_graphics("./img/types_of_numbers.jpeg")
