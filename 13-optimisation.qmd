@@ -1,13 +1,13 @@
-# Optimisation
+# Critical points and ptimisation
 
-Differentiation can be used to find the maximum on minimum values of a function. This is useful when optimising systems, for example:
+A functions critical points are where it's gradient is zero. Differentiation can be used to find these points, and, these points can tell us the maximum on minimum values of a function. This is useful when optimising systems, for example:
 
 * optimise profits by finding a maximum
 * optimise a journey cost by finding minimum fuel use
 
 If a situation can be defined with a function, differentiation can be used to help optomise it.
 
-## Turning points on a curve
+## Critical points - turning points on a curve
 
 Maximum and minimum values of a function happen at turning points on a graph. At a turning point on a graph the gradient is zero. 
 
@@ -15,7 +15,7 @@ Maximum and minimum values of a function happen at turning points on a graph. At
 knitr::include_url("https://www.desmos.com/calculator/yge6iy1mwg?embed")
 ```
 
-Notice that the gradient will change depending on which value of $x$ you use. 
+Notice that the gradient will change depending on which value of $x$. 
 
 ## The rules of differentiation
 

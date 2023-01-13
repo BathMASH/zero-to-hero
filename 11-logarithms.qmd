@@ -45,6 +45,7 @@ $$
 \end{aligned}
 $$
 This is how it was done:
+
 * First we used the power rule $\log_{a} x^n = n\log_{a} x$, 
 * then the addition rule $\log_{a} x + \log_{a} y = \log_{a} xy$, 
 * and finally, the subtraction rule $\log_{a} x - \log_{a} y = \log_{a}{\frac{x}{y}}$. 
