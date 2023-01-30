@@ -111,9 +111,9 @@ $$
 
 We can use the formula on the equation $x^2 -4x +2 = 0$. In this example the values of $a$, $b$ and $c$ are:
 
-$a=1$ since $x^2$ means $1 \times x^2$
-$b=-4$ notice how the negative sign is *owned* by the $x$ coefficient
-$c=2$ finially we just have $2$
+- $a=1$ since $x^2$ means $1 \times x^2$
+- $b=-4$ notice how the negative sign is *owned* by the $x$ coefficient
+- $c=2$ finially we just have $2$
 
 Substituting into the quadratic formula we have:
 
@@ -126,7 +126,7 @@ $$
 
 It is possible to simplify the square roots in this answer to give $2 \pm \sqrt{2}$. So don't be surprised if your calculator gives you that answer.
 
-Finally, we must deal with the $\pm$ symbol. This means do the calculation once using $+$ and another time using $-$. This will give two possible answers for $x$, given to $2$ decimal places.
+Finally, we must deal with the $\pm$ symbol. This means do the calculation once using addition, $+$, and another time using subtraction, $-$. This will give two possible answers for $x$, given to $2$ decimal places.
 
 $$
 \begin{aligned} x_1 &= \frac{4 + \sqrt{8}}{2} \\
@@ -140,10 +140,12 @@ $$
 &= 0.59
 \end{aligned}
 $$
+
 :::{.callout-tip}
 ## Pro tip
 
 Notice the use of $x_1$ and $x_2$. It is common in maths to use subscript numbers to show different particular values of the same variable. That's all it's doing $x_1$ is just a value for $x$ named $x_1$ and $x_2$ is just a value for $x$ named $x_2$.
+
 :::
 
 ```{r, echo=FALSE}

@@ -1,32 +1,73 @@
-# Critical points and ptimisation
+# Critical points and optimisation
 
-A functions critical points are where it's gradient is zero. Differentiation can be used to find these points, and, these points can tell us the maximum on minimum values of a function. This is useful when optimising systems, for example:
+A functions critical points (also known as stationary points) are the points where the function#s gradient is zero. Differentiation can be used to find these points, and, these points can tell us the maximum on minimum values of a function. This is useful when optimising systems, for example:
 
 * optimise profits by finding a maximum
 * optimise a journey cost by finding minimum fuel use
 
 If a situation can be defined with a function, differentiation can be used to help optomise it.
 
-## Critical points - turning points on a curve
+## Turning points on a curve
 
-Maximum and minimum values of a function happen at turning points on a graph. At a turning point on a graph the gradient is zero. 
+Maximum and minimum values of a function happen at turning points on a graph. At a turning point on a graph the gradient is zero.
 
 ```{r, echo=FALSE}
 knitr::include_url("https://www.desmos.com/calculator/yge6iy1mwg?embed")
 ```
 
-Notice that the gradient will change depending on which value of $x$. 
+Notice two things:
 
-## The rules of differentiation
+* the gradient will change depending on which value of $x$. The slope fo the tangent shows you this.
+* maximums and minimums aren't actually the biggest or smallest value the function can give!
 
-Luckily finding the rule to get the gradient of a curve is straight forward. The language we use for this process is like this. When function is differentiated a new function, the derivative, is found. The derivative enables you to find the gradient. There are lots of ways write this in mathematical notation. Here are the most common.
+There are two types of Maxima (plural of maximum) and minima (plural of minimum). They can be either global, for the whole function, or local, for just particular region. Most problems are constrained within bounds and so interested in the local maxima and minima along with what happens at the boundary of any constraint.
 
-| original function | derivative |
-|:--:|:--:|
-| $y$ | $\frac{dy}{dx}$ |
-| $f(x)$ | $f'(x)$ |
+## Classifying critical points
 
-$\frac{dy}{dx}$ is pronounced 'dee $y$ by dee $x$', and $f'(x)$ is read as 'f dash of $x$'.
+Critical points can be found by looking at the values of  $f'(x)$ and $f''(x)$. The graph below shows $f(x)$, $f'(x)$ and $f''(x)$ all plotted on the same axes. As you move the point notice how when $f(x)$ is at it's maximum,  $f'(x) = 0$ and $f''(x) < 0$. The three different lines are as follows: $f(x)$ is solid red, $f'(x)$ is dashed blue and $f''(x)$ is dotty and green. There is a lot going on in the graph below but it's worth taking some time to play with the points to see what is going on.
+
+```{r, echo=FALSE}
+knitr::include_url("https://www.desmos.com/calculator/ybaguwnu8g?embed")
+```
+
+We can summarise this in a table:
+
+:::{.callout-note}
+| critical point | $f(x)$ | $f'(x)$ | $f''(x)$ |
+|:--:|:--:|:--:|:--:|
+| minimum | smallest value | $0$ | $f''(x) > 0$ |
+| maximum | largest value | $0$ | $f''(x) < 0$ |
+:::
+
+We can use this information to classify critical points. For example let's find and classify the critical points of:
+
+$$
+y=2x^3 - 4^2 + 2
+$$
+
+First we need to find the points where $\frac{dy}{dx} = 0$ (remember $f'(x)$ and  $\frac{dy}{dx}$ mean the same thing). So differentiating $y=2x^3 - 4^2 + 2$ we have:
+
+$$
+\frac{dy}{dx} = 6x^2 -8x
+$$
+Setting $\frac{dy}{dx} = 0$ and solving we have:
+
+$$
+\begin{aligned} \frac{dy}{dx} &= 6x^2 -8x \\
+0 &= 6x^2 -8x \\
+&= 2x(3x-4)
+\end{aligned}
+$$
+
+Now either $2x=0$ or $3x-4 =0$. Solving these two equations we get that $x$ is equal to either to $0$ or $\frac{4}{3}$.
+
+Try this question on classifying critical points.
+
+```{r, echo=FALSE}
+knitr::include_url("https://numbas.mathcentre.ac.uk/question/67953/differentiation-stationary-points-and-their-nature-1/embed/", height="500px")
+```
+
+## Finding gradient at a point
 
 The rule for differentiating polynomials (functions made up of adding different powers of $x$)is:
 
@@ -35,6 +76,7 @@ The rule for differentiating polynomials (functions made up of adding different 
 * if $f(x)=ax^n$ then $f'(x) = anx^{n-1}$
 **Times by the power, then take one off the power**
 :::
+
 
 Here are some examples:
 
@@ -58,13 +100,6 @@ In the above example we've used the following mathematical facts:
 
 The take away from this is that constant terms, terms without $x$ in, disappear, and terms with just $x$ in loose the $x$.
 
-Try these questions to get to grips with the rules of differentiation.
-
-```{r, echo=FALSE}
-knitr::include_url("https://numbas.mathcentre.ac.uk/question/62756/differentiation-using-a-table-of-derivatives-2/embed/?token=f1dc60aa-32b9-4906-98f2-4ddde19c9b79", height="340px")
-```
-
-## Finding gradient at a point
 
 To find the gradient at a point. Differentiate the original function and then substitute the $x$ value of the point into the derivative. 
 
