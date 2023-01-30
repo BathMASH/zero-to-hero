@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.269">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>zero-to-hero - 14&nbsp; Critical points and optimisation</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./12-further-differentiation.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Critical points and optimisation</span></h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">zero-to-hero</a> 
+        <div class="sidebar-tools-main tools-wide">
+    <a href="https://github.com/BathMASH/zero-to-hero" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
+    <a href="" title="Download" id="sidebar-tool-dropdown-0" class="sidebar-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-download"></i></a>
+    <ul class="dropdown-menu" aria-labelledby="sidebar-tool-dropdown-0">
+        <li>
+          <a class="dropdown-item sidebar-tools-main-item" href="./zero-to-hero.pdf">
+            <i class="bi bi-bi-file-pdf pe-1"></i>
+          Download PDF
+          </a>
+        </li>
+        <li>
+          <a class="dropdown-item sidebar-tools-main-item" href="./zero-to-hero.epub">
+            <i class="bi bi-bi-journal pe-1"></i>
+          Download ePub
+          </a>
+        </li>
+    </ul>
+  <a href="" class="quarto-color-scheme-toggle sidebar-tool" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">Welcome</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./01-negative_numbers.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Negative numbers</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./02-algebraic_expressions.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Algebraic expressions</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./03-expressions_with_brackets.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Expressions with brackets</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./04-fractions.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Fractions</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./05-solving_equations.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Solving equations</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./00-reading_mathematics.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Reading mathematics</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./06-straight_line_graphs.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Straight line graphs</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./07-quadratics.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Quadratics</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./08-indices.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Indices</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./09-differentiation.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Differentiation</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./10-exponetial_function.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Exponential functions</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./11-logarithms.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Logarithms</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./12-further-differentiation.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Further differentiation</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./13-optimisation.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Critical points and optimisation</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#turning-points-on-a-curve" id="toc-turning-points-on-a-curve" class="nav-link active" data-scroll-target="#turning-points-on-a-curve"><span class="toc-section-number">14.1</span>  Turning points on a curve</a></li>
+  <li><a href="#classifying-critical-points" id="toc-classifying-critical-points" class="nav-link" data-scroll-target="#classifying-critical-points"><span class="toc-section-number">14.2</span>  Classifying critical points</a></li>
+  <li><a href="#finding-gradient-at-a-point" id="toc-finding-gradient-at-a-point" class="nav-link" data-scroll-target="#finding-gradient-at-a-point"><span class="toc-section-number">14.3</span>  Finding gradient at a point</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/BathMASH/zero-to-hero/blob/main/13-optimisation.qmd" class="toc-action">View source</a></p></div></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Critical points and optimisation</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p>A functions critical points (also known as stationary points) are the points where the function#s gradient is zero. Differentiation can be used to find these points, and, these points can tell us the maximum on minimum values of a function. This is useful when optimising systems, for example:</p>
+<ul>
+<li>optimise profits by finding a maximum</li>
+<li>optimise a journey cost by finding minimum fuel use</li>
+</ul>
+<p>If a situation can be defined with a function, differentiation can be used to help optomise it.</p>
+<section id="turning-points-on-a-curve" class="level2" data-number="14.1">
+<h2 data-number="14.1" class="anchored" data-anchor-id="turning-points-on-a-curve"><span class="header-section-number">14.1</span> Turning points on a curve</h2>
+<p>Maximum and minimum values of a function happen at turning points on a graph. At a turning point on a graph the gradient is zero.</p>
+<div class="cell" data-hash="13-optimisation_cache/html/unnamed-chunk-1_f8d015f0ac238253a5277dc714047950">
+<iframe src="https://www.desmos.com/calculator/yge6iy1mwg?embed" width="672" height="400px" data-external="1">
+</iframe>
+</div>
+<p>Notice two things:</p>
+<ul>
+<li>the gradient will change depending on which value of <span class="math inline">\(x\)</span>. The slope fo the tangent shows you this.</li>
+<li>maximums and minimums aren’t actually the biggest or smallest value the function can give!</li>
+</ul>
+<p>There are two types of Maxima (plural of maximum) and minima (plural of minimum). They can be either global, for the whole function, or local, for just particular region. Most problems are constrained within bounds and so interested in the local maxima and minima along with what happens at the boundary of any constraint.</p>
+</section>
+<section id="classifying-critical-points" class="level2" data-number="14.2">
+<h2 data-number="14.2" class="anchored" data-anchor-id="classifying-critical-points"><span class="header-section-number">14.2</span> Classifying critical points</h2>
+<p>Critical points can be found by looking at the values of <span class="math inline">\(f'(x)\)</span> and <span class="math inline">\(f''(x)\)</span>. The graph below shows <span class="math inline">\(f(x)\)</span>, <span class="math inline">\(f'(x)\)</span> and <span class="math inline">\(f''(x)\)</span> all plotted on the same axes. As you move the point notice how when <span class="math inline">\(f(x)\)</span> is at it’s maximum, <span class="math inline">\(f'(x) = 0\)</span> and <span class="math inline">\(f''(x) &lt; 0\)</span>. The three different lines are as follows: <span class="math inline">\(f(x)\)</span> is solid red, <span class="math inline">\(f'(x)\)</span> is dashed blue and <span class="math inline">\(f''(x)\)</span> is dotty and green. There is a lot going on in the graph below but it’s worth taking some time to play with the points to see what is going on.</p>
+<div class="cell" data-hash="13-optimisation_cache/html/unnamed-chunk-2_585f1afbfdf93fbbfc5c64252cfba4eb">
+<iframe src="https://www.desmos.com/calculator/ybaguwnu8g?embed" width="672" height="400px" data-external="1">
+</iframe>
+</div>
+<p>We can summarise this in a table:</p>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">critical point</th>
+<th style="text-align: center;"><span class="math inline">\(f(x)\)</span></th>
+<th style="text-align: center;"><span class="math inline">\(f'(x)\)</span></th>
+<th style="text-align: center;"><span class="math inline">\(f''(x)\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">minimum</td>
+<td style="text-align: center;">smallest value</td>
+<td style="text-align: center;"><span class="math inline">\(0\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(f''(x) &gt; 0\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">maximum</td>
+<td style="text-align: center;">largest value</td>
+<td style="text-align: center;"><span class="math inline">\(0\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(f''(x) &lt; 0\)</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>We can use this information to classify critical points. For example let’s find and classify the critical points of:</p>
+<p><span class="math display">\[
+y=2x^3 - 4^2 + 2
+\]</span></p>
+<p>First we need to find the points where <span class="math inline">\(\frac{dy}{dx} = 0\)</span> (remember <span class="math inline">\(f'(x)\)</span> and <span class="math inline">\(\frac{dy}{dx}\)</span> mean the same thing). So differentiating <span class="math inline">\(y=2x^3 - 4^2 + 2\)</span> we have:</p>
+<p><span class="math display">\[
+\frac{dy}{dx} = 6x^2 -8x
+\]</span> Setting <span class="math inline">\(\frac{dy}{dx} = 0\)</span> and solving we have:</p>
+<p><span class="math display">\[
+\begin{aligned} \frac{dy}{dx} &amp;= 6x^2 -8x \\
+0 &amp;= 6x^2 -8x \\
+&amp;= 2x(3x-4)
+\end{aligned}
+\]</span></p>
+<p>Now either <span class="math inline">\(2x=0\)</span> or <span class="math inline">\(3x-4 =0\)</span>. Solving these two equations we get that <span class="math inline">\(x\)</span> is equal to either to <span class="math inline">\(0\)</span> or <span class="math inline">\(\frac{4}{3}\)</span>.</p>
+<p>Try this question on classifying critical points.</p>
+<div class="cell" data-hash="13-optimisation_cache/html/unnamed-chunk-3_e08e97eaead941bea9ff2822006ad5dd">
+<iframe src="https://numbas.mathcentre.ac.uk/question/67953/differentiation-stationary-points-and-their-nature-1/embed/" width="672" height="500px" data-external="1">
+</iframe>
+</div>
+</section>
+<section id="finding-gradient-at-a-point" class="level2" data-number="14.3">
+<h2 data-number="14.3" class="anchored" data-anchor-id="finding-gradient-at-a-point"><span class="header-section-number">14.3</span> Finding gradient at a point</h2>
+<p>The rule for differentiating polynomials (functions made up of adding different powers of <span class="math inline">\(x\)</span>)is:</p>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>if <span class="math inline">\(y=ax^n\)</span> then <span class="math inline">\(\frac{dy}{dx} = anx^{n-1}\)</span>, or,</li>
+<li>if <span class="math inline">\(f(x)=ax^n\)</span> then <span class="math inline">\(f'(x) = anx^{n-1}\)</span> <strong>Times by the power, then take one off the power</strong></li>
+</ul>
+</div>
+</div>
+<p>Here are some examples:</p>
+<p>If <span class="math inline">\(y = 3x^4\)</span> then <span class="math inline">\(\frac{dy}{dx} = 3 \times 4 \times x^{4-1} = 12x^3\)</span></p>
+<p>Multiple terms added together are differentiated one by one then added together:</p>
+<p><span class="math display">\[
+\begin{aligned} y &amp;= 6x^3 + 2x^2 + 4x + 5 \\
+\frac{dy}{dx} &amp;= 6x^3 + 2x^2 + 4x^1 + 5x^0 \\
+&amp;= 3\times6x^{3-1} + 2\times x^{2-1} + 1\times 4x^{1-1} + 0\times5x^{0-1} \\
+&amp;= 18x^2 + 2x^1 + 4x^{0} + 0 \\
+&amp;= 18x^2 + 2x + 4
+\end{aligned}
+\]</span> In the above example we’ve used the following mathematical facts:</p>
+<ul>
+<li><span class="math inline">\(x=x^1\)</span>, <span class="math inline">\(x\)</span> on it’s own is <span class="math inline">\(x^1\)</span></li>
+<li><span class="math inline">\(x^0=1\)</span>, you can always multiply by <span class="math inline">\(x^0\)</span> since it’s <span class="math inline">\(1\)</span></li>
+<li><span class="math inline">\(0 \times a = 0\)</span> anything times zero is zero</li>
+</ul>
+<p>The take away from this is that constant terms, terms without <span class="math inline">\(x\)</span> in, disappear, and terms with just <span class="math inline">\(x\)</span> in loose the <span class="math inline">\(x\)</span>.</p>
+<p>To find the gradient at a point. Differentiate the original function and then substitute the <span class="math inline">\(x\)</span> value of the point into the derivative.</p>
+<p>For example to find the gradient when <span class="math inline">\(x=3\)</span> for the function <span class="math inline">\(y=x^2\)</span>. We would differentiate and then substitute in <span class="math inline">\(x=3\)</span>.</p>
+<p><span class="math display">\[
+\begin{aligned} y &amp;= x^2 \\
+\frac{dy}{dx} &amp;= 2x \\
+&amp;= 2(3) \\
+&amp;= 2 \times 3 \\
+&amp;= 6
+\end{aligned}
+\]</span> So the gradient at <span class="math inline">\(x=3\)</span> on the curve <span class="math inline">\(y=x^2\)</span> is <span class="math inline">\(6\)</span>.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./12-further-differentiation.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Further differentiation</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>

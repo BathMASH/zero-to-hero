@@ -26,7 +26,7 @@ book:
     - 10-exponetial_function.qmd
     - 11-logarithms.qmd
     - 12-further-differentiation.qmd
-#    - 13-optimisation.qmd
+    - 13-optimisation.qmd
 
 format:
   html:
