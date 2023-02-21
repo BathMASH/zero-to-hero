@@ -14,13 +14,15 @@ Add a License to the project. Probably [Attribution-ShareAlike 4.0 International
 
 Videos:
 
-* Solving equations - unknowns on both sides
+* *Error* a random b appears in the title of algebraic expressions expanding single brackets
+* *Error* in fractions video change the title on second slide 
+* ~~Solving equations - unknowns on both sides~~ - included in other video
 * Reading mathematics - set builder notation
 * Straight line graphs - coordinates
-* Straight line graphs - $y = ms + c$
-* Solving Quadratics - factorisation
-* Solving Quadratics - the formula
-* Solving Quadratics - simultaneous equations
+* Straight line graphs - $y = mx + c$
+* ~~Solving Quadratics - factorisation~~
+* ~~Solving Quadratics - the formula~~
+* ~~Solving Quadratics - simultaneous equations~~
 * Indices
 * Logs - rules
 * Logs - solving

@@ -76,7 +76,13 @@ Interestingly three things can happen when we solve a quadratic. There can be:
 - one *repeated* value
 - no real values (only [imaginary ones](https://en.wikipedia.org/wiki/Imaginary_number) - and yes that is a thing!)
 
+Here are some methods to solve quadratic equations.
+
 ### Factorisation
+
+```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
+knitr::include_url("https://uniofbath.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=cd7ea996-68f5-45ec-b525-afa400db1a82&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all", height="405px")
+```
 
 We can solve some quadratics by factorisation. Take for example the following equation $x^2 + 8x = -12$. To solve via factorisation we must first make it equal to zero and then factorise. So we have:
 
@@ -102,6 +108,10 @@ knitr::include_url("https://numbas.mathcentre.ac.uk/question/105345/quadratics-s
 ```
 
 ### Quadratic Formula
+
+```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
+knitr::include_url("https://uniofbath.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=af94dc7d-68a8-456e-9d20-afa400db1a80&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all", height="405px")
+```
 
 For a quadratic equation of the form $ax^2 + bx + c = 0$ we can use the quadratic formula to find solutions for $x$.
 
@@ -153,6 +163,10 @@ knitr::include_url("https://numbas.mathcentre.ac.uk/question/64345/quadratics-us
 ```
 
 ## Simultaneous equations
+
+```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
+knitr::include_url("https://uniofbath.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=34c760ea-bc25-4f73-a70c-afa400db1a84&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all", height="405px")
+```
 
 We are going to solve this type of equation by substitution i.e. substituting one equation into another.
 

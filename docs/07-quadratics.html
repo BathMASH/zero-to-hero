@@ -105,6 +105,11 @@ ul.task-list li input[type="checkbox"] {
         </li>
     </ul>
   <a href="" class="quarto-color-scheme-toggle sidebar-tool" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <a href="" class="quarto-reader-toggle sidebar-tool" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
     </div>
       </div>
@@ -185,11 +190,6 @@ ul.task-list li input[type="checkbox"] {
   <a href="./12-further-differentiation.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Further differentiation</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./13-optimisation.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Critical points and optimisation</span></a>
-  </div>
-</li>
     </ul>
     </div>
 </nav>
@@ -208,8 +208,14 @@ ul.task-list li input[type="checkbox"] {
   </ul></li>
   <li><a href="#simultaneous-equations" id="toc-simultaneous-equations" class="nav-link" data-scroll-target="#simultaneous-equations"><span class="toc-section-number">8.4</span>  Simultaneous equations</a></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/BathMASH/zero-to-hero/blob/main/07-quadratics.qmd" class="toc-action">View source</a></p></div></div></nav>
-    </div>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/BathMASH/zero-to-hero/blob/master/07-quadratics.qmd" class="toc-action">View source</a></p><p><a href="https://github.com/BathMASH/zero-to-hero/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+    <div class="quarto-margin-footer"><div class="margin-footer-item">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="./img/cc-logo.png" class="img-fluid figure-img" alt="Zero to Hero © 2023 by Ed Southwood, Skills Centre, University of Bath is licensed under Attribution-NonCommercial-ShareAlike 4.0 International"></a></p>
+</figure>
+</div>
+</div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -294,8 +300,13 @@ x^2 + 8x +12 = (x+2)(x+6)
 <li>one <em>repeated</em> value</li>
 <li>no real values (only <a href="https://en.wikipedia.org/wiki/Imaginary_number">imaginary ones</a> - and yes that is a thing!)</li>
 </ul>
+<p>Here are some methods to solve quadratic equations.</p>
 <section id="factorisation" class="level3" data-number="8.3.1">
 <h3 data-number="8.3.1" class="anchored" data-anchor-id="factorisation"><span class="header-section-number">8.3.1</span> Factorisation</h3>
+<div class="cell" data-hash="07-quadratics_cache/html/unnamed-chunk-5_f894353b251a2935227288b6ed0b38e9">
+<iframe src="https://uniofbath.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=cd7ea996-68f5-45ec-b525-afa400db1a82&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=true&amp;showbrand=true&amp;captions=false&amp;interactivity=all" width="672" height="405px" data-external="1">
+</iframe>
+</div>
 <p>We can solve some quadratics by factorisation. Take for example the following equation <span class="math inline">\(x^2 + 8x = -12\)</span>. To solve via factorisation we must first make it equal to zero and then factorise. So we have:</p>
 <p><span class="math display">\[
 \begin{aligned} x^2 + 8x &amp;= -12 \\
@@ -318,13 +329,17 @@ Pro tip
 </div>
 </div>
 <p>Try some questions.</p>
-<div class="cell" data-hash="07-quadratics_cache/html/unnamed-chunk-5_48064b9916076a299402c731dd3b59ba">
+<div class="cell" data-hash="07-quadratics_cache/html/unnamed-chunk-6_8bc4b7b448dfcccbf72e22872c0ee5b4">
 <iframe src="https://numbas.mathcentre.ac.uk/question/105345/quadratics-solving-by-factorisation/embed/?token=84458480-2b4c-4902-9920-c43792afedcd" width="672" height="800px" data-external="1">
 </iframe>
 </div>
 </section>
 <section id="quadratic-formula" class="level3" data-number="8.3.2">
 <h3 data-number="8.3.2" class="anchored" data-anchor-id="quadratic-formula"><span class="header-section-number">8.3.2</span> Quadratic Formula</h3>
+<div class="cell" data-hash="07-quadratics_cache/html/unnamed-chunk-7_69e4e6043a4a35f683e205afcd87ead8">
+<iframe src="https://uniofbath.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=af94dc7d-68a8-456e-9d20-afa400db1a80&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=true&amp;showbrand=true&amp;captions=false&amp;interactivity=all" width="672" height="405px" data-external="1">
+</iframe>
+</div>
 <p>For a quadratic equation of the form <span class="math inline">\(ax^2 + bx + c = 0\)</span> we can use the quadratic formula to find solutions for <span class="math inline">\(x\)</span>.</p>
 <p><span class="math display">\[
 x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}
@@ -367,7 +382,7 @@ Pro tip
 <p>Notice the use of <span class="math inline">\(x_1\)</span> and <span class="math inline">\(x_2\)</span>. It is common in maths to use subscript numbers to show different particular values of the same variable. That’s all it’s doing <span class="math inline">\(x_1\)</span> is just a value for <span class="math inline">\(x\)</span> named <span class="math inline">\(x_1\)</span> and <span class="math inline">\(x_2\)</span> is just a value for <span class="math inline">\(x\)</span> named <span class="math inline">\(x_2\)</span>.</p>
 </div>
 </div>
-<div class="cell" data-hash="07-quadratics_cache/html/unnamed-chunk-6_10876d5621e3f91bd302196f8ca832c0">
+<div class="cell" data-hash="07-quadratics_cache/html/unnamed-chunk-8_c1c6a607d0453607c12b4ed79034f751">
 <iframe src="https://numbas.mathcentre.ac.uk/question/64345/quadratics-using-the-quadratic-formula/embed/?token=df746faf-a094-4dd6-8e2b-19ae44306fc8" width="672" height="800px" data-external="1">
 </iframe>
 </div>
@@ -375,6 +390,10 @@ Pro tip
 </section>
 <section id="simultaneous-equations" class="level2" data-number="8.4">
 <h2 data-number="8.4" class="anchored" data-anchor-id="simultaneous-equations"><span class="header-section-number">8.4</span> Simultaneous equations</h2>
+<div class="cell" data-hash="07-quadratics_cache/html/unnamed-chunk-9_0db56ada3f865d4bddca8438921de541">
+<iframe src="https://uniofbath.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=34c760ea-bc25-4f73-a70c-afa400db1a84&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=true&amp;showbrand=true&amp;captions=false&amp;interactivity=all" width="672" height="405px" data-external="1">
+</iframe>
+</div>
 <p>We are going to solve this type of equation by substitution i.e.&nbsp;substituting one equation into another.</p>
 <p>To solve a pair of simultaneous equations of this type we want to rearrange the linear equation such that it is in terms of <span class="math inline">\(x\)</span> or <span class="math inline">\(y\)</span>, which we can then substitute into the equation with the quadratic terms. This will result in a quadratic equation in terms of one variable only.</p>
 <p>For the equations:</p>
@@ -432,7 +451,7 @@ Pro tip
 </div>
 </div>
 <p>Here are some practice questions. Don’t forget you can graph them if it helps.</p>
-<div class="cell" data-hash="07-quadratics_cache/html/unnamed-chunk-7_b2122a06b9fbfb0b44f6a841d546f99a">
+<div class="cell" data-hash="07-quadratics_cache/html/unnamed-chunk-10_4caa893b7c5b596b91a9fac5a4ff6b07">
 <iframe src="https://numbas.mathcentre.ac.uk/question/65155/simultaneous-equations-quadratics-1/embed/?token=582d176f-c880-4353-abdf-8f51e0c575b6" width="672" height="800px" data-external="1">
 </iframe>
 </div>

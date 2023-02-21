@@ -8,8 +8,10 @@ book:
 # date removed from here and added to the index.qmd to enable using
 # r code for automatic date
   search: true
+  reader-mode: true
   repo-url: https://github.com/BathMASH/zero-to-hero
-  repo-actions: [source]
+  repo-branch: master
+  repo-actions: [source, issue]
   downloads: [pdf, epub]
   chapters:
     - index.qmd
@@ -26,7 +28,9 @@ book:
     - 10-exponetial_function.qmd
     - 11-logarithms.qmd
     - 12-further-differentiation.qmd
-    - 13-optimisation.qmd
+#    - 13-optimisation.qmd
+  margin-footer: |
+   [![](/img/cc-logo.png){fig-alt="Zero to Hero © 2023 by Ed Southwood, Skills Centre, University of Bath is licensed under Attribution-NonCommercial-ShareAlike 4.0 International"}](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 format:
   html:
