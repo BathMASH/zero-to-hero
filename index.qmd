@@ -24,3 +24,11 @@ The videos are hosted on the University's Panopto Re:view server. You will have 
 `r warning`
 
 This is a work in progress, the videos are appearing and things may change! If you find a mistake please email edrs20@bath.ac.uk and good luck!
+
+::: {.callout-tip}
+## Let me know what you think
+
+If you've got some spare time to [fill in this survey](https://bathreg.onlinesurveys.ac.uk/zero-to-hero) about this resource, I'd love to know what you think of it.
+:::
+
+Zero to Hero © 2023 by Ed Southwood, Skills Centre, University of Bath is licensed under [Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/).
