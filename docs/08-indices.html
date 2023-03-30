@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.269">
+<meta name="generator" content="quarto-1.0.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -11,15 +11,10 @@
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
-ul.task-list li input[type="checkbox"] {
-  width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
-  vertical-align: middle;
-}
 </style>
 
 
@@ -195,17 +190,19 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
+        <nav id="TOC" role="doc-toc">
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#index-notation" id="toc-index-notation" class="nav-link active" data-scroll-target="#index-notation"><span class="toc-section-number">9.1</span>  Index notation</a>
+  <li><a href="#index-notation" id="toc-index-notation" class="nav-link active" data-scroll-target="#index-notation"> <span class="header-section-number">9.1</span> Index notation</a>
   <ul class="collapse">
-  <li><a href="#but-why" id="toc-but-why" class="nav-link" data-scroll-target="#but-why"><span class="toc-section-number">9.1.1</span>  But why?</a></li>
+  <li><a href="#combinations-roots-and-powers" id="toc-combinations-roots-and-powers" class="nav-link" data-scroll-target="#combinations-roots-and-powers"> <span class="header-section-number">9.1.1</span> Combinations, roots and powers</a></li>
+  <li><a href="#reciprocals" id="toc-reciprocals" class="nav-link" data-scroll-target="#reciprocals"> <span class="header-section-number">9.1.2</span> Reciprocals</a></li>
+  <li><a href="#but-why" id="toc-but-why" class="nav-link" data-scroll-target="#but-why"> <span class="header-section-number">9.1.3</span> But why?</a></li>
   </ul></li>
-  <li><a href="#rules-of-indices" id="toc-rules-of-indices" class="nav-link" data-scroll-target="#rules-of-indices"><span class="toc-section-number">9.2</span>  Rules of indices</a>
+  <li><a href="#rules-of-indices" id="toc-rules-of-indices" class="nav-link" data-scroll-target="#rules-of-indices"> <span class="header-section-number">9.2</span> Rules of indices</a>
   <ul class="collapse">
-  <li><a href="#but-why-square-roots" id="toc-but-why-square-roots" class="nav-link" data-scroll-target="#but-why-square-roots"><span class="toc-section-number">9.2.1</span>  But why? Square roots</a></li>
+  <li><a href="#but-why-square-roots" id="toc-but-why-square-roots" class="nav-link" data-scroll-target="#but-why-square-roots"> <span class="header-section-number">9.2.1</span> But why? Square roots</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/BathMASH/zero-to-hero/blob/master/08-indices.qmd" class="toc-action">View source</a></p><p><a href="https://github.com/BathMASH/zero-to-hero/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
@@ -229,7 +226,6 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
-  
     
   </div>
   
@@ -260,18 +256,54 @@ Note
 <p>Here are some examples:</p>
 <p><span class="math display">\[
 2^{-3} = \frac{1}{2^3} = \frac{1}{8}
-\]</span> More generally. <span class="math display">\[
+\]</span></p>
+<p>More generally.</p>
+<p><span class="math display">\[
 x^{-3} = \frac{1}{x^3}
-\]</span> Anything to the power of zero is <span class="math inline">\(1\)</span>: <span class="math display">\[
+\]</span></p>
+<p>Anything to the power of zero is <span class="math inline">\(1\)</span>:</p>
+<p><span class="math display">\[
 \pi^0 = 1
-\]</span> Remember good old <span class="math inline">\(\pi\)</span>? From working stuff out about circles <span class="math inline">\(\pi = 3.14159...\)</span></p>
-<p>We can write roots too:</p>
+\]</span></p>
+<p>Remember good old <span class="math inline">\(\pi\)</span>? From working stuff out about circles <span class="math inline">\(\pi = 3.14159...\)</span></p>
+<p>We can write square roots:</p>
 <p><span class="math display">\[
 16^{\frac{1}{2}} = \sqrt{16} = \pm4
-\]</span> :::{.callout-tip} ## Pro tip</p>
-<p>When taking square roots remember there are two possible solutions. Since in the above example <span class="math inline">\(4 \times 4 = 16\)</span> and <span class="math inline">\(-4 \times -4 = 16\)</span>. So either answer is just fine. :::</p>
-<section id="but-why" class="level3" data-number="9.1.1">
-<h3 data-number="9.1.1" class="anchored" data-anchor-id="but-why"><span class="header-section-number">9.1.1</span> But why?</h3>
+\]</span></p>
+<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Pro tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>When taking square roots remember there are two possible solutions. Since in the above example <span class="math inline">\(4 \times 4 = 16\)</span> and <span class="math inline">\(-4 \times -4 = 16\)</span>. So either answer is just fine.</p>
+</div>
+</div>
+<p>Here’s an example of a cube root.</p>
+<p><span class="math display">\[
+8^{\frac{1}{3}} = \sqrt[3]{8} = 2
+\]</span></p>
+<section id="combinations-roots-and-powers" class="level3" data-number="9.1.1">
+<h3 data-number="9.1.1" class="anchored" data-anchor-id="combinations-roots-and-powers"><span class="header-section-number">9.1.1</span> Combinations, roots and powers</h3>
+<p>A roots and powers can be combined. If a number is raised to the power of a fraction you find the root corresponding to the denominator and then raise it to the power of the numberator. For example:</p>
+<p><span class="math display">\[
+8^{\frac{2}{3}} = (\sqrt[3]{8})^2 = (2)^2 = 4
+\]</span></p>
+<p>Cube root, because of the <span class="math inline">\(3\)</span> in the demoninator, then square the answer because of the <span class="math inline">\(2\)</span> in the numerator. This sequence could be done the other way around, square first then cube root, I choose this way since the numbers stay smaller.</p>
+</section>
+<section id="reciprocals" class="level3" data-number="9.1.2">
+<h3 data-number="9.1.2" class="anchored" data-anchor-id="reciprocals"><span class="header-section-number">9.1.2</span> Reciprocals</h3>
+<p>If you raise a number to the power of <span class="math inline">\(-1\)</span> you find it’s reciprocal (you <strong>flip it</strong>). For example:</p>
+<p><span class="math display">\[
+\left(\frac{2}{3}\right)^{-1} = \frac{3}{2}
+\]</span></p>
+</section>
+<section id="but-why" class="level3" data-number="9.1.3">
+<h3 data-number="9.1.3" class="anchored" data-anchor-id="but-why"><span class="header-section-number">9.1.3</span> But why?</h3>
 <p>Just like we did with negative numbers we can extend the idea of what a power means by following a pattern. Here’s a pattern to justify <span class="math inline">\(x^0 = 1\)</span> and <span class="math inline">\(x^{-n} = \frac{1}{x^n}\)</span>.</p>
 <p><span class="math display">\[
 \begin{aligned} 10^3 &amp;= 10 \times 10 \times 10 &amp; = 1000 \\
@@ -335,7 +367,8 @@ Note
 &amp;= \dfrac{x^2}{x^{5/6}}
 \end{aligned}
 \]</span></p>
-<p>Remember that we’ll need to get common denominators when adding the fractions at the end: <span class="math display">\[
+<p>Remember that we’ll need to get common denominators when adding the fractions at the end:</p>
+<p><span class="math display">\[
 \begin{aligned} \frac{1}{3} + \frac{1}{2} &amp;= \frac{1\times2}{3\times2}  + \frac{1\times3}{2\times3} \\
 &amp;= \frac{2}{6}  + \frac{3}{6} \\
 &amp;= \frac{5}{6}
@@ -364,7 +397,8 @@ Note
 x^? \times x^? &amp;= x^1 \\
 x^{?+?} &amp;= x^1
 \end{aligned}
-\]</span> This means <span class="math inline">\(? + ? = 1\)</span> so <span class="math inline">\(?=\frac{1}{2}\)</span> so <span class="math inline">\(x^{\frac{1}{2}} = \sqrt{x}\)</span>.</p>
+\]</span></p>
+<p>This means <span class="math inline">\(? + ? = 1\)</span> so <span class="math inline">\(?=\frac{1}{2}\)</span> so <span class="math inline">\(x^{\frac{1}{2}} = \sqrt{x}\)</span>.</p>
 
 
 </section>
@@ -442,16 +476,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         }
       }
     }
-    // Hack to workaround the fact that safari doesn't
-    // properly recolor the scrollbar when toggling (#1455)
-    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-      manageTransitions("body", false);
-      window.scrollTo(0, 1);
-      setTimeout(() => {
-        window.scrollTo(0, 0);
-        manageTransitions("body", true);
-      }, 40);  
-    }
   }
   const isFileUrl = () => { 
     return window.location.protocol === 'file:';
@@ -503,9 +527,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   // Switch to dark mode if need be
   if (hasAlternateSentinel()) {
     toggleColorMode(true);
-  } else {
-    toggleColorMode(false);
-  }
+  } 
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
@@ -527,24 +549,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
     setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
-      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -572,50 +577,31 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   for (var i=0; i<noterefs.length; i++) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
-      // use id or data attribute instead here
-      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      let href = ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
     });
   }
-  const findCites = (el) => {
-    const parentEl = el.parentElement;
-    if (parentEl) {
-      const cites = parentEl.dataset.cites;
-      if (cites) {
-        return {
-          el,
-          cites: cites.split(' ')
-        };
-      } else {
-        return findCites(el.parentElement)
-      }
-    } else {
-      return undefined;
-    }
-  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const citeInfo = findCites(ref);
-    if (citeInfo) {
-      tippyHover(citeInfo.el, function() {
-        var popup = window.document.createElement('div');
-        citeInfo.cites.forEach(function(cite) {
-          var citeDiv = window.document.createElement('div');
-          citeDiv.classList.add('hanging-indent');
-          citeDiv.classList.add('csl-entry');
-          var biblioDiv = window.document.getElementById('ref-' + cite);
-          if (biblioDiv) {
-            citeDiv.innerHTML = biblioDiv.innerHTML;
-          }
-          popup.appendChild(citeDiv);
-        });
-        return popup.innerHTML;
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
       });
-    }
+      return popup.innerHTML;
+    });
   }
 });
 </script>

@@ -27,16 +27,40 @@ $$
 $$
 Remember good old $\pi$? From working stuff out about circles $\pi = 3.14159...$
 
-We can write roots too:
+We can write square roots:
 
 $$
 16^{\frac{1}{2}} = \sqrt{16} = \pm4
 $$
+
 :::{.callout-tip}
 ## Pro tip
-
 When taking square roots remember there are two possible solutions. Since in the above example $4 \times 4 = 16$ and  $-4 \times -4 = 16$. So either answer is just fine.
 :::
+
+Here's an example of a cube root.
+
+$$
+8^{\frac{1}{3}} = \sqrt[3]{8} = 2
+$$
+
+### Combinations, roots and powers
+
+A roots and powers can be combined. If a number is raised to the power of a fraction you find the root corresponding to the denominator and then raise it to the power of the numberator. For example:
+
+$$
+8^{\frac{2}{3}} = (\sqrt[3]{8})^2 = (2)^2 = 4
+$$
+
+Cube root, because of the $3$ in the demoninator, then square the answer because of the $2$ in the numerator. This sequence could be done the other way around, square first then cube root, I choose this way since the numbers stay smaller.
+
+### Reciprocals
+
+If you raise a number to the power of $-1$ you find it's reciprocal (you **flip it**). For example:
+
+$$
+\left(\frac{2}{3}\right)^{-1} = \frac{3}{2}
+$$
 
 ### But why?
 
