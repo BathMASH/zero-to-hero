@@ -1,6 +1,6 @@
-# Critical points and optimisation
+# Optimisation
 
-A functions critical points (also known as stationary points) are the points where the function#s gradient is zero. Differentiation can be used to find these points, and, these points can tell us the maximum on minimum values of a function. This is useful when optimising systems, for example:
+One application of differentiation is to find where functions have their maximum and minimum values. This is useful since many real life systems can often be modeled by functions, and the maximum and minimum values of these functions correspond to some kind of optimisation. For example:
 
 * optimise profits by finding a maximum
 * optimise a journey cost by finding minimum fuel use
@@ -9,7 +9,7 @@ If a situation can be defined with a function, differentiation can be used to he
 
 ## Turning points on a curve
 
-Maximum and minimum values of a function happen at turning points on a graph. At a turning point on a graph the gradient is zero.
+Maximum and minimum values of a function happen at turning points on a graph. At a turning point on a graph the gradient is zero. These turning points are also call critical points.
 
 ```{r, echo=FALSE}
 knitr::include_url("https://www.desmos.com/calculator/yge6iy1mwg?embed")

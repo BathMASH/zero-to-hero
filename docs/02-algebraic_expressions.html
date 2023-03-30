@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.269">
+<meta name="generator" content="quarto-1.0.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -11,15 +11,10 @@
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
-ul.task-list li input[type="checkbox"] {
-  width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
-  vertical-align: middle;
-}
 </style>
 
 
@@ -195,12 +190,12 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
+        <nav id="TOC" role="doc-toc">
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#substitution" id="toc-substitution" class="nav-link active" data-scroll-target="#substitution"><span class="toc-section-number">2.1</span>  Substitution</a></li>
-  <li><a href="#simplification" id="toc-simplification" class="nav-link" data-scroll-target="#simplification"><span class="toc-section-number">2.2</span>  Simplification</a></li>
+  <li><a href="#substitution" id="toc-substitution" class="nav-link active" data-scroll-target="#substitution"> <span class="header-section-number">2.1</span> Substitution</a></li>
+  <li><a href="#simplification" id="toc-simplification" class="nav-link" data-scroll-target="#simplification"> <span class="header-section-number">2.2</span> Simplification</a></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/BathMASH/zero-to-hero/blob/master/02-algebraic_expressions.qmd" class="toc-action">View source</a></p><p><a href="https://github.com/BathMASH/zero-to-hero/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     <div class="quarto-margin-footer"><div class="margin-footer-item">
@@ -223,7 +218,6 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
-  
     
   </div>
   
@@ -246,27 +240,43 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p>One more thing to know before we start making substitutions is that the multiplication symbol <span class="math inline">\(\times\)</span> is often not used in algebraic expressions. Letters and numbers that are next to each other are multiplied together. For example <span class="math inline">\(3a\)</span> means <span class="math inline">\(3 \times a\)</span>. You can show two numbers multiplied together like this <span class="math inline">\(2 \times 3 = (2)(3) = 6\)</span>.</p>
 <p>Here are some examples:</p>
-<p>If <span class="math inline">\(a=2\)</span> and <span class="math inline">\(b=-3\)</span> then we can evaluate <span class="math inline">\(5a + 4b\)</span> like this: <span class="math display">\[
+<p>If <span class="math inline">\(a=2\)</span> and <span class="math inline">\(b=-3\)</span> then we can evaluate <span class="math inline">\(5a + 4b\)</span> like this:</p>
+<p><span class="math display">\[
 5(2) + 4(-3)
-\]</span> When things are written next to each other this means multiplication. <span class="math display">\[
+\]</span></p>
+<p>When things are written next to each other this means multiplication.</p>
+<p><span class="math display">\[
 5\times 2 + 4 \times -3
-\]</span> Using BIDMAS to do the multiplication first and remembering that a positive number multiplied by a negative gives a negative number. <span class="math display">\[
+\]</span></p>
+<p>Using BIDMAS to do the multiplication first and remembering that a positive number multiplied by a negative gives a negative number.</p>
+<p><span class="math display">\[
 10 +- 12 = -2
 \]</span></p>
-<p>Substituting <span class="math inline">\(n = 3\)</span> and <span class="math inline">\(x = 2\)</span> into <span class="math inline">\(5x^n\)</span>. By replacing the letters with numbers we have: <span class="math display">\[
+<p>Substituting <span class="math inline">\(n = 3\)</span> and <span class="math inline">\(x = 2\)</span> into <span class="math inline">\(5x^n\)</span>. By replacing the letters with numbers we have:</p>
+<p><span class="math display">\[
 5(2)^3
-\]</span> Remembering that when things are next to each other it means multiplication, which gives: <span class="math display">\[
+\]</span></p>
+<p>Remembering that when things are next to each other it means multiplication, which gives:</p>
+<p><span class="math display">\[
 5 \times 2^3
-\]</span> Following BIDMAS we must deal with the powers first. Since <span class="math inline">\(2^3 = 2 \times 2 \times 2 = 8\)</span> we have: <span class="math display">\[
+\]</span></p>
+<p>Following BIDMAS we must deal with the powers first. Since <span class="math inline">\(2^3 = 2 \times 2 \times 2 = 8\)</span> we have:</p>
+<p><span class="math display">\[
 5 \times 8 = 40
 \]</span></p>
-<p>Finally consider <span class="math inline">\(\frac{2p+q}{r}\)</span> where <span class="math inline">\(p=6\)</span>, <span class="math inline">\(q=3\)</span> and <span class="math inline">\(r=5\)</span>. Replacing the letters with numbers we have: <span class="math display">\[
+<p>Finally consider <span class="math inline">\(\frac{2p+q}{r}\)</span> where <span class="math inline">\(p=6\)</span>, <span class="math inline">\(q=3\)</span> and <span class="math inline">\(r=5\)</span>. Replacing the letters with numbers we have:</p>
+<p><span class="math display">\[
 \frac{2(6)+3}{5} = \frac{2 \times 6+3}{5}
-\]</span> Remembering that there are implicit brackets in fractions, the numerator needs to be evaluated first. <span class="math display">\[
+\]</span></p>
+<p>Remembering that there are implicit brackets in fractions, the numerator needs to be evaluated first.</p>
+<p><span class="math display">\[
 \frac{(2 \times 6+3)}{5} = \frac{(12+3)}{5}=\frac{15}{5}
-\]</span> Now the fraction can be evaluated. <span class="math display">\[
+\]</span></p>
+<p>Now the fraction can be evaluated.</p>
+<p><span class="math display">\[
 \frac{15}{5} = 3
-\]</span> You can practice these techniques with the following questions. The numbers change each time to try them as much as you like.</p>
+\]</span></p>
+<p>You can practice these techniques with the following questions. The numbers change each time to try them as much as you like.</p>
 <div class="cell" data-hash="02-algebraic_expressions_cache/html/unnamed-chunk-2_8bb7637076b83aa0a9d49e5af14b785f">
 <iframe src="https://numbas.mathcentre.ac.uk/question/126318/algebra-substitution/embed/?token=83a5d483-0d29-43d9-9569-f3b4d04ca26e" width="672" height="800px" data-external="1">
 </iframe>
@@ -281,11 +291,13 @@ ul.task-list li input[type="checkbox"] {
 <p>Algebraic expressions are made up of terms. Similar terms can be combined to create a simplified expression, this processes is called <em>collecting like terms</em>. For example <span class="math inline">\(2a + 3a\)</span> can be simplified to <span class="math inline">\(5a\)</span> by collecting the <span class="math inline">\(a\)</span> terms. Here’s another example with a bit more going on:</p>
 <p><span class="math display">\[
 5x + 7y - 3x + 3y = \overbrace{5x - 3x}^{x\text{ terms}} + \overbrace{7y + 3y}^{y\text{ terms}} = 2x + 10y
-\]</span> Notice that the like terms were grouped first to make it easier to simplify. Also, each term <em>owns</em> the positive of negative symbol ahead of it.</p>
+\]</span></p>
+<p>Notice that the like terms were grouped first to make it easier to simplify. Also, each term <em>owns</em> the positive or negative symbol ahead of it.</p>
 <p>Terms can be more complex too. Although it’s tempting to find something to simplify there are no like terms in this expression: <span class="math inline">\(3xy + 6x^2 + 2x - 5y\)</span>. Only the exact same multiples can be simplified. For example:</p>
 <p><span class="math display">\[
 6x^2 + 2x - 5x^2 -8x = \overbrace{6x^2 -5x^2}^{x^2\text{ terms}} + \overbrace{2x-8x}^{x\text{ terms}}=x^2-6x
-\]</span> Notice that the two different types of term are <span class="math inline">\(x\)</span> and <span class="math inline">\(x^2\)</span>. Also, I could have written <span class="math inline">\(1x^2\)</span> but we normally don’t bother with the <span class="math inline">\(1\)</span>. It’s also important to note that capitalisation matters; <span class="math inline">\(x\)</span> is different from <span class="math inline">\(X\)</span>.</p>
+\]</span></p>
+<p>Notice that the two different types of term are <span class="math inline">\(x\)</span> and <span class="math inline">\(x^2\)</span>. Also, I could have written <span class="math inline">\(1x^2\)</span> but we normally don’t bother with the <span class="math inline">\(1\)</span>. It’s also important to note that capitalisation matters; <span class="math inline">\(x\)</span> is different from <span class="math inline">\(X\)</span>.</p>
 <p>Take care when simplifying multiples of different letters <span class="math inline">\(3xy + 5yx\)</span> can be simplified. This is because the order of multiplication doesn’t matter so <span class="math inline">\(3xy + 5yx = 3xy + 5xy = 8xy\)</span>. Terms are normally written in alphabetical order with the highest powers first.</p>
 <div class="callout-note callout callout-style-default callout-captioned">
 <div class="callout-header d-flex align-content-center">
@@ -386,16 +398,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         }
       }
     }
-    // Hack to workaround the fact that safari doesn't
-    // properly recolor the scrollbar when toggling (#1455)
-    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-      manageTransitions("body", false);
-      window.scrollTo(0, 1);
-      setTimeout(() => {
-        window.scrollTo(0, 0);
-        manageTransitions("body", true);
-      }, 40);  
-    }
   }
   const isFileUrl = () => { 
     return window.location.protocol === 'file:';
@@ -447,9 +449,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   // Switch to dark mode if need be
   if (hasAlternateSentinel()) {
     toggleColorMode(true);
-  } else {
-    toggleColorMode(false);
-  }
+  } 
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
@@ -471,24 +471,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
     setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
-      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -516,50 +499,31 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   for (var i=0; i<noterefs.length; i++) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
-      // use id or data attribute instead here
-      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      let href = ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
     });
   }
-  const findCites = (el) => {
-    const parentEl = el.parentElement;
-    if (parentEl) {
-      const cites = parentEl.dataset.cites;
-      if (cites) {
-        return {
-          el,
-          cites: cites.split(' ')
-        };
-      } else {
-        return findCites(el.parentElement)
-      }
-    } else {
-      return undefined;
-    }
-  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const citeInfo = findCites(ref);
-    if (citeInfo) {
-      tippyHover(citeInfo.el, function() {
-        var popup = window.document.createElement('div');
-        citeInfo.cites.forEach(function(cite) {
-          var citeDiv = window.document.createElement('div');
-          citeDiv.classList.add('hanging-indent');
-          citeDiv.classList.add('csl-entry');
-          var biblioDiv = window.document.getElementById('ref-' + cite);
-          if (biblioDiv) {
-            citeDiv.innerHTML = biblioDiv.innerHTML;
-          }
-          popup.appendChild(citeDiv);
-        });
-        return popup.innerHTML;
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
       });
-    }
+      return popup.innerHTML;
+    });
   }
 });
 </script>

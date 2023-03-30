@@ -74,7 +74,7 @@ Algebraic expressions are made up of terms. Similar terms can be combined to cre
 $$
 5x + 7y - 3x + 3y = \overbrace{5x - 3x}^{x\text{ terms}} + \overbrace{7y + 3y}^{y\text{ terms}} = 2x + 10y
 $$
-Notice that the like terms were grouped first to make it easier to simplify. Also, each term *owns* the positive of negative symbol ahead of it.
+Notice that the like terms were grouped first to make it easier to simplify. Also, each term *owns* the positive or negative symbol ahead of it.
 
 Terms can be more complex too. Although it's tempting to find something to simplify there are no like terms in this expression: $3xy + 6x^2 + 2x - 5y$. Only the exact same multiples can be simplified. For example:
 
