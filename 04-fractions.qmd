@@ -21,7 +21,7 @@ Vulgar fractions are useful in algebra. The next section looks at some technique
 knitr::include_url("https://uniofbath.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=bb711c17-8e35-4fde-9212-af1000dac688&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all", height="405px")
 ```
 
-Fractions can be *cancelled down* or simplified by dividing the numerator and denominator by the same thing. For example:
+Fractions can be *cancelled down* or simplified by dividing the numerator and denominator by a common factor i.e. we look for a number that *goes into* both the top and the bottom of the fraction. For example:
 
 $$
 \begin{aligned} \frac{18}{24} &= \frac{3 \times 6}{4 \times 6} \\
@@ -93,7 +93,7 @@ Multiplication and division of fractions is, thankfully, really easy!
 
 ### Multiplicaiton
 
-For multiplication you simply multiply the numerators and denominators together. After the multiplication you may be able to cancel down the fraction. Just like this:
+For multiplication you simply multiply the different fractions numerators and denominators together. In other words the top of the first fraction with the top of the second one and so on. After the multiplication you may be able to cancel down the fraction. Just like this:
 
 $$
 \begin{aligned} \frac{2}{5} \times \frac{3}{4} &= \frac{2 \times 3}{5 \times 4} \\
@@ -103,6 +103,7 @@ $$
 &= \frac{3}{10}
 \end{aligned}
 $$
+
 :::{.callout-tip}
 ## Pro-tip
 
@@ -136,7 +137,7 @@ $$
 knitr::include_url("https://uniofbath.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=0fd6c027-ed3a-48f5-b36d-af1000dac011&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all", height="405px")
 ```
 
-Addition and subtraction is easy if the denominators are the same. We just add the numerators together and the demoninator stays the same.
+Addition and subtraction is easy if the denominators are the same. We just add the numerators together and the demoninators stays the same. For example:
 
 $$
 \begin{aligned} \frac{2}{5} + \frac{1}{5} &= \frac{2+1}{5} \\
@@ -144,9 +145,9 @@ $$
 \end{aligned}
 $$
 
-If the denominators are different we must make equivalent fractions with a common denominators first. Finding a common denominator is like simplification, or cancelling down, in reverse.
+If the denominators are different we must make equivalent fractions with a common denominators first. Finding a common denominator is like simplification, or cancelling down, but in reverse.
 
-If we want to add $\frac{2}{3}$ and $\frac{2}{9}$ for example, we want to rewrite the first fraction so that it has $9$ as the denominator. To do this, we multiply the top and bottom of the fraction by $3$ (Remember to multiply **both** by $3$ to make sure the fractions are equivalent!) :
+If we want to add $\frac{2}{3}$ and $\frac{2}{9}$ for example, we want to rewrite the first fraction so that it has $9$ as the denominator. To do this, we multiply the top and bottom of the fraction by $3$ (Remember to multiply **both** the numerator and deonimator by $3$ to make sure the fractions are equivalent!) :
 
 $$
 \begin{aligned} \frac{2}{3} + \frac{2}{9} &= \frac{2 \times 3}{3 \times 3} + \frac{2}{9} \\
