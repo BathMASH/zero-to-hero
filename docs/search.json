@@ -193,7 +193,7 @@
     "href": "10-exponetial_function.html#the-exponetial-function",
     "title": "11  Exponential functions",
     "section": "11.2 The exponetial function",
-    "text": "11.2 The exponetial function\nThere is one exponential function that is so important that it is called the exponential function. It is written as \\(y=e^x\\) where \\(e\\) is an irrational number (an infinitely long decimal number that doesn’t repeat itself, \\(/pi\\) is an irrational number too). The value of \\(e\\) is:\n\\[\ne = 2.71828182845904523536028747135266249775724709369995...\n\\] ish.\nThe reason why it is special is that when \\(y=e^x\\), the derivative is itself, that is \\(\\frac{dy}{dx}=e^x\\). Below is a graph of \\(y=a^x\\) and it derivative, you can open it up and change the value of \\(a\\) from \\(2\\) to \\(4\\). \\(a\\) is set to \\(2\\) to begin with, notice how the derivative is beneath the curve \\(y=a^x\\). When \\(a\\) is increased the derivative moves above \\(y=a^x\\). The point where the two curves overlap is when \\(a=e\\).\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nIf \\(y=e^x\\) then \\(\\frac{dy}{dx}=e^x\\)."
+    "text": "11.2 The exponetial function\nThere is one exponential function that is so important that it is called the exponential function. It is written as \\(y=e^x\\) where \\(e\\) is an irrational number (an infinitely long decimal number that doesn’t repeat itself, \\(/pi\\) is an irrational number too). The value of \\(e\\) is:\n\\[\ne = 2.71828182845904523536028747135266249775724709369995...\n\\]\nish.\nThe reason why it is special is that when \\(y=e^x\\), the derivative is itself, that is \\(\\frac{dy}{dx}=e^x\\). Below is a graph of \\(y=a^x\\) (solid red line) and it derivative (dashed blue line), you can open it up and change the value of \\(a\\) from \\(2\\) to \\(4\\). \\(a\\) is set to \\(2\\) to begin with, notice how the derivative is beneath the curve \\(y=a^x\\). When \\(a\\) is increased the derivative moves above \\(y=a^x\\). The point where the two curves overlap is when \\(a=e\\).\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nIf \\(y=e^x\\) then \\(\\frac{dy}{dx}=e^x\\)."
   },
   {
     "objectID": "10-exponetial_function.html#differentiating-ex",
@@ -285,5 +285,12 @@
     "title": "4  Fractions",
     "section": "",
     "text": "Fractions can be written in two ways:\nVulgar fractions are useful in algebra. The next section looks at some techniques for dealing with them.\n\\[\\require{cancel}\\]"
+  },
+  {
+    "objectID": "10-exponetial_function.html",
+    "href": "10-exponetial_function.html",
+    "title": "11  Exponential functions",
+    "section": "",
+    "text": "Exponential functions crop up in applied mathematics everywhere. This section looks at these important functions, so important that, Professor Albert Bartlett said the following about them in this lecture Arithmetic, Population and Energy.\nThe greatest shortcoming of the human race is our inability to understand the exponential function."
   }
 ]
