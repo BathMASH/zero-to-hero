@@ -32,7 +32,7 @@ Notice the following key points about the graph.
 * It never goes under the $x$ axis.
 :::
 
-## The exponetial function
+## The exponential function
 
 There is one exponential function that is so important that it is called **the** exponential function. It is written as $y=e^x$ where $e$ is an irrational number (an infinitely long decimal number that doesn't repeat itself, $/pi$ is an irrational number too). The value of $e$ is:
 

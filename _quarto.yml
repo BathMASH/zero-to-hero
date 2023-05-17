@@ -12,7 +12,8 @@ book:
   repo-url: https://github.com/BathMASH/zero-to-hero
   repo-branch: master
   repo-actions: [source, issue]
-  downloads: [pdf, epub]
+  downloads: [pdf]
+#  downloads: [pdf, docx, epub]
   chapters:
     - index.qmd
     - 01-negative_numbers.qmd
@@ -42,10 +43,13 @@ format:
     papersize: a4
     include-in-header:
       file: "preamble.tex"
-  docx:
-    toc: true
-    number-sections: true
-    highlight-style: github
+#  docx:
+#    toc: true
+#    number-sections: true
+#    highlight-style: github
+#  epub:
+#    toc: true
+#    html-math-method: mathjax
 
 knitr:
   opts_chunk:

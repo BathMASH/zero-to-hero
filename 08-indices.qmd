@@ -8,7 +8,7 @@ Being comfortable moving between different ways to write powers helps when rearr
 
 :::{.callout-note}
 * $x^0 = 1$ except when $x=0$ then it's undefined
-* $x^-n = \frac{1}{x^n}$
+* $x^{-n} = \frac{1}{x^n}$
 * $x^{\frac{1}{n}} = \sqrt[n]x$
 :::
 
@@ -46,13 +46,13 @@ $$
 
 ### Combinations, roots and powers
 
-A roots and powers can be combined. If a number is raised to the power of a fraction you find the root corresponding to the denominator and then raise it to the power of the numberator. For example:
+A roots and powers can be combined. If a number is raised to the power of a fraction you find the root corresponding to the denominator and then raise it to the power of the numerator. For example:
 
 $$
 8^{\frac{2}{3}} = (\sqrt[3]{8})^2 = (2)^2 = 4
 $$
 
-Cube root, because of the $3$ in the demoninator, then square the answer because of the $2$ in the numerator. This sequence could be done the other way around, square first then cube root, I choose this way since the numbers stay smaller.
+Cube root, because of the $3$ in the denominator, then square the answer because of the $2$ in the numerator. This sequence could be done the other way around, square first then cube root, I choose this way since the numbers stay smaller.
 
 ### Reciprocals
 

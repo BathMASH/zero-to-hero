@@ -89,7 +89,7 @@ knitr::include_url("https://numbas.mathcentre.ac.uk/question/98356/logarithms-so
 
 ## Some important bases
 
-Some bases in logarithms come up more than others, becasuse of that some bases have their own notation.
+Some bases in logarithms come up more than others, because of that some bases have their own notation.
 
 ### The natural logarithm
 
