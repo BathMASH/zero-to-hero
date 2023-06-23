@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.335">
+<meta name="generator" content="quarto-1.0.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -11,15 +11,10 @@
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
-ul.task-list li input[type="checkbox"] {
-  width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
-  vertical-align: middle;
-}
 </style>
 
 
@@ -181,17 +176,17 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
+        <nav id="TOC" role="doc-toc">
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#simplifying" id="toc-simplifying" class="nav-link active" data-scroll-target="#simplifying"><span class="toc-section-number">4.1</span>  Simplifying</a></li>
-  <li><a href="#multiplication-and-division" id="toc-multiplication-and-division" class="nav-link" data-scroll-target="#multiplication-and-division"><span class="toc-section-number">4.2</span>  Multiplication and division</a>
+  <li><a href="#simplifying" id="toc-simplifying" class="nav-link active" data-scroll-target="#simplifying"> <span class="header-section-number">4.1</span> Simplifying</a></li>
+  <li><a href="#multiplication-and-division" id="toc-multiplication-and-division" class="nav-link" data-scroll-target="#multiplication-and-division"> <span class="header-section-number">4.2</span> Multiplication and division</a>
   <ul class="collapse">
-  <li><a href="#multiplication" id="toc-multiplication" class="nav-link" data-scroll-target="#multiplication"><span class="toc-section-number">4.2.1</span>  Multiplication</a></li>
-  <li><a href="#division" id="toc-division" class="nav-link" data-scroll-target="#division"><span class="toc-section-number">4.2.2</span>  Division</a></li>
+  <li><a href="#multiplication" id="toc-multiplication" class="nav-link" data-scroll-target="#multiplication"> <span class="header-section-number">4.2.1</span> Multiplication</a></li>
+  <li><a href="#division" id="toc-division" class="nav-link" data-scroll-target="#division"> <span class="header-section-number">4.2.2</span> Division</a></li>
   </ul></li>
-  <li><a href="#addition-and-subtraction" id="toc-addition-and-subtraction" class="nav-link" data-scroll-target="#addition-and-subtraction"><span class="toc-section-number">4.3</span>  Addition and subtraction</a></li>
+  <li><a href="#addition-and-subtraction" id="toc-addition-and-subtraction" class="nav-link" data-scroll-target="#addition-and-subtraction"> <span class="header-section-number">4.3</span> Addition and subtraction</a></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/BathMASH/zero-to-hero/blob/master/04-fractions.qmd" class="toc-action">View source</a></p><p><a href="https://github.com/BathMASH/zero-to-hero/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     <div class="quarto-margin-footer"><div class="margin-footer-item">
@@ -214,7 +209,6 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
-  
     
   </div>
   
@@ -233,8 +227,8 @@ ul.task-list li input[type="checkbox"] {
 <p><span class="math display">\[\require{cancel}\]</span></p>
 <section id="simplifying" class="level2" data-number="4.1">
 <h2 data-number="4.1" class="anchored" data-anchor-id="simplifying"><span class="header-section-number">4.1</span> Simplifying</h2>
-<div class="cell" data-hash="04-fractions_cache/html/unnamed-chunk-2_e828c8be935bf8d9587e175660612706">
-<iframe src="https://uniofbath.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=bb711c17-8e35-4fde-9212-af1000dac688&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=true&amp;showbrand=true&amp;captions=false&amp;interactivity=all" width="672" height="405px" data-external="1">
+<div class="cell" data-hash="04-fractions_cache/html/unnamed-chunk-2_4771075b19828a33c6f74b9f685230aa">
+<iframe src="https://player.vimeo.com/video/837882860?h=484eb8ba11" width="672" height="405px" data-external="1">
 </iframe>
 </div>
 <p>Fractions can be <em>cancelled down</em> or simplified by dividing the numerator and denominator by a common factor i.e.&nbsp;we look for a number that <em>goes into</em> both the top and the bottom of the fraction. For example:</p>
@@ -274,29 +268,35 @@ Warning!
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>It is tempting to want to make cancellations like this: <span class="math display">\[
+<p>It is tempting to want to make cancellations like this:</p>
+<p><span class="math display">\[
 \begin{aligned} \frac{2x^2}{3x+7} &amp;= \frac{2x\cancel{x}}{3\cancel{x}+1} \\
 &amp;= \frac{2x}{3+7} \\
 &amp;= \frac{2x}{10} \\
 &amp;= \frac{x}{5}
 \end{aligned}
-\]</span> However, please don’t do it, as it’s just plain wrong! Lets let <span class="math inline">\(x=3\)</span> and substitute it into the original <span class="math inline">\(\frac{2x}{3x+7}\)</span> and into incorrectly simplified version <span class="math inline">\(\frac{x}{5}\)</span>. If the algebra is correct it should give the same answer.</p>
-<p>We claim: <span class="math display">\[
+\]</span></p>
+<p>However, please don’t do it, as it’s just plain wrong! Lets let <span class="math inline">\(x=3\)</span> and substitute it into the original <span class="math inline">\(\frac{2x}{3x+7}\)</span> and into incorrectly simplified version <span class="math inline">\(\frac{x}{5}\)</span>. If the algebra is correct it should give the same answer.</p>
+<p>We claim:</p>
+<p><span class="math display">\[
 \frac{2x^2}{3x+7} = \frac{x}{5}
-\]</span> but if we substitute <span class="math inline">\(x=2\)</span> into both sides we get: <span class="math display">\[
+\]</span></p>
+<p>but if we substitute <span class="math inline">\(x=2\)</span> into both sides we get:</p>
+<p><span class="math display">\[
 \begin{aligned} \frac{2(3)^2}{3(3)+7} &amp;= \frac{(3)}{5} \\
 \frac{2 \times 9}{9+7} &amp;= \frac{3}{5} \\
 \frac{18}{16} &amp;= \frac{3}{5} \\
 \frac{9}{8} &amp;= \frac{3}{5}
 \end{aligned}
-\]</span> Which is nonsense!</p>
+\]</span></p>
+<p>Which is nonsense!</p>
 </div>
 </div>
 </section>
 <section id="multiplication-and-division" class="level2" data-number="4.2">
 <h2 data-number="4.2" class="anchored" data-anchor-id="multiplication-and-division"><span class="header-section-number">4.2</span> Multiplication and division</h2>
-<div class="cell" data-hash="04-fractions_cache/html/unnamed-chunk-4_13357fe4287e67417065e0f533edb37d">
-<iframe src="https://uniofbath.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=1923c0cc-7c08-429c-a4cd-af1000daa8cb&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=true&amp;showbrand=true&amp;captions=false&amp;interactivity=all" width="672" height="405px" data-external="1">
+<div class="cell" data-hash="04-fractions_cache/html/unnamed-chunk-4_8cf58f29c56e1cdde399852bdeaaa628">
+<iframe src="https://player.vimeo.com/video/837883377?h=98ae0ce9f7" width="672" height="405px" data-external="1">
 </iframe>
 </div>
 <p>Multiplication and division of fractions is, thankfully, really easy!</p>
@@ -346,8 +346,8 @@ Pro-tip
 </section>
 <section id="addition-and-subtraction" class="level2" data-number="4.3">
 <h2 data-number="4.3" class="anchored" data-anchor-id="addition-and-subtraction"><span class="header-section-number">4.3</span> Addition and subtraction</h2>
-<div class="cell" data-hash="04-fractions_cache/html/unnamed-chunk-5_c358c46d0cc289d3dddc39b13a4544c6">
-<iframe src="https://uniofbath.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=0fd6c027-ed3a-48f5-b36d-af1000dac011&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=true&amp;showbrand=true&amp;captions=false&amp;interactivity=all" width="672" height="405px" data-external="1">
+<div class="cell" data-hash="04-fractions_cache/html/unnamed-chunk-5_3fde23c958678b9ae3a976c4c9753bdc">
+<iframe src="https://player.vimeo.com/video/837883283?h=da683258f7" width="672" height="405px" data-external="1">
 </iframe>
 </div>
 <p>Addition and subtraction is easy if the denominators are the same. We just add the numerators together and the denominators stays the same. For example:</p>
@@ -441,16 +441,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         }
       }
     }
-    // Hack to workaround the fact that safari doesn't
-    // properly recolor the scrollbar when toggling (#1455)
-    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-      manageTransitions("body", false);
-      window.scrollTo(0, 1);
-      setTimeout(() => {
-        window.scrollTo(0, 0);
-        manageTransitions("body", true);
-      }, 40);  
-    }
   }
   const isFileUrl = () => { 
     return window.location.protocol === 'file:';
@@ -502,9 +492,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   // Switch to dark mode if need be
   if (hasAlternateSentinel()) {
     toggleColorMode(true);
-  } else {
-    toggleColorMode(false);
-  }
+  } 
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
@@ -526,24 +514,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
     setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
-      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -571,50 +542,31 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   for (var i=0; i<noterefs.length; i++) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
-      // use id or data attribute instead here
-      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      let href = ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
     });
   }
-  const findCites = (el) => {
-    const parentEl = el.parentElement;
-    if (parentEl) {
-      const cites = parentEl.dataset.cites;
-      if (cites) {
-        return {
-          el,
-          cites: cites.split(' ')
-        };
-      } else {
-        return findCites(el.parentElement)
-      }
-    } else {
-      return undefined;
-    }
-  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const citeInfo = findCites(ref);
-    if (citeInfo) {
-      tippyHover(citeInfo.el, function() {
-        var popup = window.document.createElement('div');
-        citeInfo.cites.forEach(function(cite) {
-          var citeDiv = window.document.createElement('div');
-          citeDiv.classList.add('hanging-indent');
-          citeDiv.classList.add('csl-entry');
-          var biblioDiv = window.document.getElementById('ref-' + cite);
-          if (biblioDiv) {
-            citeDiv.innerHTML = biblioDiv.innerHTML;
-          }
-          popup.appendChild(citeDiv);
-        });
-        return popup.innerHTML;
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
       });
-    }
+      return popup.innerHTML;
+    });
   }
 });
 </script>

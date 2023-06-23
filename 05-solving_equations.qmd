@@ -7,7 +7,10 @@ Note: We can't quite do any operation. Division by zero, $\div 0$, is not allowe
 ## Linear equations
 
 ```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
-knitr::include_url("https://uniofbath.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=eca65592-c3b3-4871-ba84-af1000daa8b7&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all", height="405px")
+#panopto
+#knitr::include_url("https://uniofbath.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=eca65592-c3b3-4871-ba84-af1000daa8b7&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all", height="405px")
+#vimeo
+knitr::include_url("https://player.vimeo.com/video/837883462?h=13912bc0c2", height="405px")
 ```
 
 ### Single unknown
@@ -73,7 +76,10 @@ knitr::include_url("https://numbas.mathcentre.ac.uk/question/104234/equations-li
 ## Inequalities
 
 ```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
-knitr::include_url("https://uniofbath.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=3d9d8b04-e088-46de-b34a-af1000daa8b7&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all", height="405px")
+#panopto
+#knitr::include_url("https://uniofbath.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=3d9d8b04-e088-46de-b34a-af1000daa8b7&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all", height="405px")
+#vimeo
+knitr::include_url("https://player.vimeo.com/video/837883408?h=73c598938f", height="405px")
 ```
 
 Solving inequalities works just like solving a normal equation except when you divide or multiply by a negative number the inequality symbol changes direction. Here are some examples. 
@@ -145,7 +151,10 @@ However, if I give you some more information, say $x = y$, now there is only one
 ### Elimination method
 
 ```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
-knitr::include_url("https://uniofbath.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=3694ee27-0ebf-4d10-9368-af1000daa8c0&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all", height="405px")
+#panopto
+#knitr::include_url("https://uniofbath.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=3694ee27-0ebf-4d10-9368-af1000daa8c0&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all", height="405px")
+#vimeo
+knitr::include_url("https://player.vimeo.com/video/837883311?h=4e437efa2f", height="405px")
 ```
 
 The idea with this method is to combine the two equations to create a new equation with only one variable in it. 

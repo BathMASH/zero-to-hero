@@ -7,7 +7,10 @@ On a number line negative numbers are typically written to the left of zero and 
 ## Multiplication and Division
 
 ```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
-knitr::include_url("https://uniofbath.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=97e9f149-2470-426f-92ad-af0f00c80630&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all", height="405px")
+#panopto
+#knitr::include_url("https://uniofbath.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=97e9f149-2470-426f-92ad-af0f00c80630&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all", height="405px")
+#vimeo
+knitr::include_url("https://player.vimeo.com/video/839032272?h=cc38ea685a", height="405px")
 ```
 
 When multiplying and dividing using negative numbers the answer will be the same as the equivalent calculation with positive numbers only, but, you may have to change the sign - to either positive or negative. The rules for deciding if the answer is positive or negative are below:
@@ -87,7 +90,10 @@ Our definition fits the pattern. Horrah!
 ## Addition and subtraction
 
 ```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
-knitr::include_url("https://uniofbath.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=217074ba-db9e-4777-9ae3-af0f00c80631&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all", height="405px")
+#panopto
+#knitr::include_url("https://uniofbath.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=217074ba-db9e-4777-9ae3-af0f00c80631&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all", height="405px")
+#vimeo
+knitr::include_url("https://player.vimeo.com/video/839032191?h=a321a515d7", height="405px")
 ```
 
 It helps to think about addition and subtraction of negative numbers on a number line. We can think about positive numbers as arrows pointing *forwards*, shifts to the right from zero, and negative numbers as arrows *backwards*, shifts to the left. Add to this the idea that addition and subtraction is then combining these arrows. When you add two numbers you place them one after another, the end of the second arrow on the tip of the first. With subtraction you reverse the direction of the second arrow and then place them together just like addition.
