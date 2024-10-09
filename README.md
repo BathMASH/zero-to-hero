@@ -10,7 +10,7 @@ If you would like to [download the pdf](https://github.bath.ac.uk/edrs20/z2hq/bl
 
 TODO:
 
-Add a License to the project. Probably [Attribution-ShareAlike 4.0 International](https://creativecommons.org/choose/)
+~~Add a License to the project. Probably [Attribution-ShareAlike 4.0 International](https://creativecommons.org/choose/)~~
 
 Videos:
 

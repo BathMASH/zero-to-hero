@@ -1,0 +1,392 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Zero to Hero",
+    "section": "",
+    "text": "Welcome\nThis course is designed to refresh your knowledge of maths to get you ready to use calculus in your course. There is no right or wrong way to use it. Each section includes written notes, a video (with the same content as the notes) and practice questions. It’s chunked into bitesized sections to allow you make progress in 10 min windows. You may like to try the questions first and then just go back to the notes if you get stuck. Feel free to start anywhere you like.\n\n\n\n\n\n\nWarning\n\n\n\nThe videos are hosted on the University’s Panopto Re:view server. You will have to login to watch them - it may also force a pop-up window.\n\n\n\n\nThe graphs and diagrams created in desmos are interactive just click on the edit in desmos button to open the desmos graph in a new tab.\n\nThis is a work in progress, the videos are appearing and things may change! If you find a mistake please email edrs20@bath.ac.uk and good luck!\n\n\n\n\n\n\nLet me know what you think\n\n\n\nIf you’ve got some spare time to fill in this survey about this resource, I’d love to know what you think of it.\n\n\nZero to Hero © 2023 by Ed Southwood, Skills Centre, University of Bath is licensed under Attribution-NonCommercial-ShareAlike 4.0 International.",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "01-negative_numbers.html",
+    "href": "01-negative_numbers.html",
+    "title": "1  Negative numbers",
+    "section": "",
+    "text": "1.1 Multiplication and Division\nWhen multiplying and dividing using negative numbers the answer will be the same as the equivalent calculation with positive numbers only, but, you may have to change the sign - to either positive or negative. The rules for deciding if the answer is positive or negative are below:\nNotice that the order is not important. Here are some examples: \\[\n-2 \\times 3 = -6\n\\] \\[\n10 \\times -5 = -50\n\\] \\[\n-4 \\times -6 = 24\n\\] If you have more that two numbers to multiplying you can just count the number of negative numbers and apply the following rule:\nHere’s a longer example: \\[\n-2 \\times -2 \\times -2 \\times -2 = 16\n\\] since there are even number of negatives in the question the answer will be positive.\nSince division and multiplication are so closely related, division works in exactly the same way. For example: \\[\n\\frac{-3 \\times -6}{-9} = -2\n\\].\nYou can practice these techniques with the following questions. You can refresh the question to change the numbers. Try them as much as you like.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Negative numbers</span>"
+    ]
+  },
+  {
+    "objectID": "01-negative_numbers.html#multiplication-and-division",
+    "href": "01-negative_numbers.html#multiplication-and-division",
+    "title": "1  Negative numbers",
+    "section": "",
+    "text": "Note\n\n\n\n\npositive \\(\\times\\) positive \\(=\\) positive\nnegative \\(\\times\\) positive \\(=\\) negative\npositive \\(\\times\\) negative \\(=\\) negative\nnegative \\(\\times\\) negative \\(=\\) positive\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\n\nIf the total number of negative numbers is even the answer is positive.\nIf the total number of negative numbers is odd the answer is negative.\n\n\n\n\n\n\n\n\n1.1.1 But why?!!?\nBuilding a physical idea of a negative number is tricky. For example thinking of \\(2 \\times 3\\) as two lots of 3 things is fine, but what does \\(-2 \\times -3\\) even mean? Hopefully but looking at the pattern below it will be become clear that our definition of what happens with two negative numbers is the only one that makes sense. Consider extending the two times table into negative numbers.\n\\[\n\\begin{array}{ccccc}\n3 &\\times& 2& =& 6\\\\\n2 &\\times& 2& =& 4\\\\\n1 &\\times& 2& =& 2\\\\\n0 &\\times& 2& =& 0\\\\\n-1 &\\times& 2& =& -2\\\\\n-2 &\\times& 2& =& -4\\\\\n-3 &\\times& 2& =& -6\\\\\n\\end{array}\n\\]\nNow with the negative two times table.\n\\[\n\\begin{array}{ccccc}\n3 &\\times& -2& =& -6\\\\\n2 &\\times& -2& =& -4\\\\\n1 &\\times& -2& =& -2\\\\\n0 &\\times& -2& =& 0\\\\\n-1 &\\times& -2& =& 2\\\\\n-2 &\\times& -2& =& 4\\\\\n-3 &\\times& -2& =& 6\\\\\n\\end{array}\n\\]\nOur definition fits the pattern. Horrah!",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Negative numbers</span>"
+    ]
+  },
+  {
+    "objectID": "01-negative_numbers.html#addition-and-subtraction",
+    "href": "01-negative_numbers.html#addition-and-subtraction",
+    "title": "1  Negative numbers",
+    "section": "1.2 Addition and subtraction",
+    "text": "1.2 Addition and subtraction\n\n\n\n\nIt helps to think about addition and subtraction of negative numbers on a number line. We can think about positive numbers as arrows pointing forwards, shifts to the right from zero, and negative numbers as arrows backwards, shifts to the left. Add to this the idea that addition and subtraction is then combining these arrows. When you add two numbers you place them one after another, the end of the second arrow on the tip of the first. With subtraction you reverse the direction of the second arrow and then place them together just like addition.\n\n\n\n\n\n\n\n\n\nConsider the following examples:\n\n\\(3 - 5 = -2\\) can be thought of as: start at three then move five back to the left.\n\\(-4 + 1 = -3\\), start at \\(-4\\) then move one to the right.\n\\(5 + - 2 = 3\\), start at \\(5\\) then add on a shift of \\(2\\) to the left.\n\\(1 - - 3 = 4\\), start at \\(1\\) then reverse a shift of \\(3\\) to the left (I know it seams bonkers!). The double negative cancels out to give a calculation equivalent to \\(1 + 3 = 4\\).\n\n\n\n\n\n\n\nWarning\n\n\n\nIt’s tempting to cling on to the idea that two negatives make a positive when it comes to addition and subtraction. But consider the following statements, they are all correct, but imagine how easy it is to be confused if you just apply the two negatives make a positive rule.\n\n\\(-3 - 5 = -8\\)\n\\(-10 - -4 = -6\\)\n\n\n\nYou can practice these techniques with the following questions. The numbers change each time to try them as much as you like.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Negative numbers</span>"
+    ]
+  },
+  {
+    "objectID": "02-algebraic_expressions.html",
+    "href": "02-algebraic_expressions.html",
+    "title": "2  Algebraic expressions",
+    "section": "",
+    "text": "2.1 Substitution\nIn order to evaluate an algebraic expression we have to substitute the letters for numbers. After the numbers are written in place of the letters we must take care to evaluate the statement in the correct order. BIDMAS is often used to remember the order:\nOne more thing to know before we start making substitutions is that the multiplication symbol \\(\\times\\) is often not used in algebraic expressions. Letters and numbers that are next to each other are multiplied together. For example \\(3a\\) means \\(3 \\times a\\). You can show two numbers multiplied together like this \\(2 \\times 3 = (2)(3) = 6\\).\nHere are some examples:\nIf \\(a=2\\) and \\(b=-3\\) then we can evaluate \\(5a + 4b\\) like this: \\[\n5(2) + 4(-3)\n\\] When things are written next to each other this means multiplication. \\[\n5\\times 2 + 4 \\times -3\n\\] Using BIDMAS to do the multiplication first and remembering that a positive number multiplied by a negative gives a negative number. \\[\n10 +- 12 = -2\n\\]\nSubstituting \\(n = 3\\) and \\(x = 2\\) into \\(5x^n\\). By replacing the letters with numbers we have: \\[\n5(2)^3\n\\] Remembering that when things are next to each other it means multiplication, which gives: \\[\n5 \\times 2^3\n\\] Following BIDMAS we must deal with the powers first. Since \\(2^3 = 2 \\times 2 \\times 2 = 8\\) we have: \\[\n5 \\times 8 = 40\n\\]\nFinally consider \\(\\frac{2p+q}{r}\\) where \\(p=6\\), \\(q=3\\) and \\(r=5\\). Replacing the letters with numbers we have: \\[\n\\frac{2(6)+3}{5} = \\frac{2 \\times 6+3}{5}\n\\] Remembering that there are implicit brackets in fractions, the numerator needs to be evaluated first. \\[\n\\frac{(2 \\times 6+3)}{5} = \\frac{(12+3)}{5}=\\frac{15}{5}\n\\] Now the fraction can be evaluated. \\[\n\\frac{15}{5} = 3\n\\] You can practice these techniques with the following questions. The numbers change each time to try them as much as you like.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Algebraic expressions</span>"
+    ]
+  },
+  {
+    "objectID": "02-algebraic_expressions.html#substitution",
+    "href": "02-algebraic_expressions.html#substitution",
+    "title": "2  Algebraic expressions",
+    "section": "",
+    "text": "Brackets Work out anything in brackets first.\nIndices Powers are next, something like \\(3^2\\).\nDivision and Multiplication these two have equal priority. If there is a ‘tie’ work left to right. However if you see a large division they have implicit brackets in them. For example \\(\\frac{2 + 10}{2 \\times 3}\\) should be thought of as \\(\\frac{(2 + 10)}{(2 \\times 3)}\\).\nAddition and Subtraction like multiplication and division these are equal priority. If there is a tie work left to right.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Algebraic expressions</span>"
+    ]
+  },
+  {
+    "objectID": "02-algebraic_expressions.html#simplification",
+    "href": "02-algebraic_expressions.html#simplification",
+    "title": "2  Algebraic expressions",
+    "section": "2.2 Simplification",
+    "text": "2.2 Simplification\n\n\n\n\nAlgebraic expressions are made up of terms. Similar terms can be combined to create a simplified expression, this processes is called collecting like terms. For example \\(2a + 3a\\) can be simplified to \\(5a\\) by collecting the \\(a\\) terms. Here’s another example with a bit more going on:\n\\[\n5x + 7y - 3x + 3y = \\overbrace{5x - 3x}^{x\\text{ terms}} + \\overbrace{7y + 3y}^{y\\text{ terms}} = 2x + 10y\n\\] Notice that the like terms were grouped first to make it easier to simplify. Also, each term owns the positive or negative symbol ahead of it.\nTerms can be more complex too. Although it’s tempting to find something to simplify there are no like terms in this expression: \\(3xy + 6x^2 + 2x - 5y\\). Only the exact same multiples can be simplified. For example:\n\\[\n6x^2 + 2x - 5x^2 -8x = \\overbrace{6x^2 -5x^2}^{x^2\\text{ terms}} + \\overbrace{2x-8x}^{x\\text{ terms}}=x^2-6x\n\\] Notice that the two different types of term are \\(x\\) and \\(x^2\\). Also, I could have written \\(1x^2\\) but we normally don’t bother with the \\(1\\). It’s also important to note that capitalisation matters; \\(x\\) is different from \\(X\\).\nTake care when simplifying multiples of different letters \\(3xy + 5yx\\) can be simplified. This is because the order of multiplication doesn’t matter so \\(3xy + 5yx = 3xy + 5xy = 8xy\\). Terms are normally written in alphabetical order with the highest powers first.\n\n\n\n\n\n\nKey point:\n\n\n\n\n\\(x \\times x = x^2\\)\n\\(x + x = 2x\\)\n\\(x\\) is different from \\(X\\)\n\\(1x\\) is written as \\(x\\)\n\n\n\nHave a go at simplifying with these questions.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Algebraic expressions</span>"
+    ]
+  },
+  {
+    "objectID": "03-expressions_with_brackets.html",
+    "href": "03-expressions_with_brackets.html",
+    "title": "3  Expressions with brackets",
+    "section": "",
+    "text": "3.1 Expanding",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Expressions with brackets</span>"
+    ]
+  },
+  {
+    "objectID": "03-expressions_with_brackets.html#expanding",
+    "href": "03-expressions_with_brackets.html#expanding",
+    "title": "3  Expressions with brackets",
+    "section": "",
+    "text": "3.1.1 Single brackets\n\n\n\n\nExpanding a bracket in an algebraic expression is an example of the distributive law. You probably are already familiar with that law. Here is an example of how the law could be used to work out \\(6 \\times 15\\) using a mental method.\n\\[\n\\begin{aligned}\n6 \\times 15 &= 6 \\times (10 + 5)\\\\\n&= 6 \\times 10 + 6 \\times 5\\\\\n&= 60 + 30\\\\\n&= 90\n\\end{aligned}\n\\]\nThe same procedure is followed with an algebraic expression.\n\\[\n\\begin{aligned}\n6(2x+5) &= 6 \\times (2x + 5) \\\\\n&= 6 \\times 2x + 6 \\times 5 \\\\\n&= 12x + 30\n\\end{aligned}\n\\]\nThe number of terms within the bracket isn’t limited to two. For example:\n\\[\n\\begin{aligned} x(y + 3x -5) &= x \\times (y + 3x -5) \\\\\n&= x \\times y + x \\times 3x + x \\times -5\\\\\n&= xy + 3x^2 - 5x\n\\end{aligned}\n\\]\nFinally, another common pattern is to have a negative sign before a bracket. This just means everything inside the bracket is multiplied by \\(-1\\). It just flips the sign of everything in the brackets.\n\\[\n\\begin{aligned} -(3-x) &= -1 \\times (3-x) \\\\\n&= -1 \\times 3 + -1 \\times -x \\\\\n&= -3+ x\n\\end{aligned}\n\\]\nHere are some practice questions.\n\n\n\n\n\n\n3.1.2 Expanding pairs of brackets\nThis will be covered in [Quadratics].",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Expressions with brackets</span>"
+    ]
+  },
+  {
+    "objectID": "03-expressions_with_brackets.html#factorising",
+    "href": "03-expressions_with_brackets.html#factorising",
+    "title": "3  Expressions with brackets",
+    "section": "3.2 Factorising",
+    "text": "3.2 Factorising\nThe reverse of expanding brackets is called factorising. We look for a common factor in each term to take outside of the bracket.\n\n3.2.1 Factorising - single brackets\n\n\n\n\nFor each term in the expression look for a common factor. We can then write this in front of the bracket so when you expand the bracket the original expression is returned. For example:\n\\[\n\\begin{aligned} 12x^2 - 15x &= 3x \\times 4x + 3x \\times -5 \\\\\n&= 3x(4x-5)\n\\end{aligned}\n\\]\nNotice that \\(3x\\) is a factor of both \\(12x^2\\) and \\(-15x\\). Also, if we expand our answer we should get back to where we started from.\nHere are some practice questions.\n\n\n\n\n\n\n3.2.2 Factorising - pairs of brackets\nThis will be covered in the [Quadratics] section.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Expressions with brackets</span>"
+    ]
+  },
+  {
+    "objectID": "04-fractions.html",
+    "href": "04-fractions.html",
+    "title": "4  Fractions",
+    "section": "",
+    "text": "4.1 Simplifying\nFractions can be cancelled down or simplified by dividing the numerator and denominator by a common factor i.e. we look for a number that goes into both the top and the bottom of the fraction. For example:\n\\[\n\\begin{aligned} \\frac{18}{24} &= \\frac{3 \\times 6}{4 \\times 6} \\\\\n&= \\frac{3 \\times \\cancel{6}}{4 \\times \\cancel{6}} \\\\\n&= \\frac{3}{4}\n\\end{aligned}\n\\]\nThe same can be done with algebraic fractions.\n\\[\n\\begin{aligned} \\frac{4xy}{6x} &= \\frac{2y \\times 2x}{3 \\times 2x} \\\\\n&= \\frac{2y \\times \\cancel{2x}}{3 \\times \\cancel{2x}} \\\\\n&= \\frac{2y}{3}\n\\end{aligned}\n\\]\nSometimes you’ll need to factorise expressions in the fraction in order to cancel it down.\n\\[\n\\begin{aligned} \\frac{10x^2 + 5x}{4x+2} &= \\frac{5x \\times 2x + 5x \\times 1}{2 \\times 2x + 2 \\times 1} \\\\\n&= \\frac{5x(2x+1)}{2(2x+1)} \\\\\n&= \\frac{5x\\cancel{(2x+1)}}{2\\cancel{(2x+1)}} \\\\\n&= \\frac{5x}{2}\n\\end{aligned}\n\\]\nHere are some practice questions.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Fractions</span>"
+    ]
+  },
+  {
+    "objectID": "04-fractions.html#simplifying",
+    "href": "04-fractions.html#simplifying",
+    "title": "4  Fractions",
+    "section": "",
+    "text": "Warning!\n\n\n\nIt is tempting to want to make cancellations like this: \\[\n\\begin{aligned} \\frac{2x^2}{3x+7} &= \\frac{2x\\cancel{x}}{3\\cancel{x}+1} \\\\\n&= \\frac{2x}{3+7} \\\\\n&= \\frac{2x}{10} \\\\\n&= \\frac{x}{5}\n\\end{aligned}\n\\] However, please don’t do it, as it’s just plain wrong! Lets let \\(x=3\\) and substitute it into the original \\(\\frac{2x}{3x+7}\\) and into incorrectly simplified version \\(\\frac{x}{5}\\). If the algebra is correct it should give the same answer.\nWe claim: \\[\n\\frac{2x^2}{3x+7} = \\frac{x}{5}\n\\] but if we substitute \\(x=2\\) into both sides we get: \\[\n\\begin{aligned} \\frac{2(3)^2}{3(3)+7} &= \\frac{(3)}{5} \\\\\n\\frac{2 \\times 9}{9+7} &= \\frac{3}{5} \\\\\n\\frac{18}{16} &= \\frac{3}{5} \\\\\n\\frac{9}{8} &= \\frac{3}{5}\n\\end{aligned}\n\\] Which is nonsense!",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Fractions</span>"
+    ]
+  },
+  {
+    "objectID": "04-fractions.html#multiplication-and-division",
+    "href": "04-fractions.html#multiplication-and-division",
+    "title": "4  Fractions",
+    "section": "4.2 Multiplication and division",
+    "text": "4.2 Multiplication and division\n\n\n\n\nMultiplication and division of fractions is, thankfully, really easy!\n\n4.2.1 Multiplication\nFor multiplication you simply multiply the different fractions numerators and denominators together. In other words the top of the first fraction with the top of the second one and so on. After the multiplication you may be able to cancel down the fraction. Just like this:\n\\[\n\\begin{aligned} \\frac{2}{5} \\times \\frac{3}{4} &= \\frac{2 \\times 3}{5 \\times 4} \\\\\n&= \\frac{6}{20} \\\\\n&= \\frac{3 \\times 2}{10 \\times 2} \\\\\n&= \\frac{3 \\times \\cancel{2}}{10 \\times \\cancel{2}} \\\\\n&= \\frac{3}{10}\n\\end{aligned}\n\\]\n\n\n\n\n\n\nPro-tip\n\n\n\nIt is possible to cancel before multiplying. Here is the same example revisited:\n\\[\n\\begin{aligned} \\frac{2}{5} \\times \\frac{3}{4} &= \\frac{2 \\times 3}{5 \\times 4} \\\\\n&= \\frac{2 \\times 3}{5 \\times 2 \\times 2} \\\\\n&= \\frac{\\cancel{2} \\times 3}{5 \\times 2 \\times \\cancel{2}} \\\\\n&= \\frac{3}{10}\n\\end{aligned}\n\\]\nThis can be super useful when dealing with large numbers or complex algebraic fractions.\n\n\n\n\n4.2.2 Division\nWe can change a division into a multiplication by remembering keep, change, flip. We keep the first fraction as it is. Change the division, \\(\\div\\), symbol to a multiplication, \\(\\times\\), and flip the last fraction - swap the places of the numerator and denominator. This is called taking the reciprocal of the fraction. For example:\n\\[\n\\begin{aligned} \\frac{3}{7} \\div \\frac{5}{2} &= \\frac{3}{7} \\times \\frac{2}{5} \\\\\n&= \\frac{3 \\times 2}{7 \\times 5} \\\\\n&= \\frac{6}{35}\n\\end{aligned}\n\\]",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Fractions</span>"
+    ]
+  },
+  {
+    "objectID": "04-fractions.html#addition-and-subtraction",
+    "href": "04-fractions.html#addition-and-subtraction",
+    "title": "4  Fractions",
+    "section": "4.3 Addition and subtraction",
+    "text": "4.3 Addition and subtraction\n\n\n\n\nAddition and subtraction is easy if the denominators are the same. We just add the numerators together and the denominators stays the same. For example:\n\\[\n\\begin{aligned} \\frac{2}{5} + \\frac{1}{5} &= \\frac{2+1}{5} \\\\\n&= \\frac{3}{5}\n\\end{aligned}\n\\]\nIf the denominators are different we must make equivalent fractions with a common denominators first. Finding a common denominator is like simplification, or cancelling down, but in reverse.\nIf we want to add \\(\\frac{2}{3}\\) and \\(\\frac{2}{9}\\) for example, we want to rewrite the first fraction so that it has \\(9\\) as the denominator. To do this, we multiply the top and bottom of the fraction by \\(3\\) (Remember to multiply both the numerator and denominator by \\(3\\) to make sure the fractions are equivalent!) :\n\\[\n\\begin{aligned} \\frac{2}{3} + \\frac{2}{9} &= \\frac{2 \\times 3}{3 \\times 3} + \\frac{2}{9} \\\\\n&= \\frac{6}{9} + \\frac{2}{9} \\\\\n&= \\frac{6 + 2}{9} \\\\\n&= \\frac{8}{9}\n\\end{aligned}\n\\]",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Fractions</span>"
+    ]
+  },
+  {
+    "objectID": "05-solving_equations.html",
+    "href": "05-solving_equations.html",
+    "title": "5  Solving equations",
+    "section": "",
+    "text": "5.1 Linear equations",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Solving equations</span>"
+    ]
+  },
+  {
+    "objectID": "05-solving_equations.html#linear-equations",
+    "href": "05-solving_equations.html#linear-equations",
+    "title": "5  Solving equations",
+    "section": "",
+    "text": "5.1.1 Single unknown\nKeeping the idea of doing the same thing to both sides in mind lets solve the following equation by undoing each operation with it’s inverse.\n\\[\n3x + 8 = 10\n\\] First subtract \\(8\\) from each side.\n\\[\n\\begin{aligned} 3x+8 -8 &= 10 -8 \\\\\n3x &= 2\n\\end{aligned}\n\\]\nNow divide both sides by \\(3\\) to find the value of one \\(x\\).\n\\[\n\\begin{aligned} \\frac{3x}{3} &= \\frac{2}{3} \\\\\nx &= \\frac{2}{3}\n\\end{aligned}\n\\]\nThe nice thing here is that we can leave the answer as \\(\\frac{2}{3}\\). No need to find a decimal fraction if we don’t need to.\nSolve the following equations by applying the same operation to both sides. Remember the questions come with full solutions, so, if you get stuck have a look at the answers and then try a different one.\n\n\n\n\n\n\n5.1.2 Unknown on both sides\nIf the unknown appears twice in an equation collect the unknown like terms first and then solve as before.\nGiven \\(\\frac{4y}{y-9}=-2\\), we can multiply both sides by \\((y-9)\\) to get rid of the fraction, then get all the \\(y\\)s on one side, then finally solve as before.\n\\[\n\\begin{aligned} \\frac{4y}{y-9} &= -2 \\\\\n\\frac{4y}{y-9} \\times (y-9) &= -2 \\times (y-9) \\\\\n\\frac{4y}{\\cancel{y-9}} \\times \\cancel{(y-9)} &= -2 \\times y -2 \\times -9 \\\\\n4y &= -2y + 18 \\\\\n4y + 2y &= -2y + 18 +2y\\\\\n6y &= 18\\\\\n\\frac{6y}{6} &= \\frac{18}{6}\\\\\ny &= 3\n\\end{aligned}\n\\]\n\n\n\n\n\n\nNote\n\n\n\n\nTo solve equations do the same thing to both sides.\nIf the unknown appears twice - collect like terms first.\n\n\n\nHave a go at some questions. You’ll need a pen and paper to work these out.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Solving equations</span>"
+    ]
+  },
+  {
+    "objectID": "05-solving_equations.html#inequalities",
+    "href": "05-solving_equations.html#inequalities",
+    "title": "5  Solving equations",
+    "section": "5.2 Inequalities",
+    "text": "5.2 Inequalities\n\n\n\n\nSolving inequalities works just like solving a normal equation except when you divide or multiply by a negative number the inequality symbol changes direction. Here are some examples.\nAddition and subtraction work.\n\\[\n\\begin{aligned} 1 &&lt; 2 \\\\\n1 + 5 &&lt; 2 + 5\\\\\n6 &&lt; 7\\\\\n&\\checkmark&\\\\\n\\end{aligned}\n\\] \\[\n\\begin{aligned} 1 &&lt; 2 \\\\\n1 -4 &&lt; 2 -4\\\\\n-3 &&lt; -2\\\\\n&\\checkmark\n\\end{aligned}\n\\]\nRemember \\(-3\\) is less than \\(-2\\) since it is further to the left on a number line. In other words \\(-3\\) is more negative than \\(-2\\).\nMultiplication and division work as expected with positive numbers.\n\\[\n\\begin{aligned} 4 &&lt; 6 \\\\\n4 \\times 2 &&lt; 6 \\times 2\\\\\n8 &&lt; 12\\\\\n&\\checkmark\n\\end{aligned}\n\\] \\[\n\\begin{aligned} 4 &&lt; 6 \\\\\n4 \\div 2 &&lt; 6 \\div 2\\\\\n2 &&lt; 3\\\\\n&\\checkmark\n\\end{aligned}\n\\]\nWe need to be careful when multiplying and dividing by negative numbers.\n\\[\n\\begin{aligned} 4 &&lt; 6 \\\\\n4 \\times -2 &&lt; 6 \\times -2\\\\\n-8 &\\nless -12\\\\\n-8 &&gt; -12\n\\end{aligned}\n\\]\n\n\n\n\n\n\nNote\n\n\n\nRemember the following key point when using inequalities:\nWhen multiplying or dividing by a negative number change the direction of the inequality.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Solving equations</span>"
+    ]
+  },
+  {
+    "objectID": "05-solving_equations.html#simultaneous-equations",
+    "href": "05-solving_equations.html#simultaneous-equations",
+    "title": "5  Solving equations",
+    "section": "5.3 Simultaneous equations",
+    "text": "5.3 Simultaneous equations\nSometimes equations have more than one unknown. Take \\(x + y = 4\\) for example. There are infinitely many pairs of numbers, \\(x\\) and \\(y\\), that work for this. Take the following pairs for example: \\(x = 1\\) and \\(y=3\\), \\(x = -100\\) and \\(y=104\\), and \\(x = 0.1\\) and \\(y=3.9\\).\n\n\n\n\n\n\nPro-tip\n\n\n\nThese pairs of solutions are often given as co-ordinate pairs like \\((1,3)\\), \\((-100,104)\\) and \\((0.1,3.9)\\). We’ll do more about co-ordinates later.\n\n\nHowever, if I give you some more information, say \\(x = y\\), now there is only one solution, namely \\(x = 2\\) and \\(y=2\\). We can use the information in two equations together to find the values that satisfy both equations.\n\n5.3.1 Elimination method\n\n\n\n\nThe idea with this method is to combine the two equations to create a new equation with only one variable in it.\n\\[\n\\begin{aligned}\n4x + 2y &= -6 &(1)\\\\\n-2x + 3y &= 7 &(2)\n\\end{aligned}\n\\]\nTo get a solution for \\(y\\), if we multiply equation \\((2)\\) by \\(2\\) we will have two equations with equal and opposite x-coefficients:\n\\[\n\\begin{aligned}\n4x + 2y &= -6   \\\\\n-4x + 6y &= 14 &(3)\n\\end{aligned}\n\\]\nIf we add equation \\((1)\\) to equation \\((3)\\) this eliminates the \\(x\\)-terms, leaving us with one equation in terms of \\(y\\):\n\\[\n\\begin{aligned}\n(2+6)y &= -6 + 14   \\\\\n8y &= 8 \\\\\ny &= 1\n\\end{aligned}\n\\]\nTo obtain a solution for \\(x\\) we can substitute this \\(y\\)-value into either of our initial equations. Using equation \\((1)\\), we obtain:\n\\[\n\\begin{aligned}\n4x + 2 \\times 1 &= -6 \\\\\n4x + 2 &= -6 \\\\\n4x &= -8 \\\\\nx &= -2\n\\end{aligned}\n\\]\nWe can check our values for \\(x\\) and \\(y\\) by substituting them into equation \\(2\\).\n\\[\n\\begin{aligned}\n-2x + 3y &= 7 \\\\\n-2 \\times -2 + 3 \\times 1 &= 7 \\\\\n4 + 3 &= 7\n\\end{aligned}\n\\]\nWhich works out!\nYou can try other examples in the exercise below. Sometime you may have to multiply both of your starting equations in order to get the same amount of one variable. Also, don’t worry if you have eliminated the other variable - it doesn’t matter which you get rid of first, you should get the same answer in the end.\n\n\n\n\n\n\n5.3.2 Substitution method\nIt is also possible to re-arrange one equation and substitute it into the other. This method will be covered in the Quadratics section.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Solving equations</span>"
+    ]
+  },
+  {
+    "objectID": "00-reading_mathematics.html",
+    "href": "00-reading_mathematics.html",
+    "title": "6  Reading mathematics",
+    "section": "",
+    "text": "6.1 Common symbols\nThese symbols can turn up in mathematical explanations.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Reading mathematics</span>"
+    ]
+  },
+  {
+    "objectID": "00-reading_mathematics.html#common-symbols",
+    "href": "00-reading_mathematics.html#common-symbols",
+    "title": "6  Reading mathematics",
+    "section": "",
+    "text": "symbol\nmeaning\n\n\n\n\n\\(\\therefore\\)\ntherefore\n\n\n\\(\\because\\)\nbecause\n\n\n\\(\\neq\\)\nnot equal",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Reading mathematics</span>"
+    ]
+  },
+  {
+    "objectID": "00-reading_mathematics.html#sets",
+    "href": "00-reading_mathematics.html#sets",
+    "title": "6  Reading mathematics",
+    "section": "6.2 Sets",
+    "text": "6.2 Sets\nA set is a collection of elements (things). Sets are defined using curly brackets or braces \\(\\{\\) and \\(\\}\\). Capital letters are often used as names of sets. Here is the set of the first \\(5\\) multiples of \\(3\\) (the first \\(5\\) numbers in the \\(3\\) times table):\n\\[A = \\{3,6,9,12,15\\}\\]\nWhen sets are small it’s ok just to write down all the elements of the set. However if I wanted to write down all of the multiples of \\(3\\) I would be in trouble. This is when we use set builder notation and some new symbols.\n\\[B = \\{ 3x | x \\in \\mathbb{N} \\}\\] This is read as: \\(B\\) is the set of \\(3\\) times \\(x\\) such that \\(x\\) is a natural number. We’ve added in a funny E, N and a line! Here’s what they mean:\n\n\n\nsymbol\nmeaning\n\n\n\n\n\\(\\in\\)\nis a member of the set\n\n\n\\(|\\)\nsuch that\n\n\n\\(\\mathbb{N}\\)\nthe natural numbers \\(1,2,3,4...\\)\n\n\n\nWhen reading this for the first time it is fine to try some values for \\(x\\) and see what you get. Explore the idea with pen and paper.\n\n6.2.1 Common sets of numbers\nThe table below contains common sets you may see. Each lower set contains the one above, i.e. the whole of \\(\\mathbb{N}\\) is in \\(\\mathbb{Z}\\).\n\n\n\n\n\n\n\n\nsymbol\nname\nexample\n\n\n\n\n\\(\\mathbb{N}\\)\nthe natural numbers\npositive whole numbers \\(1,2,3,4...\\), this sometimes includes zero\n\n\n\\(\\mathbb{Z}\\)\nthe integers\npositive and negative whole numbers \\(..., -2, -1, 0, 1,2,...\\)\n\n\n\\(\\mathbb{Q}\\)\nthe rational numbers\nincluding fractions \\(-\\frac{1}{2}, 0, \\frac{1}{2},1,...\\)\n\n\n\\(\\mathbb{R}\\)\nthe real numbers\nnow we introduce \\(e\\) and \\(\\pi\\), numbers with infinite and non-repeating decimal expansions\n\n\n\\(\\mathbb{C}\\)\nthe complex numbers\n\\(\\sqrt{-1}\\) is now allowed, this enables any polynomial to be solved\n\n\n\n\n\n\n\n\n\n\n\n\nPractice with your knowledge of sets with these questions:",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Reading mathematics</span>"
+    ]
+  },
+  {
+    "objectID": "06-straight_line_graphs.html",
+    "href": "06-straight_line_graphs.html",
+    "title": "7  Straight line graphs",
+    "section": "",
+    "text": "7.1 Coordinates\nTo build a picture of a function we work out pairs of values that satisfy the function. Take for example \\(y=\\frac{1}{2}x+1\\). If we choose values of \\(x\\) we can work out the corresponding \\(y\\) values.\nOnce we have these values they can be plotted on graph.\nThe red dots show the points and the blue line shows the equation.\nBy working out some co-ordinates in the following question try to generate the correct line.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Straight line graphs</span>"
+    ]
+  },
+  {
+    "objectID": "06-straight_line_graphs.html#coordinates",
+    "href": "06-straight_line_graphs.html#coordinates",
+    "title": "7  Straight line graphs",
+    "section": "",
+    "text": "\\(x\\)\n\\(y\\)\n\n\n\n\n\\(0\\)\n\\(\\frac{1}{2}(0)+1=1\\)\n\n\n\\(1\\)\n\\(\\frac{1}{2}(1)+1=1.5\\)\n\n\n\\(2\\)\n\\(\\frac{1}{2}(2)+1=2\\)",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Straight line graphs</span>"
+    ]
+  },
+  {
+    "objectID": "06-straight_line_graphs.html#the-formula-for-a-straight-line-graph-ymxc",
+    "href": "06-straight_line_graphs.html#the-formula-for-a-straight-line-graph-ymxc",
+    "title": "7  Straight line graphs",
+    "section": "7.2 The formula for a straight line graph: \\(y=mx+c\\)",
+    "text": "7.2 The formula for a straight line graph: \\(y=mx+c\\)\nStraight line graphs can be defined by two quantities. The gradient, \\(m\\), a measure of how steep the line is, and the \\(y\\) intercept, \\(c\\), where the line crosses the \\(y\\) axis.\n\n7.2.1 The y intercept: \\(c\\)\nThe \\(y\\) intercept is where line crosses the \\(y\\) axis. We can quickly work out the co-ordinate by substituting \\(x=0\\) into the equation of a line, or, by noticing the constant term in equation where \\(y=mx+c\\). Here are two examples:\nFor the line \\(y = 3x +4\\), the \\(y\\) intercept is at \\((0,4)\\) i.e. it crosses the \\(y\\) axis at \\(4\\). We can check this by substituting \\(x=0\\) into the equation.\n\\[\n\\begin{aligned}\ny &= 3x +4 \\\\\n  &= 3(0) +4 \\\\\n  &= 3\\times0 +4 \\\\\ny &= 4\n\\end{aligned}\n\\]\nWe need to be careful with the next example: \\(y + 2 = 5x\\). It’s tempting to say that the \\(y\\) intercept is \\(2\\) but it’s not. First we must re-arrange the equation into the form of \\(y=mx+c\\). We’ll use the idea of doing the same thing to both sides again.\n\\[\n\\begin{aligned}\ny +2 &= 5x \\\\\ny+2-2 &= 5x-2 \\\\\ny &= 5x-2\n\\end{aligned}\n\\]\nOnce we’ve done this we can see that the intercept is when \\(y=-2\\). Notice if we substituted \\(x=0\\) in the original equaiton we would get this answer too.\n\\[\n\\begin{aligned}\ny +2 &= 5x \\\\\ny+2 &= 5(0) \\\\\ny +2 &= 0 \\\\\ny &= -2\n\\end{aligned}\n\\]\nClick on the graph below and play with the slider for \\(c\\). Notice how the graph moves up and down.\n\n\n\n\n\n\nThe graphs and diagrams created in desmos are interactive just click on the edit in desmos button to open the desmos graph in a new tab.\n\n\n\n7.2.2 The gradient: \\(m\\)\nThe gradient of a graph is a measure of how much steep the line is. The value of \\(m\\) is the change in the \\(y\\) axis for each increase of \\(1\\) in the \\(x\\) axis. So a gradient of \\(m=2\\) would mean the \\(y\\) values increase by \\(2\\) for each increase of \\(1\\) in the \\(x\\) direction. This is a positive gradient. Contrast this to a value of \\(m\\) such as \\(-0.5\\). This means for each increase of \\(1\\) in the \\(x\\) direction, the corresponding \\(y\\) value decreases by \\(0.5\\) or a half. This is a negative gradient.\nThe gradient can also be found by calculating the change in the \\(y\\) direction divided by the change in the \\(x\\) direction. The graph below shows how you could calculate the gradient of the line. The line shown has a gradient of \\(\\frac{2}{3}\\).\n\n\n\n\n\n\nPro tip\n\n\n\nA change in a quantity is often represented by the Greek letter delta, \\(\\Delta\\), so we can rewrite \\(m\\) as: \\(m = \\frac{\\Delta y}{\\Delta x}\\)\n\n\n\n\n\n\nClick on the graph below and then change the value of \\(m\\) with the slider. Notice how the gradient changes but the \\(y\\) intercept stays the same.\n\n\n\n\n\n\nThe graphs and diagrams created in desmos are interactive just click on the edit in desmos button to open the desmos graph in a new tab.\n\n\n\n\n\n\n\nNote\n\n\n\n\n\\(m\\) is the gradient - the amount \\(y\\) changes for an incease in \\(1\\) in the \\(x\\) direction\n\\(c\\) where the line crosses the \\(y\\) axis\n\\(m\\) and \\(c\\) only make sense when the line is in the form \\(y=mx+c\\)\n\n\n\n\n\n\n\n\n\nDifferent notation - same thing\n\n\n\nThe equation of a straight line can be written using different letters. They all mean the same thing. You may see:\n\n\\(y = mx + b\\)\n\\(y = mx + y_0\\)\n\\(y = ax + b\\)\n\n\n\nUsing your knowledge of \\(y=mx+c\\) try the following questions. Don’t be afraid to look at the answers and then try a fresh set of questions if it seems tricky at first.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Straight line graphs</span>"
+    ]
+  },
+  {
+    "objectID": "07-quadratics.html",
+    "href": "07-quadratics.html",
+    "title": "8  Quadratics",
+    "section": "",
+    "text": "8.1 Expanding pairs of brackets\nExpanding a pair of brackets is much the same as a single bracket. However there is a little more going on. Consider this example of a mental method to calculate \\(25 \\times 16\\).\n\\[\n\\begin{aligned} 25 \\times 16 &= (20 + 5) \\times (10 + 6) \\\\\n&= \\overbrace{20 \\times 10 + 20 \\times 6}^{20 \\times (10 + 6)} + \\overbrace{5 \\times 10 + 5 \\times 6}^{5 \\times (10 + 6)}\\\\\n&= 200 + 120 + 50 + 30 \\\\\n&= 400\n\\end{aligned}\n\\]\nWith algebra it works in the same way:\n\\[\n\\begin{aligned} (a+b)(c+d) &= (a+b) \\times (c+d) \\\\\n&= \\overbrace{a \\times c + a \\times d}^{a \\times (c+d)} + \\overbrace{b \\times c + b \\times d}^{b \\times (c+d)}\\\\\n&= ac + ad + bc + bd\n\\end{aligned}\n\\]",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Quadratics</span>"
+    ]
+  },
+  {
+    "objectID": "07-quadratics.html#factorising-pairs-of-brackets",
+    "href": "07-quadratics.html#factorising-pairs-of-brackets",
+    "title": "8  Quadratics",
+    "section": "8.2 Factorising pairs of brackets",
+    "text": "8.2 Factorising pairs of brackets\n\n\n\n\nTo factorise a quadratic in the form \\(x^2 +bx +c\\) into a pair of brackets like \\((x+p)(x+q)\\), we look to see if there are a pair of numbers \\(p\\) and \\(q\\) that add to get \\(b\\) and multiply to get \\(c\\).\n\\[\np+q = b \\quad \\quad p \\times q = c\n\\]\nIf we can find this pair of numbers we can factorise the quadratic. For example for the quadratic \\(x^2 + 8x +12\\) we can look at the factors of \\(12\\) to help us.\n\\[\n\\begin{aligned} 12 &= 1 \\times 12, &\\ \\  \\  1+12 &= 13\\\\\n12 &= 2 \\times 6, &\\ \\  \\  2+6 &= 8\\\\\n12 &= 3 \\times 4, &\\ \\  \\  3+4 &= 7\\\\\n\\end{aligned}\n\\]\nNotice how \\(2\\) and \\(6\\) multiply to get \\(12\\) and add to get \\(8\\). This means we have the correct pair. So we can now factorise the quadratic:\n\\[\nx^2 + 8x +12 = (x+2)(x+6)\n\\]\nHere are some practice questions.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Quadratics</span>"
+    ]
+  },
+  {
+    "objectID": "07-quadratics.html#solving-quadratics",
+    "href": "07-quadratics.html#solving-quadratics",
+    "title": "8  Quadratics",
+    "section": "8.3 Solving Quadratics",
+    "text": "8.3 Solving Quadratics\nInterestingly three things can happen when we solve a quadratic. There can be:\n\ntwo different values that satisfy the equation\none repeated value\nno real values (only imaginary ones - and yes that is a thing!)\n\nHere are some methods to solve quadratic equations.\n\n8.3.1 Factorisation\n\n\n\n\nWe can solve some quadratics by factorisation. Take for example the following equation \\(x^2 + 8x = -12\\). To solve via factorisation we must first make it equal to zero and then factorise. So we have:\n\\[\n\\begin{aligned} x^2 + 8x &= -12 \\\\\nx^2 + 8x +12 &= -12 +12 \\\\\nx^2 + 8x +12 &= 0\n\\end{aligned}\n\\]\nNow, with a little sense of deja vu (see the example in the previous section) we can factorise our quadratic to get \\((x+2)(x+6)=0\\). Notice that this is one bracket multiplied by another to get the answer zero. When this happens, i.e. when you multiply two numbers and the answer is zero, either the first number is zero or the second one is. This means either \\(x+2=0\\) or \\(x+6=0\\). Solving these two mini-equations gives the two solutions: either \\(x=-2\\) or \\(x=-6\\).\n\n\n\n\n\n\nPro tip\n\n\n\nWe can quickly get from the factorised quadratic to the solutions by flipping the signs in the bracket.\n\n\nTry some questions.\n\n\n\n\n\n\n8.3.2 Quadratic Formula\n\n\n\n\nFor a quadratic equation of the form \\(ax^2 + bx + c = 0\\) we can use the quadratic formula to find solutions for \\(x\\).\n\\[\nx = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}\n\\]\nWe can use the formula on the equation \\(x^2 -4x +2 = 0\\). In this example the values of \\(a\\), \\(b\\) and \\(c\\) are:\n\n\\(a=1\\) since \\(x^2\\) means \\(1 \\times x^2\\)\n\\(b=-4\\) notice how the negative sign is owned by the \\(x\\) coefficient\n\\(c=2\\) finially we just have \\(2\\)\n\nSubstituting into the quadratic formula we have:\n\\[\n\\begin{aligned} x &= \\frac{-(-4) \\pm \\sqrt{(-4)^2-4(1)(2)}}{2(1)} \\\\\n&= \\frac{4 \\pm \\sqrt{16-8}}{2} \\\\\n&= \\frac{4 \\pm \\sqrt{8}}{2}\n\\end{aligned}\n\\]\nIt is possible to simplify the square roots in this answer to give \\(2 \\pm \\sqrt{2}\\). So don’t be surprised if your calculator gives you that answer.\nFinally, we must deal with the \\(\\pm\\) symbol. This means do the calculation once using addition, \\(+\\), and another time using subtraction, \\(-\\). This will give two possible answers for \\(x\\), given to \\(2\\) decimal places.\n\\[\n\\begin{aligned} x_1 &= \\frac{4 + \\sqrt{8}}{2} \\\\\n&= 3.41\n\\end{aligned}\n\\] and\n\\[\n\\begin{aligned} x_2 &= \\frac{4 - \\sqrt{8}}{2} \\\\\n&= 0.59\n\\end{aligned}\n\\]\n\n\n\n\n\n\nPro tip\n\n\n\nNotice the use of \\(x_1\\) and \\(x_2\\). It is common in maths to use subscript numbers to show different particular values of the same variable. That’s all it’s doing \\(x_1\\) is just a value for \\(x\\) named \\(x_1\\) and \\(x_2\\) is just a value for \\(x\\) named \\(x_2\\).",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Quadratics</span>"
+    ]
+  },
+  {
+    "objectID": "07-quadratics.html#simultaneous-equations",
+    "href": "07-quadratics.html#simultaneous-equations",
+    "title": "8  Quadratics",
+    "section": "8.4 Simultaneous equations",
+    "text": "8.4 Simultaneous equations\n\n\n\n\nWe are going to solve this type of equation by substitution i.e. substituting one equation into another.\nTo solve a pair of simultaneous equations of this type we want to rearrange the linear equation such that it is in terms of \\(x\\) or \\(y\\), which we can then substitute into the equation with the quadratic terms. This will result in a quadratic equation in terms of one variable only.\nFor the equations:\n\\[\n\\begin{aligned} 2x+y &\\ = 1  &\\ (1) \\\\\n3x^2+3y^2 &\\ = 4 &\\ (2)\n\\end{aligned}\n\\]\nwe can rearrange equation \\((1)\\) to make \\(y\\) the subject:\n\\[\n\\begin{aligned} y = 1-2x &\\ &\\ (3) \\end{aligned}\n\\]\nSubstituting equation \\((3)\\) into equation \\((2)\\) we have:\n\\[\n\\begin{aligned}\n3x^2+3y^2 &\\ = 4 \\\\\n3x^2+3(1-2x)^2 &\\ = 4 \\\\\n3x^2 + 3 (1-2x)(1-2x) &\\ = 4 \\\\\n3x^2+3(1-4x+4x^2) &\\ = 4 \\\\\n3x^2+3-12x+12x^2 &\\ = 4 \\\\\n15x^2-12x-1 &\\ = 0\n\\end{aligned}\n\\]\n\n\n\n\n\n\nWarning\n\n\n\nThere are a few things to be careful of here:\n\n\\((1-2x)^2\\) was expanded as a pair of brackets, \\((1-2x)(1-2x)\\) before being multiplied by \\(3\\).\nThe finial stage was to make the equation equal zero so we can use the quadratic formula.\n\n\n\nNow we have an equation we can solve we can use the quadratic formula. To find values of \\(x\\). This gives two solutions \\(x_1 = -0.08\\) to 2 decimal places, and, \\(x_2 = -0.88\\) again to 2 decimal places.\nFinally, since our equations for \\(x\\) and \\(y\\) we need to find corresponding \\(y\\) values for each \\(x\\). The easiest way to do this is to use equation \\((3)\\). This gives, \\(y_1 =1.15\\) and \\(y_2 = -0.75\\). Note, to maintain accuracy you’ll need to put your full values for \\(x_1\\) and \\(x_2\\) into equation (3) and then round to \\(2\\) decimal places afterwards.\nThis gives two pairs of numbers for our answer. \\((x_1,y_1) = (-0.08,1.15)\\) and \\((x_2,y_2)=(0.88,-0.75)\\).\n\n\n\n\n\n\nPro tip\n\n\n\nnotice our answers look a lot like co-ordinates on a graph. That’s because they are. If you plot the lines \\(2x+y = 1\\) and \\(3x^2+3y^2 = 4\\) on the same graph (don’t do this by hand! Use something like desmos) the places where the two lines cross will correspond with our answers.\n\n\nHere are some practice questions. Don’t forget you can graph them if it helps.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Quadratics</span>"
+    ]
+  },
+  {
+    "objectID": "08-indices.html",
+    "href": "08-indices.html",
+    "title": "9  Indices",
+    "section": "",
+    "text": "9.1 Index notation\nBeing comfortable moving between different ways to write powers helps when rearranging algebra.\nHere are some examples:\n\\[\n2^{-3} = \\frac{1}{2^3} = \\frac{1}{8}\n\\] More generally. \\[\nx^{-3} = \\frac{1}{x^3}\n\\] Anything to the power of zero is \\(1\\): \\[\n\\pi^0 = 1\n\\] Remember good old \\(\\pi\\)? From working stuff out about circles \\(\\pi = 3.14159...\\)\nWe can write square roots:\n\\[\n16^{\\frac{1}{2}} = \\sqrt{16} = \\pm4\n\\]\nHere’s an example of a cube root.\n\\[\n8^{\\frac{1}{3}} = \\sqrt[3]{8} = 2\n\\]",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Indices</span>"
+    ]
+  },
+  {
+    "objectID": "08-indices.html#index-notation",
+    "href": "08-indices.html#index-notation",
+    "title": "9  Indices",
+    "section": "",
+    "text": "Note\n\n\n\n\n\\(x^0 = 1\\) except when \\(x=0\\) then it’s undefined\n\\(x^{-n} = \\frac{1}{x^n}\\)\n\\(x^{\\frac{1}{n}} = \\sqrt[n]x\\)\n\n\n\n\n\n\n\n\n\n\n\n\n\nPro tip\n\n\n\nWhen taking square roots remember there are two possible solutions. Since in the above example \\(4 \\times 4 = 16\\) and \\(-4 \\times -4 = 16\\). So either answer is just fine.\n\n\n\n\n\n9.1.1 Combinations, roots and powers\nA roots and powers can be combined. If a number is raised to the power of a fraction you find the root corresponding to the denominator and then raise it to the power of the numerator. For example:\n\\[\n8^{\\frac{2}{3}} = (\\sqrt[3]{8})^2 = (2)^2 = 4\n\\]\nCube root, because of the \\(3\\) in the denominator, then square the answer because of the \\(2\\) in the numerator. This sequence could be done the other way around, square first then cube root, I choose this way since the numbers stay smaller.\n\n\n9.1.2 Reciprocals\nIf you raise a number to the power of \\(-1\\) you find it’s reciprocal (you flip it). For example:\n\\[\n\\left(\\frac{2}{3}\\right)^{-1} = \\frac{3}{2}\n\\]\n\n\n9.1.3 But why?\nJust like we did with negative numbers we can extend the idea of what a power means by following a pattern. Here’s a pattern to justify \\(x^0 = 1\\) and \\(x^{-n} = \\frac{1}{x^n}\\).\n\\[\n\\begin{aligned} 10^3 &= 10 \\times 10 \\times 10 & = 1000 \\\\\n10^2 &= 10 \\times 10 & = 100 \\\\\n10^1 &= 10 & = 10 \\\\\n10^0 &= 1 & = 1 \\\\\n10^{-1} &= \\frac{1}{10} & = 0.1 \\\\\n10^{-2} &= \\frac{1}{10 \\times 10} & = 0.01 \\\\\n10^{-3} &= \\frac{1}{10 \\times 10 \\times 10} & = 0.001\n\\end{aligned}\n\\]\nI’ll come back to the justification about square roots after the next section.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Indices</span>"
+    ]
+  },
+  {
+    "objectID": "08-indices.html#rules-of-indices",
+    "href": "08-indices.html#rules-of-indices",
+    "title": "9  Indices",
+    "section": "9.2 Rules of indices",
+    "text": "9.2 Rules of indices\nThere is a neat set of rules we can use when combining numbers with indices:\n\n\n\n\n\n\nNote\n\n\n\n\n\\(x^n \\times x^m = x^{n+m}\\)\n\\(x^n \\div x^m = x^{n-m}\\)\n\\((x^n)^m = x^{n \\times m}\\)\n\n\n\nWhen you multiply terms you add the powers.\n\\[\n\\begin{aligned} 3x^4 \\times 5x^6 &= 3 \\times 5 \\times x^4 \\times x^5 \\\\\n&= 15 \\times x^{4+5} \\\\\n&= 15x^9\n\\end{aligned}\n\\]\nLets put it all together with a complicated example:\nTo rewrite \\(\\dfrac{\\sqrt[4]{x^5x^3}}{\\sqrt[3]{x} \\sqrt[6]{x^3}}\\) in the form \\(x^n\\), we need to use the following rules:\n\n\\(a^n a^m = a^{n+m}\\);\n\\(\\sqrt[n]{a} = a^{1/n}\\);\n\\(\\left(a^n\\right)^m = a^{n \\times m}\\);\n\\(\\frac{a^n}{a^m} = a^{n-m}\\).\n\nWe will simplify the numerator and denominator separately to make the steps clearer. Firstly, applying rule 1, then rule 2, and then rule 3 to the numerator:\n\\[\n\\begin{aligned} \\dfrac{\\sqrt[4]{x^5x^3}}{\\sqrt[3]{x} \\sqrt[6]{x^3}} &= \\dfrac{\\sqrt[4]{x^8}}{\\sqrt[3]{x} \\sqrt[6]{x^3}} \\\\\n&= \\dfrac{(x^8)^{1/4}}{\\sqrt[3]{x} \\sqrt[6]{x^3}} \\\\\n&= \\dfrac{x^2}{\\sqrt[3]{x} \\sqrt[6]{x^3}}\n\\end{aligned}\n\\]\nTo simplify the denominator, we want to apply rule 2, then rule 3, and then rule 1:\n\\[\n\\begin{aligned} \\dfrac{x^2}{\\sqrt[3]{x} \\sqrt[6]{x^3}} &= \\dfrac{x^2}{x^{1/3} (x^3)^{1/6}} \\\\\n&= \\dfrac{x^2}{x^{1/3} x^{1/2}} \\\\\n&= \\dfrac{x^2}{x^{5/6}}\n\\end{aligned}\n\\]\nRemember that we’ll need to get common denominators when adding the fractions at the end: \\[\n\\begin{aligned} \\frac{1}{3} + \\frac{1}{2} &= \\frac{1\\times2}{3\\times2}  + \\frac{1\\times3}{2\\times3} \\\\\n&= \\frac{2}{6}  + \\frac{3}{6} \\\\\n&= \\frac{5}{6}\n\\end{aligned}\n\\]\nFinally, applying rule 4 and simplifying,\n\\[\n\\begin{aligned} \\dfrac{x^2}{x^{5/6}} &=x^2 \\times x^{-5/6} \\\\\n&= x^{2-5/6} \\\\\n&= x^{12/6-5/6} \\\\\n&= x^{7/6}\n\\end{aligned}\n\\]\nLots of work with fractions here!\nNow try these questions. Don’t worry if it takes a while to just solve one!\n\n\n\n\n\n9.2.1 But why? Square roots\nAs promised here is an explanation of why \\(x^{\\frac{1}{n}} = \\sqrt[n]x\\).\nWhen we take a square root we look for the a number that when it is multiplied by it’s self we get the answer i.e. \\(? \\times ? = x\\). Since one \\(x\\) is the same as \\(x^1\\) we can rewrite out statement again:\n\\[\n\\begin{aligned} ? \\times ? &= x^1 \\\\\nx^? \\times x^? &= x^1 \\\\\nx^{?+?} &= x^1\n\\end{aligned}\n\\] This means \\(? + ? = 1\\) so \\(?=\\frac{1}{2}\\) so \\(x^{\\frac{1}{2}} = \\sqrt{x}\\).",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Indices</span>"
+    ]
+  },
+  {
+    "objectID": "09-differentiation.html",
+    "href": "09-differentiation.html",
+    "title": "10  Differentiation",
+    "section": "",
+    "text": "10.1 The tangent to a curve\nThe gradient at a point on a curve is the same as the gradient of the tangent at that point. A tangent to a curve is a straight line that just touches curve at that point. Below is a picture of the tangent to the curve when \\(x=5\\). You can open up the graph and move the point around with the slider.\nNotice that the gradient will change depending on which value of \\(x\\) you use.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Differentiation</span>"
+    ]
+  },
+  {
+    "objectID": "09-differentiation.html#the-rules-of-differentiation",
+    "href": "09-differentiation.html#the-rules-of-differentiation",
+    "title": "10  Differentiation",
+    "section": "10.2 The rules of differentiation",
+    "text": "10.2 The rules of differentiation\nLuckily finding the rule to get the gradient of a curve is straight forward. The language we use for this process is like this. When function is differentiated a new function, the derivative, is found. The derivative enables you to find the gradient. There are lots of ways write this in mathematical notation. Here are the most common.\n\n\n\noriginal function\nderivative\n\n\n\n\n\\(y\\)\n\\(\\frac{dy}{dx}\\)\n\n\n\\(f(x)\\)\n\\(f'(x)\\)\n\n\n\n\\(\\frac{dy}{dx}\\) is pronounced ‘dee \\(y\\) by dee \\(x\\)’, and \\(f'(x)\\) is read as ‘f dash of \\(x\\)’.\nThe rule for differentiating polynomials (functions made up of adding different powers of \\(x\\))is:\n\n\n\n\n\n\nNote\n\n\n\n\nif \\(y=ax^n\\) then \\(\\frac{dy}{dx} = anx^{n-1}\\), or,\nif \\(f(x)=ax^n\\) then \\(f'(x) = anx^{n-1}\\) Times by the power, then take one off the power\n\n\n\nHere are some examples:\nIf \\(y = 3x^4\\) then \\(\\frac{dy}{dx} = 3 \\times 4 \\times x^{4-1} = 12x^3\\)\nMultiple terms added together are differentiated one by one then added together:\n\\[\n\\begin{aligned} y &= 6x^3 + 2x^2 + 4x + 5 \\\\\n\\frac{dy}{dx} &= 6x^3 + 2x^2 + 4x^1 + 5x^0 \\\\\n&= 3\\times6x^{3-1} + 2\\times x^{2-1} + 1\\times 4x^{1-1} + 0\\times5x^{0-1} \\\\\n&= 18x^2 + 2x^1 + 4x^{0} + 0 \\\\\n&= 18x^2 + 2x + 4\n\\end{aligned}\n\\] In the above example we’ve used the following mathematical facts:\n\n\\(x=x^1\\), \\(x\\) on it’s own is \\(x^1\\)\n\\(x^0=1\\), you can always multiply by \\(x^0\\) since it’s \\(1\\)\n\\(0 \\times a = 0\\) anything times zero is zero\n\nThe take away from this is that constant terms, terms without \\(x\\) in, disappear, and terms with just \\(x\\) in loose the \\(x\\).\nTry these questions to get to grips with the rules of differentiation.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Differentiation</span>"
+    ]
+  },
+  {
+    "objectID": "09-differentiation.html#finding-gradient-at-a-point",
+    "href": "09-differentiation.html#finding-gradient-at-a-point",
+    "title": "10  Differentiation",
+    "section": "10.3 Finding gradient at a point",
+    "text": "10.3 Finding gradient at a point\nTo find the gradient at a point. Differentiate the original function and then substitute the \\(x\\) value of the point into the derivative.\nFor example to find the gradient when \\(x=3\\) for the function \\(y=x^2\\). We would differentiate and then substitute in \\(x=3\\).\n\\[\n\\begin{aligned} y &= x^2 \\\\\n\\frac{dy}{dx} &= 2x \\\\\n&= 2(3) \\\\\n&= 2 \\times 3 \\\\\n&= 6\n\\end{aligned}\n\\] So the gradient at \\(x=3\\) on the curve \\(y=x^2\\) is \\(6\\).",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Differentiation</span>"
+    ]
+  },
+  {
+    "objectID": "12-further-differentiation.html",
+    "href": "12-further-differentiation.html",
+    "title": "11  Further differentiation",
+    "section": "",
+    "text": "11.1 Standard results\nWe can now expand our table of derivatives. Here are all the rules from the last differentiation along with some new ones.\nWe can now happily just apply the rules (and some rules of indices for good measure). For example:\n\\[\n\\begin{aligned}\ny &= 2x^4 + \\sqrt{x} + 100 \\\\\n&= 2x^4 + x^{1/2} + 100 \\\\\n\\frac{dy}{dx} &= 8x^3 + \\frac{1}{2}x^{-1/2}\n\\end{aligned}\n\\] Notice that \\(\\sqrt{x}\\) was rewritten as \\(x^{1/2}\\) to be able to apply the rule \\(ax^n\\) goes to \\(anx^{n-1}\\).\nTry some differentiation with some fractional powers:",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Further differentiation</span>"
+    ]
+  },
+  {
+    "objectID": "12-further-differentiation.html#standard-results",
+    "href": "12-further-differentiation.html#standard-results",
+    "title": "11  Further differentiation",
+    "section": "",
+    "text": "original function\nderivative\n\n\n\n\n\\(y\\)\n\\(\\frac{dy}{dx}\\)\n\n\n\\(f(x)\\)\n\\(f'(x)\\)\n\n\n\\(f(x) + g(x)\\)\n\\(f'(x) + g'(x)\\)\n\n\n\\(ax^n\\)\n\\(anx^{n-1}\\)",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Further differentiation</span>"
+    ]
+  },
+  {
+    "objectID": "12-further-differentiation.html#the-chain-rule",
+    "href": "12-further-differentiation.html#the-chain-rule",
+    "title": "11  Further differentiation",
+    "section": "11.2 The chain rule",
+    "text": "11.2 The chain rule\n\n\n\n\nThe chain rule is used when we have functions inside other functions.\nIf we have a function of the form \\(y=f(g(x))\\), sometimes described as a function of a function, to calculate its derivative we need to use the chain rule:\n\\[\n\\frac{dy}{dx} = \\frac{du}{dx} \\times \\frac{dy}{du}\n\\]\nThis can be split up into steps:\nLet \\(u=g(x)\\); Rewrite \\(y\\) in terms of \\(u\\), such that \\(y=f(u)\\); Calculate \\(\\frac{du}{dx}\\) and \\(\\frac{dy}{du}\\); Write \\(\\frac{dy}{dx}\\) as a product of \\(\\frac{du}{dx}\\) and \\(\\frac{dy}{du}\\); Make sure \\(\\frac{dy}{dx}\\) is only in terms of \\(x\\). Ensure any \\(u\\) terms have been replaced using the initial substitution.\nFollowing this process, we must first identify \\(g(x)\\). Since the function is of the form \\(y=f(g(x))\\), we are looking for the ‘inner’ function.\nSo, for \\(y=-(4x^2+1)^4\\), \\[\ng(x)=4x^2+1.\n\\]\nIf we now set \\(u=g(x)\\), we can rewrite \\(y\\) in terms of \\(u\\) such that \\(y=f(u)\\):\n\\[\ny=-u^4\n\\]\nNext, we calculate the two derivatives \\(\\frac{du}{dx}\\) and \\(\\frac{dy}{du}\\):\n\\[\n\\frac{du}{dx}=8x, \\quad \\frac{dy}{du}=-4u^3\n\\]\nPlugging these into the chain rule:\n\\[\n\\begin{aligned}\n\\frac{dy}{dx} &= \\frac{du}{dx} \\times \\frac{dy}{du}, \\\\\n&= 8x \\times-4u^3, \\\\\n&= -32xu^3.\n\\end{aligned}\n\\]\nFinally, we need to express \\(\\frac{dy}{dx}\\) only in terms of \\(x\\), so we must replace the \\(u\\) term using the initial substitution \\(u=4x^2+1\\):\n\\[\n\\frac{dy}{dx} =-32x(4x^2+1)^3.\n\\]\nPhew! Time for a cup of tea, or maybe some more questions…",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Further differentiation</span>"
+    ]
+  },
+  {
+    "objectID": "12-further-differentiation.html#the-product-rule",
+    "href": "12-further-differentiation.html#the-product-rule",
+    "title": "11  Further differentiation",
+    "section": "11.3 The product rule",
+    "text": "11.3 The product rule\n\n\n\n\nIf we have a function of the form \\(y=u(x)v(x)\\), to calculate its derivative we need to use the product rule:\n\\[\n\\dfrac{dy}{dx} = u(x) \\times \\dfrac{dv}{dx} + v(x) \\times\\dfrac{du}{dx}.\n\\]\nThis can be split up into steps:\nIdentify the functions \\(u(x)\\) and \\(v(x)\\); Calculate their derivatives \\(\\tfrac{du}{dx}\\) and \\(\\tfrac{dv}{dx}\\); Substitute these into the formula for the product rule to obtain an expression for \\(\\tfrac{dy}{dx}\\); Simplify \\(\\tfrac{dy}{dx}\\) where possible.\nFollowing this process, we must first identify \\(u(x)\\) and \\(v(x)\\).\nAs \\[\ny=e^x ln(6x),\n\\]\nlet \\[\nu(x) = e^x \\quad \\text{and} \\quad v(x)=ln(6x).\n\\]\nNext, we need to find the derivatives, \\(\\tfrac{du}{dx}\\) and \\(\\tfrac{dv}{dx}\\):\n\\[\n\\dfrac{du}{dx} = e^x\\quad \\text{and} \\quad\\dfrac{dv}{dx}=\\dfrac{1}{x}.\n\\]\nSubstituting these results into the product rule formula we can obtain an expression for \\(\\tfrac{dy}{dx}\\):\n\\[\n\\begin{aligned}\n\\dfrac{dy}{dx} &\\,= \\dfrac{du}{dx}\\times v(x) + u(x) \\times\\dfrac{dv}{dx} \\\\ \\\\\n&\\,=e^x \\times\\ln(6x) +e^x \\times \\dfrac{1}{x}.\n\\end{aligned}\n\\]\nSimplifying,\n\\[\n\\begin{aligned}\n\\dfrac{dy}{dx} &\\,= e^x\\ln(6x) +e^x \\dfrac{1}{x} \\\\\n&\\,= e^x (\\ln(6x) +\\dfrac{1}{x}).\n\\end{aligned}\n\\]\nNow your turn…",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Further differentiation</span>"
+    ]
+  },
+  {
+    "objectID": "12-further-differentiation.html#the-quotient-rule",
+    "href": "12-further-differentiation.html#the-quotient-rule",
+    "title": "11  Further differentiation",
+    "section": "11.4 The quotient rule",
+    "text": "11.4 The quotient rule\n\n\n\n\nIf we have a function of the form \\(y=\\tfrac{u(x)}{v(x)}\\), to calculate its derivative we need to use the quotient rule:\n\\[\n\\dfrac{dy}{dx} = \\dfrac{v(x) \\times \\frac{du}{dx} - u(x) \\times\\frac{dv}{dx}}{[v(x)]^2}\\,.\n\\]\nThis can be split up into steps:\nIdentify the functions \\(u(x)\\) and \\(v(x)\\); Calculate their derivatives \\(\\tfrac{du}{dx}\\) and \\(\\tfrac{dv}{dx}\\); Substitute these into the formula for the quotient rule to obtain an expression for \\(\\tfrac{dy}{dx}\\); Simplify \\(\\tfrac{dy}{dx}\\) where possible.\nFollowing this process, we must first identify \\(u(x)\\) and \\(v(x)\\).\nAs\n\\[\ny=\\frac{e^{2x}}{3x^2+4x+5},\n\\]\nlet\n\\[\nu(x) = e^{2x} \\quad \\text{and} \\quad v(x)=3x^2+4x+5.\n\\]\nNext, we need to find the derivatives, \\(\\tfrac{du}{dx}\\) and \\(\\tfrac{dv}{dx}\\):\n\\[\n\\dfrac{du}{dx} = 2e^{2x} \\quad \\text{and} \\quad \\dfrac{dv}{dx} = 6x+4.\n\\]\nSubstituting these results into the quotient rule formula we can obtain an expression for \\(\\tfrac{dy}{dx}\\):\n\\[\n\\begin{aligned}\n\\dfrac{dy}{dx} &\\,= \\dfrac{v(x) \\times \\frac{du}{dx} - u(x) \\times\\frac{dv}{dx}}{[v(x)]^2} \\\\ \\\\\n&\\,=\\dfrac{(3x^2+4x+5) \\times 2e^{2x} - e^{2x} \\times (6x+4)}{(3x^2+4x+5)^2}.\n\\end{aligned}\n\\]\nSimplifying,\n\\[\n\\begin{aligned}\n\\dfrac{dy}{dx} &\\,=\\dfrac{2e^{2x}(3x^2+4x+5) - e^{2x}(6x+4)}{(3x^2+4x+5)^2} \\\\ \\\\\n&\\,=\\dfrac{e^{2x}[(6x^2+8x+10) - (6x+4)]}{(3x^2+4x+5)^2} \\\\ \\\\\n&\\,=\\dfrac{e^{2x}(6x^2+8x+10 - 6x - 4)}{(3x^2+4x+5)^2} \\\\ \\\\\n&\\,=\\dfrac{e^{2x}(6x^2+2x+6)}{(3x^2+4x+5)^2} \\\\ \\\\\n&\\,=\\dfrac{2e^{2x}(3x^2+x+3)}{(3x^2+4x+5)^2}.\n\\end{aligned}\n\\]\nNow have a go at these:",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Further differentiation</span>"
+    ]
+  }
+]

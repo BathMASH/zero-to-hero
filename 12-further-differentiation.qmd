@@ -6,6 +6,8 @@ So far we have looked at differentiating powers of $x$ when they are added toget
 
 We can now expand our table of derivatives. Here are all the rules from the last differentiation along with some new ones. 
 
+::: {.content-visible when-profile="all"}
+
 | original function | derivative |
 |:--:|:--:|
 | $y$ | $\frac{dy}{dx}$ |
@@ -27,6 +29,30 @@ y &= 2x^4 + e^{2x} + \ln{x} + \sqrt{x} + 100 \\
 \end{aligned}
 $$
 Notice that $\sqrt{x}$ was rewritten as $x^{1/2}$ to be able to apply the rule $ax^n$ goes to $anx^{n-1}$.
+
+:::
+
+::: {.content-visible when-profile="apeb"}
+
+| original function | derivative |
+|:--:|:--:|
+| $y$ | $\frac{dy}{dx}$ |
+| $f(x)$ | $f'(x)$ |
+| $f(x) + g(x)$ | $f'(x) + g'(x)$ |
+| $ax^n$ | $anx^{n-1}$ |
+
+We can now happily just apply the rules (and some rules of indices for good measure). For example:
+
+$$
+\begin{aligned}
+y &= 2x^4 + \sqrt{x} + 100 \\
+&= 2x^4 + x^{1/2} + 100 \\
+\frac{dy}{dx} &= 8x^3 + \frac{1}{2}x^{-1/2} 
+\end{aligned}
+$$
+Notice that $\sqrt{x}$ was rewritten as $x^{1/2}$ to be able to apply the rule $ax^n$ goes to $anx^{n-1}$.
+
+:::
 
 Try some differentiation with some fractional powers:
 
@@ -117,7 +143,7 @@ Substitute these into the formula for the product rule to obtain an expression f
 Simplify $\tfrac{dy}{dx}$ where possible.
 
 
-
+::: {.content-visible when-profile="all"}
 
 Following this process, we must first identify $u(x)$ and $v(x)$.
 
@@ -161,6 +187,56 @@ Now your turn...
 knitr::include_url("https://numbas.mathcentre.ac.uk/question/101423/differentiation-product-rule-6/embed/?token=95bdacf5-d008-407f-86b9-4605fa18c389", height="340px")
 ```
 
+:::
+
+::: {.content-visible when-profile="apeb"}
+
+Following this process, we must first identify $u(x)$ and $v(x)$.
+
+For example. As: 
+$$
+y=4x^4(6x-3)^3,
+$$
+
+let
+$$
+u(x) = 4x^4 \quad \text{and} \quad v(x)=(6x-3)^3.
+$$
+
+Next, we need to find the derivatives, $\tfrac{du}{dx}$ and $\tfrac{dv}{dx}$:
+
+$$
+\dfrac{du}{dx} = 16x^3 \text{and} \quad\dfrac{dv}{dx}=18(6x-3)^2.
+$$
+
+Substituting these results into the product rule formula we can obtain an expression for $\tfrac{dy}{dx}$:
+
+$$
+\begin{aligned}
+\dfrac{dy}{dx} &\,= \dfrac{du}{dx}\times v(x) + u(x) \times\dfrac{dv}{dx} \\ \\
+&\,=16x^3 \times (6x-3)^3 +4x^4 \times 18(6x-3)^2. 
+\end{aligned}
+$$
+
+Simplifying,
+
+$$
+\begin{aligned}
+\dfrac{dy}{dx} &\,= 16x^3(6x-3)^3 +72x^4(6x-3)^2 \\ 
+&\,= 8x^3(6x-3)^2(2(6x-3)+9x) \\
+&\,= 8x^3(6x-3)^2(21x-6) \\
+&\,= 24x^3(6x-3)^2(7x-2)
+\end{aligned}
+$$
+
+Now your turn...
+
+```{r, echo=FALSE}
+knitr::include_url("https://numbas.mathcentre.ac.uk/question/91346/differentiation-product-rule-7/embed/", height="340px")
+```
+
+:::
+
 ## The quotient rule
 
 ```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
@@ -182,7 +258,9 @@ Simplify $\tfrac{dy}{dx}$ where possible.
 
 Following this process, we must first identify $u(x)$ and $v(x)$.
 
-As 
+For example if:
+
+:::{.content-visible when-profile="all"}
 
 $$
 y=\frac{e^{2x}}{3x^2+4x+5},
@@ -226,3 +304,51 @@ Now have a go at these:
 ```{r, echo=FALSE}
 knitr::include_url("https://numbas.mathcentre.ac.uk/question/67315/differentiation-quotient-rule-4/embed/?token=bce25b63-b091-4e64-811d-5e064743c9d4", height="340px")
 ```
+
+:::
+
+:::{.content-visible when-profile="apeb"}
+
+$$
+y=\frac{5x^2}{5x-3},
+$$
+
+let
+
+$$
+u(x) = 5x^2 \quad \text{and} \quad v(x)=5x-3.
+$$
+
+Next, we need to find the derivatives, $\tfrac{du}{dx}$ and $\tfrac{dv}{dx}$:
+
+$$
+\dfrac{du}{dx} = 10x \quad \text{and} \quad \dfrac{dv}{dx} = 5.
+$$
+
+Substituting these results into the quotient rule formula we can obtain an expression for $\tfrac{dy}{dx}$:
+
+$$
+\begin{aligned}
+\dfrac{dy}{dx} &\,= \dfrac{v(x) \times \frac{du}{dx} - u(x) \times\frac{dv}{dx}}{[v(x)]^2} \\ \\
+&\,=\dfrac{(5x-3) \times 10x - 5x^2 \times 5}{(5x-3)^2}.
+\end{aligned}
+$$
+
+Simplifying,
+
+$$
+\begin{aligned}
+\dfrac{dy}{dx} &\,=\dfrac{10x(5x-3) - 25x^2}{(5x-3)^2}\\
+&\,=\dfrac{50x^2 - 30x - 25x^2}{(5x-3)^2}\\
+&\,=\dfrac{25x^2-30x}{(5x-3)^2}\\
+&\,=\dfrac{5x(5x-6)}{(5x-3)^2}
+\end{aligned}
+$$
+
+Now have a go at these:
+
+```{r, echo=FALSE}
+knitr::include_url("https://numbas.mathcentre.ac.uk/question/67156/differentiation-quotient-rule-1/embed/", height="340px")
+```
+
+:::
