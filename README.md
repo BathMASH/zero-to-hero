@@ -28,8 +28,9 @@ Videos:
 * Logs - solving
 * Differentiation - rules of differentiation
 * Differentiation - gradient at a point
+* Further Differentiation make APEB version
 
 Pages
 
-* Optimisation
+* Optimisation - in progress
 * Graduation? Add a page with a final exam?
