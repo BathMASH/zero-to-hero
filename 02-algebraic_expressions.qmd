@@ -5,7 +5,7 @@ Algebraic expressions are just statements about numbers. However, letters are us
 ## Substitution
 
 ```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
-knitr::include_url("https://uniofbath.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=a67330c2-9c55-4dde-9366-af0f010a32ac&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all", height="405px")
+knitr::include_url("https://player.vimeo.com/video/837883518?h=fa66490d88", height="405px")
 ```
 
 In order to evaluate an algebraic expression we have to substitute the letters for numbers. After the numbers are written in place of the letters we must take care to evaluate the statement in the correct order. BIDMAS is often used to remember the order:
@@ -66,7 +66,8 @@ knitr::include_url("https://numbas.mathcentre.ac.uk/question/126318/algebra-subs
 ## Simplification
 
 ```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
-knitr::include_url("https://uniofbath.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=c2aeab22-f27e-4ba2-baea-af0f010a32ad&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all", height="405px")
+#vimeo
+knitr::include_url("https://player.vimeo.com/video/839034834?h=6115cfd847", height="405px")
 ```
 
 Algebraic expressions are made up of terms. Similar terms can be combined to create a simplified expression, this processes is called *collecting like terms*. For example $2a + 3a$ can be simplified to $5a$ by collecting the $a$ terms. Here's another example with a bit more going on:

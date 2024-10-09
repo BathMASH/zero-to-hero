@@ -63,7 +63,7 @@ knitr::include_url("https://numbas.mathcentre.ac.uk/question/67872/differentiati
 ## The chain rule
 
 ```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
-knitr::include_url("https://uniofbath.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=5238a1c4-4c8d-4353-8846-af1900d67729&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all", height="405px")
+knitr::include_url("https://player.vimeo.com/video/837883249?h=fa8789a44e", height="405px")
 ```
 
 The chain rule is used when we have functions inside other functions. 
@@ -125,9 +125,12 @@ knitr::include_url("https://numbas.mathcentre.ac.uk/question/91317/differentiati
 
 ## The product rule
 
+::: {.content-visible when-profile="all"}
+
 ```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
-knitr::include_url("https://uniofbath.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=1df133c8-c017-4c77-b789-af1900d67728&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all", height="405px")
+knitr::include_url("https://player.vimeo.com/video/837883206?h=851249525f", height="405px")
 ```
+:::
 
 If we have a function of the form $y=u(x)v(x)$, to calculate its derivative we need to use the product rule:
 
@@ -239,9 +242,13 @@ knitr::include_url("https://numbas.mathcentre.ac.uk/question/91346/differentiati
 
 ## The quotient rule
 
+:::{.content-visible when-profile="all"}
+
 ```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
-knitr::include_url("https://uniofbath.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=9f4d08b5-c796-4082-8171-af1900d67737&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all", height="405px")
+knitr::include_url("https://player.vimeo.com/video/837883170?h=e9ff34034e", height="405px")
 ```
+
+:::
 
 If we have a function of the form $y=\tfrac{u(x)}{v(x)}$, to calculate its derivative we need to use the quotient rule:
 

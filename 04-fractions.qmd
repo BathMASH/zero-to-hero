@@ -18,7 +18,7 @@ Vulgar fractions are useful in algebra. The next section looks at some technique
 ## Simplifying
 
 ```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
-knitr::include_url("https://uniofbath.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=bb711c17-8e35-4fde-9212-af1000dac688&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all", height="405px")
+knitr::include_url("https://player.vimeo.com/video/837882860?h=484eb8ba11", height="405px")
 ```
 
 Fractions can be *cancelled down* or simplified by dividing the numerator and denominator by a common factor i.e. we look for a number that *goes into* both the top and the bottom of the fraction. For example:
@@ -86,7 +86,7 @@ Which is nonsense!
 ## Multiplication and division
 
 ```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
-knitr::include_url("https://uniofbath.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=1923c0cc-7c08-429c-a4cd-af1000daa8cb&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all", height="405px")
+knitr::include_url("https://player.vimeo.com/video/837883377?h=98ae0ce9f7", height="405px")
 ```
 
 Multiplication and division of fractions is, thankfully, really easy!
@@ -134,7 +134,7 @@ $$
 ## Addition and subtraction
 
 ```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
-knitr::include_url("https://uniofbath.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=0fd6c027-ed3a-48f5-b36d-af1000dac011&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all", height="405px")
+knitr::include_url("https://player.vimeo.com/video/837883283?h=da683258f7", height="405px")
 ```
 
 Addition and subtraction is easy if the denominators are the same. We just add the numerators together and the denominators stays the same. For example:

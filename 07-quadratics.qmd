@@ -13,7 +13,7 @@ Quadratics can occur when we expand pairs of brackets, so I've included in this 
 ## Expanding pairs of brackets
 
 ```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
-knitr::include_url("https://uniofbath.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=7f1f15a0-c8f5-4690-be57-af1900d6772b&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all", height="405px")
+knitr::include_url("https://player.vimeo.com/video/837883155?h=32dbbf2a61", height="405px")
 ```
 
 Expanding a pair of brackets is much the same as a single bracket. However there is a little more going on. Consider this example of a mental method to calculate $25 \times 16$.
@@ -38,7 +38,7 @@ $$
 ## Factorising pairs of brackets
 
 ```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
-knitr::include_url("https://uniofbath.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=a20516c1-acee-4f45-b4d3-af1900d68850&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all", height="405px")
+knitr::include_url("https://player.vimeo.com/video/837883127?h=f95af1271e", height="405px")
 ```
 
 To factorise a quadratic in the form $x^2 +bx +c$ into a pair of brackets like $(x+p)(x+q)$, we look to see if there are a pair of numbers $p$ and $q$ that add to get $b$ and multiply to get $c$.
@@ -81,7 +81,7 @@ Here are some methods to solve quadratic equations.
 ### Factorisation
 
 ```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
-knitr::include_url("https://uniofbath.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=cd7ea996-68f5-45ec-b525-afa400db1a82&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all", height="405px")
+knitr::include_url("https://player.vimeo.com/video/837882902?h=4e3076aaa0", height="405px")
 ```
 
 We can solve some quadratics by factorisation. Take for example the following equation $x^2 + 8x = -12$. To solve via factorisation we must first make it equal to zero and then factorise. So we have:
@@ -110,7 +110,7 @@ knitr::include_url("https://numbas.mathcentre.ac.uk/question/105345/quadratics-s
 ### Quadratic Formula
 
 ```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
-knitr::include_url("https://uniofbath.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=af94dc7d-68a8-456e-9d20-afa400db1a80&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all", height="405px")
+knitr::include_url("https://player.vimeo.com/video/837883075?h=f7f2137541", height="405px")
 ```
 
 For a quadratic equation of the form $ax^2 + bx + c = 0$ we can use the quadratic formula to find solutions for $x$.
@@ -165,7 +165,7 @@ knitr::include_url("https://numbas.mathcentre.ac.uk/question/64345/quadratics-us
 ## Simultaneous equations
 
 ```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
-knitr::include_url("https://uniofbath.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=34c760ea-bc25-4f73-a70c-afa400db1a84&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all", height="405px")
+knitr::include_url("https://player.vimeo.com/video/837882931?h=db96c56d1f", height="405px")
 ```
 
 We are going to solve this type of equation by substitution i.e. substituting one equation into another.
