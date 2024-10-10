@@ -306,7 +306,7 @@ y &amp;= 2x^4 + \sqrt{x} + 100 \\
 <section id="the-chain-rule" class="level2" data-number="11.2">
 <h2 data-number="11.2" class="anchored" data-anchor-id="the-chain-rule"><span class="header-section-number">11.2</span> The chain rule</h2>
 <div class="cell">
-<iframe src="https://uniofbath.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=5238a1c4-4c8d-4353-8846-af1900d67729&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=true&amp;showbrand=true&amp;captions=false&amp;interactivity=all" width="672" height="405px" data-external="1">
+<iframe src="https://player.vimeo.com/video/837883249?h=fa8789a44e" width="672" height="405px" data-external="1">
 </iframe>
 </div>
 <p>The chain rule is used when we have functions inside other functions.</p>
@@ -348,10 +348,6 @@ y=-u^4
 </section>
 <section id="the-product-rule" class="level2" data-number="11.3">
 <h2 data-number="11.3" class="anchored" data-anchor-id="the-product-rule"><span class="header-section-number">11.3</span> The product rule</h2>
-<div class="cell">
-<iframe src="https://uniofbath.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=1df133c8-c017-4c77-b789-af1900d67728&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=true&amp;showbrand=true&amp;captions=false&amp;interactivity=all" width="672" height="405px" data-external="1">
-</iframe>
-</div>
 <p>If we have a function of the form <span class="math inline">\(y=u(x)v(x)\)</span>, to calculate its derivative we need to use the product rule:</p>
 <p><span class="math display">\[
 \dfrac{dy}{dx} = u(x) \times \dfrac{dv}{dx} + v(x) \times\dfrac{du}{dx}.
@@ -359,42 +355,40 @@ y=-u^4
 <p>This can be split up into steps:</p>
 <p>Identify the functions <span class="math inline">\(u(x)\)</span> and <span class="math inline">\(v(x)\)</span>; Calculate their derivatives <span class="math inline">\(\tfrac{du}{dx}\)</span> and <span class="math inline">\(\tfrac{dv}{dx}\)</span>; Substitute these into the formula for the product rule to obtain an expression for <span class="math inline">\(\tfrac{dy}{dx}\)</span>; Simplify <span class="math inline">\(\tfrac{dy}{dx}\)</span> where possible.</p>
 <p>Following this process, we must first identify <span class="math inline">\(u(x)\)</span> and <span class="math inline">\(v(x)\)</span>.</p>
-<p>As <span class="math display">\[
-y=e^x ln(6x),
+<p>For example. As: <span class="math display">\[
+y=4x^4(6x-3)^3,
 \]</span></p>
 <p>let <span class="math display">\[
-u(x) = e^x \quad \text{and} \quad v(x)=ln(6x).
+u(x) = 4x^4 \quad \text{and} \quad v(x)=(6x-3)^3.
 \]</span></p>
 <p>Next, we need to find the derivatives, <span class="math inline">\(\tfrac{du}{dx}\)</span> and <span class="math inline">\(\tfrac{dv}{dx}\)</span>:</p>
 <p><span class="math display">\[
-\dfrac{du}{dx} = e^x\quad \text{and} \quad\dfrac{dv}{dx}=\dfrac{1}{x}.
+\dfrac{du}{dx} = 16x^3 \text{and} \quad\dfrac{dv}{dx}=18(6x-3)^2.
 \]</span></p>
 <p>Substituting these results into the product rule formula we can obtain an expression for <span class="math inline">\(\tfrac{dy}{dx}\)</span>:</p>
 <p><span class="math display">\[
 \begin{aligned}
 \dfrac{dy}{dx} &amp;\,= \dfrac{du}{dx}\times v(x) + u(x) \times\dfrac{dv}{dx} \\ \\
-&amp;\,=e^x \times\ln(6x) +e^x \times \dfrac{1}{x}.
+&amp;\,=16x^3 \times (6x-3)^3 +4x^4 \times 18(6x-3)^2.
 \end{aligned}
 \]</span></p>
 <p>Simplifying,</p>
 <p><span class="math display">\[
 \begin{aligned}
-\dfrac{dy}{dx} &amp;\,= e^x\ln(6x) +e^x \dfrac{1}{x} \\
-&amp;\,= e^x (\ln(6x) +\dfrac{1}{x}).
+\dfrac{dy}{dx} &amp;\,= 16x^3(6x-3)^3 +72x^4(6x-3)^2 \\
+&amp;\,= 8x^3(6x-3)^2(2(6x-3)+9x) \\
+&amp;\,= 8x^3(6x-3)^2(21x-6) \\
+&amp;\,= 24x^3(6x-3)^2(7x-2)
 \end{aligned}
 \]</span></p>
 <p>Now your turn…</p>
 <div class="cell">
-<iframe src="https://numbas.mathcentre.ac.uk/question/101423/differentiation-product-rule-6/embed/?token=95bdacf5-d008-407f-86b9-4605fa18c389" width="672" height="340px" data-external="1">
+<iframe src="https://numbas.mathcentre.ac.uk/question/91346/differentiation-product-rule-7/embed/" width="672" height="340px" data-external="1">
 </iframe>
 </div>
 </section>
 <section id="the-quotient-rule" class="level2" data-number="11.4">
 <h2 data-number="11.4" class="anchored" data-anchor-id="the-quotient-rule"><span class="header-section-number">11.4</span> The quotient rule</h2>
-<div class="cell">
-<iframe src="https://uniofbath.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=9f4d08b5-c796-4082-8171-af1900d67737&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=true&amp;showbrand=true&amp;captions=false&amp;interactivity=all" width="672" height="405px" data-external="1">
-</iframe>
-</div>
 <p>If we have a function of the form <span class="math inline">\(y=\tfrac{u(x)}{v(x)}\)</span>, to calculate its derivative we need to use the quotient rule:</p>
 <p><span class="math display">\[
 \dfrac{dy}{dx} = \dfrac{v(x) \times \frac{du}{dx} - u(x) \times\frac{dv}{dx}}{[v(x)]^2}\,.
@@ -402,38 +396,37 @@ u(x) = e^x \quad \text{and} \quad v(x)=ln(6x).
 <p>This can be split up into steps:</p>
 <p>Identify the functions <span class="math inline">\(u(x)\)</span> and <span class="math inline">\(v(x)\)</span>; Calculate their derivatives <span class="math inline">\(\tfrac{du}{dx}\)</span> and <span class="math inline">\(\tfrac{dv}{dx}\)</span>; Substitute these into the formula for the quotient rule to obtain an expression for <span class="math inline">\(\tfrac{dy}{dx}\)</span>; Simplify <span class="math inline">\(\tfrac{dy}{dx}\)</span> where possible.</p>
 <p>Following this process, we must first identify <span class="math inline">\(u(x)\)</span> and <span class="math inline">\(v(x)\)</span>.</p>
-<p>As</p>
+<p>For example if:</p>
 <p><span class="math display">\[
-y=\frac{e^{2x}}{3x^2+4x+5},
+y=\frac{5x^2}{5x-3},
 \]</span></p>
 <p>let</p>
 <p><span class="math display">\[
-u(x) = e^{2x} \quad \text{and} \quad v(x)=3x^2+4x+5.
+u(x) = 5x^2 \quad \text{and} \quad v(x)=5x-3.
 \]</span></p>
 <p>Next, we need to find the derivatives, <span class="math inline">\(\tfrac{du}{dx}\)</span> and <span class="math inline">\(\tfrac{dv}{dx}\)</span>:</p>
 <p><span class="math display">\[
-\dfrac{du}{dx} = 2e^{2x} \quad \text{and} \quad \dfrac{dv}{dx} = 6x+4.
+\dfrac{du}{dx} = 10x \quad \text{and} \quad \dfrac{dv}{dx} = 5.
 \]</span></p>
 <p>Substituting these results into the quotient rule formula we can obtain an expression for <span class="math inline">\(\tfrac{dy}{dx}\)</span>:</p>
 <p><span class="math display">\[
 \begin{aligned}
 \dfrac{dy}{dx} &amp;\,= \dfrac{v(x) \times \frac{du}{dx} - u(x) \times\frac{dv}{dx}}{[v(x)]^2} \\ \\
-&amp;\,=\dfrac{(3x^2+4x+5) \times 2e^{2x} - e^{2x} \times (6x+4)}{(3x^2+4x+5)^2}.
+&amp;\,=\dfrac{(5x-3) \times 10x - 5x^2 \times 5}{(5x-3)^2}.
 \end{aligned}
 \]</span></p>
 <p>Simplifying,</p>
 <p><span class="math display">\[
 \begin{aligned}
-\dfrac{dy}{dx} &amp;\,=\dfrac{2e^{2x}(3x^2+4x+5) - e^{2x}(6x+4)}{(3x^2+4x+5)^2} \\ \\
-&amp;\,=\dfrac{e^{2x}[(6x^2+8x+10) - (6x+4)]}{(3x^2+4x+5)^2} \\ \\
-&amp;\,=\dfrac{e^{2x}(6x^2+8x+10 - 6x - 4)}{(3x^2+4x+5)^2} \\ \\
-&amp;\,=\dfrac{e^{2x}(6x^2+2x+6)}{(3x^2+4x+5)^2} \\ \\
-&amp;\,=\dfrac{2e^{2x}(3x^2+x+3)}{(3x^2+4x+5)^2}.
+\dfrac{dy}{dx} &amp;\,=\dfrac{10x(5x-3) - 25x^2}{(5x-3)^2}\\
+&amp;\,=\dfrac{50x^2 - 30x - 25x^2}{(5x-3)^2}\\
+&amp;\,=\dfrac{25x^2-30x}{(5x-3)^2}\\
+&amp;\,=\dfrac{5x(5x-6)}{(5x-3)^2}
 \end{aligned}
 \]</span></p>
 <p>Now have a go at these:</p>
 <div class="cell">
-<iframe src="https://numbas.mathcentre.ac.uk/question/67315/differentiation-quotient-rule-4/embed/?token=bce25b63-b091-4e64-811d-5e064743c9d4" width="672" height="340px" data-external="1">
+<iframe src="https://numbas.mathcentre.ac.uk/question/67156/differentiation-quotient-rule-1/embed/" width="672" height="340px" data-external="1">
 </iframe>
 </div>
 

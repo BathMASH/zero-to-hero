@@ -1,6 +1,6 @@
 project:
   title: "Zero to Hero: APEB"
-  output-dir: _APEB
+  output-dir: _cs
 
 book:
   chapters:
