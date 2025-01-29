@@ -5,6 +5,7 @@ project:
 include-after-body:
   text: |
     <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "45c34618a8294826b85725434b26e3db"}'></script><!-- End Cloudflare Web Analytics -->
+    <script type="application/javascript" src="scripts/light-dark.js"></script>
 
 book:
   title: "Zero to Hero"
@@ -20,6 +21,7 @@ book:
 #  downloads: [pdf, docx, epub]
 
   margin-footer: |
+   [![](/img/uob-logo.light.png){fig-alt="Zero to Hero © 2023 by Ed Southwood, Skills Centre, University of Bath is licensed under Attribution-NonCommercial-ShareAlike 4.0 International"}](https://creativecommons.org/licenses/by-nc-sa/4.0/)
    [![](/img/cc-logo.png){fig-alt="Zero to Hero © 2023 by Ed Southwood, Skills Centre, University of Bath is licensed under Attribution-NonCommercial-ShareAlike 4.0 International"}](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 format:

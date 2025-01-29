@@ -14,7 +14,7 @@
     "href": "01-negative_numbers.html",
     "title": "1  Negative numbers",
     "section": "",
-    "text": "1.1 Multiplication and Division\nWhen multiplying and dividing using negative numbers the answer will be the same as the equivalent calculation with positive numbers only, but, you may have to change the sign - to either positive or negative. The rules for deciding if the answer is positive or negative are below:\nNotice that the order is not important. Here are some examples: \\[\n-2 \\times 3 = -6\n\\] \\[\n10 \\times -5 = -50\n\\] \\[\n-4 \\times -6 = 24\n\\] If you have more that two numbers to multiplying you can just count the number of negative numbers and apply the following rule:\nHere’s a longer example: \\[\n-2 \\times -2 \\times -2 \\times -2 = 16\n\\] since there are even number of negatives in the question the answer will be positive.\nSince division and multiplication are so closely related, division works in exactly the same way. For example: \\[\n\\frac{-3 \\times -6}{-9} = -2\n\\].\nYou can practice these techniques with the following questions. You can refresh the question to change the numbers. Try them as much as you like.",
+    "text": "1.1 Multiplication and Division\nOn a number line negative numbers are typically written to the left of zero and have values smaller than zero. Negative numbers are tricky. Often when an error creeps into a calculation it’s due to a misplaced minus sign, they are a source of problems for everyone - don’t worry if they seem tricky, they have only relatively recently lost their mysteriousness. The evidence of humans counting dates from \\(35,000\\)BCE yet as recently as \\(1758\\) British mathematician Francis Maseres said that negative numbers…\n“… darken the very whole doctrines of the equations and make dark of the things which are in their nature excessively obvious and simple”.\nWhen multiplying and dividing using negative numbers the answer will be the same as the equivalent calculation with positive numbers only, but, you may have to change the sign - to either positive or negative. The rules for deciding if the answer is positive or negative are below:\nNotice that the order is not important. Here are some examples: \\[\n-2 \\times 3 = -6\n\\] \\[\n10 \\times -5 = -50\n\\] \\[\n-4 \\times -6 = 24\n\\] If you have more that two numbers to multiplying you can just count the number of negative numbers and apply the following rule:\nHere’s a longer example: \\[\n-2 \\times -2 \\times -2 \\times -2 = 16\n\\] since there are even number of negatives in the question the answer will be positive.\nSince division and multiplication are so closely related, division works in exactly the same way. For example: \\[\n\\frac{-3 \\times -6}{-9} = -2\n\\].\nYou can practice these techniques with the following questions. You can refresh the question to change the numbers. Try them as much as you like.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Negative numbers</span>"
     ]
@@ -44,7 +44,7 @@
     "href": "02-algebraic_expressions.html",
     "title": "2  Algebraic expressions",
     "section": "",
-    "text": "2.1 Substitution\nIn order to evaluate an algebraic expression we have to substitute the letters for numbers. After the numbers are written in place of the letters we must take care to evaluate the statement in the correct order. BIDMAS is often used to remember the order:\nOne more thing to know before we start making substitutions is that the multiplication symbol \\(\\times\\) is often not used in algebraic expressions. Letters and numbers that are next to each other are multiplied together. For example \\(3a\\) means \\(3 \\times a\\). You can show two numbers multiplied together like this \\(2 \\times 3 = (2)(3) = 6\\).\nHere are some examples:\nIf \\(a=2\\) and \\(b=-3\\) then we can evaluate \\(5a + 4b\\) like this: \\[\n5(2) + 4(-3)\n\\] When things are written next to each other this means multiplication. \\[\n5\\times 2 + 4 \\times -3\n\\] Using BIDMAS to do the multiplication first and remembering that a positive number multiplied by a negative gives a negative number. \\[\n10 +- 12 = -2\n\\]\nSubstituting \\(n = 3\\) and \\(x = 2\\) into \\(5x^n\\). By replacing the letters with numbers we have: \\[\n5(2)^3\n\\] Remembering that when things are next to each other it means multiplication, which gives: \\[\n5 \\times 2^3\n\\] Following BIDMAS we must deal with the powers first. Since \\(2^3 = 2 \\times 2 \\times 2 = 8\\) we have: \\[\n5 \\times 8 = 40\n\\]\nFinally consider \\(\\frac{2p+q}{r}\\) where \\(p=6\\), \\(q=3\\) and \\(r=5\\). Replacing the letters with numbers we have: \\[\n\\frac{2(6)+3}{5} = \\frac{2 \\times 6+3}{5}\n\\] Remembering that there are implicit brackets in fractions, the numerator needs to be evaluated first. \\[\n\\frac{(2 \\times 6+3)}{5} = \\frac{(12+3)}{5}=\\frac{15}{5}\n\\] Now the fraction can be evaluated. \\[\n\\frac{15}{5} = 3\n\\] You can practice these techniques with the following questions. The numbers change each time to try them as much as you like.",
+    "text": "2.1 Substitution\nAlgebraic expressions are just statements about numbers. However, letters are used as place holders for some of the numbers. There are many reasons this is useful, it could be because we would like to uncover the structure of something, or, because we don’t know the specific numbers to use yet.\nIn order to evaluate an algebraic expression we have to substitute the letters for numbers. After the numbers are written in place of the letters we must take care to evaluate the statement in the correct order. BIDMAS is often used to remember the order:\nOne more thing to know before we start making substitutions is that the multiplication symbol \\(\\times\\) is often not used in algebraic expressions. Letters and numbers that are next to each other are multiplied together. For example \\(3a\\) means \\(3 \\times a\\). You can show two numbers multiplied together like this \\(2 \\times 3 = (2)(3) = 6\\).\nHere are some examples:\nIf \\(a=2\\) and \\(b=-3\\) then we can evaluate \\(5a + 4b\\) like this: \\[\n5(2) + 4(-3)\n\\] When things are written next to each other this means multiplication. \\[\n5\\times 2 + 4 \\times -3\n\\] Using BIDMAS to do the multiplication first and remembering that a positive number multiplied by a negative gives a negative number. \\[\n10 +- 12 = -2\n\\]\nSubstituting \\(n = 3\\) and \\(x = 2\\) into \\(5x^n\\). By replacing the letters with numbers we have: \\[\n5(2)^3\n\\] Remembering that when things are next to each other it means multiplication, which gives: \\[\n5 \\times 2^3\n\\] Following BIDMAS we must deal with the powers first. Since \\(2^3 = 2 \\times 2 \\times 2 = 8\\) we have: \\[\n5 \\times 8 = 40\n\\]\nFinally consider \\(\\frac{2p+q}{r}\\) where \\(p=6\\), \\(q=3\\) and \\(r=5\\). Replacing the letters with numbers we have: \\[\n\\frac{2(6)+3}{5} = \\frac{2 \\times 6+3}{5}\n\\] Remembering that there are implicit brackets in fractions, the numerator needs to be evaluated first. \\[\n\\frac{(2 \\times 6+3)}{5} = \\frac{(12+3)}{5}=\\frac{15}{5}\n\\] Now the fraction can be evaluated. \\[\n\\frac{15}{5} = 3\n\\] You can practice these techniques with the following questions. The numbers change each time to try them as much as you like.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Algebraic expressions</span>"
     ]
@@ -74,7 +74,7 @@
     "href": "03-expressions_with_brackets.html",
     "title": "3  Expressions with brackets",
     "section": "",
-    "text": "3.1 Expanding",
+    "text": "3.1 Expanding\nDealing with algebraic expressions containing brackets is a useful skill. This section looks at removing brackets by expanding and adding brackets back in by factorising.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Expressions with brackets</span>"
     ]
@@ -104,7 +104,7 @@
     "href": "04-fractions.html",
     "title": "4  Fractions",
     "section": "",
-    "text": "4.1 Simplifying\nFractions can be cancelled down or simplified by dividing the numerator and denominator by a common factor i.e. we look for a number that goes into both the top and the bottom of the fraction. For example:\n\\[\n\\begin{aligned} \\frac{18}{24} &= \\frac{3 \\times 6}{4 \\times 6} \\\\\n&= \\frac{3 \\times \\cancel{6}}{4 \\times \\cancel{6}} \\\\\n&= \\frac{3}{4}\n\\end{aligned}\n\\]\nThe same can be done with algebraic fractions.\n\\[\n\\begin{aligned} \\frac{4xy}{6x} &= \\frac{2y \\times 2x}{3 \\times 2x} \\\\\n&= \\frac{2y \\times \\cancel{2x}}{3 \\times \\cancel{2x}} \\\\\n&= \\frac{2y}{3}\n\\end{aligned}\n\\]\nSometimes you’ll need to factorise expressions in the fraction in order to cancel it down.\n\\[\n\\begin{aligned} \\frac{10x^2 + 5x}{4x+2} &= \\frac{5x \\times 2x + 5x \\times 1}{2 \\times 2x + 2 \\times 1} \\\\\n&= \\frac{5x(2x+1)}{2(2x+1)} \\\\\n&= \\frac{5x\\cancel{(2x+1)}}{2\\cancel{(2x+1)}} \\\\\n&= \\frac{5x}{2}\n\\end{aligned}\n\\]\nHere are some practice questions.",
+    "text": "4.1 Simplifying\nFractions can be written in two ways:\nVulgar fractions are useful in algebra. The next section looks at some techniques for dealing with them.\n\\[\\require{cancel}\\]\nFractions can be cancelled down or simplified by dividing the numerator and denominator by a common factor i.e. we look for a number that goes into both the top and the bottom of the fraction. For example:\n\\[\n\\begin{aligned} \\frac{18}{24} &= \\frac{3 \\times 6}{4 \\times 6} \\\\\n&= \\frac{3 \\times \\cancel{6}}{4 \\times \\cancel{6}} \\\\\n&= \\frac{3}{4}\n\\end{aligned}\n\\]\nThe same can be done with algebraic fractions.\n\\[\n\\begin{aligned} \\frac{4xy}{6x} &= \\frac{2y \\times 2x}{3 \\times 2x} \\\\\n&= \\frac{2y \\times \\cancel{2x}}{3 \\times \\cancel{2x}} \\\\\n&= \\frac{2y}{3}\n\\end{aligned}\n\\]\nSometimes you’ll need to factorise expressions in the fraction in order to cancel it down.\n\\[\n\\begin{aligned} \\frac{10x^2 + 5x}{4x+2} &= \\frac{5x \\times 2x + 5x \\times 1}{2 \\times 2x + 2 \\times 1} \\\\\n&= \\frac{5x(2x+1)}{2(2x+1)} \\\\\n&= \\frac{5x\\cancel{(2x+1)}}{2\\cancel{(2x+1)}} \\\\\n&= \\frac{5x}{2}\n\\end{aligned}\n\\]\nHere are some practice questions.",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Fractions</span>"
     ]
@@ -144,7 +144,7 @@
     "href": "05-solving_equations.html",
     "title": "5  Solving equations",
     "section": "",
-    "text": "5.1 Linear equations",
+    "text": "5.1 Linear equations\nWhen we work out the value of an unknown, say \\(x\\), in an equation we say that we are solving for \\(x\\). To work out the value we are free to apply any mathematical operation we like to the equation so long as we do the same to both sides.\nNote: We can’t quite do any operation. Division by zero, \\(\\div 0\\), is not allowed as it is undefined.",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Solving equations</span>"
     ]
@@ -184,7 +184,7 @@
     "href": "00-reading_mathematics.html",
     "title": "6  Reading mathematics",
     "section": "",
-    "text": "6.1 Common symbols\nThese symbols can turn up in mathematical explanations.",
+    "text": "6.1 Common symbols\nThis section looks at common notation used when writing mathematics using formal notation - read it now or come back to it once you’ve done a bit of real maths. You could even use it as a glossary, come back to it and look stuff up if you need to.\nSometimes looking at a piece of mathematics can feel like looking at another language. If you feel that way don’t worry, that’s normal. It’s worth remembering these things:\nThese symbols can turn up in mathematical explanations.",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Reading mathematics</span>"
     ]
@@ -214,7 +214,7 @@
     "href": "06-straight_line_graphs.html",
     "title": "7  Straight line graphs",
     "section": "",
-    "text": "7.1 Coordinates\nTo build a picture of a function we work out pairs of values that satisfy the function. Take for example \\(y=\\frac{1}{2}x+1\\). If we choose values of \\(x\\) we can work out the corresponding \\(y\\) values.\nOnce we have these values they can be plotted on graph.\nThe red dots show the points and the blue line shows the equation.\nBy working out some co-ordinates in the following question try to generate the correct line.",
+    "text": "7.1 Coordinates\nIt is often useful to plot graphs of functions to gain an understanding of what they mean. Straight line graphs are produced by linear equations. Linear equations like \\(y=2x+4\\) only have \\(x\\) to the power of one only. Note: this doesn’t just apply to \\(x\\), it could be whatever variable you are using.\nTo build a picture of a function we work out pairs of values that satisfy the function. Take for example \\(y=\\frac{1}{2}x+1\\). If we choose values of \\(x\\) we can work out the corresponding \\(y\\) values.\nOnce we have these values they can be plotted on graph.\nThe red dots show the points and the blue line shows the equation.\nBy working out some co-ordinates in the following question try to generate the correct line.",
     "crumbs": [
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Straight line graphs</span>"
     ]
@@ -244,7 +244,7 @@
     "href": "07-quadratics.html",
     "title": "8  Quadratics",
     "section": "",
-    "text": "8.1 Expanding pairs of brackets\nExpanding a pair of brackets is much the same as a single bracket. However there is a little more going on. Consider this example of a mental method to calculate \\(25 \\times 16\\).\n\\[\n\\begin{aligned} 25 \\times 16 &= (20 + 5) \\times (10 + 6) \\\\\n&= \\overbrace{20 \\times 10 + 20 \\times 6}^{20 \\times (10 + 6)} + \\overbrace{5 \\times 10 + 5 \\times 6}^{5 \\times (10 + 6)}\\\\\n&= 200 + 120 + 50 + 30 \\\\\n&= 400\n\\end{aligned}\n\\]\nWith algebra it works in the same way:\n\\[\n\\begin{aligned} (a+b)(c+d) &= (a+b) \\times (c+d) \\\\\n&= \\overbrace{a \\times c + a \\times d}^{a \\times (c+d)} + \\overbrace{b \\times c + b \\times d}^{b \\times (c+d)}\\\\\n&= ac + ad + bc + bd\n\\end{aligned}\n\\]",
+    "text": "8.1 Expanding pairs of brackets\nQuadratics often appear in mathematics, they occur when you have something squared, like \\(x^2\\). They produce ‘U’ shaped graphs that can be either way up (depending on the sign of the \\(x^2\\) term), and, a powerful formula is known that we can use to solve them.\nA plot of \\(y=x^2\\) is below:\nQuadratics can occur when we expand pairs of brackets, so I’ve included in this section.\nExpanding a pair of brackets is much the same as a single bracket. However there is a little more going on. Consider this example of a mental method to calculate \\(25 \\times 16\\).\n\\[\n\\begin{aligned} 25 \\times 16 &= (20 + 5) \\times (10 + 6) \\\\\n&= \\overbrace{20 \\times 10 + 20 \\times 6}^{20 \\times (10 + 6)} + \\overbrace{5 \\times 10 + 5 \\times 6}^{5 \\times (10 + 6)}\\\\\n&= 200 + 120 + 50 + 30 \\\\\n&= 400\n\\end{aligned}\n\\]\nWith algebra it works in the same way:\n\\[\n\\begin{aligned} (a+b)(c+d) &= (a+b) \\times (c+d) \\\\\n&= \\overbrace{a \\times c + a \\times d}^{a \\times (c+d)} + \\overbrace{b \\times c + b \\times d}^{b \\times (c+d)}\\\\\n&= ac + ad + bc + bd\n\\end{aligned}\n\\]",
     "crumbs": [
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Quadratics</span>"
     ]
@@ -284,7 +284,7 @@
     "href": "08-indices.html",
     "title": "9  Indices",
     "section": "",
-    "text": "9.1 Index notation\nBeing comfortable moving between different ways to write powers helps when rearranging algebra.\nHere are some examples:\n\\[\n2^{-3} = \\frac{1}{2^3} = \\frac{1}{8}\n\\] More generally. \\[\nx^{-3} = \\frac{1}{x^3}\n\\] Anything to the power of zero is \\(1\\): \\[\n\\pi^0 = 1\n\\] Remember good old \\(\\pi\\)? From working stuff out about circles \\(\\pi = 3.14159...\\)\nWe can write square roots:\n\\[\n16^{\\frac{1}{2}} = \\sqrt{16} = \\pm4\n\\]\nHere’s an example of a cube root.\n\\[\n8^{\\frac{1}{3}} = \\sqrt[3]{8} = 2\n\\]",
+    "text": "9.1 Index notation\nIndices is another word for powers. In this section we move beyond the idea that powers are just repeated multiplications.\nBeing comfortable moving between different ways to write powers helps when rearranging algebra.\nHere are some examples:\n\\[\n2^{-3} = \\frac{1}{2^3} = \\frac{1}{8}\n\\] More generally. \\[\nx^{-3} = \\frac{1}{x^3}\n\\] Anything to the power of zero is \\(1\\): \\[\n\\pi^0 = 1\n\\] Remember good old \\(\\pi\\)? From working stuff out about circles \\(\\pi = 3.14159...\\)\nWe can write square roots:\n\\[\n16^{\\frac{1}{2}} = \\sqrt{16} = \\pm4\n\\]\nHere’s an example of a cube root.\n\\[\n8^{\\frac{1}{3}} = \\sqrt[3]{8} = 2\n\\]",
     "crumbs": [
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Indices</span>"
     ]
@@ -314,7 +314,7 @@
     "href": "09-differentiation.html",
     "title": "10  Differentiation",
     "section": "",
-    "text": "10.1 The tangent to a curve\nThe gradient at a point on a curve is the same as the gradient of the tangent at that point. A tangent to a curve is a straight line that just touches curve at that point. Below is a picture of the tangent to the curve when \\(x=5\\). You can open up the graph and move the point around with the slider.\nNotice that the gradient will change depending on which value of \\(x\\) you use.",
+    "text": "10.1 The tangent to a curve\nWe often want to be able to find the gradient of a curved line. For that we need a new technique, called differentiation, that will give us a rule (a new function) to work out the gradient at any point on the curve.\nThe gradient at a point on a curve is the same as the gradient of the tangent at that point. A tangent to a curve is a straight line that just touches curve at that point. Below is a picture of the tangent to the curve when \\(x=5\\). You can open up the graph and move the point around with the slider.\nNotice that the gradient will change depending on which value of \\(x\\) you use.",
     "crumbs": [
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Differentiation</span>"
     ]
@@ -344,7 +344,7 @@
     "href": "10-exponetial_function.html",
     "title": "11  Exponential functions",
     "section": "",
-    "text": "11.1 Getting to know exponential functions\nAn exponential function comes in the for, \\(y=a^x\\). They can increase incredibly fast. Take for example \\(y=2^x\\)\nPlotting these points give a graph that looks like:\nNotice the following key points about the graph.",
+    "text": "11.1 Getting to know exponential functions\nExponential functions crop up in applied mathematics everywhere. This section looks at these important functions, so important that, Professor Albert Bartlett said the following about them in this lecture Arithmetic, Population and Energy.\nThe greatest shortcoming of the human race is our inability to understand the exponential function.\nAn exponential function comes in the for, \\(y=a^x\\). They can increase incredibly fast. Take for example \\(y=2^x\\)\nPlotting these points give a graph that looks like:\nNotice the following key points about the graph.",
     "crumbs": [
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>Exponential functions</span>"
     ]
@@ -384,7 +384,7 @@
     "href": "11-logarithms.html",
     "title": "12  Logarithms",
     "section": "",
-    "text": "12.1 Reverse of indices\n\\(a\\) is called the base of the logarithm. When dealing with logs it’s often useful to think of a numerical example to keep the idea straight in your head.\n\\[\n\\begin{aligned} 10^3 &= 1000 \\\\\n3 &= \\log_{10} 1000\n\\end{aligned}\n\\] This is the same fact written in index notation and as a logarithm.",
+    "text": "12.1 Reverse of indices\nLogarithms, or logs for short, are the same as powers just written in another way.\n\\(a\\) is called the base of the logarithm. When dealing with logs it’s often useful to think of a numerical example to keep the idea straight in your head.\n\\[\n\\begin{aligned} 10^3 &= 1000 \\\\\n3 &= \\log_{10} 1000\n\\end{aligned}\n\\] This is the same fact written in index notation and as a logarithm.",
     "crumbs": [
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>Logarithms</span>"
     ]
@@ -444,7 +444,7 @@
     "href": "12-further-differentiation.html",
     "title": "13  Further differentiation",
     "section": "",
-    "text": "13.1 Standard results\nWe can now expand our table of derivatives. Here are all the rules from the last differentiation along with some new ones.\nWe can now happily just apply the rules (and some rules of indices for good measure). For example:\n\\[\n\\begin{aligned}\ny &= 2x^4 + e^{2x} + \\ln{x} + \\sqrt{x} + 100 \\\\\n&= 2x^4 + e^{2x} + \\ln{x} + x^{1/2} + 100 \\\\\n\\frac{dy}{dx} &= 8x^3 + 2e^{2x} + \\frac{1}{x} + \\frac{1}{2}x^{-1/2}\n\\end{aligned}\n\\] Notice that \\(\\sqrt{x}\\) was rewritten as \\(x^{1/2}\\) to be able to apply the rule \\(ax^n\\) goes to \\(anx^{n-1}\\).\nTry some differentiation with some fractional powers:",
+    "text": "13.1 Standard results\nSo far we have looked at differentiating powers of \\(x\\) when they are added together. This section introduces differentiating \\(e^x\\) and \\(\\ln{x}\\), then goes on to look at how to differentiate, functions inside functions, products of functions (when functions are multiplied together) and quotients of functions (when functions are divided by each other).\nWe can now expand our table of derivatives. Here are all the rules from the last differentiation along with some new ones.\nWe can now happily just apply the rules (and some rules of indices for good measure). For example:\n\\[\n\\begin{aligned}\ny &= 2x^4 + e^{2x} + \\ln{x} + \\sqrt{x} + 100 \\\\\n&= 2x^4 + e^{2x} + \\ln{x} + x^{1/2} + 100 \\\\\n\\frac{dy}{dx} &= 8x^3 + 2e^{2x} + \\frac{1}{x} + \\frac{1}{2}x^{-1/2}\n\\end{aligned}\n\\] Notice that \\(\\sqrt{x}\\) was rewritten as \\(x^{1/2}\\) to be able to apply the rule \\(ax^n\\) goes to \\(anx^{n-1}\\).\nTry some differentiation with some fractional powers:",
     "crumbs": [
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Further differentiation</span>"
     ]
