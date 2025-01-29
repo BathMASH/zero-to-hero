@@ -1,30 +1,33 @@
 # Optimisation
 
-One application of differentiation is to find where functions have their maximum and minimum values. This is useful since many real life systems can often be modeled by functions, and the maximum and minimum values of these functions correspond to some kind of optimisation. For example:
+Optimisation finds the biggest or smallest values of a function. This is often used to solve real world problems, for example:
 
-* optimise profits by finding a maximum
+* optimise profits by finding a maximum of a profit function
 * optimise a journey cost by finding minimum fuel use
 
-If a situation can be defined with a function, differentiation can be used to help optomise it.
+## The process of optimisation
 
-## Turning points on a curve
-
-Maximum and minimum values of a function happen at turning points on a graph. At a turning point on a graph the gradient is zero. These turning points are also call critical points.
+The largest or smallest values of a function can be found either at it's **turning points** or at it's **extreme values**. At the turning point of a function it's gradient will be zero, imagine walking to the top of a hill, once you get to the top you can't go any higher and the hill levels out, it's gradient is zero. The extreme values of a function also need to be checked since the gradient might not be zero here but it could be a maximum or minimum value.
 
 ```{r, echo=FALSE}
-knitr::include_url("https://www.desmos.com/calculator/yge6iy1mwg?embed")
+knitr::include_url("https://www.desmos.com/calculator/xknnmfqryk?embed")
 ```
 
-Notice two things:
+:::{.callout-note}
+## Names of turning points
 
-* the gradient will change depending on which value of $x$. The slope fo the tangent shows you this.
-* maximums and minimums aren't actually the biggest or smallest value the function can give!
+- Global maximum - the largest value in the whole function
+- Global minimum - the smallest value in the whole function
+- Local maximum - the largest value in that neighbourhood of the function
+- Local minimum - the smallest value in that neighbourhood of the function
 
-There are two types of Maxima (plural of maximum) and minima (plural of minimum). They can be either global, for the whole function, or local, for just particular region. Most problems are constrained within bounds and so interested in the local maxima and minima along with what happens at the boundary of any constraint.
+:::
 
-## Classifying critical points
+## Classifying turning points - critical points
 
-Critical points can be found by looking at the values of  $f'(x)$ and $f''(x)$. The graph below shows $f(x)$, $f'(x)$ and $f''(x)$ all plotted on the same axes. As you move the point notice how when $f(x)$ is at it's maximum,  $f'(x) = 0$ and $f''(x) < 0$. The three different lines are as follows: $f(x)$ is solid red, $f'(x)$ is dashed blue and $f''(x)$ is dotty and green. There is a lot going on in the graph below but it's worth taking some time to play with the points to see what is going on.
+Sometimes it's not easy to sketch the function you are working with and you need to find a way to classify your turning points (sometimes called critical points).
+
+We can classify the turning points by looking at the values of the first and second dervatives, $f'(x)$ and $f''(x)$. The graph below shows $f(x)$, $f'(x)$ and $f''(x)$ all plotted on the same axes. As you move the point notice how when $f(x)$ is at it's maximum,  $f'(x) = 0$ and $f''(x) < 0$. The three different lines are as follows: $f(x)$ is solid red, $f'(x)$ is dashed blue and $f''(x)$ is dotty and green. There is a lot going on in the graph below but it's worth taking some time to play with the points to see what is going on.
 
 ```{r, echo=FALSE}
 knitr::include_url("https://www.desmos.com/calculator/ybaguwnu8g?embed")
@@ -39,13 +42,34 @@ We can summarise this in a table:
 | maximum | largest value | $0$ | $f''(x) < 0$ |
 :::
 
+:::{.callout-warning}
+## Inflection points
+
+Sometimes you *might* get a values of $f'(x) = 0$ which doesn't correspond to a maximum or a minimum. These are a type of [inflection point](https://en.wikipedia.org/wiki/Inflection_point) and can be identified by noticing that $f''(x)=0$ at this point. Inflection points happen when the bend of the curve changes from upwards to downwards. Mathematically speaking we say going from concave to convex. 
+
+:::
+
+::: {.content-visible when-profile="econ"}
+
+::::{.callout-caution}
+## Economics vocabulary 
+
+**First order condition** or FOC is when $f'(x) = 0$.
+**Second order condition** or SOC is checking the sign of $f''(x)$ to calssify the turning point.
+
+::::
+
+:::
+
+## Example - finding and classifying critical points
+
 We can use this information to classify critical points. For example let's find and classify the critical points of:
 
 $$
 y=2x^3 - 4^2 + 2
 $$
 
-First we need to find the points where $\frac{dy}{dx} = 0$ (remember $f'(x)$ and  $\frac{dy}{dx}$ mean the same thing). So differentiating $y=2x^3 - 4^2 + 2$ we have:
+First we need to find the points where $\frac{dy}{dx} = 0$ (remember $f'(x)$ and  $\frac{dy}{dx}$ mean the same thing). So differentiating $y=2x^3 - 4x^2 + 2$ we have:
 
 $$
 \frac{dy}{dx} = 6x^2 -8x
@@ -61,56 +85,80 @@ $$
 
 Now either $2x=0$ or $3x-4 =0$. Solving these two equations we get that $x$ is equal to either to $0$ or $\frac{4}{3}$.
 
-Try this question on classifying critical points.
+Have a go at this quesiton on classifying critical points.
 
 ```{r, echo=FALSE}
-knitr::include_url("https://numbas.mathcentre.ac.uk/question/67953/differentiation-stationary-points-and-their-nature-1/embed/", height="500px")
+knitr::include_url("https://numbas.mathcentre.ac.uk/question/67953/differentiation-stationary-points-and-their-nature-1/embed/", height="600px")
 ```
 
-## Finding gradient at a point
+::: {.content-visible when-profile="econ"}
 
-The rule for differentiating polynomials (functions made up of adding different powers of $x$)is:
+## Solving optomisation problems.
 
-:::{.callout-note}
-* if $y=ax^n$ then $\frac{dy}{dx} = anx^{n-1}$, or,
-* if $f(x)=ax^n$ then $f'(x) = anx^{n-1}$
-**Times by the power, then take one off the power**
+We can put all this together to solve problems.
+
+::::{.callout-caution}
+## Economics example
+
+A demand function for a generic good, where $P$ is the price and $q$ is the quantity is: $P = 121 - q$. The Marginal Cost is given by, $MC = 7q+25$, and fixed cost is, $FC = 23$. Find the quantity $q$ to maximise profits.
+
+Marginal Cost, $MC$, is the cost that changes with quantity of the goods produced.
+
+Fixed Cost, $FC$, is a one off cost.
+
+The total profit can be found by calculating the total revenue (price times quantity) subtract the total cost (marginal cost times quantity add fixed costs).
+
+Since the letter $P$ has been used for price I'll use $\pi$, the greek version of $P$ for profit. The equation for profit looks like:
+
+$$ 
+\begin{split} \pi   &= TR - TC \\ 
+                    &= Pq - (MC \times q + FC) \end{split} 
+$$
+
+Using the equations for $P$, $MC$ and $FC$ given in this question we can substitue these in our equation for profit to give:
+
+$$ 
+\pi = (121 - q)q - (7q+25)q - 23 
+$$
+
+Expanding the brackets we have:
+
+$$
+\pi = 121q - q^2 -7q^2 - 25q - 23
+$$
+
+Then collecting like terms (it's normal to write it in decreasing powers of the variable):
+
+$$
+\pi = - 8q^2 + 96q - 23
+$$
+
+Differentiating with respect to $q$ gives:
+
+$$
+\frac{d\pi}{dq} = -16q + 96
+$$
+
+Using the first order condition $\frac{d\pi}{dq} = 0$. In other words find where the function's gradient is equal to zero. We have:
+
+$$ 
+- 16q + 96 = 0 
+$$
+
+Solving to find $q$:
+
+$$
+\begin{aligned}
+96 &= 16q \\
+\frac{96}{16} &= q \\
+q &= 6
+\end{aligned}
+$$
+
+```{r, echo=FALSE}
+knitr::include_url("https://numbas.mathcentre.ac.uk/question/140935/optimisation-find-quantity-to-maximise-profits/embed/", height="500px")
+```
+
+::::
+
 :::
-
-
-Here are some examples:
-
-If $y = 3x^4$ then $\frac{dy}{dx} = 3 \times 4 \times x^{4-1} = 12x^3$
-
-Multiple terms added together are differentiated one by one then added together:
-
-$$
-\begin{aligned} y &= 6x^3 + 2x^2 + 4x + 5 \\
-\frac{dy}{dx} &= 6x^3 + 2x^2 + 4x^1 + 5x^0 \\
-&= 3\times6x^{3-1} + 2\times x^{2-1} + 1\times 4x^{1-1} + 0\times5x^{0-1} \\
-&= 18x^2 + 2x^1 + 4x^{0} + 0 \\
-&= 18x^2 + 2x + 4
-\end{aligned}
-$$
-In the above example we've used the following mathematical facts:
-
-* $x=x^1$, $x$ on it's own is $x^1$
-* $x^0=1$, you can always multiply by $x^0$ since it's $1$
-* $0 \times a = 0$ anything times zero is zero
-
-The take away from this is that constant terms, terms without $x$ in, disappear, and terms with just $x$ in loose the $x$.
-
-
-To find the gradient at a point. Differentiate the original function and then substitute the $x$ value of the point into the derivative. 
-
-For example to find the gradient when $x=3$ for the function $y=x^2$. We would differentiate and then substitute in $x=3$.
-
-$$
-\begin{aligned} y &= x^2 \\
-\frac{dy}{dx} &= 2x \\
-&= 2(3) \\
-&= 2 \times 3 \\
-&= 6
-\end{aligned}
-$$
-So the gradient at $x=3$ on the curve $y=x^2$ is $6$.
