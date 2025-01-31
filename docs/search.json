@@ -488,5 +488,55 @@
     "crumbs": [
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Further differentiation</span>"
     ]
+  },
+  {
+    "objectID": "13-optimisation.html",
+    "href": "13-optimisation.html",
+    "title": "14  Optimisation",
+    "section": "",
+    "text": "14.1 The process of optimisation\nOptimisation finds the biggest or smallest values of a function. This is often used to solve real world problems, for example:\nBrace yourself! The questions here are long and multi-stepped. Take your time, have a coffee and be kind to yourself.\nThe largest or smallest values of a function can be found either at it’s turning points or at it’s extreme values. At the turning point of a function it’s gradient will be zero, imagine walking to the top of a hill, once you get to the top you can’t go any higher and the hill levels out, it’s gradient is zero. The extreme values of a function also need to be checked since the gradient might not be zero here but it could be a maximum or minimum value.",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Optimisation</span>"
+    ]
+  },
+  {
+    "objectID": "13-optimisation.html#the-process-of-optimisation",
+    "href": "13-optimisation.html#the-process-of-optimisation",
+    "title": "14  Optimisation",
+    "section": "",
+    "text": "Names of turning points\n\n\n\n\nGlobal maximum - the largest value in the whole function\nGlobal minimum - the smallest value in the whole function\nLocal maximum - the largest value in that neighbourhood of the function\nLocal minimum - the smallest value in that neighbourhood of the function",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Optimisation</span>"
+    ]
+  },
+  {
+    "objectID": "13-optimisation.html#classifying-turning-points---critical-points",
+    "href": "13-optimisation.html#classifying-turning-points---critical-points",
+    "title": "14  Optimisation",
+    "section": "14.2 Classifying turning points - critical points",
+    "text": "14.2 Classifying turning points - critical points\nSometimes it’s not easy to sketch the function you are working with and you need to find a way to classify your turning points (sometimes called critical points).\nWe can classify the turning points by looking at the values of the first and second dervatives, \\(f'(x)\\) and \\(f''(x)\\). The graph below shows \\(f(x)\\), \\(f'(x)\\) and \\(f''(x)\\) all plotted on the same axes. As you move the point notice how when \\(f(x)\\) is at it’s maximum, \\(f'(x) = 0\\) and \\(f''(x) &lt; 0\\). The three different lines are as follows: \\(f(x)\\) is solid red, \\(f'(x)\\) is dashed blue and \\(f''(x)\\) is dotty and green. There is a lot going on in the graph below but it’s worth taking some time to play with the points to see what is going on.\n\n\n\n\nWe can summarise this in a table:\n\n\n\n\n\n\nNote\n\n\n\n\n\n\ncritical point\n\\(f(x)\\)\n\\(f'(x)\\)\n\\(f''(x)\\)\n\n\n\n\nminimum\nsmallest value\n\\(0\\)\n\\(f''(x) &gt; 0\\)\n\n\nmaximum\nlargest value\n\\(0\\)\n\\(f''(x) &lt; 0\\)\n\n\n\n\n\n\n\n\n\n\n\nInflection points\n\n\n\nSometimes you might get a values of \\(f'(x) = 0\\) which doesn’t correspond to a maximum or a minimum. These are a type of inflection point and can be identified by noticing that \\(f''(x)=0\\) at this point. Inflection points happen when the bend of the curve changes from upwards to downwards. Mathematically speaking we say going from concave to convex.",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Optimisation</span>"
+    ]
+  },
+  {
+    "objectID": "13-optimisation.html#example---finding-and-classifying-critical-points",
+    "href": "13-optimisation.html#example---finding-and-classifying-critical-points",
+    "title": "14  Optimisation",
+    "section": "14.3 Example - finding and classifying critical points",
+    "text": "14.3 Example - finding and classifying critical points\nWe can use this information to classify critical points. For example let’s find and classify the critical points of:\n\\[\ny=2x^3 - 4^2 + 2\n\\]\nFirst we need to find the points where \\(\\frac{dy}{dx} = 0\\) (remember \\(f'(x)\\) and \\(\\frac{dy}{dx}\\) mean the same thing). So differentiating \\(y=2x^3 - 4x^2 + 2\\) we have:\n\\[\n\\frac{dy}{dx} = 6x^2 -8x\n\\] Setting \\(\\frac{dy}{dx} = 0\\) and solving we have:\n\\[\n\\begin{aligned} \\frac{dy}{dx} &= 6x^2 -8x \\\\\n0 &= 6x^2 -8x \\\\\n&= 2x(3x-4)\n\\end{aligned}\n\\]\nNow either \\(2x=0\\) or \\(3x-4 =0\\). Solving these two equations we get that \\(x\\) is equal to either to \\(0\\) or \\(\\frac{4}{3}\\).\nHave a go at this quesiton on classifying critical points.",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Optimisation</span>"
+    ]
+  },
+  {
+    "objectID": "13-optimisation.html#solving-optomisation-problems.",
+    "href": "13-optimisation.html#solving-optomisation-problems.",
+    "title": "14  Optimisation",
+    "section": "14.4 Solving optomisation problems.",
+    "text": "14.4 Solving optomisation problems.\nWe can put all this together to solve problems. Warning This is a long question with many steps. You might want to check your knowledge of the chain and quotient rule before you start.\n\n14.4.1 Worked example\nProduction cost can be modelled with the equation \\(y = 3 - \\frac{(x + 3)^{2}}{x}\\) in the interval \\(0 &lt; x &lt; 8\\) where \\(y\\) is cost and \\(x\\) is number of units produced.\nFind the minimum cost and verify that it is a minimum using differentiation. There is a minimum point at \\((x, y)\\).\n\n\n14.4.2 Solution\nSince the function is of the form \\(y = \\frac{u(x)}{v(x)}\\), we want to use the quotient rule to calculate the derivative \\(\\frac{dy}{dx}\\).\nAs \\(y = 3 - \\frac{(x + 3)^{2}}{x},\\)\nlet \\(u(x) = (x + 3)^{2}\\) and \\(v(x) = - x\\).\nNext, we need to find the derivatives, \\(\\frac{du}{dx}\\) and \\(\\frac{dv}{dx}\\):\nSince \\(\\frac{du}{dx} = 2(x + 3)\\) and \\(\\frac{dv}{dx} = - 1.\\)\nSubstituting these results into the quotient rule formula we can obtain an expression for \\(\\frac{dy}{dx}\\):\n\\[\n\\begin{aligned}\n\\frac{dy}{dx} &= \\frac{v(x) \\times \\frac{du}{dx} - u(x) \\times \\frac{dv}{dx}}{[v(x)]^{2}} \\\\\n&= \\frac{(- x) \\times 2(x + 3) - (x + 3)^{2} \\times - 1}{(- x)^{2}}.\n\\end{aligned}\n\\]\nSimplifying, \\[\n\\begin{aligned}\n\\frac{dy}{dx} &= \\frac{2x(x + 3) - (x + 3)^{2}}{- x^{2}} \\\\\n&= \\frac{2x^{2} + 6x - x^{2} - 6x - 9}{- x^{2}} \\\\\n&= \\frac{x^{2} - 9}{- x^{2}}.\n\\end{aligned}\n\\]\nTo find the stationary points of the function, we must solve \\(\\frac{dy}{dx} = 0\\) for \\(x\\). Setting \\(\\frac{dy}{dx} = 0\\): \\[\n\\begin{aligned}\n\\frac{x^{2} - 9}{- x^{2}} &= 0\\\\\n\\Longrightarrow x^{2} - 9 &= 0.\n\\end{aligned}\n\\]\nTherefore, the stationary points are when \\(x = 3\\) and \\(x = - 3\\).\nDue to the interval that this equation is valid for we can reject \\(x = - 3\\).\nWe find the corresponding \\(y\\)-values of the stationary point by plugging these \\(x\\)-values into the initial equation:\nWhen \\(x = 3\\),\n\\[\n\\begin{aligned}\ny &= 3 + \\frac{(3 + 3)^{2}}{- 3} \\\\\n&= - 9.\n\\end{aligned}\n\\]\nTherefore, the stationary point is \\((3, - 9)\\). Finally, we need to determine the nature of the stationary point. To do this we want to calculate the second derivative of the initial function and then evaluate it for \\(x\\)-value of the stationary point.\nRecall:\n\nIf \\(\\frac{d^{2}y}{dx^{2}} &lt; 0\\) the stationary point is a maximum;\nIf \\(\\frac{d^{2}y}{dx^{2}} &gt; 0\\) the stationary point is a minimum;\nIf \\(\\frac{d^{2}y}{dx^{2}} = 0\\) the stationary point is a point of inflection.\n\nTo calculate \\(\\frac{d^{2}y}{dx^{2}}\\), we want to differentiate \\(\\frac{dy}{dx}\\) again with respect to \\(x\\):\n\\[\n\\begin{aligned}\n\\frac{d^{2}y}{dx^{2}} &= \\frac{2x(x^{2} - 9) - 2x^{3}}{(- x^{2})^{2}} \\\\\n&= \\frac{2x^{3} - 2x^{3} + 18x}{- x^{4}} \\\\\n&= - \\frac{18}{x^{3}}.\n\\end{aligned}\n\\]\nFor \\((3, - 9)\\), \\(\\frac{d^{2}y}{dx^{2}} = - \\frac{2}{3}\\), so it is a maximum.\nCongratulations if you made it this far!\nNow you can have a go at one yourself.",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Optimisation</span>"
+    ]
   }
 ]

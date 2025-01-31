@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>11&nbsp; Exponential functions – Zero to Hero</title>
+<title>14&nbsp; Optimisation – Zero to Hero</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./11-logarithms.html" rel="next">
-<link href="./09-differentiation.html" rel="prev">
+<link href="./12-further-differentiation.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -112,7 +111,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./10-exponetial_function.html"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Exponential functions</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./13-optimisation.html"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Optimisation</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -215,7 +214,7 @@ window.Quarto = {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./10-exponetial_function.html" class="sidebar-item-text sidebar-link active">
+  <a href="./10-exponetial_function.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Exponential functions</span></span></a>
   </div>
 </li>
@@ -233,7 +232,7 @@ window.Quarto = {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./13-optimisation.html" class="sidebar-item-text sidebar-link">
+  <a href="./13-optimisation.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Optimisation</span></span></a>
   </div>
 </li>
@@ -247,11 +246,16 @@ window.Quarto = {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#getting-to-know-exponential-functions" id="toc-getting-to-know-exponential-functions" class="nav-link active" data-scroll-target="#getting-to-know-exponential-functions"><span class="header-section-number">11.1</span> Getting to know exponential functions</a></li>
-  <li><a href="#the-exponential-function" id="toc-the-exponential-function" class="nav-link" data-scroll-target="#the-exponential-function"><span class="header-section-number">11.2</span> The exponential function</a></li>
-  <li><a href="#differentiating-ex" id="toc-differentiating-ex" class="nav-link" data-scroll-target="#differentiating-ex"><span class="header-section-number">11.3</span> Differentiating <span class="math inline">\(e^x\)</span></a></li>
+  <li><a href="#the-process-of-optimisation" id="toc-the-process-of-optimisation" class="nav-link active" data-scroll-target="#the-process-of-optimisation"><span class="header-section-number">14.1</span> The process of optimisation</a></li>
+  <li><a href="#classifying-turning-points---critical-points" id="toc-classifying-turning-points---critical-points" class="nav-link" data-scroll-target="#classifying-turning-points---critical-points"><span class="header-section-number">14.2</span> Classifying turning points - critical points</a></li>
+  <li><a href="#example---finding-and-classifying-critical-points" id="toc-example---finding-and-classifying-critical-points" class="nav-link" data-scroll-target="#example---finding-and-classifying-critical-points"><span class="header-section-number">14.3</span> Example - finding and classifying critical points</a></li>
+  <li><a href="#solving-optomisation-problems." id="toc-solving-optomisation-problems." class="nav-link" data-scroll-target="#solving-optomisation-problems."><span class="header-section-number">14.4</span> Solving optomisation problems.</a>
+  <ul class="collapse">
+  <li><a href="#worked-example" id="toc-worked-example" class="nav-link" data-scroll-target="#worked-example"><span class="header-section-number">14.4.1</span> Worked example</a></li>
+  <li><a href="#solution" id="toc-solution" class="nav-link" data-scroll-target="#solution"><span class="header-section-number">14.4.2</span> Solution</a></li>
+  </ul></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/BathMASH/zero-to-hero/blob/master/10-exponetial_function.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/BathMASH/zero-to-hero/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/BathMASH/zero-to-hero/blob/master/13-optimisation.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/BathMASH/zero-to-hero/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     <div class="quarto-margin-footer"><div class="margin-footer-item">
 <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="./img/uob-logo.light.png" class="img-fluid" alt="Zero to Hero © 2023 by Ed Southwood, Skills Centre, University of Bath is licensed under Attribution-NonCommercial-ShareAlike 4.0 International"></a> <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="./img/cc-logo.png" class="img-fluid" alt="Zero to Hero © 2023 by Ed Southwood, Skills Centre, University of Bath is licensed under Attribution-NonCommercial-ShareAlike 4.0 International"></a> <link rel="preload" href="./img/uob-logo.dark.png" as="image"></p>
 </div></div></div>
@@ -260,7 +264,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Exponential functions</span></h1>
+<h1 class="title"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Optimisation</span></h1>
 </div>
 
 
@@ -277,84 +281,47 @@ window.Quarto = {
 </header>
 
 
-<p>Exponential functions crop up in applied mathematics everywhere. This section looks at these important functions, so important that, Professor Albert Bartlett said the following about them in this lecture <a href="https://www.youtube.com/watch?v=sI1C9DyIi_8">Arithmetic, Population and Energy</a>.</p>
-<p><em>The greatest shortcoming of the human race is our inability to understand the exponential function.</em></p>
-<section id="getting-to-know-exponential-functions" class="level2" data-number="11.1">
-<h2 data-number="11.1" class="anchored" data-anchor-id="getting-to-know-exponential-functions"><span class="header-section-number">11.1</span> Getting to know exponential functions</h2>
-<p>An exponential function comes in the for, <span class="math inline">\(y=a^x\)</span>. They can increase incredibly fast. Take for example <span class="math inline">\(y=2^x\)</span></p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th style="text-align: center;"><span class="math inline">\(x\)</span></th>
-<th style="text-align: center;"><span class="math inline">\(y=2^x\)</span></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;"><span class="math inline">\(-2\)</span></td>
-<td style="text-align: center;"><span class="math inline">\(y = 2^{-2} = \frac{1}{2^2} = \frac{1}{4}\)</span></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><span class="math inline">\(-1\)</span></td>
-<td style="text-align: center;"><span class="math inline">\(y = 2^{-1} = \frac{1}{2^1} = \frac{1}{2}\)</span></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"><span class="math inline">\(0\)</span></td>
-<td style="text-align: center;"><span class="math inline">\(y = 2^{0} = 1\)</span></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><span class="math inline">\(1\)</span></td>
-<td style="text-align: center;"><span class="math inline">\(y = 2^{1} = 2\)</span></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"><span class="math inline">\(2\)</span></td>
-<td style="text-align: center;"><span class="math inline">\(y = 2^{2} = 4\)</span></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><span class="math inline">\(3\)</span></td>
-<td style="text-align: center;"><span class="math inline">\(y = 2^{3} = 8\)</span></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"><span class="math inline">\(4\)</span></td>
-<td style="text-align: center;"><span class="math inline">\(y = 2^{4} = 16\)</span></td>
-</tr>
-</tbody>
-</table>
-<p>Plotting these points give a graph that looks like:</p>
+<p>Optimisation finds the biggest or smallest values of a function. This is often used to solve real world problems, for example:</p>
+<ul>
+<li>optimise profits by finding a maximum of a profit function</li>
+<li>optimise a journey cost by finding minimum fuel use</li>
+</ul>
+<p>Brace yourself! The questions here are long and multi-stepped. Take your time, have a coffee and be kind to yourself.</p>
+<section id="the-process-of-optimisation" class="level2" data-number="14.1">
+<h2 data-number="14.1" class="anchored" data-anchor-id="the-process-of-optimisation"><span class="header-section-number">14.1</span> The process of optimisation</h2>
+<p>The largest or smallest values of a function can be found either at it’s <strong>turning points</strong> or at it’s <strong>extreme values</strong>. At the turning point of a function it’s gradient will be zero, imagine walking to the top of a hill, once you get to the top you can’t go any higher and the hill levels out, it’s gradient is zero. The extreme values of a function also need to be checked since the gradient might not be zero here but it could be a maximum or minimum value.</p>
 <div class="cell">
-<iframe src="https://www.desmos.com/calculator/u1nuc4eumz?embed" width="672" height="400px" data-external="1">
+<iframe src="https://www.desmos.com/calculator/xknnmfqryk?embed" width="672" height="400px" data-external="1">
 </iframe>
 </div>
-<p>Notice the following key points about the graph.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Note
+Names of turning points
 </div>
 </div>
 <div class="callout-body-container callout-body">
 <ul>
-<li>The graph quickly increases.</li>
-<li>It crosses the <span class="math inline">\(y\)</span> axis at <span class="math inline">\(1\)</span> (all exponential graphs do this).</li>
-<li>It never goes under the <span class="math inline">\(x\)</span> axis.</li>
+<li>Global maximum - the largest value in the whole function</li>
+<li>Global minimum - the smallest value in the whole function</li>
+<li>Local maximum - the largest value in that neighbourhood of the function</li>
+<li>Local minimum - the smallest value in that neighbourhood of the function</li>
 </ul>
 </div>
 </div>
 </section>
-<section id="the-exponential-function" class="level2" data-number="11.2">
-<h2 data-number="11.2" class="anchored" data-anchor-id="the-exponential-function"><span class="header-section-number">11.2</span> The exponential function</h2>
-<p>There is one exponential function that is so important that it is called <strong>the</strong> exponential function. It is written as <span class="math inline">\(y=e^x\)</span> where <span class="math inline">\(e\)</span> is an irrational number (an infinitely long decimal number that doesn’t repeat itself, <span class="math inline">\(/pi\)</span> is an irrational number too). The value of <span class="math inline">\(e\)</span> is:</p>
-<p><span class="math display">\[
-e = 2.71828182845904523536028747135266249775724709369995...
-\]</span> ish.</p>
-<p>The reason why it is special is that when <span class="math inline">\(y=e^x\)</span>, the derivative is itself, that is <span class="math inline">\(\frac{dy}{dx}=e^x\)</span>. Below is a graph of <span class="math inline">\(y=a^x\)</span> (solid red line) and it derivative (dashed blue line), you can open it up and change the value of <span class="math inline">\(a\)</span> from <span class="math inline">\(2\)</span> to <span class="math inline">\(4\)</span>. <span class="math inline">\(a\)</span> is set to <span class="math inline">\(2\)</span> to begin with, notice how the derivative is beneath the curve <span class="math inline">\(y=a^x\)</span>. When <span class="math inline">\(a\)</span> is increased the derivative moves above <span class="math inline">\(y=a^x\)</span>. The point where the two curves overlap is when <span class="math inline">\(a=e\)</span>.</p>
+<section id="classifying-turning-points---critical-points" class="level2" data-number="14.2">
+<h2 data-number="14.2" class="anchored" data-anchor-id="classifying-turning-points---critical-points"><span class="header-section-number">14.2</span> Classifying turning points - critical points</h2>
+<p>Sometimes it’s not easy to sketch the function you are working with and you need to find a way to classify your turning points (sometimes called critical points).</p>
+<p>We can classify the turning points by looking at the values of the first and second dervatives, <span class="math inline">\(f'(x)\)</span> and <span class="math inline">\(f''(x)\)</span>. The graph below shows <span class="math inline">\(f(x)\)</span>, <span class="math inline">\(f'(x)\)</span> and <span class="math inline">\(f''(x)\)</span> all plotted on the same axes. As you move the point notice how when <span class="math inline">\(f(x)\)</span> is at it’s maximum, <span class="math inline">\(f'(x) = 0\)</span> and <span class="math inline">\(f''(x) &lt; 0\)</span>. The three different lines are as follows: <span class="math inline">\(f(x)\)</span> is solid red, <span class="math inline">\(f'(x)\)</span> is dashed blue and <span class="math inline">\(f''(x)\)</span> is dotty and green. There is a lot going on in the graph below but it’s worth taking some time to play with the points to see what is going on.</p>
 <div class="cell">
-<iframe src="https://www.desmos.com/calculator/d635xag3xe?embed" width="672" height="400px" data-external="1">
+<iframe src="https://www.desmos.com/calculator/ybaguwnu8g?embed" width="672" height="400px" data-external="1">
 </iframe>
 </div>
+<p>We can summarise this in a table:</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -365,20 +332,139 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>If <span class="math inline">\(y=e^x\)</span> then <span class="math inline">\(\frac{dy}{dx}=e^x\)</span>.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">critical point</th>
+<th style="text-align: center;"><span class="math inline">\(f(x)\)</span></th>
+<th style="text-align: center;"><span class="math inline">\(f'(x)\)</span></th>
+<th style="text-align: center;"><span class="math inline">\(f''(x)\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">minimum</td>
+<td style="text-align: center;">smallest value</td>
+<td style="text-align: center;"><span class="math inline">\(0\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(f''(x) &gt; 0\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">maximum</td>
+<td style="text-align: center;">largest value</td>
+<td style="text-align: center;"><span class="math inline">\(0\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(f''(x) &lt; 0\)</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Inflection points
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Sometimes you <em>might</em> get a values of <span class="math inline">\(f'(x) = 0\)</span> which doesn’t correspond to a maximum or a minimum. These are a type of <a href="https://en.wikipedia.org/wiki/Inflection_point">inflection point</a> and can be identified by noticing that <span class="math inline">\(f''(x)=0\)</span> at this point. Inflection points happen when the bend of the curve changes from upwards to downwards. Mathematically speaking we say going from concave to convex.</p>
 </div>
 </div>
 </section>
-<section id="differentiating-ex" class="level2" data-number="11.3">
-<h2 data-number="11.3" class="anchored" data-anchor-id="differentiating-ex"><span class="header-section-number">11.3</span> Differentiating <span class="math inline">\(e^x\)</span></h2>
-<p>The rule for differentiating <span class="math inline">\(e^x\)</span> is if <span class="math inline">\(y = ke^{ax}\)</span> then <span class="math inline">\(\frac{dy}{dx}= ake^{ax}\)</span>.</p>
-<p>Use that rule to try the following questions.</p>
+<section id="example---finding-and-classifying-critical-points" class="level2" data-number="14.3">
+<h2 data-number="14.3" class="anchored" data-anchor-id="example---finding-and-classifying-critical-points"><span class="header-section-number">14.3</span> Example - finding and classifying critical points</h2>
+<p>We can use this information to classify critical points. For example let’s find and classify the critical points of:</p>
+<p><span class="math display">\[
+y=2x^3 - 4^2 + 2
+\]</span></p>
+<p>First we need to find the points where <span class="math inline">\(\frac{dy}{dx} = 0\)</span> (remember <span class="math inline">\(f'(x)\)</span> and <span class="math inline">\(\frac{dy}{dx}\)</span> mean the same thing). So differentiating <span class="math inline">\(y=2x^3 - 4x^2 + 2\)</span> we have:</p>
+<p><span class="math display">\[
+\frac{dy}{dx} = 6x^2 -8x
+\]</span> Setting <span class="math inline">\(\frac{dy}{dx} = 0\)</span> and solving we have:</p>
+<p><span class="math display">\[
+\begin{aligned} \frac{dy}{dx} &amp;= 6x^2 -8x \\
+0 &amp;= 6x^2 -8x \\
+&amp;= 2x(3x-4)
+\end{aligned}
+\]</span></p>
+<p>Now either <span class="math inline">\(2x=0\)</span> or <span class="math inline">\(3x-4 =0\)</span>. Solving these two equations we get that <span class="math inline">\(x\)</span> is equal to either to <span class="math inline">\(0\)</span> or <span class="math inline">\(\frac{4}{3}\)</span>.</p>
+<p>Have a go at this quesiton on classifying critical points.</p>
 <div class="cell">
-<iframe src="https://numbas.mathcentre.ac.uk/question/62791/differentiation-using-a-table-of-derivatives-4/embed/?token=c0e0c050-43ee-44bf-ac18-9377c9d3a522" width="672" height="800px" data-external="1">
+<iframe src="https://numbas.mathcentre.ac.uk/question/67953/differentiation-stationary-points-and-their-nature-1/embed/" width="672" height="600px" data-external="1">
+</iframe>
+</div>
+</section>
+<section id="solving-optomisation-problems." class="level2" data-number="14.4">
+<h2 data-number="14.4" class="anchored" data-anchor-id="solving-optomisation-problems."><span class="header-section-number">14.4</span> Solving optomisation problems.</h2>
+<p>We can put all this together to solve problems. <strong>Warning</strong> This is a long question with many steps. You might want to check your knowledge of the chain and quotient rule before you start.</p>
+<section id="worked-example" class="level3" data-number="14.4.1">
+<h3 data-number="14.4.1" class="anchored" data-anchor-id="worked-example"><span class="header-section-number">14.4.1</span> Worked example</h3>
+<p>Production cost can be modelled with the equation <span class="math inline">\(y = 3 - \frac{(x + 3)^{2}}{x}\)</span> in the interval <span class="math inline">\(0 &lt; x &lt; 8\)</span> where <span class="math inline">\(y\)</span> is cost and <span class="math inline">\(x\)</span> is number of units produced.</p>
+<p>Find the minimum cost and verify that it is a minimum using differentiation. There is a minimum point at <span class="math inline">\((x, y)\)</span>.</p>
+</section>
+<section id="solution" class="level3" data-number="14.4.2">
+<h3 data-number="14.4.2" class="anchored" data-anchor-id="solution"><span class="header-section-number">14.4.2</span> Solution</h3>
+<p>Since the function is of the form <span class="math inline">\(y = \frac{u(x)}{v(x)}\)</span>, we want to use the quotient rule to calculate the derivative <span class="math inline">\(\frac{dy}{dx}\)</span>.</p>
+<p>As <span class="math inline">\(y = 3 - \frac{(x + 3)^{2}}{x},\)</span></p>
+<p>let <span class="math inline">\(u(x) = (x + 3)^{2}\)</span> and <span class="math inline">\(v(x) = - x\)</span>.</p>
+<p>Next, we need to find the derivatives, <span class="math inline">\(\frac{du}{dx}\)</span> and <span class="math inline">\(\frac{dv}{dx}\)</span>:</p>
+<p>Since <span class="math inline">\(\frac{du}{dx} = 2(x + 3)\)</span> and <span class="math inline">\(\frac{dv}{dx} = - 1.\)</span></p>
+<p>Substituting these results into the quotient rule formula we can obtain an expression for <span class="math inline">\(\frac{dy}{dx}\)</span>:</p>
+<p><span class="math display">\[
+\begin{aligned}
+\frac{dy}{dx} &amp;= \frac{v(x) \times \frac{du}{dx} - u(x) \times \frac{dv}{dx}}{[v(x)]^{2}} \\
+&amp;= \frac{(- x) \times 2(x + 3) - (x + 3)^{2} \times - 1}{(- x)^{2}}.
+\end{aligned}
+\]</span></p>
+<p>Simplifying, <span class="math display">\[
+\begin{aligned}
+\frac{dy}{dx} &amp;= \frac{2x(x + 3) - (x + 3)^{2}}{- x^{2}} \\
+&amp;= \frac{2x^{2} + 6x - x^{2} - 6x - 9}{- x^{2}} \\
+&amp;= \frac{x^{2} - 9}{- x^{2}}.
+\end{aligned}
+\]</span></p>
+<p>To find the stationary points of the function, we must solve <span class="math inline">\(\frac{dy}{dx} = 0\)</span> for <span class="math inline">\(x\)</span>. Setting <span class="math inline">\(\frac{dy}{dx} = 0\)</span>: <span class="math display">\[
+\begin{aligned}
+\frac{x^{2} - 9}{- x^{2}} &amp;= 0\\
+\Longrightarrow x^{2} - 9 &amp;= 0.
+\end{aligned}
+\]</span></p>
+<p>Therefore, the stationary points are when <span class="math inline">\(x = 3\)</span> and <span class="math inline">\(x = - 3\)</span>.</p>
+<p>Due to the interval that this equation is valid for we can reject <span class="math inline">\(x = - 3\)</span>.</p>
+<p>We find the corresponding <span class="math inline">\(y\)</span>-values of the stationary point by plugging these <span class="math inline">\(x\)</span>-values into the initial equation:</p>
+<p>When <span class="math inline">\(x = 3\)</span>,</p>
+<p><span class="math display">\[
+\begin{aligned}
+y &amp;= 3 + \frac{(3 + 3)^{2}}{- 3} \\
+&amp;= - 9.
+\end{aligned}
+\]</span></p>
+<p>Therefore, the stationary point is <span class="math inline">\((3, - 9)\)</span>. Finally, we need to determine the nature of the stationary point. To do this we want to calculate the second derivative of the initial function and then evaluate it for <span class="math inline">\(x\)</span>-value of the stationary point.</p>
+<p>Recall:</p>
+<ul>
+<li>If <span class="math inline">\(\frac{d^{2}y}{dx^{2}} &lt; 0\)</span> the stationary point is a <strong>maximum</strong>;</li>
+<li>If <span class="math inline">\(\frac{d^{2}y}{dx^{2}} &gt; 0\)</span> the stationary point is a <strong>minimum</strong>;</li>
+<li>If <span class="math inline">\(\frac{d^{2}y}{dx^{2}} = 0\)</span> the stationary point is a <strong>point of inflection</strong>.</li>
+</ul>
+<p>To calculate <span class="math inline">\(\frac{d^{2}y}{dx^{2}}\)</span>, we want to differentiate <span class="math inline">\(\frac{dy}{dx}\)</span> again with respect to <span class="math inline">\(x\)</span>:</p>
+<p><span class="math display">\[
+\begin{aligned}
+\frac{d^{2}y}{dx^{2}} &amp;= \frac{2x(x^{2} - 9) - 2x^{3}}{(- x^{2})^{2}} \\
+&amp;= \frac{2x^{3} - 2x^{3} + 18x}{- x^{4}} \\
+&amp;= - \frac{18}{x^{3}}.
+\end{aligned}
+\]</span></p>
+<p>For <span class="math inline">\((3, - 9)\)</span>, <span class="math inline">\(\frac{d^{2}y}{dx^{2}} = - \frac{2}{3}\)</span>, so it is a maximum.</p>
+<p>Congratulations if you made it this far!</p>
+<p>Now you can have a go at one yourself.</p>
+<div class="cell">
+<iframe src="https://numbas.mathcentre.ac.uk/question/169213/differentiation-contextualized-stationary-points-and-their-nature/embed/" width="672" height="500px" data-external="1">
 </iframe>
 </div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -945,18 +1031,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./09-differentiation.html" class="pagination-link" aria-label="Differentiation">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Differentiation</span></span>
+      <a href="./12-further-differentiation.html" class="pagination-link" aria-label="Further differentiation">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Further differentiation</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./11-logarithms.html" class="pagination-link" aria-label="Logarithms">
-        <span class="nav-page-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Logarithms</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->
-<!-- Cloudflare Web Analytics --><footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/BathMASH/zero-to-hero/blob/master/10-exponetial_function.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/BathMASH/zero-to-hero/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer><script defer="" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon="{&quot;token&quot;: &quot;45c34618a8294826b85725434b26e3db&quot;}"></script><!-- End Cloudflare Web Analytics -->
+<!-- Cloudflare Web Analytics --><footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/BathMASH/zero-to-hero/blob/master/13-optimisation.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/BathMASH/zero-to-hero/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer><script defer="" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon="{&quot;token&quot;: &quot;45c34618a8294826b85725434b26e3db&quot;}"></script><!-- End Cloudflare Web Analytics -->
 <script type="application/javascript" src="scripts/light-dark.js"></script>
 
 

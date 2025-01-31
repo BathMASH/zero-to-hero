@@ -5,6 +5,8 @@ Optimisation finds the biggest or smallest values of a function. This is often u
 * optimise profits by finding a maximum of a profit function
 * optimise a journey cost by finding minimum fuel use
 
+Brace yourself! The questions here are long and multi-stepped. Take your time, have a coffee and be kind to yourself.
+
 ## The process of optimisation
 
 The largest or smallest values of a function can be found either at it's **turning points** or at it's **extreme values**. At the turning point of a function it's gradient will be zero, imagine walking to the top of a hill, once you get to the top you can't go any higher and the hill levels out, it's gradient is zero. The extreme values of a function also need to be checked since the gradient might not be zero here but it could be a maximum or minimum value.
@@ -91,11 +93,104 @@ Have a go at this quesiton on classifying critical points.
 knitr::include_url("https://numbas.mathcentre.ac.uk/question/67953/differentiation-stationary-points-and-their-nature-1/embed/", height="600px")
 ```
 
-::: {.content-visible when-profile="econ"}
+
 
 ## Solving optomisation problems.
 
-We can put all this together to solve problems.
+We can put all this together to solve problems. **Warning** This is a long question with many steps. You might want to check your knowledge of the chain and quotient rule before you start.
+
+### Worked example
+
+Production cost can be modelled with the equation $y = 3 - \frac{(x + 3)^{2}}{x}$ in the interval $0 < x < 8$ where $y$ is cost and $x$ is number of units produced.
+
+Find the minimum cost and verify that it is a minimum using differentiation.
+There is a minimum point at $(x, y)$.
+
+### Solution
+
+Since the function is of the form $y = \frac{u(x)}{v(x)}$, we want to use the quotient rule to calculate the derivative $\frac{dy}{dx}$.
+
+As $y = 3 - \frac{(x + 3)^{2}}{x},$
+
+let $u(x) = (x + 3)^{2}$ and $v(x) = - x$.
+
+Next, we need to find the derivatives, $\frac{du}{dx}$ and $\frac{dv}{dx}$:
+
+Since $\frac{du}{dx} = 2(x + 3)$ and $\frac{dv}{dx} = - 1.$
+
+Substituting these results into the quotient rule formula we can obtain an expression for $\frac{dy}{dx}$:
+
+$$
+\begin{aligned}
+\frac{dy}{dx} &= \frac{v(x) \times \frac{du}{dx} - u(x) \times \frac{dv}{dx}}{[v(x)]^{2}} \\
+&= \frac{(- x) \times 2(x + 3) - (x + 3)^{2} \times - 1}{(- x)^{2}}.
+\end{aligned}
+$$
+
+Simplifying,
+$$
+\begin{aligned}
+\frac{dy}{dx} &= \frac{2x(x + 3) - (x + 3)^{2}}{- x^{2}} \\
+&= \frac{2x^{2} + 6x - x^{2} - 6x - 9}{- x^{2}} \\
+&= \frac{x^{2} - 9}{- x^{2}}.
+\end{aligned}
+$$
+
+To find the stationary points of the function, we must solve $\frac{dy}{dx} = 0$ for $x$. Setting $\frac{dy}{dx} = 0$:
+$$
+\begin{aligned}
+\frac{x^{2} - 9}{- x^{2}} &= 0\\
+ \Longrightarrow x^{2} - 9 &= 0.
+\end{aligned}
+$$
+
+Therefore, the stationary points are when $x = 3$ and $x = - 3$.
+
+Due to the interval that this equation is valid for we can reject $x = - 3$.
+
+We find the corresponding $y$-values of the stationary point by plugging these $x$-values into the initial equation:
+
+When $x = 3$,
+
+$$
+\begin{aligned}
+y &= 3 + \frac{(3 + 3)^{2}}{- 3} \\
+&= - 9.
+\end{aligned}
+$$
+
+Therefore, the stationary point is $(3, - 9)$.
+Finally, we need to determine the nature of the stationary point. To do this we want to calculate the second derivative of the initial function and then evaluate it for $x$-value of the stationary point.
+
+Recall:
+
+- If $\frac{d^{2}y}{dx^{2}} < 0$ the stationary point is a **maximum**;
+- If $\frac{d^{2}y}{dx^{2}} > 0$ the stationary point is a **minimum**;
+- If $\frac{d^{2}y}{dx^{2}} = 0$ the stationary point is a **point of inflection**.
+
+To calculate $\frac{d^{2}y}{dx^{2}}$, we want to differentiate $\frac{dy}{dx}$ again with respect to $x$:
+
+$$
+\begin{aligned}
+\frac{d^{2}y}{dx^{2}} &= \frac{2x(x^{2} - 9) - 2x^{3}}{(- x^{2})^{2}} \\
+&= \frac{2x^{3} - 2x^{3} + 18x}{- x^{4}} \\
+&= - \frac{18}{x^{3}}.
+\end{aligned}
+$$
+
+For $(3, - 9)$, $\frac{d^{2}y}{dx^{2}} = - \frac{2}{3}$, so it is a maximum.
+
+Congratulations if you made it this far!
+
+Now you can have a go at one yourself.
+
+```{r, echo=FALSE}
+knitr::include_url("https://numbas.mathcentre.ac.uk/question/169213/differentiation-contextualized-stationary-points-and-their-nature/embed/", height="500px")
+```
+
+
+
+::: {.content-visible when-profile="econ"}
 
 ::::{.callout-caution}
 ## Economics example
@@ -154,6 +249,10 @@ $$
 q &= 6
 \end{aligned}
 $$
+
+So finially the quatity $q$ that maximises profits is $6$.
+
+Now you can try one for yourself:
 
 ```{r, echo=FALSE}
 knitr::include_url("https://numbas.mathcentre.ac.uk/question/140935/optimisation-find-quantity-to-maximise-profits/embed/", height="500px")

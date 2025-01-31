@@ -249,11 +249,15 @@ window.Quarto = {
   <li><a href="#the-process-of-optimisation" id="toc-the-process-of-optimisation" class="nav-link active" data-scroll-target="#the-process-of-optimisation"><span class="header-section-number">14.1</span> The process of optimisation</a></li>
   <li><a href="#classifying-turning-points---critical-points" id="toc-classifying-turning-points---critical-points" class="nav-link" data-scroll-target="#classifying-turning-points---critical-points"><span class="header-section-number">14.2</span> Classifying turning points - critical points</a></li>
   <li><a href="#example---finding-and-classifying-critical-points" id="toc-example---finding-and-classifying-critical-points" class="nav-link" data-scroll-target="#example---finding-and-classifying-critical-points"><span class="header-section-number">14.3</span> Example - finding and classifying critical points</a></li>
-  <li><a href="#solving-optomisation-problems." id="toc-solving-optomisation-problems." class="nav-link" data-scroll-target="#solving-optomisation-problems."><span class="header-section-number">14.4</span> Solving optomisation problems.</a></li>
+  <li><a href="#solving-optomisation-problems." id="toc-solving-optomisation-problems." class="nav-link" data-scroll-target="#solving-optomisation-problems."><span class="header-section-number">14.4</span> Solving optomisation problems.</a>
+  <ul class="collapse">
+  <li><a href="#worked-example" id="toc-worked-example" class="nav-link" data-scroll-target="#worked-example"><span class="header-section-number">14.4.1</span> Worked example</a></li>
+  <li><a href="#solution" id="toc-solution" class="nav-link" data-scroll-target="#solution"><span class="header-section-number">14.4.2</span> Solution</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/BathMASH/zero-to-hero/blob/master/13-optimisation.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/BathMASH/zero-to-hero/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     <div class="quarto-margin-footer"><div class="margin-footer-item">
-<p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="./img/cc-logo.png" class="img-fluid" alt="Zero to Hero © 2023 by Ed Southwood, Skills Centre, University of Bath is licensed under Attribution-NonCommercial-ShareAlike 4.0 International"></a></p>
+<p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="./img/uob-logo.light.png" class="img-fluid" alt="Zero to Hero © 2023 by Ed Southwood, Skills Centre, University of Bath is licensed under Attribution-NonCommercial-ShareAlike 4.0 International"></a> <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="./img/cc-logo.png" class="img-fluid" alt="Zero to Hero © 2023 by Ed Southwood, Skills Centre, University of Bath is licensed under Attribution-NonCommercial-ShareAlike 4.0 International"></a> <link rel="preload" href="./img/uob-logo.dark.png" as="image"></p>
 </div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -282,6 +286,7 @@ window.Quarto = {
 <li>optimise profits by finding a maximum of a profit function</li>
 <li>optimise a journey cost by finding minimum fuel use</li>
 </ul>
+<p>Brace yourself! The questions here are long and multi-stepped. Take your time, have a coffee and be kind to yourself.</p>
 <section id="the-process-of-optimisation" class="level2" data-number="14.1">
 <h2 data-number="14.1" class="anchored" data-anchor-id="the-process-of-optimisation"><span class="header-section-number">14.1</span> The process of optimisation</h2>
 <p>The largest or smallest values of a function can be found either at it’s <strong>turning points</strong> or at it’s <strong>extreme values</strong>. At the turning point of a function it’s gradient will be zero, imagine walking to the top of a hill, once you get to the top you can’t go any higher and the hill levels out, it’s gradient is zero. The extreme values of a function also need to be checked since the gradient might not be zero here but it could be a maximum or minimum value.</p>
@@ -405,7 +410,71 @@ y=2x^3 - 4^2 + 2
 </section>
 <section id="solving-optomisation-problems." class="level2" data-number="14.4">
 <h2 data-number="14.4" class="anchored" data-anchor-id="solving-optomisation-problems."><span class="header-section-number">14.4</span> Solving optomisation problems.</h2>
-<p>We can put all this together to solve problems.</p>
+<p>We can put all this together to solve problems. <strong>Warning</strong> This is a long question with many steps. You might want to check your knowledge of the chain and quotient rule before you start.</p>
+<section id="worked-example" class="level3" data-number="14.4.1">
+<h3 data-number="14.4.1" class="anchored" data-anchor-id="worked-example"><span class="header-section-number">14.4.1</span> Worked example</h3>
+<p>Production cost can be modelled with the equation <span class="math inline">\(y = 3 - \frac{(x + 3)^{2}}{x}\)</span> in the interval <span class="math inline">\(0 &lt; x &lt; 8\)</span> where <span class="math inline">\(y\)</span> is cost and <span class="math inline">\(x\)</span> is number of units produced.</p>
+<p>Find the minimum cost and verify that it is a minimum using differentiation. There is a minimum point at <span class="math inline">\((x, y)\)</span>.</p>
+</section>
+<section id="solution" class="level3" data-number="14.4.2">
+<h3 data-number="14.4.2" class="anchored" data-anchor-id="solution"><span class="header-section-number">14.4.2</span> Solution</h3>
+<p>Since the function is of the form <span class="math inline">\(y = \frac{u(x)}{v(x)}\)</span>, we want to use the quotient rule to calculate the derivative <span class="math inline">\(\frac{dy}{dx}\)</span>.</p>
+<p>As <span class="math inline">\(y = 3 - \frac{(x + 3)^{2}}{x},\)</span></p>
+<p>let <span class="math inline">\(u(x) = (x + 3)^{2}\)</span> and <span class="math inline">\(v(x) = - x\)</span>.</p>
+<p>Next, we need to find the derivatives, <span class="math inline">\(\frac{du}{dx}\)</span> and <span class="math inline">\(\frac{dv}{dx}\)</span>:</p>
+<p>Since <span class="math inline">\(\frac{du}{dx} = 2(x + 3)\)</span> and <span class="math inline">\(\frac{dv}{dx} = - 1.\)</span></p>
+<p>Substituting these results into the quotient rule formula we can obtain an expression for <span class="math inline">\(\frac{dy}{dx}\)</span>:</p>
+<p><span class="math display">\[
+\begin{aligned}
+\frac{dy}{dx} &amp;= \frac{v(x) \times \frac{du}{dx} - u(x) \times \frac{dv}{dx}}{[v(x)]^{2}} \\
+&amp;= \frac{(- x) \times 2(x + 3) - (x + 3)^{2} \times - 1}{(- x)^{2}}.
+\end{aligned}
+\]</span></p>
+<p>Simplifying, <span class="math display">\[
+\begin{aligned}
+\frac{dy}{dx} &amp;= \frac{2x(x + 3) - (x + 3)^{2}}{- x^{2}} \\
+&amp;= \frac{2x^{2} + 6x - x^{2} - 6x - 9}{- x^{2}} \\
+&amp;= \frac{x^{2} - 9}{- x^{2}}.
+\end{aligned}
+\]</span></p>
+<p>To find the stationary points of the function, we must solve <span class="math inline">\(\frac{dy}{dx} = 0\)</span> for <span class="math inline">\(x\)</span>. Setting <span class="math inline">\(\frac{dy}{dx} = 0\)</span>: <span class="math display">\[
+\begin{aligned}
+\frac{x^{2} - 9}{- x^{2}} &amp;= 0\\
+\Longrightarrow x^{2} - 9 &amp;= 0.
+\end{aligned}
+\]</span></p>
+<p>Therefore, the stationary points are when <span class="math inline">\(x = 3\)</span> and <span class="math inline">\(x = - 3\)</span>.</p>
+<p>Due to the interval that this equation is valid for we can reject <span class="math inline">\(x = - 3\)</span>.</p>
+<p>We find the corresponding <span class="math inline">\(y\)</span>-values of the stationary point by plugging these <span class="math inline">\(x\)</span>-values into the initial equation:</p>
+<p>When <span class="math inline">\(x = 3\)</span>,</p>
+<p><span class="math display">\[
+\begin{aligned}
+y &amp;= 3 + \frac{(3 + 3)^{2}}{- 3} \\
+&amp;= - 9.
+\end{aligned}
+\]</span></p>
+<p>Therefore, the stationary point is <span class="math inline">\((3, - 9)\)</span>. Finally, we need to determine the nature of the stationary point. To do this we want to calculate the second derivative of the initial function and then evaluate it for <span class="math inline">\(x\)</span>-value of the stationary point.</p>
+<p>Recall:</p>
+<ul>
+<li>If <span class="math inline">\(\frac{d^{2}y}{dx^{2}} &lt; 0\)</span> the stationary point is a <strong>maximum</strong>;</li>
+<li>If <span class="math inline">\(\frac{d^{2}y}{dx^{2}} &gt; 0\)</span> the stationary point is a <strong>minimum</strong>;</li>
+<li>If <span class="math inline">\(\frac{d^{2}y}{dx^{2}} = 0\)</span> the stationary point is a <strong>point of inflection</strong>.</li>
+</ul>
+<p>To calculate <span class="math inline">\(\frac{d^{2}y}{dx^{2}}\)</span>, we want to differentiate <span class="math inline">\(\frac{dy}{dx}\)</span> again with respect to <span class="math inline">\(x\)</span>:</p>
+<p><span class="math display">\[
+\begin{aligned}
+\frac{d^{2}y}{dx^{2}} &amp;= \frac{2x(x^{2} - 9) - 2x^{3}}{(- x^{2})^{2}} \\
+&amp;= \frac{2x^{3} - 2x^{3} + 18x}{- x^{4}} \\
+&amp;= - \frac{18}{x^{3}}.
+\end{aligned}
+\]</span></p>
+<p>For <span class="math inline">\((3, - 9)\)</span>, <span class="math inline">\(\frac{d^{2}y}{dx^{2}} = - \frac{2}{3}\)</span>, so it is a maximum.</p>
+<p>Congratulations if you made it this far!</p>
+<p>Now you can have a go at one yourself.</p>
+<div class="cell">
+<iframe src="https://numbas.mathcentre.ac.uk/question/169213/differentiation-contextualized-stationary-points-and-their-nature/embed/" width="672" height="500px" data-external="1">
+</iframe>
+</div>
 <div class="callout callout-style-default callout-caution callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -453,6 +522,8 @@ Economics example
 q &amp;= 6
 \end{aligned}
 \]</span></p>
+<p>So finially the quatity <span class="math inline">\(q\)</span> that maximises profits is <span class="math inline">\(6\)</span>.</p>
+<p>Now you can try one for yourself:</p>
 <div class="cell">
 <iframe src="https://numbas.mathcentre.ac.uk/question/140935/optimisation-find-quantity-to-maximise-profits/embed/" width="672" height="500px" data-external="1">
 </iframe>
@@ -461,6 +532,7 @@ q &amp;= 6
 </div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -1036,6 +1108,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </nav>
 </div> <!-- /content -->
 <!-- Cloudflare Web Analytics --><footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/BathMASH/zero-to-hero/blob/master/13-optimisation.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/BathMASH/zero-to-hero/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer><script defer="" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon="{&quot;token&quot;: &quot;45c34618a8294826b85725434b26e3db&quot;}"></script><!-- End Cloudflare Web Analytics -->
+<script type="application/javascript" src="scripts/light-dark.js"></script>
 
 
 
