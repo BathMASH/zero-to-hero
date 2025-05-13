@@ -65,7 +65,7 @@ $$
 Here are some practice questions. 
 
 ```{r, echo=FALSE}
-knitr::include_url("https://numbas.mathcentre.ac.uk/question/64384/quadratics-factorisation-1/embed/?token=1e79515a-591e-457e-afe3-d82103bb02e9", height="800px")
+knitr::include_url("https://numbas.mathcentre.ac.uk/question/175469/ed-s-copy-of-quadratics-factorisation-1-to-be-fixe/embed/", height="800px")
 ```
 
 ## Solving Quadratics

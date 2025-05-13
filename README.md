@@ -29,6 +29,7 @@ Videos:
 * Differentiation - rules of differentiation
 * Differentiation - gradient at a point
 * Further Differentiation make APEB version
+* Optimisation
 
 Pages
 
