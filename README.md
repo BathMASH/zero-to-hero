@@ -1,6 +1,8 @@
 # Readme
 
-This is the repo for the zero to hero project written in quarto. This resource was developed for PGT students studying applied economics who have studied maths previously but need a but need refreshing.
+This is the repo for the zero to hero project written in quarto. This resource was originally developed for PGT students studying applied economics who have studied maths previously but need a but need refreshing. It has now been expanded to be used by other departments.
+
+This repo contains the base project. Different subsets for other subjects are derived from this base project. 
 
 You can find the [website version hosted on the bath github here](https://github.bath.ac.uk/pages/edrs20/z2hq/).
 

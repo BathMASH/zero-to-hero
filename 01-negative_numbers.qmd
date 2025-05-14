@@ -54,7 +54,9 @@ knitr::include_url("https://numbas.mathcentre.ac.uk/question/125598/negative-num
 
 ### But why?!!?
 
-Building a physical idea of a negative number is tricky. For example thinking of $2 \times 3$ as two lots of 3 things is fine, but what does $-2 \times -3$ even mean? Hopefully but looking at the pattern below it will be become clear that our definition of what happens with two negative numbers is the only one that makes sense. Consider extending the two times table into negative numbers.
+Building a physical idea of a negative number is tricky. For example thinking of $2 \times 3$ as two lots of 3 things is fine, but what does $-2 \times -3$ even mean? Hopefully but looking at the pattern below it will be become clear that our definition of what happens with two negative numbers (i.e. two negatives multiply to get a positive) is the only one that makes sense. 
+
+Consider extending the two times table into negative numbers.
 
 $$
 \begin{array}{ccccc}
@@ -68,7 +70,9 @@ $$
 \end{array}
 $$
 
-Now with the negative two times table.
+The result of the mulitplication decreases by two each time - the pattern continues into the negative numbers.
+
+Now lets look at the patter with the negative two times table.
 
 $$
 \begin{array}{ccccc}
@@ -81,6 +85,8 @@ $$
 -3 &\times& -2& =& 6\\ 
 \end{array}
 $$
+
+Notice how as we multiply $-2$ by a smaller number the result increases. Continuing the pattern to multiply $-2$ by a negative number naturally gives us a postive result.
 
 Our definition fits the pattern. Horrah!
 
