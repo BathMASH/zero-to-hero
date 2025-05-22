@@ -1,0 +1,499 @@
+# Lagrangian Multipliers
+
+This is a quick start guide to a method of optimization used for when you have multiple variables and another function that constrains them. Handy wavy proofs only here and we'll only cover situations with two variables.
+
+## Tools needed
+
+There are a number of extra mathematical techniques before we can use this method here is a quick overview of both.
+
+### Partial differentiation
+
+This is when we a function that has multiple variables and we want to differentiate with respect to one variable. For example:
+
+$$
+z = 4 - x^2 - 3y^2
+$$
+
+Here $x$ and $y$ define a third variable $z$ if you drew a graph of this it would have to be in 3d. Using function notation the same function would look like this:
+
+$$
+f(x,y) = 4 - x^2 - 3y^2
+$$
+
+To differentiate with respect to one variable we just differentiate as normal but treat the other variable as a constant (just a number). We all so use slightly different notation. Differentiating function $z$ with respect to $x$ looks like this. Notice the $d$ in $\frac{dz}{dx}$ is replaced with $\partial$ but the differentiation is as expected.
+
+$$
+z = 4 - x^2 - 3y^2
+$$
+
+
+$$
+\frac{\partial z}{\partial x} = - 2x
+$$
+
+In function notation the partial derivative is shown with a subscript. For example.
+
+$$
+f(x,y) = f = 4 - x^2 - 3y^2
+$$
+
+We can omit the variable in the function so $f(x,y)$ becomes $f$ and...
+
+$$
+f_{x} =  - 2x
+$$
+
+If we differentiate with respect to $y$ it becomes:
+
+$$
+f_{y} =  - 6y
+$$
+
+To take the second derivative we can just add an extra letter. We can also mix the variables too. So:
+
+$$
+f_{xx} =  - 2
+$$
+
+Because we just differentiate with respect to $x$ again, and:
+
+$$
+f_{xy} = 0
+$$
+
+Since now we differentiate $f_{x}$ with respect to $y$ and get zero.
+
+
+### Determinants of matrices
+
+A matrix is a rectangular array of numbers and the determinant of a matrix reduces the matrix to a single number. This only works for square matrices. This will be used to determine if we have found a maximum or minimum point later on. Here are a couple of examples of some matrices notice it doesn't matter what type of bracket you use and normally capital letters are used to denote a matrix.
+
+$$
+\boldsymbol{A}=\begin{pmatrix}
+1 & 2 \\
+3 & 4 
+\end{pmatrix}
+$$
+
+
+$$
+\boldsymbol{B}=\begin{bmatrix}
+2 & 4 &7\\
+6 & 8 &9
+\end{bmatrix}
+$$
+
+
+:::{.callout-note}
+The dimensions of a matrix are given by their rows then columns.
+:::
+
+#### Determinant of 2x2 matrix
+
+To find the determinant of a $2 \times 2$ matrix we multiply the diagonals and take them away from each other. Notice we have vertical lines now. This usually denotes that you are taking the determinant of the matrix.
+
+$$
+\begin{vmatrix}
+a & b \\
+c & d
+\end{vmatrix} = ad - bc
+$$
+
+:::{.callout-note}
+
+Here are other notation for taking the determinant. For a matix $A$.
+$$
+\boldsymbol{A}=\begin{pmatrix}
+a & b \\
+c & d
+\end{pmatrix}
+$$
+
+We can write any of these for it's determinant.
+
+$$
+\det \boldsymbol{A} = 
+\begin{vmatrix}
+a & b \\
+c & d
+\end{vmatrix} =|\boldsymbol{A}|=ad - bc
+$$
+
+:::
+
+For example:
+
+Find the determinant of
+
+$$
+\boldsymbol{A}=\begin{pmatrix}
+2 & 5 \\
+-3 & 1
+\end{pmatrix}
+$$
+
+Now we just multiply the top left with bottom right and then subtract the top right multiplied by bottom left from it.
+
+$$
+det \boldsymbol{A} = (2\times1) - (5\times{-3})=2+15=17
+$$
+
+#### Have a go
+
+```{r, echo=FALSE}
+knitr::include_url("https://numbas.mathcentre.ac.uk/question/175721/determinant-of-a-2x2-matrix/embed/", height="800px")
+```
+
+
+
+
+#### Determinant of 3x3 matrix
+
+OK this is where you have to hold on to the will to live! Taking the determinant of larger matrices is time consuming. But it boils down to taking multiple 2x2 matrices. Here is an example.
+
+$$
+\begin{vmatrix}
+a & b & c \\
+d & e & f \\
+g & h & i
+\end{vmatrix} = 
+a \begin{vmatrix}
+e & f \\
+h & i
+\end{vmatrix} - b \begin{vmatrix}
+d & f \\
+g & i
+\end{vmatrix} + c \begin{vmatrix}
+d & e \\
+g & h
+\end{vmatrix}
+$$
+
+Don't worry it won't be so bad in your examples because one of the numbers in your matrix will be zero. This means you can ignore one whole section.
+
+Here's a numerical example:
+
+:::{.callout-tip collapse="true"}
+### Example: Determinant of a 3×3 Matrix
+
+Given the matrix:
+
+$$
+A = \begin{bmatrix}
+2 & 3 & 1 \\
+4 & 1 & -3 \\
+-1 & 2 & 5
+\end{bmatrix}
+$$
+
+The determinant of matrix $A$, denoted as $\det(A)$, is calculated using cofactor expansion along the first row, note I've used $\cdot$ to mean $\times$:
+
+$$
+\det(A) = 2 \cdot 
+\begin{vmatrix}
+1 & -3 \\
+2 & 5
+\end{vmatrix}
+- 3 \cdot 
+\begin{vmatrix}
+4 & -3 \\
+-1 & 5
+\end{vmatrix}
++ 1 \cdot 
+\begin{vmatrix}
+4 & 1 \\
+-1 & 2
+\end{vmatrix}
+$$
+
+Now calculate the 2×2 determinants:
+
+$$
+= 2 \cdot (1 \cdot 5 - (-3) \cdot 2)
+- 3 \cdot (4 \cdot 5 - (-3) \cdot (-1))
++ 1 \cdot (4 \cdot 2 - 1 \cdot (-1))
+$$
+
+$$
+= 2 \cdot (5 + 6) 
+- 3 \cdot (20 - 3) 
++ 1 \cdot (8 + 1)
+$$
+
+$$
+= 2 \cdot 11 - 3 \cdot 17 + 1 \cdot 9 = 22 - 51 + 9 = -20
+$$
+
+Final Answer:
+
+$$
+\det(A) = -20
+$$
+
+:::
+
+## Lagrangian Multipliers
+
+Now we have the tools we need lets look at an example. In a nutshell the method of using a lagrangian multiplier collects all the equations we need to solve a constrained ovptimization problem in one place. Optimization means, find the biggest or smallest values and constrained means we are limiting the values to try. Under the hood the method finds the points where the gradient of the function we want to optimize is parallel to the gradient of the constraint. This is where the Greek letter lambda $\lambda$ comes from it allows gradients that are parallel but different magnitudes to be equal to one another.
+
+### Method
+
+If we have a function that we want to optimize, say $f(x,y)$, that is subject to the constraint $g(x,y)=k$ where $k$ is a constant. The we create the equation:
+
+$$
+L(x,y,\lambda) = f(x,y) - \lambda(g(x,y)-k)
+$$
+
+Notice we have the extra variable $\lambda$ and we have rearranged the constraint to make it equal zero. 
+
+We then find the partial derivatives of $L$ with respect to each variable $x$, $y$ and $\lambda$. Set them equal to zero (just like regular optimization), then solve this system of equations.
+
+We then look at the determinant of the bordered hessian (this is a special second derivative test for Lagrangian Multipliers and much like the second derivative test in normal optimization). The bordered hessian is:
+
+$$
+B = \begin{vmatrix}
+0 & g_x & g_y \\
+g_x & L_{xx} & L_{xy} \\
+g_y & L_{yx} & L_{yy}
+\end{vmatrix}
+$$
+
+If $B > 0$ we have a maximum.
+
+If $B < 0$ we have a minimum.
+
+This is the opposite way around to the normal derivative test.
+
+### Example
+
+Maximise $x^2y$ subject to $x^2 +2y^2 = 6$
+
+Here we have:
+
+$$
+f(x,y)=x^2y
+$$
+
+and
+
+$$
+g(x) = x^2 +2y^2 = 6
+$$
+
+So the Lagrangian becomes:
+
+$$
+L(x,y,\lambda) = x^2y - \lambda(x^2 +2y^2 - 6)
+$$
+
+Omiting the variables and differentiating with respect to each variable we have.
+
+$$
+L_x = 2xy - 2\lambda x = 0 \tag{1}
+$$
+
+$$
+L_y = x^2 - 4\lambda y = 0 \tag{2}
+$$
+
+$$
+L_{\lambda} = -(x^2 +2y^2 - 6) = 0 \tag{3}
+$$
+
+Now we need to solve these three equations simultaneously
+
+From $(1)$ we have:
+
+$$
+\begin{aligned} 
+2xy - 2\lambda x &= 0\\
+2x(y - \lambda) &= 0 
+\end{aligned}
+$$
+
+So $x=0$ or $y=\lambda$.
+
+From $(2))$ we have:
+
+$$
+\begin{aligned} 
+x^2 - 4\lambda y &= 0\\
+x^2 &= 4\lambda y
+\end{aligned}
+$$
+
+Using $y=\lambda$ this means 
+
+$$
+x^2 = 4y^2 \tag{4}
+$$
+
+From $(3)$ we have:
+
+$$
+\begin{aligned} 
+-(x^2 +2y^2 - 6) &= 0\\
+x^2 +2y^2 &= 6
+\end{aligned}
+$$
+
+Now lets see what values $x$ and $y$ can take. These are the critical points:
+
+If $x=0$ from $(1)$ then from $(4)$ we have $y=0$ too. But if we substitute $x=0$ and $y=0$ into $x^2 +2y^2 = 6$ we get $0 + 0=6$ which is impossible so we reject $x=0$.
+
+Next try substituting $(4)$, $x^2 = 4y^2$, into $x^2 +2y^2 = 6$ we get:
+
+$$
+\begin{aligned} 
+x^2 +2y^2 &= 6\\
+4y^2 +2y^2 &= 6 \\
+6y^2 &= 6 \\
+y^2 &= 1
+\end{aligned}
+$$
+
+So either $y=1$ or $y=-1$.
+
+Using $x^2 +2y^2 = 6$ again to find $x$, for both $y=1$ or $y=-1$ (since the negatives square to get positives) we have:
+
+$$
+\begin{aligned} 
+x^2 + 2(1)^2 &= 6\\
+x^2 + 2 &= 6 \\
+x^2 &= 4 
+\end{aligned}
+$$
+
+So either $x=2$ or $x=-2$.
+
+This means that our critical points are $(2,1)$, $(2,-1)$, $(-2,1)$ and $(-2,-1)$.
+
+Now we need to determine the nature of these points by using the bordered hessian.
+
+$$
+B = \begin{vmatrix}
+0 & g_x & g_y \\
+g_x & L_{xx} & L_{xy} \\
+g_y & L_{yx} & L_{yy}
+\end{vmatrix}
+$$
+
+Getting all the bits we need we have:
+
+If $g(x) = x^2 + 2y^2$ then:
+
+$$
+g_x = 2x
+$$
+
+and
+
+$$
+g_y = 4y
+$$
+
+
+If $L_x = 2xy - 2\lambda x$ then:
+
+$$
+L_xx = 2y - 2\lambda
+$$
+
+and
+
+$$
+L_{xy} = 2x
+$$
+
+If $L_y = x^2 - 4\lambda y$
+
+$$
+L_{yy} = - 4\lambda
+$$
+
+and
+
+$$
+L_{yx} = 2x
+$$
+
+Substituting all this in gives:
+
+$$
+B = \begin{vmatrix}
+0 & 2x & 4y \\
+2x & 2y-2\lambda & 2x \\
+4y & 2x & -4\lambda
+\end{vmatrix}
+$$
+
+Keeping going we have:
+
+$$
+B = \begin{vmatrix}
+0 & 2x & 4y \\
+2x & 2y-2\lambda & 2x \\
+4y & 2x & -4\lambda
+\end{vmatrix} = 
+0 \begin{vmatrix}
+2y-2\lambda & 2x \\
+2x & -4\lambda
+\end{vmatrix} - 2x \begin{vmatrix}
+2x & 2x \\
+4y & -4\lambda
+\end{vmatrix} + 4y \begin{vmatrix}
+2x & 2y-2\lambda \\
+4y & 2x 
+\end{vmatrix}
+$$
+
+Luckily we have that zero to save us some work!
+
+$$
+\begin{aligned} 
+B &= -2x(-8x - 8xy) + 4y(4x^2 - (8y^2 - 8\lambda y)) \\
+  &= 16x^2 + 16x^2y + 16x^2y - 32y^3 + 32\lambda y^2
+\end{aligned}
+$$
+
+Since $y=\lambda$ we have:
+
+$$
+\begin{aligned} 
+B &= 16x^2 + 16x^2y + 16x^2y - 32y^3 + 32\lambda y^2 \\
+  &= 16x^2 + 16x^2y + 16x^2y - 32y^3 + 32y^3 \\
+  &= 16x^2 + 32x^2y \\
+  &= 16x^2(1+2y)
+\end{aligned}
+$$
+
+Looking at this the sign of $B$ depends just the $y$ (since the $x$ is squared it's always positive). So $B >0$ when $1+2y>0$ which is when $1>2y$ or $\frac{1}{2} > y$.
+
+This means when the $y$ values are less than $\frac{1}{2}$ we have $B<0$ so we have minimum points. Classifying our points we have:
+
+$(2,1)$ and $(-2,1)$ are maxima.
+
+$(2,-1)$ and $(-2,-1)$ are minima.
+
+Phew! So the final answer is $(2,1)$ and $(-2,1)$ are the maximum values of $x^2y$ subject to $x^2 +2y^2 = 6$.
+
+### An example for you to try.
+
+Find and classify the critical points of:
+
+$$
+f(x,y) = x^2+2y^2
+$$
+
+Subject to $g(x,y) = x^2 + y^2 = 1$
+
+:::{.callout-tip collapse="true"}
+### Answer
+
+This isn't a full solution yet - sorry!
+
+$(0,1)$ and $(0,-1)$ are maximum values.
+
+$(1,0)$ and $(-1,0)$ are minimum values.
+
+:::

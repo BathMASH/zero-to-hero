@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>10&nbsp; Differentiation – Zero to Hero</title>
+<title>15&nbsp; Lagrangian Multipliers – Zero to Hero</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./10-exponetial_function.html" rel="next">
-<link href="./08-indices.html" rel="prev">
+<link href="./13-optimisation.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -112,7 +111,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./09-differentiation.html"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Differentiation</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./14-lagrangian.html"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Lagrangian Multipliers</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -209,7 +208,7 @@ window.Quarto = {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./09-differentiation.html" class="sidebar-item-text sidebar-link active">
+  <a href="./09-differentiation.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Differentiation</span></span></a>
   </div>
 </li>
@@ -239,7 +238,7 @@ window.Quarto = {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./14-lagrangian.html" class="sidebar-item-text sidebar-link">
+  <a href="./14-lagrangian.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Lagrangian Multipliers</span></span></a>
   </div>
 </li>
@@ -253,11 +252,19 @@ window.Quarto = {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#the-tangent-to-a-curve" id="toc-the-tangent-to-a-curve" class="nav-link active" data-scroll-target="#the-tangent-to-a-curve"><span class="header-section-number">10.1</span> The tangent to a curve</a></li>
-  <li><a href="#the-rules-of-differentiation" id="toc-the-rules-of-differentiation" class="nav-link" data-scroll-target="#the-rules-of-differentiation"><span class="header-section-number">10.2</span> The rules of differentiation</a></li>
-  <li><a href="#finding-gradient-at-a-point" id="toc-finding-gradient-at-a-point" class="nav-link" data-scroll-target="#finding-gradient-at-a-point"><span class="header-section-number">10.3</span> Finding gradient at a point</a></li>
+  <li><a href="#tools-needed" id="toc-tools-needed" class="nav-link active" data-scroll-target="#tools-needed"><span class="header-section-number">15.1</span> Tools needed</a>
+  <ul class="collapse">
+  <li><a href="#partial-differentiation" id="toc-partial-differentiation" class="nav-link" data-scroll-target="#partial-differentiation"><span class="header-section-number">15.1.1</span> Partial differentiation</a></li>
+  <li><a href="#determinants-of-matrices" id="toc-determinants-of-matrices" class="nav-link" data-scroll-target="#determinants-of-matrices"><span class="header-section-number">15.1.2</span> Determinants of matrices</a></li>
+  </ul></li>
+  <li><a href="#lagrangian-multipliers" id="toc-lagrangian-multipliers" class="nav-link" data-scroll-target="#lagrangian-multipliers"><span class="header-section-number">15.2</span> Lagrangian Multipliers</a>
+  <ul class="collapse">
+  <li><a href="#method" id="toc-method" class="nav-link" data-scroll-target="#method"><span class="header-section-number">15.2.1</span> Method</a></li>
+  <li><a href="#example" id="toc-example" class="nav-link" data-scroll-target="#example"><span class="header-section-number">15.2.2</span> Example</a></li>
+  <li><a href="#an-example-for-you-to-try." id="toc-an-example-for-you-to-try." class="nav-link" data-scroll-target="#an-example-for-you-to-try."><span class="header-section-number">15.2.3</span> An example for you to try.</a></li>
+  </ul></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/BathMASH/zero-to-hero/blob/master/09-differentiation.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/BathMASH/zero-to-hero/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/BathMASH/zero-to-hero/blob/master/14-lagrangian.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/BathMASH/zero-to-hero/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     <div class="quarto-margin-footer"><div class="margin-footer-item">
 <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="./img/uob-logo.light.png" class="img-fluid" alt="Zero to Hero © 2023 by Ed Southwood, Skills Centre, University of Bath is licensed under Attribution-NonCommercial-ShareAlike 4.0 International"></a> <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="./img/cc-logo.png" class="img-fluid" alt="Zero to Hero © 2023 by Ed Southwood, Skills Centre, University of Bath is licensed under Attribution-NonCommercial-ShareAlike 4.0 International"></a> <link rel="preload" href="./img/uob-logo.dark.png" as="image"></p>
 </div></div></div>
@@ -266,7 +273,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Differentiation</span></h1>
+<h1 class="title"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Lagrangian Multipliers</span></h1>
 </div>
 
 
@@ -283,39 +290,64 @@ window.Quarto = {
 </header>
 
 
-<p>We often want to be able to find the gradient of a curved line. For that we need a new technique, called differentiation, that will give us a rule (a new function) to work out the gradient at any point on the curve.</p>
-<section id="the-tangent-to-a-curve" class="level2" data-number="10.1">
-<h2 data-number="10.1" class="anchored" data-anchor-id="the-tangent-to-a-curve"><span class="header-section-number">10.1</span> The tangent to a curve</h2>
-<p>The gradient at a point on a curve is the same as the gradient of the tangent at that point. A tangent to a curve is a straight line that just touches curve at that point. Below is a picture of the tangent to the curve when <span class="math inline">\(x=5\)</span>. You can open up the graph and move the point around with the slider.</p>
-<div class="cell">
-<iframe src="https://www.desmos.com/calculator/ahtukw0jwz?embed" width="672" height="400px" data-external="1">
-</iframe>
-</div>
-<p>Notice that the gradient will change depending on which value of <span class="math inline">\(x\)</span> you use.</p>
+<p>This is a quick start guide to a method of optimization used for when you have multiple variables and another function that constrains them. Handy wavy proofs only here and we’ll only cover situations with two variables.</p>
+<section id="tools-needed" class="level2" data-number="15.1">
+<h2 data-number="15.1" class="anchored" data-anchor-id="tools-needed"><span class="header-section-number">15.1</span> Tools needed</h2>
+<p>There are a number of extra mathematical techniques before we can use this method here is a quick overview of both.</p>
+<section id="partial-differentiation" class="level3" data-number="15.1.1">
+<h3 data-number="15.1.1" class="anchored" data-anchor-id="partial-differentiation"><span class="header-section-number">15.1.1</span> Partial differentiation</h3>
+<p>This is when we a function that has multiple variables and we want to differentiate with respect to one variable. For example:</p>
+<p><span class="math display">\[
+z = 4 - x^2 - 3y^2
+\]</span></p>
+<p>Here <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span> define a third variable <span class="math inline">\(z\)</span> if you drew a graph of this it would have to be in 3d. Using function notation the same function would look like this:</p>
+<p><span class="math display">\[
+f(x,y) = 4 - x^2 - 3y^2
+\]</span></p>
+<p>To differentiate with respect to one variable we just differentiate as normal but treat the other variable as a constant (just a number). We all so use slightly different notation. Differentiating function <span class="math inline">\(z\)</span> with respect to <span class="math inline">\(x\)</span> looks like this. Notice the <span class="math inline">\(d\)</span> in <span class="math inline">\(\frac{dz}{dx}\)</span> is replaced with <span class="math inline">\(\partial\)</span> but the differentiation is as expected.</p>
+<p><span class="math display">\[
+z = 4 - x^2 - 3y^2
+\]</span></p>
+<p><span class="math display">\[
+\frac{\partial z}{\partial x} = - 2x
+\]</span></p>
+<p>In function notation the partial derivative is shown with a subscript. For example.</p>
+<p><span class="math display">\[
+f(x,y) = f = 4 - x^2 - 3y^2
+\]</span></p>
+<p>We can omit the variable in the function so <span class="math inline">\(f(x,y)\)</span> becomes <span class="math inline">\(f\)</span> and…</p>
+<p><span class="math display">\[
+f_{x} =  - 2x
+\]</span></p>
+<p>If we differentiate with respect to <span class="math inline">\(y\)</span> it becomes:</p>
+<p><span class="math display">\[
+f_{y} =  - 6y
+\]</span></p>
+<p>To take the second derivative we can just add an extra letter. We can also mix the variables too. So:</p>
+<p><span class="math display">\[
+f_{xx} =  - 2
+\]</span></p>
+<p>Because we just differentiate with respect to <span class="math inline">\(x\)</span> again, and:</p>
+<p><span class="math display">\[
+f_{xy} = 0
+\]</span></p>
+<p>Since now we differentiate <span class="math inline">\(f_{x}\)</span> with respect to <span class="math inline">\(y\)</span> and get zero.</p>
 </section>
-<section id="the-rules-of-differentiation" class="level2" data-number="10.2">
-<h2 data-number="10.2" class="anchored" data-anchor-id="the-rules-of-differentiation"><span class="header-section-number">10.2</span> The rules of differentiation</h2>
-<p>Luckily finding the rule to get the gradient of a curve is straight forward. The language we use for this process is like this. When function is differentiated a new function, the derivative, is found. The derivative enables you to find the gradient. There are lots of ways write this in mathematical notation. Here are the most common.</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th style="text-align: center;">original function</th>
-<th style="text-align: center;">derivative</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;"><span class="math inline">\(y\)</span></td>
-<td style="text-align: center;"><span class="math inline">\(\frac{dy}{dx}\)</span></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><span class="math inline">\(f(x)\)</span></td>
-<td style="text-align: center;"><span class="math inline">\(f'(x)\)</span></td>
-</tr>
-</tbody>
-</table>
-<p><span class="math inline">\(\frac{dy}{dx}\)</span> is pronounced ‘dee <span class="math inline">\(y\)</span> by dee <span class="math inline">\(x\)</span>’, and <span class="math inline">\(f'(x)\)</span> is read as ‘f dash of <span class="math inline">\(x\)</span>’.</p>
-<p>The rule for differentiating polynomials (functions made up of adding different powers of <span class="math inline">\(x\)</span>)is:</p>
+<section id="determinants-of-matrices" class="level3" data-number="15.1.2">
+<h3 data-number="15.1.2" class="anchored" data-anchor-id="determinants-of-matrices"><span class="header-section-number">15.1.2</span> Determinants of matrices</h3>
+<p>A matrix is a rectangular array of numbers and the determinant of a matrix reduces the matrix to a single number. This only works for square matrices. This will be used to determine if we have found a maximum or minimum point later on. Here are a couple of examples of some matrices notice it doesn’t matter what type of bracket you use and normally capital letters are used to denote a matrix.</p>
+<p><span class="math display">\[
+\boldsymbol{A}=\begin{pmatrix}
+1 &amp; 2 \\
+3 &amp; 4
+\end{pmatrix}
+\]</span></p>
+<p><span class="math display">\[
+\boldsymbol{B}=\begin{bmatrix}
+2 &amp; 4 &amp;7\\
+6 &amp; 8 &amp;9
+\end{bmatrix}
+\]</span></p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -326,49 +358,354 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<ul>
-<li>if <span class="math inline">\(y=ax^n\)</span> then <span class="math inline">\(\frac{dy}{dx} = anx^{n-1}\)</span>, or,</li>
-<li>if <span class="math inline">\(f(x)=ax^n\)</span> then <span class="math inline">\(f'(x) = anx^{n-1}\)</span> <strong>Times by the power, then take one off the power</strong></li>
-</ul>
+<p>The dimensions of a matrix are given by their rows then columns.</p>
 </div>
 </div>
-<p>Here are some examples:</p>
-<p>If <span class="math inline">\(y = 3x^4\)</span> then <span class="math inline">\(\frac{dy}{dx} = 3 \times 4 \times x^{4-1} = 12x^3\)</span></p>
-<p>Multiple terms added together are differentiated one by one then added together:</p>
+<section id="determinant-of-2x2-matrix" class="level4" data-number="15.1.2.1">
+<h4 data-number="15.1.2.1" class="anchored" data-anchor-id="determinant-of-2x2-matrix"><span class="header-section-number">15.1.2.1</span> Determinant of 2x2 matrix</h4>
+<p>To find the determinant of a <span class="math inline">\(2 \times 2\)</span> matrix we multiply the diagonals and take them away from each other. Notice we have vertical lines now. This usually denotes that you are taking the determinant of the matrix.</p>
 <p><span class="math display">\[
-\begin{aligned} y &amp;= 6x^3 + 2x^2 + 4x + 5 \\
-\frac{dy}{dx} &amp;= 6x^3 + 2x^2 + 4x^1 + 5x^0 \\
-&amp;= 3\times6x^{3-1} + 2\times x^{2-1} + 1\times 4x^{1-1} + 0\times5x^{0-1} \\
-&amp;= 18x^2 + 2x^1 + 4x^{0} + 0 \\
-&amp;= 18x^2 + 2x + 4
-\end{aligned}
-\]</span> In the above example we’ve used the following mathematical facts:</p>
-<ul>
-<li><span class="math inline">\(x=x^1\)</span>, <span class="math inline">\(x\)</span> on it’s own is <span class="math inline">\(x^1\)</span></li>
-<li><span class="math inline">\(x^0=1\)</span>, you can always multiply by <span class="math inline">\(x^0\)</span> since it’s <span class="math inline">\(1\)</span></li>
-<li><span class="math inline">\(0 \times a = 0\)</span> anything times zero is zero</li>
-</ul>
-<p>The take away from this is that constant terms, terms without <span class="math inline">\(x\)</span> in, disappear, and terms with just <span class="math inline">\(x\)</span> in loose the <span class="math inline">\(x\)</span>.</p>
-<p>Try these questions to get to grips with the rules of differentiation.</p>
+\begin{vmatrix}
+a &amp; b \\
+c &amp; d
+\end{vmatrix} = ad - bc
+\]</span></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Here are other notation for taking the determinant. For a matix <span class="math inline">\(A\)</span>. <span class="math display">\[
+\boldsymbol{A}=\begin{pmatrix}
+a &amp; b \\
+c &amp; d
+\end{pmatrix}
+\]</span></p>
+<p>We can write any of these for it’s determinant.</p>
+<p><span class="math display">\[
+\det \boldsymbol{A} =
+\begin{vmatrix}
+a &amp; b \\
+c &amp; d
+\end{vmatrix} =|\boldsymbol{A}|=ad - bc
+\]</span></p>
+</div>
+</div>
+<p>For example:</p>
+<p>Find the determinant of</p>
+<p><span class="math display">\[
+\boldsymbol{A}=\begin{pmatrix}
+2 &amp; 5 \\
+-3 &amp; 1
+\end{pmatrix}
+\]</span></p>
+<p>Now we just multiply the top left with bottom right and then subtract the top right multiplied by bottom left from it.</p>
+<p><span class="math display">\[
+det \boldsymbol{A} = (2\times1) - (5\times{-3})=2+15=17
+\]</span></p>
+</section>
+<section id="have-a-go" class="level4" data-number="15.1.2.2">
+<h4 data-number="15.1.2.2" class="anchored" data-anchor-id="have-a-go"><span class="header-section-number">15.1.2.2</span> Have a go</h4>
 <div class="cell">
-<iframe src="https://numbas.mathcentre.ac.uk/question/62756/differentiation-using-a-table-of-derivatives-2/embed/?token=f1dc60aa-32b9-4906-98f2-4ddde19c9b79" width="672" height="340px" data-external="1">
+<iframe src="https://numbas.mathcentre.ac.uk/question/175721/determinant-of-a-2x2-matrix/embed/" width="672" height="800px" data-external="1">
 </iframe>
 </div>
 </section>
-<section id="finding-gradient-at-a-point" class="level2" data-number="10.3">
-<h2 data-number="10.3" class="anchored" data-anchor-id="finding-gradient-at-a-point"><span class="header-section-number">10.3</span> Finding gradient at a point</h2>
-<p>To find the gradient at a point. Differentiate the original function and then substitute the <span class="math inline">\(x\)</span> value of the point into the derivative.</p>
-<p>For example to find the gradient when <span class="math inline">\(x=3\)</span> for the function <span class="math inline">\(y=x^2\)</span>. We would differentiate and then substitute in <span class="math inline">\(x=3\)</span>.</p>
+<section id="determinant-of-3x3-matrix" class="level4" data-number="15.1.2.3">
+<h4 data-number="15.1.2.3" class="anchored" data-anchor-id="determinant-of-3x3-matrix"><span class="header-section-number">15.1.2.3</span> Determinant of 3x3 matrix</h4>
+<p>OK this is where you have to hold on to the will to live! Taking the determinant of larger matrices is time consuming. But it boils down to taking multiple 2x2 matrices. Here is an example.</p>
 <p><span class="math display">\[
-\begin{aligned} y &amp;= x^2 \\
-\frac{dy}{dx} &amp;= 2x \\
-&amp;= 2(3) \\
-&amp;= 2 \times 3 \\
-&amp;= 6
+\begin{vmatrix}
+a &amp; b &amp; c \\
+d &amp; e &amp; f \\
+g &amp; h &amp; i
+\end{vmatrix} =
+a \begin{vmatrix}
+e &amp; f \\
+h &amp; i
+\end{vmatrix} - b \begin{vmatrix}
+d &amp; f \\
+g &amp; i
+\end{vmatrix} + c \begin{vmatrix}
+d &amp; e \\
+g &amp; h
+\end{vmatrix}
+\]</span></p>
+<p>Don’t worry it won’t be so bad in your examples because one of the numbers in your matrix will be zero. This means you can ignore one whole section.</p>
+<p>Here’s a numerical example:</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Example: Determinant of a 3×3 Matrix
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Given the matrix:</p>
+<p><span class="math display">\[
+A = \begin{bmatrix}
+2 &amp; 3 &amp; 1 \\
+4 &amp; 1 &amp; -3 \\
+-1 &amp; 2 &amp; 5
+\end{bmatrix}
+\]</span></p>
+<p>The determinant of matrix <span class="math inline">\(A\)</span>, denoted as <span class="math inline">\(\det(A)\)</span>, is calculated using cofactor expansion along the first row, note I’ve used <span class="math inline">\(\cdot\)</span> to mean <span class="math inline">\(\times\)</span>:</p>
+<p><span class="math display">\[
+\det(A) = 2 \cdot
+\begin{vmatrix}
+1 &amp; -3 \\
+2 &amp; 5
+\end{vmatrix}
+- 3 \cdot
+\begin{vmatrix}
+4 &amp; -3 \\
+-1 &amp; 5
+\end{vmatrix}
++ 1 \cdot
+\begin{vmatrix}
+4 &amp; 1 \\
+-1 &amp; 2
+\end{vmatrix}
+\]</span></p>
+<p>Now calculate the 2×2 determinants:</p>
+<p><span class="math display">\[
+= 2 \cdot (1 \cdot 5 - (-3) \cdot 2)
+- 3 \cdot (4 \cdot 5 - (-3) \cdot (-1))
++ 1 \cdot (4 \cdot 2 - 1 \cdot (-1))
+\]</span></p>
+<p><span class="math display">\[
+= 2 \cdot (5 + 6)
+- 3 \cdot (20 - 3)
++ 1 \cdot (8 + 1)
+\]</span></p>
+<p><span class="math display">\[
+= 2 \cdot 11 - 3 \cdot 17 + 1 \cdot 9 = 22 - 51 + 9 = -20
+\]</span></p>
+<p>Final Answer:</p>
+<p><span class="math display">\[
+\det(A) = -20
+\]</span></p>
+</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section id="lagrangian-multipliers" class="level2" data-number="15.2">
+<h2 data-number="15.2" class="anchored" data-anchor-id="lagrangian-multipliers"><span class="header-section-number">15.2</span> Lagrangian Multipliers</h2>
+<p>Now we have the tools we need lets look at an example. In a nutshell the method of using a lagrangian multiplier collects all the equations we need to solve a constrained ovptimization problem in one place. Optimization means, find the biggest or smallest values and constrained means we are limiting the values to try. Under the hood the method finds the points where the gradient of the function we want to optimize is parallel to the gradient of the constraint. This is where the Greek letter lambda <span class="math inline">\(\lambda\)</span> comes from it allows gradients that are parallel but different magnitudes to be equal to one another.</p>
+<section id="method" class="level3" data-number="15.2.1">
+<h3 data-number="15.2.1" class="anchored" data-anchor-id="method"><span class="header-section-number">15.2.1</span> Method</h3>
+<p>If we have a function that we want to optimize, say <span class="math inline">\(f(x,y)\)</span>, that is subject to the constraint <span class="math inline">\(g(x,y)=k\)</span> where <span class="math inline">\(k\)</span> is a constant. The we create the equation:</p>
+<p><span class="math display">\[
+L(x,y,\lambda) = f(x,y) - \lambda(g(x,y)-k)
+\]</span></p>
+<p>Notice we have the extra variable <span class="math inline">\(\lambda\)</span> and we have rearranged the constraint to make it equal zero.</p>
+<p>We then find the partial derivatives of <span class="math inline">\(L\)</span> with respect to each variable <span class="math inline">\(x\)</span>, <span class="math inline">\(y\)</span> and <span class="math inline">\(\lambda\)</span>. Set them equal to zero (just like regular optimization), then solve this system of equations.</p>
+<p>We then look at the determinant of the bordered hessian (this is a special second derivative test for Lagrangian Multipliers and much like the second derivative test in normal optimization). The bordered hessian is:</p>
+<p><span class="math display">\[
+B = \begin{vmatrix}
+0 &amp; g_x &amp; g_y \\
+g_x &amp; L_{xx} &amp; L_{xy} \\
+g_y &amp; L_{yx} &amp; L_{yy}
+\end{vmatrix}
+\]</span></p>
+<p>If <span class="math inline">\(B &gt; 0\)</span> we have a maximum.</p>
+<p>If <span class="math inline">\(B &lt; 0\)</span> we have a minimum.</p>
+<p>This is the opposite way around to the normal derivative test.</p>
+</section>
+<section id="example" class="level3" data-number="15.2.2">
+<h3 data-number="15.2.2" class="anchored" data-anchor-id="example"><span class="header-section-number">15.2.2</span> Example</h3>
+<p>Maximise <span class="math inline">\(x^2y\)</span> subject to <span class="math inline">\(x^2 +2y^2 = 6\)</span></p>
+<p>Here we have:</p>
+<p><span class="math display">\[
+f(x,y)=x^2y
+\]</span></p>
+<p>and</p>
+<p><span class="math display">\[
+g(x) = x^2 +2y^2 = 6
+\]</span></p>
+<p>So the Lagrangian becomes:</p>
+<p><span class="math display">\[
+L(x,y,\lambda) = x^2y - \lambda(x^2 +2y^2 - 6)
+\]</span></p>
+<p>Omiting the variables and differentiating with respect to each variable we have.</p>
+<p><span class="math display">\[
+L_x = 2xy - 2\lambda x = 0 \tag{1}
+\]</span></p>
+<p><span class="math display">\[
+L_y = x^2 - 4\lambda y = 0 \tag{2}
+\]</span></p>
+<p><span class="math display">\[
+L_{\lambda} = -(x^2 +2y^2 - 6) = 0 \tag{3}
+\]</span></p>
+<p>Now we need to solve these three equations simultaneously</p>
+<p>From <span class="math inline">\(\tag{1}\)</span> we have:</p>
+<p><span class="math display">\[
+\begin{aligned}
+2xy - 2\lambda x &amp;= 0\\
+2x(y - \lambda) &amp;= 0
 \end{aligned}
-\]</span> So the gradient at <span class="math inline">\(x=3\)</span> on the curve <span class="math inline">\(y=x^2\)</span> is <span class="math inline">\(6\)</span>.</p>
+\]</span></p>
+<p>So <span class="math inline">\(x=0\)</span> or <span class="math inline">\(y=\lambda\)</span>.</p>
+<p>From <span class="math inline">\(\tag{2}\)</span> we have:</p>
+<p><span class="math display">\[
+\begin{aligned}
+x^2 - 4\lambda y &amp;= 0\\
+x^2 &amp;= 4\lambda y
+\end{aligned}
+\]</span></p>
+<p>Using <span class="math inline">\(y=\lambda\)</span> this means</p>
+<p><span class="math display">\[
+x^2 = 4y^2 \tag{4}
+\]</span></p>
+<p>From <span class="math inline">\(\tag{3}\)</span> we have:</p>
+<p><span class="math display">\[
+\begin{aligned}
+-(x^2 +2y^2 - 6) &amp;= 0\\
+x^2 +2y^2 &amp;= 6
+\end{aligned}
+\]</span></p>
+<p>Now lets see what values <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span> can take. These are the critical points:</p>
+<p>If <span class="math inline">\(x=0\)</span> from <span class="math inline">\((1)\)</span> then from <span class="math inline">\((4)\)</span> we have <span class="math inline">\(y=0\)</span> too. But if we substitute <span class="math inline">\(x=0\)</span> and <span class="math inline">\(y=0\)</span> into <span class="math inline">\(x^2 +2y^2 = 6\)</span> we get <span class="math inline">\(0 + 0=6\)</span> which is impossible so we reject <span class="math inline">\(x=0\)</span>.</p>
+<p>Next try substituting <span class="math inline">\((4)\)</span>, <span class="math inline">\(x^2 = 4y^2\)</span>, into <span class="math inline">\(x^2 +2y^2 = 6\)</span> we get:</p>
+<p><span class="math display">\[
+\begin{aligned}
+x^2 +2y^2 &amp;= 6\\
+4y^2 +2y^2 &amp;= 6 \\
+6y^2 &amp;= 6 \\
+y^2 &amp;= 1
+\end{aligned}
+\]</span></p>
+<p>So either <span class="math inline">\(y=1\)</span> or <span class="math inline">\(y=-1\)</span>.</p>
+<p>Using <span class="math inline">\(x^2 +2y^2 = 6\)</span> again to find <span class="math inline">\(x\)</span>, for both <span class="math inline">\(y=1\)</span> or <span class="math inline">\(y=-1\)</span> (since the negatives square to get positives) we have:</p>
+<p><span class="math display">\[
+\begin{aligned}
+x^2 + 2(1)^2 &amp;= 6\\
+x^2 + 2 &amp;= 6 \\
+x^2 &amp;= 4
+\end{aligned}
+\]</span></p>
+<p>So either <span class="math inline">\(x=2\)</span> or <span class="math inline">\(x=-2\)</span>.</p>
+<p>This means that our critical points are <span class="math inline">\((2,1)\)</span>, <span class="math inline">\((2,-1)\)</span>, <span class="math inline">\((-2,1)\)</span> and <span class="math inline">\((-2,-1)\)</span>.</p>
+<p>Now we need to determine the nature of these points by using the bordered hessian.</p>
+<p><span class="math display">\[
+B = \begin{vmatrix}
+0 &amp; g_x &amp; g_y \\
+g_x &amp; L_{xx} &amp; L_{xy} \\
+g_y &amp; L_{yx} &amp; L_{yy}
+\end{vmatrix}
+\]</span></p>
+<p>Getting all the bits we need we have:</p>
+<p>If <span class="math inline">\(g(x) = x^2 + 2y^2\)</span> then:</p>
+<p><span class="math display">\[
+g_x = 2x
+\]</span></p>
+<p>and</p>
+<p><span class="math display">\[
+g_y = 4y
+\]</span></p>
+<p>If <span class="math inline">\(L_x = 2xy - 2\lambda x\)</span> then:</p>
+<p><span class="math display">\[
+L_xx = 2y - 2\lambda
+\]</span></p>
+<p>and</p>
+<p><span class="math display">\[
+L_{xy} = 2x
+\]</span></p>
+<p>If <span class="math inline">\(L_y = x^2 - 4\lambda y\)</span></p>
+<p><span class="math display">\[
+L_{yy} = - 4\lambda
+\]</span></p>
+<p>and</p>
+<p><span class="math display">\[
+L_{yx} = 2x
+\]</span></p>
+<p>Substituting all this in gives:</p>
+<p><span class="math display">\[
+B = \begin{vmatrix}
+0 &amp; 2x &amp; 4y \\
+2x &amp; 2y-2\lambda &amp; 2x \\
+4y &amp; 2x &amp; -4\lambda
+\end{vmatrix}
+\]</span></p>
+<p>Keeping going we have:</p>
+<p><span class="math display">\[
+B = \begin{vmatrix}
+0 &amp; 2x &amp; 4y \\
+2x &amp; 2y-2\lambda &amp; 2x \\
+4y &amp; 2x &amp; -4\lambda
+\end{vmatrix} =
+0 \begin{vmatrix}
+2y-2\lambda &amp; 2x \\
+2x &amp; -4\lambda
+\end{vmatrix} - 2x \begin{vmatrix}
+2x &amp; 2x \\
+4y &amp; -4\lambda
+\end{vmatrix} + 4y \begin{vmatrix}
+2x &amp; 2y-2\lambda \\
+4y &amp; 2x
+\end{vmatrix}
+\]</span></p>
+<p>Luckily we have that zero to save us some work!</p>
+<p><span class="math display">\[
+\begin{aligned}
+B &amp;= -2x(-8x - 8xy) + 4y(4x^2 - (8y^2 - 8\lambda y)) \\
+  &amp;= 16x^2 + 16x^2y + 16x^2y - 32y^3 + 32\lambda y^2
+\end{aligned}
+\]</span></p>
+<p>Since <span class="math inline">\(y=\lambda\)</span> we have:</p>
+<p><span class="math display">\[
+\begin{aligned}
+B &amp;= 16x^2 + 16x^2y + 16x^2y - 32y^3 + 32\lambda y^2 \\
+  &amp;= 16x^2 + 16x^2y + 16x^2y - 32y^3 + 32y^3 \\
+  &amp;= 16x^2 + 32x^2y \\
+  &amp;= 16x^2(1+2y)
+\end{aligned}
+\]</span></p>
+<p>Looking at this the sign of <span class="math inline">\(B\)</span> depends just the <span class="math inline">\(y\)</span> (since the <span class="math inline">\(x\)</span> is squared it’s always positive). So <span class="math inline">\(B &gt;0\)</span> when <span class="math inline">\(1+2y&gt;0\)</span> which is when <span class="math inline">\(1&gt;2y\)</span> or <span class="math inline">\(\frac{1}{2} &gt; y\)</span>.</p>
+<p>This means when the <span class="math inline">\(y\)</span> values are less than <span class="math inline">\(\frac{1}{2}\)</span> we have <span class="math inline">\(B&lt;0\)</span> so we have minimum points. Classifying our points we have:</p>
+<p><span class="math inline">\((2,1)\)</span> and <span class="math inline">\((-2,1)\)</span> are maxima.</p>
+<p><span class="math inline">\((2,-1)\)</span> and <span class="math inline">\((-2,-1)\)</span> are minima.</p>
+<p>Phew! So the final answer is <span class="math inline">\((2,1)\)</span> and <span class="math inline">\((-2,1)\)</span> are the maximum values of <span class="math inline">\(x^2y\)</span> subject to <span class="math inline">\(x^2 +2y^2 = 6\)</span>.</p>
+</section>
+<section id="an-example-for-you-to-try." class="level3" data-number="15.2.3">
+<h3 data-number="15.2.3" class="anchored" data-anchor-id="an-example-for-you-to-try."><span class="header-section-number">15.2.3</span> An example for you to try.</h3>
+<p>Find and classify the critical points of:</p>
+<p><span class="math display">\[
+f(x,y) = x^2+2y^2
+\]</span></p>
+<p>Subject to <span class="math inline">\(g(x,y) = x^2 + y^2 = 1\)</span></p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Answer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>This isn’t a full solution yet - sorry!</p>
+<p><span class="math inline">\((0,1)\)</span> and <span class="math inline">\((0,-1)\)</span> are maximum values.</p>
+<p><span class="math inline">\((1,0)\)</span> and <span class="math inline">\((-1,0)\)</span> are minimum values.</p>
+</div>
+</div>
+</div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -935,18 +1272,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./08-indices.html" class="pagination-link" aria-label="Indices">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Indices</span></span>
+      <a href="./13-optimisation.html" class="pagination-link" aria-label="Optimisation">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Optimisation</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./10-exponetial_function.html" class="pagination-link" aria-label="Exponential functions">
-        <span class="nav-page-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Exponential functions</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->
-<!-- Cloudflare Web Analytics --><footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/BathMASH/zero-to-hero/blob/master/09-differentiation.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/BathMASH/zero-to-hero/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer><script defer="" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon="{&quot;token&quot;: &quot;45c34618a8294826b85725434b26e3db&quot;}"></script><!-- End Cloudflare Web Analytics -->
+<!-- Cloudflare Web Analytics --><footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/BathMASH/zero-to-hero/blob/master/14-lagrangian.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/BathMASH/zero-to-hero/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer><script defer="" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon="{&quot;token&quot;: &quot;45c34618a8294826b85725434b26e3db&quot;}"></script><!-- End Cloudflare Web Analytics -->
 <script type="application/javascript" src="scripts/light-dark.js"></script>
 
 
