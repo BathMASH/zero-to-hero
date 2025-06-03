@@ -1,10 +1,13 @@
 # Lagrangian Multipliers
 
-This is a quick start guide to a method of optimization used for when you have multiple variables and another function that constrains them. Handy wavy proofs only here and we'll only cover situations with two variables.
+This is a quick start guide to a method of optimization used for when you have multiple variables and another function that constrains them. I'm not going to prove anything here and we'll only cover situations with two variables. It's also the most complex thing in this guide.
 
 ## Tools needed
 
-There are a number of extra mathematical techniques before we can use this method here is a quick overview of both.
+There are two extra mathematical techniques before we can use this method here is a quick overview of both.
+
+- Partial differentiation
+- Determinants of matrices
 
 ### Partial differentiation
 
@@ -62,6 +65,18 @@ f_{xy} = 0
 $$
 
 Since now we differentiate $f_{x}$ with respect to $y$ and get zero.
+
+The second derivative written in the other notation looks like this:
+
+$$
+f_{xy} = \frac{\partial^2 z}{\partial x \partial y} 
+$$
+
+Now try some questions for yourself.
+
+```{r, echo=FALSE}
+knitr::include_url("https://numbas.mathcentre.ac.uk/question/175769/partial-differentiation-1/embed/?token=cc7bd675-94c9-4ae3-a096-3a7a30ee0219", height="600px")
+```
 
 
 ### Determinants of matrices
@@ -264,6 +279,13 @@ If $B < 0$ we have a minimum.
 
 This is the opposite way around to the normal derivative test.
 
+:::{.callout-tip}
+### Hessian Matrix
+
+The bordered hessian is just a special type of Hessian. The Hessian is a square matrix which contains the second partial derivatives of a multivariable function.
+
+:::
+
 ### Example
 
 Maximise $x^2y$ subject to $x^2 +2y^2 = 6$
@@ -313,7 +335,7 @@ $$
 
 So $x=0$ or $y=\lambda$.
 
-From $(2))$ we have:
+From $(2)$ we have:
 
 $$
 \begin{aligned} 
@@ -396,7 +418,7 @@ $$
 If $L_x = 2xy - 2\lambda x$ then:
 
 $$
-L_xx = 2y - 2\lambda
+L_{xx} = 2y - 2\lambda
 $$
 
 and
@@ -469,7 +491,15 @@ $$
 
 Looking at this the sign of $B$ depends just the $y$ (since the $x$ is squared it's always positive). So $B >0$ when $1+2y>0$ which is when $1>2y$ or $\frac{1}{2} > y$.
 
-This means when the $y$ values are less than $\frac{1}{2}$ we have $B<0$ so we have minimum points. Classifying our points we have:
+This means when the $y$ values are less than $\frac{1}{2}$ we have $B<0$ so we have minimum points. 
+
+:::{.callout-tip}
+
+I could have just substituted the values for $x$ and $y$ into the Hessian then worked it out numerically instead of dealing with the algebra.
+
+:::
+
+Classifying our points we have:
 
 $(2,1)$ and $(-2,1)$ are maxima.
 
@@ -477,7 +507,7 @@ $(2,-1)$ and $(-2,-1)$ are minima.
 
 Phew! So the final answer is $(2,1)$ and $(-2,1)$ are the maximum values of $x^2y$ subject to $x^2 +2y^2 = 6$.
 
-### An example for you to try.
+### An example for you to try
 
 Find and classify the critical points of:
 
@@ -489,8 +519,6 @@ Subject to $g(x,y) = x^2 + y^2 = 1$
 
 :::{.callout-tip collapse="true"}
 ### Answer
-
-This isn't a full solution yet - sorry!
 
 $(0,1)$ and $(0,-1)$ are maximum values.
 
