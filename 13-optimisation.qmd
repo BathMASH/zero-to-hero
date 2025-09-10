@@ -190,7 +190,7 @@ knitr::include_url("https://numbas.mathcentre.ac.uk/question/169213/differentiat
 
 
 
-::: {.content-visible when-profile="econ"}
+::: {.content-visible when-profile="econ" when-profile="apeb"}
 
 ::::{.callout-caution}
 ## Economics example

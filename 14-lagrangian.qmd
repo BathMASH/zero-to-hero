@@ -273,9 +273,9 @@ g_y & L_{yx} & L_{yy}
 \end{vmatrix}
 $$
 
-If $B > 0$ we have a maximum.
+If $B > 0$ we have a local maximum.
 
-If $B < 0$ we have a minimum.
+If $B < 0$ we have a local minimum.
 
 This is the opposite way around to the normal derivative test.
 
@@ -335,6 +335,8 @@ $$
 
 So $x=0$ or $y=\lambda$.
 
+Taking the case when $y=\lambda$
+
 From $(2)$ we have:
 
 $$
@@ -359,11 +361,7 @@ x^2 +2y^2 &= 6
 \end{aligned}
 $$
 
-Now lets see what values $x$ and $y$ can take. These are the critical points:
-
-If $x=0$ from $(1)$ then from $(4)$ we have $y=0$ too. But if we substitute $x=0$ and $y=0$ into $x^2 +2y^2 = 6$ we get $0 + 0=6$ which is impossible so we reject $x=0$.
-
-Next try substituting $(4)$, $x^2 = 4y^2$, into $x^2 +2y^2 = 6$ we get:
+Substituting $(4)$, $x^2 = 4y^2$, into $x^2 +2y^2 = 6$ we get:
 
 $$
 \begin{aligned} 
@@ -389,6 +387,29 @@ $$
 So either $x=2$ or $x=-2$.
 
 This means that our critical points are $(2,1)$, $(2,-1)$, $(-2,1)$ and $(-2,-1)$.
+
+Next take the case where $x=0$.
+
+Now from $(2)$, $x^2 - 4\lambda y = 0$ and substituting $x=0$ we have:
+
+$$
+\begin{aligned} 0 - 4\lambda y &= 0 \\
+ 0 &= 4\lambda y
+\end{aligned}
+$$
+
+So either $y=0$ or $\lambda = 0$. We reject $y=0$ since subistuting $x=0$ and $y=0$ into $(3)$, $x^2 +2y^2 = 6$, we get $0^2 + 0^2 = 6$ which is nonsense. So taking the case where $\lambda = 0$ and $y$ is non zero we have.
+
+$$
+\begin{aligned} 
+x^2 +2y^2 &= 6 \\
+0 +2y^2 &= 6 \\
+y^2 &= 3 \\
+y = \pm \sqrt{3}
+\end{aligned}
+$$
+
+Now we have an extra two critical points of $(0,\sqrt{3})$ and $(0,-\sqrt{3})$.
 
 Now we need to determine the nature of these points by using the bordered hessian.
 
@@ -501,11 +522,13 @@ I could have just substituted the values for $x$ and $y$ into the Hessian then w
 
 Classifying our points we have:
 
-$(2,1)$ and $(-2,1)$ are maxima.
+$(0,\sqrt{3})$, $(2,1)$ and $(-2,1)$ are maxima.
 
-$(2,-1)$ and $(-2,-1)$ are minima.
+$(0,-\sqrt{3})$, $(2,-1)$ and $(-2,-1)$ are minima.
 
-Phew! So the final answer is $(2,1)$ and $(-2,1)$ are the maximum values of $x^2y$ subject to $x^2 +2y^2 = 6$.
+Note that we don't know if these are local maxima and minima or global ones.
+
+Phew! So the final answer is $(0,\sqrt{3})$, $(2,1)$ and $(-2,1)$ are the local maximum values of $x^2y$ subject to $x^2 +2y^2 = 6$. To find the absolute maximum values we would have to substitute them into the orginial function.
 
 ### An example for you to try
 

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>9&nbsp; Indices – Zero to Hero</title>
+<title>12&nbsp; Optimisation – Zero to Hero</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./09-differentiation.html" rel="next">
-<link href="./07-quadratics.html" rel="prev">
+<link href="./12-further-differentiation.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -277,7 +276,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./08-indices.html"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Indices</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./13-optimisation.html"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Optimisation</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -368,7 +367,7 @@ window.Quarto = {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./08-indices.html" class="sidebar-item-text sidebar-link active">
+  <a href="./08-indices.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Indices</span></span></a>
   </div>
 </li>
@@ -386,7 +385,7 @@ window.Quarto = {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./13-optimisation.html" class="sidebar-item-text sidebar-link">
+  <a href="./13-optimisation.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Optimisation</span></span></a>
   </div>
 </li>
@@ -400,18 +399,16 @@ window.Quarto = {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#index-notation" id="toc-index-notation" class="nav-link active" data-scroll-target="#index-notation"><span class="header-section-number">9.1</span> Index notation</a>
+  <li><a href="#the-process-of-optimisation" id="toc-the-process-of-optimisation" class="nav-link active" data-scroll-target="#the-process-of-optimisation"><span class="header-section-number">12.1</span> The process of optimisation</a></li>
+  <li><a href="#classifying-turning-points---critical-points" id="toc-classifying-turning-points---critical-points" class="nav-link" data-scroll-target="#classifying-turning-points---critical-points"><span class="header-section-number">12.2</span> Classifying turning points - critical points</a></li>
+  <li><a href="#example---finding-and-classifying-critical-points" id="toc-example---finding-and-classifying-critical-points" class="nav-link" data-scroll-target="#example---finding-and-classifying-critical-points"><span class="header-section-number">12.3</span> Example - finding and classifying critical points</a></li>
+  <li><a href="#solving-optomisation-problems." id="toc-solving-optomisation-problems." class="nav-link" data-scroll-target="#solving-optomisation-problems."><span class="header-section-number">12.4</span> Solving optomisation problems.</a>
   <ul class="collapse">
-  <li><a href="#combinations-roots-and-powers" id="toc-combinations-roots-and-powers" class="nav-link" data-scroll-target="#combinations-roots-and-powers"><span class="header-section-number">9.1.1</span> Combinations, roots and powers</a></li>
-  <li><a href="#reciprocals" id="toc-reciprocals" class="nav-link" data-scroll-target="#reciprocals"><span class="header-section-number">9.1.2</span> Reciprocals</a></li>
-  <li><a href="#but-why" id="toc-but-why" class="nav-link" data-scroll-target="#but-why"><span class="header-section-number">9.1.3</span> But why?</a></li>
-  </ul></li>
-  <li><a href="#rules-of-indices" id="toc-rules-of-indices" class="nav-link" data-scroll-target="#rules-of-indices"><span class="header-section-number">9.2</span> Rules of indices</a>
-  <ul class="collapse">
-  <li><a href="#but-why-square-roots" id="toc-but-why-square-roots" class="nav-link" data-scroll-target="#but-why-square-roots"><span class="header-section-number">9.2.1</span> But why? Square roots</a></li>
+  <li><a href="#worked-example" id="toc-worked-example" class="nav-link" data-scroll-target="#worked-example"><span class="header-section-number">12.4.1</span> Worked example</a></li>
+  <li><a href="#solution" id="toc-solution" class="nav-link" data-scroll-target="#solution"><span class="header-section-number">12.4.2</span> Solution</a></li>
   </ul></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/BathMASH/zero-to-hero/blob/master/08-indices.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/BathMASH/zero-to-hero/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/BathMASH/zero-to-hero/blob/master/13-optimisation.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/BathMASH/zero-to-hero/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     <div class="quarto-margin-footer"><div class="margin-footer-item">
 <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="./img/uob-logo.light.png" class="img-fluid" alt="Zero to Hero © 2023 by Ed Southwood, Skills Centre, University of Bath is licensed under Attribution-NonCommercial-ShareAlike 4.0 International"></a> <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="./img/cc-logo.png" class="img-fluid" alt="Zero to Hero © 2023 by Ed Southwood, Skills Centre, University of Bath is licensed under Attribution-NonCommercial-ShareAlike 4.0 International"></a> <link rel="preload" href="./img/uob-logo.dark.png" as="image"></p>
 </div></div></div>
@@ -421,7 +418,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Indices</span></h1>
+<h1 class="title"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Optimisation</span></h1>
 </div>
 
 
@@ -438,166 +435,242 @@ window.Quarto = {
 </header>
 
 
-<p>Indices is another word for powers. In this section we move beyond the idea that powers are just repeated multiplications.</p>
-<section id="index-notation" class="level2" data-number="9.1">
-<h2 data-number="9.1" class="anchored" data-anchor-id="index-notation"><span class="header-section-number">9.1</span> Index notation</h2>
-<p>Being comfortable moving between different ways to write powers helps when rearranging algebra.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
+<p>Optimisation finds the biggest or smallest values of a function. This is often used to solve real world problems, for example:</p>
 <ul>
-<li><span class="math inline">\(x^0 = 1\)</span> except when <span class="math inline">\(x=0\)</span> then it’s undefined</li>
-<li><span class="math inline">\(x^{-n} = \frac{1}{x^n}\)</span></li>
-<li><span class="math inline">\(x^{\frac{1}{n}} = \sqrt[n]x\)</span></li>
+<li>optimise profits by finding a maximum of a profit function</li>
+<li>optimise a journey cost by finding minimum fuel use</li>
 </ul>
-</div>
-</div>
-<p>Here are some examples:</p>
-<p><span class="math display">\[
-2^{-3} = \frac{1}{2^3} = \frac{1}{8}
-\]</span> More generally. <span class="math display">\[
-x^{-3} = \frac{1}{x^3}
-\]</span> Anything to the power of zero is <span class="math inline">\(1\)</span>: <span class="math display">\[
-\pi^0 = 1
-\]</span> Remember good old <span class="math inline">\(\pi\)</span>? From working stuff out about circles <span class="math inline">\(\pi = 3.14159...\)</span></p>
-<p>We can write square roots:</p>
-<p><span class="math display">\[
-16^{\frac{1}{2}} = \sqrt{16} = \pm4
-\]</span></p>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Pro tip
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>When taking square roots remember there are two possible solutions. Since in the above example <span class="math inline">\(4 \times 4 = 16\)</span> and <span class="math inline">\(-4 \times -4 = 16\)</span>. So either answer is just fine.</p>
-</div>
-</div>
-<p>Here’s an example of a cube root.</p>
-<p><span class="math display">\[
-8^{\frac{1}{3}} = \sqrt[3]{8} = 2
-\]</span></p>
-<section id="combinations-roots-and-powers" class="level3" data-number="9.1.1">
-<h3 data-number="9.1.1" class="anchored" data-anchor-id="combinations-roots-and-powers"><span class="header-section-number">9.1.1</span> Combinations, roots and powers</h3>
-<p>A roots and powers can be combined. If a number is raised to the power of a fraction you find the root corresponding to the denominator and then raise it to the power of the numerator. For example:</p>
-<p><span class="math display">\[
-8^{\frac{2}{3}} = (\sqrt[3]{8})^2 = (2)^2 = 4
-\]</span></p>
-<p>Cube root, because of the <span class="math inline">\(3\)</span> in the denominator, then square the answer because of the <span class="math inline">\(2\)</span> in the numerator. This sequence could be done the other way around, square first then cube root, I choose this way since the numbers stay smaller.</p>
-</section>
-<section id="reciprocals" class="level3" data-number="9.1.2">
-<h3 data-number="9.1.2" class="anchored" data-anchor-id="reciprocals"><span class="header-section-number">9.1.2</span> Reciprocals</h3>
-<p>If you raise a number to the power of <span class="math inline">\(-1\)</span> you find it’s reciprocal (you <strong>flip it</strong>). For example:</p>
-<p><span class="math display">\[
-\left(\frac{2}{3}\right)^{-1} = \frac{3}{2}
-\]</span></p>
-</section>
-<section id="but-why" class="level3" data-number="9.1.3">
-<h3 data-number="9.1.3" class="anchored" data-anchor-id="but-why"><span class="header-section-number">9.1.3</span> But why?</h3>
-<p>Just like we did with negative numbers we can extend the idea of what a power means by following a pattern. Here’s a pattern to justify <span class="math inline">\(x^0 = 1\)</span> and <span class="math inline">\(x^{-n} = \frac{1}{x^n}\)</span>.</p>
-<p><span class="math display">\[
-\begin{aligned} 10^3 &amp;= 10 \times 10 \times 10 &amp; = 1000 \\
-10^2 &amp;= 10 \times 10 &amp; = 100 \\
-10^1 &amp;= 10 &amp; = 10 \\
-10^0 &amp;= 1 &amp; = 1 \\
-10^{-1} &amp;= \frac{1}{10} &amp; = 0.1 \\
-10^{-2} &amp;= \frac{1}{10 \times 10} &amp; = 0.01 \\
-10^{-3} &amp;= \frac{1}{10 \times 10 \times 10} &amp; = 0.001
-\end{aligned}
-\]</span></p>
-<p>I’ll come back to the justification about square roots after the next section.</p>
-</section>
-</section>
-<section id="rules-of-indices" class="level2" data-number="9.2">
-<h2 data-number="9.2" class="anchored" data-anchor-id="rules-of-indices"><span class="header-section-number">9.2</span> Rules of indices</h2>
-<p>There is a neat set of rules we can use when combining numbers with indices:</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ul>
-<li><span class="math inline">\(x^n \times x^m = x^{n+m}\)</span></li>
-<li><span class="math inline">\(x^n \div x^m = x^{n-m}\)</span></li>
-<li><span class="math inline">\((x^n)^m = x^{n \times m}\)</span></li>
-</ul>
-</div>
-</div>
-<p>When you multiply terms you add the powers.</p>
-<p><span class="math display">\[
-\begin{aligned} 3x^4 \times 5x^6 &amp;= 3 \times 5 \times x^4 \times x^5 \\
-&amp;= 15 \times x^{4+5} \\
-&amp;= 15x^9
-\end{aligned}
-\]</span></p>
-<p>Lets put it all together with a complicated example:</p>
-<p>To rewrite <span class="math inline">\(\dfrac{\sqrt[4]{x^5x^3}}{\sqrt[3]{x} \sqrt[6]{x^3}}\)</span> in the form <span class="math inline">\(x^n\)</span>, we need to use the following rules:</p>
-<ol type="1">
-<li><span class="math inline">\(a^n a^m = a^{n+m}\)</span>;</li>
-<li><span class="math inline">\(\sqrt[n]{a} = a^{1/n}\)</span>;</li>
-<li><span class="math inline">\(\left(a^n\right)^m = a^{n \times m}\)</span>;</li>
-<li><span class="math inline">\(\frac{a^n}{a^m} = a^{n-m}\)</span>.</li>
-</ol>
-<p>We will simplify the numerator and denominator separately to make the steps clearer. Firstly, applying rule 1, then rule 2, and then rule 3 to the numerator:</p>
-<p><span class="math display">\[
-\begin{aligned} \dfrac{\sqrt[4]{x^5x^3}}{\sqrt[3]{x} \sqrt[6]{x^3}} &amp;= \dfrac{\sqrt[4]{x^8}}{\sqrt[3]{x} \sqrt[6]{x^3}} \\
-&amp;= \dfrac{(x^8)^{1/4}}{\sqrt[3]{x} \sqrt[6]{x^3}} \\
-&amp;= \dfrac{x^2}{\sqrt[3]{x} \sqrt[6]{x^3}}
-\end{aligned}
-\]</span></p>
-<p>To simplify the denominator, we want to apply rule 2, then rule 3, and then rule 1:</p>
-<p><span class="math display">\[
-\begin{aligned} \dfrac{x^2}{\sqrt[3]{x} \sqrt[6]{x^3}} &amp;= \dfrac{x^2}{x^{1/3} (x^3)^{1/6}} \\
-&amp;= \dfrac{x^2}{x^{1/3} x^{1/2}} \\
-&amp;= \dfrac{x^2}{x^{5/6}}
-\end{aligned}
-\]</span></p>
-<p>Remember that we’ll need to get common denominators when adding the fractions at the end: <span class="math display">\[
-\begin{aligned} \frac{1}{3} + \frac{1}{2} &amp;= \frac{1\times2}{3\times2}  + \frac{1\times3}{2\times3} \\
-&amp;= \frac{2}{6}  + \frac{3}{6} \\
-&amp;= \frac{5}{6}
-\end{aligned}
-\]</span></p>
-<p>Finally, applying rule 4 and simplifying,</p>
-<p><span class="math display">\[
-\begin{aligned} \dfrac{x^2}{x^{5/6}} &amp;=x^2 \times x^{-5/6} \\
-&amp;= x^{2-5/6} \\
-&amp;= x^{12/6-5/6} \\
-&amp;= x^{7/6}
-\end{aligned}
-\]</span></p>
-<p>Lots of work with fractions here!</p>
-<p>Now try these questions. Don’t worry if it takes a while to just solve one!</p>
+<p>Brace yourself! The questions here are long and multi-stepped. Take your time, have a coffee and be kind to yourself.</p>
+<section id="the-process-of-optimisation" class="level2" data-number="12.1">
+<h2 data-number="12.1" class="anchored" data-anchor-id="the-process-of-optimisation"><span class="header-section-number">12.1</span> The process of optimisation</h2>
+<p>The largest or smallest values of a function can be found either at it’s <strong>turning points</strong> or at it’s <strong>extreme values</strong>. At the turning point of a function it’s gradient will be zero, imagine walking to the top of a hill, once you get to the top you can’t go any higher and the hill levels out, it’s gradient is zero. The extreme values of a function also need to be checked since the gradient might not be zero here but it could be a maximum or minimum value.</p>
 <div class="cell">
-<iframe src="https://numbas.mathcentre.ac.uk/question/64712/indices-change-of-notation-3/embed/?token=246845ab-e1ea-4745-9106-5750be81ed2c" width="672" height="800px" data-external="1">
+<iframe src="https://www.desmos.com/calculator/xknnmfqryk?embed" width="672" height="400px" data-external="1">
 </iframe>
 </div>
-<section id="but-why-square-roots" class="level3" data-number="9.2.1">
-<h3 data-number="9.2.1" class="anchored" data-anchor-id="but-why-square-roots"><span class="header-section-number">9.2.1</span> But why? Square roots</h3>
-<p>As promised here is an explanation of why <span class="math inline">\(x^{\frac{1}{n}} = \sqrt[n]x\)</span>.</p>
-<p>When we take a square root we look for the a number that when it is multiplied by it’s self we get the answer i.e.&nbsp;<span class="math inline">\(? \times ? = x\)</span>. Since one <span class="math inline">\(x\)</span> is the same as <span class="math inline">\(x^1\)</span> we can rewrite out statement again:</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Names of turning points
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Global maximum - the largest value in the whole function</li>
+<li>Global minimum - the smallest value in the whole function</li>
+<li>Local maximum - the largest value in that neighbourhood of the function</li>
+<li>Local minimum - the smallest value in that neighbourhood of the function</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="classifying-turning-points---critical-points" class="level2" data-number="12.2">
+<h2 data-number="12.2" class="anchored" data-anchor-id="classifying-turning-points---critical-points"><span class="header-section-number">12.2</span> Classifying turning points - critical points</h2>
+<p>Sometimes it’s not easy to sketch the function you are working with and you need to find a way to classify your turning points (sometimes called critical points).</p>
+<p>We can classify the turning points by looking at the values of the first and second dervatives, <span class="math inline">\(f'(x)\)</span> and <span class="math inline">\(f''(x)\)</span>. The graph below shows <span class="math inline">\(f(x)\)</span>, <span class="math inline">\(f'(x)\)</span> and <span class="math inline">\(f''(x)\)</span> all plotted on the same axes. As you move the point notice how when <span class="math inline">\(f(x)\)</span> is at it’s maximum, <span class="math inline">\(f'(x) = 0\)</span> and <span class="math inline">\(f''(x) &lt; 0\)</span>. The three different lines are as follows: <span class="math inline">\(f(x)\)</span> is solid red, <span class="math inline">\(f'(x)\)</span> is dashed blue and <span class="math inline">\(f''(x)\)</span> is dotty and green. There is a lot going on in the graph below but it’s worth taking some time to play with the points to see what is going on.</p>
+<div class="cell">
+<iframe src="https://www.desmos.com/calculator/ybaguwnu8g?embed" width="672" height="400px" data-external="1">
+</iframe>
+</div>
+<p>We can summarise this in a table:</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">critical point</th>
+<th style="text-align: center;"><span class="math inline">\(f(x)\)</span></th>
+<th style="text-align: center;"><span class="math inline">\(f'(x)\)</span></th>
+<th style="text-align: center;"><span class="math inline">\(f''(x)\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">minimum</td>
+<td style="text-align: center;">smallest value</td>
+<td style="text-align: center;"><span class="math inline">\(0\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(f''(x) &gt; 0\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">maximum</td>
+<td style="text-align: center;">largest value</td>
+<td style="text-align: center;"><span class="math inline">\(0\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(f''(x) &lt; 0\)</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Inflection points
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Sometimes you <em>might</em> get a values of <span class="math inline">\(f'(x) = 0\)</span> which doesn’t correspond to a maximum or a minimum. These are a type of <a href="https://en.wikipedia.org/wiki/Inflection_point">inflection point</a> and can be identified by noticing that <span class="math inline">\(f''(x)=0\)</span> at this point. Inflection points happen when the bend of the curve changes from upwards to downwards. Mathematically speaking we say going from concave to convex.</p>
+</div>
+</div>
+</section>
+<section id="example---finding-and-classifying-critical-points" class="level2" data-number="12.3">
+<h2 data-number="12.3" class="anchored" data-anchor-id="example---finding-and-classifying-critical-points"><span class="header-section-number">12.3</span> Example - finding and classifying critical points</h2>
+<p>We can use this information to classify critical points. For example let’s find and classify the critical points of:</p>
 <p><span class="math display">\[
-\begin{aligned} ? \times ? &amp;= x^1 \\
-x^? \times x^? &amp;= x^1 \\
-x^{?+?} &amp;= x^1
+y=2x^3 - 4^2 + 2
+\]</span></p>
+<p>First we need to find the points where <span class="math inline">\(\frac{dy}{dx} = 0\)</span> (remember <span class="math inline">\(f'(x)\)</span> and <span class="math inline">\(\frac{dy}{dx}\)</span> mean the same thing). So differentiating <span class="math inline">\(y=2x^3 - 4x^2 + 2\)</span> we have:</p>
+<p><span class="math display">\[
+\frac{dy}{dx} = 6x^2 -8x
+\]</span> Setting <span class="math inline">\(\frac{dy}{dx} = 0\)</span> and solving we have:</p>
+<p><span class="math display">\[
+\begin{aligned} \frac{dy}{dx} &amp;= 6x^2 -8x \\
+0 &amp;= 6x^2 -8x \\
+&amp;= 2x(3x-4)
 \end{aligned}
-\]</span> This means <span class="math inline">\(? + ? = 1\)</span> so <span class="math inline">\(?=\frac{1}{2}\)</span> so <span class="math inline">\(x^{\frac{1}{2}} = \sqrt{x}\)</span>.</p>
+\]</span></p>
+<p>Now either <span class="math inline">\(2x=0\)</span> or <span class="math inline">\(3x-4 =0\)</span>. Solving these two equations we get that <span class="math inline">\(x\)</span> is equal to either to <span class="math inline">\(0\)</span> or <span class="math inline">\(\frac{4}{3}\)</span>.</p>
+<p>Have a go at this quesiton on classifying critical points.</p>
+<div class="cell">
+<iframe src="https://numbas.mathcentre.ac.uk/question/67953/differentiation-stationary-points-and-their-nature-1/embed/" width="672" height="600px" data-external="1">
+</iframe>
+</div>
+</section>
+<section id="solving-optomisation-problems." class="level2" data-number="12.4">
+<h2 data-number="12.4" class="anchored" data-anchor-id="solving-optomisation-problems."><span class="header-section-number">12.4</span> Solving optomisation problems.</h2>
+<p>We can put all this together to solve problems. <strong>Warning</strong> This is a long question with many steps. You might want to check your knowledge of the chain and quotient rule before you start.</p>
+<section id="worked-example" class="level3" data-number="12.4.1">
+<h3 data-number="12.4.1" class="anchored" data-anchor-id="worked-example"><span class="header-section-number">12.4.1</span> Worked example</h3>
+<p>Production cost can be modelled with the equation <span class="math inline">\(y = 3 - \frac{(x + 3)^{2}}{x}\)</span> in the interval <span class="math inline">\(0 &lt; x &lt; 8\)</span> where <span class="math inline">\(y\)</span> is cost and <span class="math inline">\(x\)</span> is number of units produced.</p>
+<p>Find the minimum cost and verify that it is a minimum using differentiation. There is a minimum point at <span class="math inline">\((x, y)\)</span>.</p>
+</section>
+<section id="solution" class="level3" data-number="12.4.2">
+<h3 data-number="12.4.2" class="anchored" data-anchor-id="solution"><span class="header-section-number">12.4.2</span> Solution</h3>
+<p>Since the function is of the form <span class="math inline">\(y = \frac{u(x)}{v(x)}\)</span>, we want to use the quotient rule to calculate the derivative <span class="math inline">\(\frac{dy}{dx}\)</span>.</p>
+<p>As <span class="math inline">\(y = 3 - \frac{(x + 3)^{2}}{x},\)</span></p>
+<p>let <span class="math inline">\(u(x) = (x + 3)^{2}\)</span> and <span class="math inline">\(v(x) = - x\)</span>.</p>
+<p>Next, we need to find the derivatives, <span class="math inline">\(\frac{du}{dx}\)</span> and <span class="math inline">\(\frac{dv}{dx}\)</span>:</p>
+<p>Since <span class="math inline">\(\frac{du}{dx} = 2(x + 3)\)</span> and <span class="math inline">\(\frac{dv}{dx} = - 1.\)</span></p>
+<p>Substituting these results into the quotient rule formula we can obtain an expression for <span class="math inline">\(\frac{dy}{dx}\)</span>:</p>
+<p><span class="math display">\[
+\begin{aligned}
+\frac{dy}{dx} &amp;= \frac{v(x) \times \frac{du}{dx} - u(x) \times \frac{dv}{dx}}{[v(x)]^{2}} \\
+&amp;= \frac{(- x) \times 2(x + 3) - (x + 3)^{2} \times - 1}{(- x)^{2}}.
+\end{aligned}
+\]</span></p>
+<p>Simplifying, <span class="math display">\[
+\begin{aligned}
+\frac{dy}{dx} &amp;= \frac{2x(x + 3) - (x + 3)^{2}}{- x^{2}} \\
+&amp;= \frac{2x^{2} + 6x - x^{2} - 6x - 9}{- x^{2}} \\
+&amp;= \frac{x^{2} - 9}{- x^{2}}.
+\end{aligned}
+\]</span></p>
+<p>To find the stationary points of the function, we must solve <span class="math inline">\(\frac{dy}{dx} = 0\)</span> for <span class="math inline">\(x\)</span>. Setting <span class="math inline">\(\frac{dy}{dx} = 0\)</span>: <span class="math display">\[
+\begin{aligned}
+\frac{x^{2} - 9}{- x^{2}} &amp;= 0\\
+\Longrightarrow x^{2} - 9 &amp;= 0.
+\end{aligned}
+\]</span></p>
+<p>Therefore, the stationary points are when <span class="math inline">\(x = 3\)</span> and <span class="math inline">\(x = - 3\)</span>.</p>
+<p>Due to the interval that this equation is valid for we can reject <span class="math inline">\(x = - 3\)</span>.</p>
+<p>We find the corresponding <span class="math inline">\(y\)</span>-values of the stationary point by plugging these <span class="math inline">\(x\)</span>-values into the initial equation:</p>
+<p>When <span class="math inline">\(x = 3\)</span>,</p>
+<p><span class="math display">\[
+\begin{aligned}
+y &amp;= 3 + \frac{(3 + 3)^{2}}{- 3} \\
+&amp;= - 9.
+\end{aligned}
+\]</span></p>
+<p>Therefore, the stationary point is <span class="math inline">\((3, - 9)\)</span>. Finally, we need to determine the nature of the stationary point. To do this we want to calculate the second derivative of the initial function and then evaluate it for <span class="math inline">\(x\)</span>-value of the stationary point.</p>
+<p>Recall:</p>
+<ul>
+<li>If <span class="math inline">\(\frac{d^{2}y}{dx^{2}} &lt; 0\)</span> the stationary point is a <strong>maximum</strong>;</li>
+<li>If <span class="math inline">\(\frac{d^{2}y}{dx^{2}} &gt; 0\)</span> the stationary point is a <strong>minimum</strong>;</li>
+<li>If <span class="math inline">\(\frac{d^{2}y}{dx^{2}} = 0\)</span> the stationary point is a <strong>point of inflection</strong>.</li>
+</ul>
+<p>To calculate <span class="math inline">\(\frac{d^{2}y}{dx^{2}}\)</span>, we want to differentiate <span class="math inline">\(\frac{dy}{dx}\)</span> again with respect to <span class="math inline">\(x\)</span>:</p>
+<p><span class="math display">\[
+\begin{aligned}
+\frac{d^{2}y}{dx^{2}} &amp;= \frac{2x(x^{2} - 9) - 2x^{3}}{(- x^{2})^{2}} \\
+&amp;= \frac{2x^{3} - 2x^{3} + 18x}{- x^{4}} \\
+&amp;= - \frac{18}{x^{3}}.
+\end{aligned}
+\]</span></p>
+<p>For <span class="math inline">\((3, - 9)\)</span>, <span class="math inline">\(\frac{d^{2}y}{dx^{2}} = - \frac{2}{3}\)</span>, so it is a maximum.</p>
+<p>Congratulations if you made it this far!</p>
+<p>Now you can have a go at one yourself.</p>
+<div class="cell">
+<iframe src="https://numbas.mathcentre.ac.uk/question/169213/differentiation-contextualized-stationary-points-and-their-nature/embed/" width="672" height="500px" data-external="1">
+</iframe>
+</div>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Economics example
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>A demand function for a generic good, where <span class="math inline">\(P\)</span> is the price and <span class="math inline">\(q\)</span> is the quantity is: <span class="math inline">\(P = 121 - q\)</span>. The Marginal Cost is given by, <span class="math inline">\(MC = 7q+25\)</span>, and fixed cost is, <span class="math inline">\(FC = 23\)</span>. Find the quantity <span class="math inline">\(q\)</span> to maximise profits.</p>
+<p>Marginal Cost, <span class="math inline">\(MC\)</span>, is the cost that changes with quantity of the goods produced.</p>
+<p>Fixed Cost, <span class="math inline">\(FC\)</span>, is a one off cost.</p>
+<p>The total profit can be found by calculating the total revenue (price times quantity) subtract the total cost (marginal cost times quantity add fixed costs).</p>
+<p>Since the letter <span class="math inline">\(P\)</span> has been used for price I’ll use <span class="math inline">\(\pi\)</span>, the greek version of <span class="math inline">\(P\)</span> for profit. The equation for profit looks like:</p>
+<p><span class="math display">\[
+\begin{split} \pi   &amp;= TR - TC \\
+                    &amp;= Pq - (MC \times q + FC) \end{split}
+\]</span></p>
+<p>Using the equations for <span class="math inline">\(P\)</span>, <span class="math inline">\(MC\)</span> and <span class="math inline">\(FC\)</span> given in this question we can substitue these in our equation for profit to give:</p>
+<p><span class="math display">\[
+\pi = (121 - q)q - (7q+25)q - 23
+\]</span></p>
+<p>Expanding the brackets we have:</p>
+<p><span class="math display">\[
+\pi = 121q - q^2 -7q^2 - 25q - 23
+\]</span></p>
+<p>Then collecting like terms (it’s normal to write it in decreasing powers of the variable):</p>
+<p><span class="math display">\[
+\pi = - 8q^2 + 96q - 23
+\]</span></p>
+<p>Differentiating with respect to <span class="math inline">\(q\)</span> gives:</p>
+<p><span class="math display">\[
+\frac{d\pi}{dq} = -16q + 96
+\]</span></p>
+<p>Using the first order condition <span class="math inline">\(\frac{d\pi}{dq} = 0\)</span>. In other words find where the function’s gradient is equal to zero. We have:</p>
+<p><span class="math display">\[
+- 16q + 96 = 0
+\]</span></p>
+<p>Solving to find <span class="math inline">\(q\)</span>:</p>
+<p><span class="math display">\[
+\begin{aligned}
+96 &amp;= 16q \\
+\frac{96}{16} &amp;= q \\
+q &amp;= 6
+\end{aligned}
+\]</span></p>
+<p>So finially the quatity <span class="math inline">\(q\)</span> that maximises profits is <span class="math inline">\(6\)</span>.</p>
+<p>Now you can try one for yourself:</p>
+<div class="cell">
+<iframe src="https://numbas.mathcentre.ac.uk/question/140935/optimisation-find-quantity-to-maximise-profits/embed/" width="672" height="500px" data-external="1">
+</iframe>
+</div>
+</div>
+</div>
 
 
 </section>
@@ -1018,18 +1091,15 @@ x^{?+?} &amp;= x^1
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./07-quadratics.html" class="pagination-link" aria-label="Quadratics">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Quadratics</span></span>
+      <a href="./12-further-differentiation.html" class="pagination-link" aria-label="Further differentiation">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Further differentiation</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./09-differentiation.html" class="pagination-link" aria-label="Differentiation">
-        <span class="nav-page-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Differentiation</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->
-<!-- Cloudflare Web Analytics --><footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/BathMASH/zero-to-hero/blob/master/08-indices.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/BathMASH/zero-to-hero/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer><script defer="" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon="{&quot;token&quot;: &quot;45c34618a8294826b85725434b26e3db&quot;}"></script><!-- End Cloudflare Web Analytics -->
+<!-- Cloudflare Web Analytics --><footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/BathMASH/zero-to-hero/blob/master/13-optimisation.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/BathMASH/zero-to-hero/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer><script defer="" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon="{&quot;token&quot;: &quot;45c34618a8294826b85725434b26e3db&quot;}"></script><!-- End Cloudflare Web Analytics -->
 <script type="application/javascript" src="scripts/light-dark.js"></script>
 
 
