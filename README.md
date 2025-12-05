@@ -8,7 +8,7 @@ You can find the [website version hosted on the bath github here](https://github
 
 Alternatively you can find the [version hosted on github.com here](https://bathmash.github.io/zero-to-hero/).
 
-If you would like to [download the pdf](https://github.bath.ac.uk/edrs20/z2hq/blob/master/docs/zero-to-hero.pdf) from the bath github you can too.
+If you would like to [download the pdf](https://github.bath.ac.uk/edrs20/z2hq/blob/master/docs/Zero-to-Hero.pdf) from the bath github you can too.
 
 TODO:
 
@@ -35,5 +35,5 @@ Videos:
 
 Pages
 
-* Optimisation - in progress
+* ~~Optimisation - in progress~~
 * Graduation? Add a page with a final exam?
