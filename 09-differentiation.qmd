@@ -39,12 +39,13 @@ Multiple terms added together are differentiated one by one then added together:
 
 $$
 \begin{aligned} y &= 6x^3 + 2x^2 + 4x + 5 \\
-\frac{dy}{dx} &= 6x^3 + 2x^2 + 4x^1 + 5x^0 \\
-&= 3\times6x^{3-1} + 2\times x^{2-1} + 1\times 4x^{1-1} + 0\times5x^{0-1} \\
-&= 18x^2 + 2x^1 + 4x^{0} + 0 \\
-&= 18x^2 + 2x + 4
+ &= 6x^3 + 2x^2 + 4x^1 + 5x^0 \\
+\frac{dy}{dx} &= 3\times6x^{3-1} + 2\times 2x^{2-1} + 1\times 4x^{1-1} + 0\times5x^{0-1} \\
+&= 18x^2 + 4x^1 + 4x^{0} + 0 \\
+&= 18x^2 + 4x + 4
 \end{aligned}
 $$
+
 In the above example we've used the following mathematical facts:
 
 * $x=x^1$, $x$ on it's own is $x^1$
@@ -56,7 +57,7 @@ The take away from this is that constant terms, terms without $x$ in, disappear,
 Try these questions to get to grips with the rules of differentiation.
 
 ```{r, echo=FALSE}
-knitr::include_url("https://numbas.mathcentre.ac.uk/question/62756/differentiation-using-a-table-of-derivatives-2/embed/?token=f1dc60aa-32b9-4906-98f2-4ddde19c9b79", height="340px")
+knitr::include_url("https://numbas.mathcentre.ac.uk/question/62756/differentiation-using-a-table-of-derivatives-2/embed/?token=f1dc60aa-32b9-4906-98f2-4ddde19c9b79", height="0px")
 ```
 
 ## Finding gradient at a point
