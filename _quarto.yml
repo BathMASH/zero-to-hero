@@ -30,11 +30,11 @@ format:
     theme:
       light: cosmo
       dark: darkly
-  pdf:
-    documentclass: scrbook
-    papersize: a4
-    include-in-header:
-      file: "preamble.tex"
+#  pdf:
+#    documentclass: scrbook
+#    papersize: a4
+#    include-in-header:
+#      file: "preamble.tex"
 #  docx:
 #    toc: true
 #    number-sections: true

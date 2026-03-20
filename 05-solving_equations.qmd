@@ -134,7 +134,7 @@ When multiplying or dividing by a negative number change the direction of the in
 
 Sometimes equations have more than one unknown. Take $x + y = 4$ for example. There are infinitely many pairs of numbers, $x$ and $y$, that work for this. Take the following pairs for example: $x = 1$ and $y=3$, $x = -100$ and $y=104$, and $x = 0.1$ and $y=3.9$. 
 
-:::{.callout-tip}
+:::{.callout-note}
 ## Pro-tip 
 
 These pairs of solutions are often given as co-ordinate pairs like $(1,3)$, $(-100,104)$ and $(0.1,3.9)$. We'll do more about co-ordinates later.

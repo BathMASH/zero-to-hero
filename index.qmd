@@ -21,6 +21,38 @@ This course is designed to refresh your knowledge of maths to get you ready to u
 
 This is a work in progress, the videos are appearing and things may change! If you find a mistake please email [edrs20@bath.ac.uk](mailto:edrs20@bath.ac.uk) and good luck!
 
+::: {.content-visible unless-profile="all"}
+
+## Subject specific
+
+You're a busy person! So, with the help of your lecturer, I've tried to make this as relevant and concise as possible.
+
+::::{.callout-warning title="Directly applicable"}
+
+Whenever you see something in this box it will directly link the statistics covered in this resource to your course.
+
+::::
+
+:::
+
+:::{.callout-note title="Key point"}
+
+Key points are summarised in boxes like this.
+
+:::
+
+:::{.callout-tip title="Answers and Mathematical notation"}
+
+Notes on mathematical properties and answers to *Test yourself* quizes are in this colour boxes.
+
+:::
+
+:::{.callout-important title="Gotcha!"}
+
+Sources of potential confusion are directly delt with in this box.
+
+:::
+
 ::: {.callout-tip}
 ## Let me know what you think
 

@@ -33,7 +33,7 @@ $$
 16^{\frac{1}{2}} = \sqrt{16} = \pm4
 $$
 
-:::{.callout-tip}
+:::{.callout-note}
 ## Pro tip
 When taking square roots remember there are two possible solutions. Since in the above example $4 \times 4 = 16$ and  $-4 \times -4 = 16$. So either answer is just fine.
 :::

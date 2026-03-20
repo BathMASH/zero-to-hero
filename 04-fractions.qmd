@@ -104,7 +104,7 @@ $$
 \end{aligned}
 $$
 
-:::{.callout-tip}
+:::{.callout-note}
 ## Pro-tip
 
 It is possible to cancel before multiplying. Here is the same example revisited:

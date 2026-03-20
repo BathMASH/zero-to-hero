@@ -5,7 +5,7 @@
 # The folder must exisit and git initialised before you can use this shortcut
 
 if [[ $# -eq 0 ]] ; then
-    echo 'supply project name. for example ./bproj.sh apeb'
+    echo 'supply project name: for example ./bproj.sh apeb'
     exit 1
 fi
 echo rendering $1 version

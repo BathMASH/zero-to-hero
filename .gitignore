@@ -3,3 +3,5 @@
 .R*
 /*files/
 /*cache/
+
+**/*.quarto_ipynb
