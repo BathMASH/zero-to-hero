@@ -2,6 +2,10 @@ project:
   output-dir: docs
   type: book
 
+include-in-header: 
+  text: |
+    <script type="application/javascript" src="scripts/wait.js"></script>
+ 
 include-after-body:
   text: |
     <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "45c34618a8294826b85725434b26e3db"}'></script><!-- End Cloudflare Web Analytics -->
