@@ -55,6 +55,26 @@ Here are some practice questions.
 knitr::include_url("https://numbas.mathcentre.ac.uk/question/127002/algebra-expanding-single-brackets/embed/?token=7f05cd3a-ac38-4f05-8866-e3fa3c6b280c", height="800px")
 ```
 
+::: {.content-visible when-profile="econ"}
+
+:::: {.callout-caution}
+## Economics example
+
+Total revenue is price times quantity.
+
+If the demand curve is $P = 20 - 2Q$, then total revenue is:
+
+$$
+\begin{aligned}
+TR &= P \times Q \\
+&= (20 - 2Q)Q \\
+&= 20Q - 2Q^2
+\end{aligned}
+$$
+::::
+
+:::
+
 ### Expanding pairs of brackets
 
 This will be covered in [Quadratics].

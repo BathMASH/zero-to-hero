@@ -95,6 +95,32 @@ Take care when simplifying multiples of different letters $3xy + 5yx$ can be sim
 * $1x$ is written as $x$
 :::
 
+::: {.content-visible when-profile="econ"}
+
+:::: {.callout-caution}
+## Economics example
+
+A firm's total revenue is $TR = 15q$ and its total cost is $TC = 8q + 200$. Profit is total revenue minus total cost:
+
+$$
+\pi = TR - TC
+$$
+
+Substitute the expressions and simplify:
+
+$$
+\begin{aligned}
+\pi &= 15q - (8q + 200) \\
+    &= 15q - 8q - 200 \\
+    &= 7q - 200
+\end{aligned}
+$$
+
+The simplified profit function is $\pi = 7q - 200$. The firm needs to sell about 29 units before it starts making a profit.
+::::
+
+:::
+
 Have a go at simplifying with these questions.
 
 ```{r, echo=FALSE}

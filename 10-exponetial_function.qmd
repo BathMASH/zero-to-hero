@@ -51,6 +51,43 @@ knitr::include_url("https://www.desmos.com/calculator/d635xag3xe?embed")
 If $y=e^x$ then $\frac{dy}{dx}=e^x$.
 :::
 
+::: {.content-visible when-profile="econ"}
+
+:::: {.callout-caution}
+## Economics example
+
+If a sum of money grows continuously at an annual rate of $5\%$, its value after $t$ years is:
+
+$$
+V(t) = V_0 e^{0.05t}
+$$
+
+For example, £100 invested today will be worth:
+
+$$
+V(10) = 100 \times e^{0.05 \times 10} = 100 \times e^{0.5}
+$$
+
+which is approximately $164.87.
+$$
+
+after ten years.
+
+```{r, echo=FALSE, fig.height=3.5, fig.width=5, fig.align='center', fig.alt='A graph showing continuous exponential growth of an investment starting at 100 pounds and growing at 5 percent per year. After 10 years the value is approximately 165 pounds.'}
+t <- seq(0, 20, length.out = 200)
+V <- 100 * exp(0.05 * t)
+plot(t, V, type = "n", xlim = c(0, 20), ylim = c(0, 300),
+     xlab = "Time (years)", ylab = "Value, V",
+     main = expression(V(t) == 100*e^{0.05*t}),
+     xaxp = c(0, 20, 4), yaxp = c(0, 300, 5),
+     panel.first = grid())
+lines(t, V, lwd = 2)
+points(10, 100*exp(0.5), col = "blue", pch = 19, cex = 1.3)
+```
+::::
+
+:::
+
 ## Differentiating $e^x$
 
 The rule for differentiating $e^x$ is if $y = ke^{ax}$ then $\frac{dy}{dx}= ake^{ax}$.

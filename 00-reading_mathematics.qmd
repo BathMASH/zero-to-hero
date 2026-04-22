@@ -53,6 +53,16 @@ The table below contains common sets you may see. Each lower set contains the on
 knitr::include_graphics("./img/types_of_numbers.jpeg")
 ```
 
+::: {.content-visible when-profile="econ"}
+
+:::: {.callout-caution}
+## Economics example
+
+Greek letters appear frequently in economics. $\pi$ (pi) is used for profit, $\Delta$ (delta) for change, and $\varepsilon$ (epsilon) for elasticity. A demand elasticity of $\varepsilon = -1.5$ means that a $1\%$ increase in price leads to a $1.5\%$ decrease in quantity demanded.
+::::
+
+:::
+
 Practice with your knowledge of sets with these questions:
 
 ```{r, echo=FALSE}

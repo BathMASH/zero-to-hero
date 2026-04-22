@@ -145,6 +145,16 @@ $$
 
 Lots of work with fractions here! 
 
+::: {.content-visible when-profile="econ"}
+
+:::: {.callout-caution}
+## Economics example
+
+If £1000 is invested at an annual interest rate of $4\%$, its value after $t$ years is $V = 1000 \times (1.04)^t$. After 5 years the investment is worth $1000 \times (1.04)^5$, which is approximately $1216.65$.
+::::
+
+:::
+
 Now try these questions. Don't worry if it takes a while to just solve one!
 
 ```{r, echo=FALSE}

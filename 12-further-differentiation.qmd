@@ -123,6 +123,16 @@ Phew! Time for a cup of tea, or maybe some more questions...
 knitr::include_url("https://numbas.mathcentre.ac.uk/question/91317/differentiation-chain-rule-3/embed/?token=0ac77949-e57a-40a4-9e69-200c7817cc9e", height="340px")
 ```
 
+::: {.content-visible when-profile="econ"}
+
+:::: {.callout-caution}
+## Economics example
+
+A firm's revenue is given by $R = (100 - 2q)^3$, where $q$ is quantity. To find the marginal revenue we use the chain rule. Let $u = 100 - 2q$, so $R = u^3$. Then $\frac{dR}{dq} = \frac{dR}{du} \times \frac{du}{dq} = 3u^2 \times (-2) = -6(100-2q)^2$.
+::::
+
+:::
+
 ## The product rule
 
 ::: {.content-visible when-profile="all"}

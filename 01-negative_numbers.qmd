@@ -121,6 +121,16 @@ It's tempting to cling on to the idea that *two negatives make a positive* when 
 * $-10 - -4 = -6$
 :::
 
+::: {.content-visible when-profile="econ"}
+
+:::: {.callout-caution}
+## Economics example
+
+If a firm's revenue is £500,000 and its costs are £550,000, its profit is $500000 - 550000 = -50000$. The negative sign shows the firm is making a loss of £50,000.
+::::
+
+:::
+
 You can practice these techniques with the following questions. The numbers change each time to try them as much as you like.
 
 ```{r, echo=FALSE}

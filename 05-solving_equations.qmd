@@ -199,6 +199,52 @@ $$
 
 Which works out!
 
+::: {.content-visible when-profile="econ"}
+
+:::: {.callout-caution}
+## Economics example
+
+In economics, **market equilibrium** occurs where quantity demanded equals quantity supplied. Suppose demand and supply are given by:
+
+$$
+\begin{aligned}
+\phantom{-}2P + Q &= 20 \\
+-2P + Q &= -4
+\end{aligned}
+$$
+
+The first equation is demand and the second is supply. Adding the two equations eliminates $P$:
+
+$$
+2Q = 16
+$$
+
+So $Q = 8$. Substituting back into the demand equation:
+
+$$
+2P + 8 = 20 \implies P = 6
+$$
+
+The equilibrium price is $P=6$ and the equilibrium quantity is $Q=8$.
+
+```{r, echo=FALSE, fig.height=4.5, fig.width=5, fig.align='center', fig.alt='A graph showing a downward-sloping demand curve and an upward-sloping supply curve intersecting at the market equilibrium point Q equals 8, P equals 6.'}
+Q <- seq(0, 12, length.out = 200)
+plot(0, 0, type = "n", xlim = c(0, 12), ylim = c(0, 12),
+     xlab = "Quantity, Q", ylab = "Price, P",
+     main = "Market equilibrium",
+     xaxp = c(0, 12, 6), yaxp = c(0, 12, 6),
+     panel.first = grid())
+lines(Q, 10 - 0.5*Q, lwd = 2)
+lines(Q, 2 + 0.5*Q, lwd = 2, lty = "dashed")
+points(8, 6, col = "blue", pch = 19, cex = 1.3)
+legend("topright", legend = c("Demand", "Supply"), lty = c(1, 2), lwd = 2, bty = "n")
+```
+
+When $Q=8$ and $P=6$, the quantity supplied equals the quantity demanded, and the market is said to be "in equilibrium." You will also hear the phrase "the market has cleared."
+::::
+
+:::
+
 You can try other examples in the exercise below. Sometime you may have to multiply both of your starting equations in order to get the same amount of one variable. Also, don't worry if you have eliminated the other variable - it doesn't matter which you get rid of first, you should get the same answer in the end.
 
 ```{r, echo=FALSE}

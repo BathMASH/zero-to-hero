@@ -122,6 +122,37 @@ The equation of a straight line can be written using different letters. They all
 * $y = ax + b$
 :::
 
+::: {.content-visible when-profile="econ"}
+
+:::: {.callout-caution}
+## Economics example
+
+A linear demand curve can be written:
+
+$$
+P = 20 - 2Q
+$$
+
+The intercept $20$ is the maximum price anyone would pay (when $Q=0$). The gradient $-2$ means that price must fall by $2$ for each additional unit demanded.
+
+Economists call this responsiveness **elasticity**. A steep demand curve means buyers are not very responsive to price changes: demand is *inelastic*. A flatter curve means buyers are very responsive: demand is *elastic*.
+
+```{r, echo=FALSE, fig.height=3.5, fig.width=5, fig.align='center', fig.alt='A downward-sloping straight line showing a demand curve with intercept 20 on the price axis and slope negative 2.'}
+Q <- seq(0, 12, length.out = 200)
+P <- 20 - 2*Q
+plot(Q, P, type = "n", xlim = c(0, 12), ylim = c(0, 24),
+     xlab = "Quantity, Q", ylab = "Price, P",
+     main = expression(P == 20 - 2*Q),
+     xaxp = c(0, 10, 5), yaxp = c(0, 20, 4),
+     panel.first = grid())
+lines(Q, P, lwd = 2)
+points(0, 20, col = "blue", pch = 19, cex = 1.3)
+points(5, 10, col = "blue", pch = 19, cex = 1.3)
+```
+::::
+
+:::
+
 Using your knowledge of $y=mx+c$ try the following questions. Don't be afraid to look at the answers and then try a fresh set of questions if it seems tricky at first.
 
 ```{r, echo=FALSE}

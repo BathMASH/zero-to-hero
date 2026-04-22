@@ -158,6 +158,43 @@ Notice the use of $x_1$ and $x_2$. It is common in maths to use subscript number
 
 :::
 
+::: {.content-visible when-profile="econ"}
+
+:::: {.callout-caution}
+## Economics example
+
+A firm's profit from producing $Q$ units is $\pi = -Q^2 + 8Q - 12$. The **break-even points** occur where profit is zero:
+
+$$
+-Q^2 + 8Q - 12 = 0
+$$
+
+Multiplying by $-1$ gives:
+
+$$
+Q^2 - 8Q + 12 = 0
+$$
+
+This factorises to $(Q-6)(Q-2)=0$. When two brackets multiply to give zero, at least one of them must be zero. So either $Q-6=0$ or $Q-2=0$. The firm breaks even when output is $Q=2$ and $Q=6$. Between these two points the firm makes a net profit; outside them it makes a loss.
+
+```{r, echo=FALSE, fig.height=3.5, fig.width=5, fig.align='center', fig.alt='A downward-opening parabola showing profit as a function of output. The curve crosses the horizontal axis at Q equals 2 and Q equals 6, which are the break-even points.'}
+Q <- seq(0, 7, length.out = 200)
+profit <- -Q^2 + 8 * Q - 12
+plot(Q, profit, type = "n", xlim = c(0, 7), ylim = c(-12, 6),
+     xlab = "Output, Q", ylab = expression("Profit," ~ pi),
+     main = expression(pi == -Q^2 + 8*Q - 12),
+     axes = FALSE)
+abline(h = seq(-12, 6, by = 6), v = 0:7, col = "grey90", lty = "dotted")
+axis(1, at = 0:7)
+axis(2, at = seq(-12, 6, by = 6), las = 1)
+abline(h = 0, v = 0, col = "grey50")
+lines(Q, profit, lwd = 2)
+points(c(2, 6), c(0, 0), col = "blue", pch = 19)
+```
+::::
+
+:::
+
 ```{r, echo=FALSE}
 knitr::include_url("https://numbas.mathcentre.ac.uk/question/64345/quadratics-using-the-quadratic-formula/embed/?token=df746faf-a094-4dd6-8e2b-19ae44306fc8", height="800px")
 ```
