@@ -2,15 +2,6 @@ project:
   output-dir: docs
   type: book
 
-include-in-header: 
-  text: |
-    <script type="application/javascript" src="scripts/wait.js"></script>
- 
-include-after-body:
-  text: |
-    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "45c34618a8294826b85725434b26e3db"}'></script><!-- End Cloudflare Web Analytics -->
-    <script type="application/javascript" src="scripts/light-dark.js"></script>
-
 book:
   title: "Zero to Hero"
   author: "Ed Southwood"
@@ -34,11 +25,19 @@ format:
     theme:
       light: cosmo
       dark: darkly
-#  pdf:
-#    documentclass: scrbook
-#    papersize: a4
-#    include-in-header:
-#      file: "preamble.tex"
+    include-in-header: 
+      text: |
+        <script type="application/javascript" src="scripts/wait.js"></script>
+    
+    include-after-body:
+      text: |
+        <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "45c34618a8294826b85725434b26e3db"}'></script><!-- End Cloudflare Web Analytics -->
+        <script type="application/javascript" src="scripts/light-dark.js"></script>
+  pdf:
+    documentclass: scrbook
+    papersize: a4
+    include-in-header:
+      file: "preamble.tex"
 #  docx:
 #    toc: true
 #    number-sections: true
