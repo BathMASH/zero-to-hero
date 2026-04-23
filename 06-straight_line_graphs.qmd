@@ -24,7 +24,7 @@ To build a picture of a function we work out pairs of values that satisfy the fu
 
 Once we have these values they can be plotted on graph.
 ```{r, echo=FALSE}
-knitr::include_url("https://www.desmos.com/calculator/jzyasdusre?embed")
+knitr::include_url("https://www.desmos.com/calculator/jzyasdusre?embed", height="500px")
 ```
 The red dots show the points and the blue line shows the equation.
 

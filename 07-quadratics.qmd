@@ -5,7 +5,7 @@ Quadratics often appear in mathematics, they occur when you have something squar
 A plot of $y=x^2$ is below:
 
 ```{r, echo=FALSE}
-knitr::include_url("https://www.desmos.com/calculator/ufd5zwqegu?embed")
+knitr::include_url("https://www.desmos.com/calculator/ufd5zwqegu?embed", height="500px")
 ```
 
 Quadratics can occur when we expand pairs of brackets, so I've included in this section.
