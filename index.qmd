@@ -21,7 +21,7 @@ This course is designed to refresh your knowledge of maths to get you ready to u
 
 This is a work in progress, the videos are appearing and things may change! If you find a mistake please email [edrs20@bath.ac.uk](mailto:edrs20@bath.ac.uk) and good luck!
 
-::: {.content-visible unless-profile="all"}
+:::{.content-visible unless-profile="default"}
 
 ## Subject specific
 
@@ -34,6 +34,8 @@ Whenever you see something in this box it will directly link the statistics cove
 ::::
 
 :::
+
+## What do tthe boxes mean?
 
 :::{.callout-note title="Key point"}
 
@@ -53,10 +55,12 @@ Sources of potential confusion are directly delt with in this box.
 
 :::
 
-::: {.callout-tip}
+## I'd love to hear from you
+
+:::{.callout-tip}
 ## Let me know what you think
 
 If you've got some spare time to [fill in this survey](https://bathreg.onlinesurveys.ac.uk/zero-to-hero) about this resource, I'd love to know what you think of it.
 :::
 
-Zero to Hero © 2025 by Ed Southwood, Skills Centre, University of Bath is licensed under [Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+Zero to Hero © 2026 by Ed Southwood, Skills Centre, University of Bath is licensed under [Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/).

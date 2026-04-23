@@ -55,5 +55,5 @@ knitr:
 #  cache: true
 
 profile:
-  group: 
-    - [all, apeb]
+  default: all
+
