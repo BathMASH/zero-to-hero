@@ -34,6 +34,12 @@ By working out some co-ordinates in the following question try to generate the c
 knitr::include_url("https://numbas.mathcentre.ac.uk/question/68532/linear-graphs-plotting-1-integer-values/embed/?token=c4963f30-f814-4d6f-91bc-b631f0ed1ec3", height="800px")
 ```
 
+:::{.callout-tip}
+## Curves and straight lines
+
+In mathematics, a straight line is technically a special type of curve, just one with no curvature at all. You will often hear mathematicians refer to any line, straight or otherwise, as a "curve", particularly when its exact shape has not yet been determined.
+:::
+
 ## The formula for a straight line graph: $y=mx+c$
 
 Straight line graphs can be defined by two quantities. The gradient, $m$, a measure of how steep the line is, and the $y$ intercept, $c$, where the line crosses the $y$ axis.
@@ -132,12 +138,13 @@ A linear demand curve can be written:
 $$
 P = 20 - 2Q
 $$
+where $P$ is the price and $Q$ the quantity.
 
 The intercept $20$ is the maximum price anyone would pay (when $Q=0$). The gradient $-2$ means that price must fall by $2$ for each additional unit demanded.
 
-Economists call this responsiveness **elasticity**. A steep demand curve means buyers are not very responsive to price changes: demand is *inelastic*. A flatter curve means buyers are very responsive: demand is *elastic*.
+This responsiveness is an example of what economists call **elasticity**. Here, because we are looking at how quantity demanded responds to a change in price, the specific name is **price elasticity of demand**. The gradient of the demand curve gives a rough guide: a steep curve means buyers are not very responsive, so demand is **inelastic**; a flatter curve means buyers are very responsive, so demand is **elastic**.
 
-```{r, echo=FALSE, fig.height=3.5, fig.width=5, fig.align='center', fig.alt='A downward-sloping straight line showing a demand curve with intercept 20 on the price axis and slope negative 2.'}
+```{r, echo=FALSE, fig.height=7, fig.width=5, fig.align='center', fig.alt='A downward-sloping straight line showing a demand curve with intercept 20 on the price axis and slope negative 2. Dashed blue lines show a horizontal change of 5 and a vertical change of negative 10 between two points on the line.'}
 Q <- seq(0, 12, length.out = 200)
 P <- 20 - 2*Q
 plot(Q, P, type = "n", xlim = c(0, 12), ylim = c(0, 24),
@@ -148,7 +155,16 @@ plot(Q, P, type = "n", xlim = c(0, 12), ylim = c(0, 24),
 lines(Q, P, lwd = 2)
 points(0, 20, col = "blue", pch = 19, cex = 1.3)
 points(5, 10, col = "blue", pch = 19, cex = 1.3)
+segments(0, 20, 5, 20, col = "blue", lty = 2, lwd = 1.5)
+segments(5, 20, 5, 10, col = "blue", lty = 2, lwd = 1.5)
+text(2.5, 21.5, "5", col = "black", cex = 1.1)
+text(6.2, 15, "-10", col = "black", cex = 1.1)
 ```
+
+To calculate the gradient we divide the change in the $y$ direction by the change in the $x$ direction. Here this is $\frac{-10}{5} = -2$.
+
+Because the curve slopes downward the gradient is negative, and economists write $\varepsilon = -2$. Much to the annoyance of mathematicians, they will often drop the minus sign and simply give the positive value, particularly when it is obvious that the gradient is negative.
+
 ::::
 
 :::

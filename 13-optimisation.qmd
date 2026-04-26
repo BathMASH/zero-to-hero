@@ -56,8 +56,9 @@ Sometimes you *might* get a values of $f'(x) = 0$ which doesn't correspond to a 
 ::::{.callout-caution}
 ## Economics vocabulary 
 
-**First order condition** or FOC is when $f'(x) = 0$.
-**Second order condition** or SOC is checking the sign of $f''(x)$ to calssify the turning point.
+**First order condition** or FOC is when $f'(x) = 0$. This finds the stationary points: the places where the curve is momentarily flat. A stationary point could be a maximum, a minimum, or a point of inflection, so the FOC alone does not tell you which.
+
+**Second order condition** or SOC is checking the sign of $f''(x)$ to classify the turning point. If $f''(x) < 0$ at a stationary point, the curve is concave there and the point is a local maximum. If $f''(x) > 0$, the curve is convex and the point is a local minimum.
 
 ::::
 
@@ -195,13 +196,13 @@ knitr::include_url("https://numbas.mathcentre.ac.uk/question/169213/differentiat
 ::::{.callout-caution}
 ## Economics example
 
-A demand function for a generic good, where $P$ is the price and $q$ is the quantity is: $P = 121 - q$. The Marginal Cost is given by, $MC = 7q+25$, and fixed cost is, $FC = 23$. Find the quantity $q$ to maximise profits.
+A demand function for a generic good, where $P$ is the price and $q$ is the quantity is: $P = 121 - q$. The Marginal Cost is given by, $MC = 7q+25$, and fixed cost is $FC = 23$. Find the quantity $q$ to maximise profits.
 
-Marginal Cost, $MC$, is the cost that changes with quantity of the goods produced.
+The Marginal Cost, $MC$, is the cost that changes with quantity of the goods produced.
 
-Fixed Cost, $FC$, is a one off cost.
+The Fixed Cost, $FC$, is a one off cost.
 
-The total profit can be found by calculating the total revenue (price times quantity) subtract the total cost (marginal cost times quantity add fixed costs).
+The total profit can be found by calculating the total revenue (price times quantity) subtracting the total cost (marginal cost times quantity add fixed costs).
 
 Since the letter $P$ has been used for price I'll use $\pi$, the greek version of $P$ for profit. The equation for profit looks like:
 

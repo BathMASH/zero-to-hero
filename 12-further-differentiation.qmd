@@ -128,7 +128,23 @@ knitr::include_url("https://numbas.mathcentre.ac.uk/question/91317/differentiati
 :::: {.callout-caution}
 ## Economics example
 
-A firm's revenue is given by $R = (100 - 2q)^3$, where $q$ is quantity. To find the marginal revenue we use the chain rule. Let $u = 100 - 2q$, so $R = u^3$. Then $\frac{dR}{dq} = \frac{dR}{du} \times \frac{du}{dq} = 3u^2 \times (-2) = -6(100-2q)^2$.
+A firm's revenue is related to the quantity it sells. Suppose revenue is given by:
+
+$$
+R = (100 - 2q)^3
+$$
+
+where $q$ is quantity. This is a simplified example, but it captures a common problem in economics: the variable $q$ appears inside a linear expression $(100 - 2q)$, and that whole expression is then raised to a power. You cannot apply the basic power rule directly to $q$ because $q$ is not the base; it is inside the brackets.
+
+To find the marginal revenue (the derivative of revenue with respect to quantity) we need the **chain rule**. The chain rule is used whenever one function is inside another.
+
+Let $u = 100 - 2q$, so that $R = u^3$. Then:
+
+$$
+\frac{dR}{dq} = \frac{dR}{du} \times \frac{du}{dq} = 3u^2 \times (-2) = -6(100 - 2q)^2
+$$
+
+The marginal revenue tells us how much extra revenue the firm gets from selling one more unit. Because revenue depends on quantity through the composite function $(100 - 2q)^3$, the chain rule is essential.
 ::::
 
 :::

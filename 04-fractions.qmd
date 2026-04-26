@@ -88,7 +88,13 @@ Which is nonsense!
 :::: {.callout-caution}
 ## Economics example
 
-If a firm's total cost of producing $Q$ units is $TC = 3Q^2 + 10Q + 50$, then its average cost is $AC = \frac{TC}{Q} = \frac{3Q^2 + 10Q + 50}{Q} = 3Q + 10 + \frac{50}{Q}$. Splitting the fraction in this way makes it easier to see how average cost changes as output changes.
+If a firm's total cost of producing $Q$ units is $TC = 3Q^2 + 10Q + 50$, then its average cost is:
+
+$$
+AC = \frac{TC}{Q} = \frac{3Q^2 + 10Q + 50}{Q} = 3Q + 10 + \frac{50}{Q}
+$$
+
+Splitting the fraction in this way makes it easier to see how average cost changes as output changes.
 ::::
 
 :::

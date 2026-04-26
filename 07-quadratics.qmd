@@ -175,7 +175,7 @@ $$
 Q^2 - 8Q + 12 = 0
 $$
 
-This factorises to $(Q-6)(Q-2)=0$. When two brackets multiply to give zero, at least one of them must be zero. So either $Q-6=0$ or $Q-2=0$. The firm breaks even when output is $Q=2$ and $Q=6$. Between these two points the firm makes a net profit; outside them it makes a loss.
+This factorises to $(Q-6)(Q-2)=0$. When two brackets multiply to give zero, at least one of them must be zero. So either $Q-6=0$ or $Q-2=0$. The firm breaks even when output is $Q=2$ or $Q=6$. Between these production levels the firm makes a net profit; outside them it makes a loss.
 
 ```{r, echo=FALSE, fig.height=3.5, fig.width=5, fig.align='center', fig.alt='A downward-opening parabola showing profit as a function of output. The curve crosses the horizontal axis at Q equals 2 and Q equals 6, which are the break-even points.'}
 Q <- seq(0, 7, length.out = 200)

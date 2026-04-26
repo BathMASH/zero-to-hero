@@ -34,7 +34,7 @@ Notice the following key points about the graph.
 
 ## The exponential function
 
-There is one exponential function that is so important that it is called **the** exponential function. It is written as $y=e^x$ where $e$ is an irrational number (an infinitely long decimal number that doesn't repeat itself, $/pi$ is an irrational number too). The value of $e$ is:
+There is one exponential function that is so important that it is called **the** exponential function. It is written as $y=e^x$ where $e$ is an irrational number (an infinitely long decimal number that doesn't repeat itself, $\pi$ is an irrational number too). The value of $e$ is:
 
 $$
 e = 2.71828182845904523536028747135266249775724709369995...
@@ -73,14 +73,18 @@ $$
 
 after ten years.
 
-```{r, echo=FALSE, fig.height=3.5, fig.width=5, fig.align='center', fig.alt='A graph showing continuous exponential growth of an investment starting at 100 pounds and growing at 5 percent per year. After 10 years the value is approximately 165 pounds.'}
+```{r, echo=FALSE, fig.height=7, fig.width=5, fig.align='center', fig.alt='A graph showing continuous exponential growth of an investment starting at 100 pounds and growing at 5 percent per year. After 10 years the value is approximately 165 pounds.'}
 t <- seq(0, 20, length.out = 200)
 V <- 100 * exp(0.05 * t)
 plot(t, V, type = "n", xlim = c(0, 20), ylim = c(0, 300),
      xlab = "Time (years)", ylab = "Value, V",
      main = expression(V(t) == 100*e^{0.05*t}),
      xaxp = c(0, 20, 4), yaxp = c(0, 300, 5),
-     panel.first = grid())
+     axes = FALSE)
+abline(h = seq(0, 300, by = 60), v = seq(0, 20, by = 5), col = "grey90", lty = "dotted")
+axis(1, at = seq(0, 20, by = 5))
+axis(2, at = seq(0, 300, by = 60), las = 1)
+box()
 lines(t, V, lwd = 2)
 points(10, 100*exp(0.5), col = "blue", pch = 19, cex = 1.3)
 ```
@@ -95,5 +99,5 @@ The rule for differentiating $e^x$ is if $y = ke^{ax}$ then $\frac{dy}{dx}= ake^
 Use that rule to try the following questions.
 
 ```{r, echo=FALSE}
-knitr::include_url("https://numbas.mathcentre.ac.uk/question/62791/differentiation-using-a-table-of-derivatives-4/embed/?token=c0e0c050-43ee-44bf-ac18-9377c9d3a522", height="800px")
+knitr::include_url("https://numbas.mathcentre.ac.uk/question/62791/differentiation-using-a-table-of-derivatives-4/embed/?token=c0e0c050-43ee-44bf-ac18-9377c9d3a522", height="650px")
 ```

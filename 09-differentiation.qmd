@@ -87,42 +87,19 @@ $$
 TC = 3Q^2 + 10Q + 50
 $$
 
-then the **marginal cost** is the derivative:
+economists often want to know how much it costs to increase output by one unit when production is already at some specific level. This extra cost is called the **marginal cost** at that level. It is found by differentiating total cost with respect to quantity and evaluating at the output level in question:
 
 $$
 MC = \frac{dTC}{dQ} = 6Q + 10
 $$
 
-This tells us the extra cost of producing one more unit. For example, when $Q = 5$:
+For example, if the firm is currently producing $Q = 5$ units, the marginal cost is:
 
 $$
 MC = 6(5) + 10 = 40
 $$
 
-So the 6th unit adds approximately £40 to total cost. The diagram below shows the total cost curve with a tangent at $Q = 5$. The slope of this tangent is the marginal cost.
-
-```{r, echo=FALSE, fig.height=4, fig.width=5, fig.align='center', fig.alt='A graph showing the total cost curve TC equals 3Q squared plus 10Q plus 50. At Q equals 5 a tangent line is drawn. A right triangle shows that for a horizontal distance of 1 the vertical rise is 40, which is the marginal cost at that point.'}
-Q <- seq(0, 8, length.out = 200)
-TC <- 3*Q^2 + 10*Q + 50
-plot(Q, TC, type = "n", xlim = c(0, 8), ylim = c(0, 350),
-     xlab = "Output, Q", ylab = expression(TC == 3*Q^2 + 10*Q + 50),
-     main = "Total cost and marginal cost",
-     xaxp = c(0, 8, 4), yaxp = c(0, 300, 6),
-     panel.first = grid())
-lines(Q, TC, lwd = 2)
-# Tangent at Q=5: TC(5)=175, slope=40
-Qtan <- c(4.5, 6)
-TCtan <- 175 + 40*(Qtan - 5)
-lines(Qtan, TCtan, lwd = 2, col = "blue", lty = "dashed")
-# Triangle showing slope
-segments(5, 175, 6, 175, col = "blue", lwd = 1.5)
-segments(6, 175, 6, 215, col = "blue", lwd = 1.5)
-points(5, 175, col = "blue", pch = 19, cex = 1.3)
-text(5.5, 168, expression(Delta*Q == 1), col = "blue", cex = 0.85)
-text(6.25, 195, expression(Delta*TC == 40), col = "blue", cex = 0.85)
-```
-
-Marginal cost is the additional cost of producing one more unit at a given output level. It is usually evaluated at the quantity currently being produced, or at the equilibrium quantity.
+This means that when output is 5 units, the next unit adds approximately £40 to total cost. The derivative gives the rate of change at a particular point; economists call that rate the marginal cost when it measures the cost of one more unit at the current output level.
 ::::
 
 :::: {.callout-caution}
@@ -140,22 +117,28 @@ $$
 MC = \frac{dTC}{dQ} = 1.5 \times 5 \times Q^{0.5} = 7.5Q^{0.5}
 $$
 
-Notice that the exponent $1.5$ becomes $0.5$. When $Q = 4$:
+Notice that the exponent $1.5$ becomes $0.5$. Because the cost function contains a fractional power, the gradient is different at every value of $Q$. This means marginal cost is not a single number; it depends on where you are on the curve. You must always specify the output level when you quote a marginal cost.
+
+When $Q = 4$:
 
 $$
 MC = 7.5 \times 4^{0.5} = 7.5 \times 2 = 15
 $$
 
-So the 5th unit adds approximately £15 to total cost.
+So at an output of 4 units, the 5th unit adds approximately £15 to total cost.
 
-```{r, echo=FALSE, fig.height=3.5, fig.width=5, fig.align='center', fig.alt='A graph showing a marginal cost curve with a fractional power, MC equals 7.5 times the square root of Q. The point at Q equals 4 has a value of MC equals 15.'}
+```{r, echo=FALSE, fig.height=7, fig.width=5, fig.align='center', fig.alt='A graph showing a marginal cost curve with a fractional power, MC equals 7.5 times the square root of Q. The point at Q equals 4 has a value of MC equals 15.'}
 Q <- seq(0, 10, length.out = 200)
 MC <- 7.5 * Q^0.5
 plot(Q, MC, type = "n", xlim = c(0, 10), ylim = c(0, 30),
      xlab = "Output, Q", ylab = expression(MC == 7.5*Q^{0.5}),
      main = "Marginal cost with a fractional power",
      xaxp = c(0, 10, 5), yaxp = c(0, 30, 5),
-     panel.first = grid())
+     axes = FALSE)
+abline(h = seq(0, 30, by = 6), v = seq(0, 10, by = 2), col = "grey90", lty = "dotted")
+axis(1, at = seq(0, 10, by = 2))
+axis(2, at = seq(0, 30, by = 6), las = 1)
+box()
 lines(Q, MC, lwd = 2)
 points(4, 15, col = "blue", pch = 19, cex = 1.3)
 ```

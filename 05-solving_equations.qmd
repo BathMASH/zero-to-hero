@@ -204,43 +204,59 @@ Which works out!
 :::: {.callout-caution}
 ## Economics example
 
-In economics, **market equilibrium** occurs where quantity demanded equals quantity supplied. Suppose demand and supply are given by:
+In economics, **market equilibrium** occurs where the quantity demanded equals quantity supplied. You're making just the right amount. If you made any more, they would be unsold, and if you made any less, you would miss out on an opportunity. It's useful to find out exactly where this point is, or in other words, **where the equilibrium lies**.
+
+The demand for an item usually depends on the price. Typically, the higher the price, the less people want to buy. The supply of an item also depends on the price. The higher the price, the more producers are willing to make.
+
+We usually use the letters P and Q to represent price and quantity in economics.
+
+Imagine a student bake sale. Let £P be the price of one brownie and Q be the number of brownies.
+
+**Demand** tells us how many brownies the buyers want:
 
 $$
-\begin{aligned}
-\phantom{-}2P + Q &= 20 \\
--2P + Q &= -4
-\end{aligned}
+P + Q = 8
 $$
 
-The first equation is demand and the second is supply. Adding the two equations eliminates $P$:
+If brownies were free, 8 people would take one. But for every £1 the price goes up, one person decides it is not worth it. When the price is £7, only one person wants a brownie. When the price is £8, no one wants a brownie.
+
+**Supply** tells us how many brownies the bakers are willing to make:
 
 $$
-2Q = 16
+-P + Q = -2
 $$
 
-So $Q = 8$. Substituting back into the demand equation:
+The bakers will not switch the oven on unless they can charge at least £2 (to cover ingredients). For every extra brownie, they need another £1 to make it worth their time.
+
+Adding the two equations eliminates $P$:
 
 $$
-2P + 8 = 20 \implies P = 6
+2Q = 6
 $$
 
-The equilibrium price is $P=6$ and the equilibrium quantity is $Q=8$.
+So $Q = 3$. Substituting back into the demand equation:
 
-```{r, echo=FALSE, fig.height=4.5, fig.width=5, fig.align='center', fig.alt='A graph showing a downward-sloping demand curve and an upward-sloping supply curve intersecting at the market equilibrium point Q equals 8, P equals 6.'}
-Q <- seq(0, 12, length.out = 200)
-plot(0, 0, type = "n", xlim = c(0, 12), ylim = c(0, 12),
+$$
+P + 3 = 8 \implies P = 5
+$$
+
+The equilibrium price is £5 per brownie, and 3 brownies are baked and sold.
+
+```{r, echo=FALSE, fig.height=4.5, fig.width=5, fig.align='center', fig.alt='A graph showing a downward-sloping demand curve and an upward-sloping supply curve intersecting at the market equilibrium point Q equals 3, P equals 5.'}
+Q_demand <- seq(0, 8, length.out = 200)
+Q_supply <- seq(0, 8, length.out = 200)
+plot(0, 0, type = "n", xlim = c(0, 10), ylim = c(0, 10),
      xlab = "Quantity, Q", ylab = "Price, P",
      main = "Market equilibrium",
-     xaxp = c(0, 12, 6), yaxp = c(0, 12, 6),
+     xaxp = c(0, 10, 5), yaxp = c(0, 10, 5),
      panel.first = grid())
-lines(Q, 10 - 0.5*Q, lwd = 2)
-lines(Q, 2 + 0.5*Q, lwd = 2, lty = "dashed")
-points(8, 6, col = "blue", pch = 19, cex = 1.3)
-legend("topright", legend = c("Demand", "Supply"), lty = c(1, 2), lwd = 2, bty = "n")
+lines(Q_demand, 8 - Q_demand, lwd = 2)
+lines(Q_supply, 2 + Q_supply, lwd = 2, lty = "dashed")
+points(3, 5, col = "blue", pch = 19, cex = 1.3)
+legend(x = 6.5, y = 7, legend = c("Demand", "Supply"), lty = c(1, 2), lwd = 2, bty = "n")
 ```
 
-When $Q=8$ and $P=6$, the quantity supplied equals the quantity demanded, and the market is said to be "in equilibrium." You will also hear the phrase "the market has cleared."
+When $Q=3$ and $P=5$, the quantity supplied equals the quantity demanded, and the market is said to be **in equilibrium**. You will also commonly hear the phrase **the market has cleared**. This is a metaphor based on the idea of a market as a physical place where buyers and sellers meet. In this metaphor, the market "clears" when all goods are sold and there are no unsatisfied buyers or sellers. (Everyone clears off home, and there's no one left trying to buy or sell anything.) In reality, markets are often more complex and may not clear perfectly, but the concept of equilibrium is still a useful tool for understanding how prices and quantities are determined in a market economy.
 ::::
 
 :::

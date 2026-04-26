@@ -56,11 +56,19 @@ This is how it was done:
 :::: {.callout-caution}
 ## Economics example
 
-The Cobb-Douglas production function is widely used in economics:
+The **Cobb-Douglas** production function is widely used in economics:
 
 $$
 Y = A K^{\alpha} L^{\beta}
 $$
+
+The letters stand for:
+
+- $Y$: total output (what the firm or country produces)
+- $K$: capital (machinery, buildings, equipment, infrastructure)
+- $L$: labour (hours worked or number of workers)
+- $A$: total factor productivity, a catch-all for technology, efficiency and anything else that affects output besides capital and labour
+- $\alpha$ and $\beta$: the output elasticities of capital and labour. They tell you by what percentage output changes when capital or labour increases by one percent
 
 Taking natural logarithms of both sides and applying the log rules gives:
 
@@ -68,18 +76,30 @@ $$
 \ln Y = \ln A + \alpha \ln K + \beta \ln L
 $$
 
-This turns a multiplicative relationship into a linear one, making it straightforward to estimate $\alpha$ and $\beta$ from data. For example, if output $Y$, capital $K$ and labour $L$ are all measured over time, regressing $\ln Y$ on $\ln K$ and $\ln L$ will give the coefficients $\alpha$ and $\beta$ directly.
+This turns a multiplicative relationship into a linear one. Once the equation is linear, economists can use **regression** to estimate $\alpha$ and $\beta$ from real data.
 
-```{r, echo=FALSE, fig.height=3.5, fig.width=5, fig.align='center', fig.alt='A graph showing a straight line representing the natural logarithm of output against the natural logarithm of capital for a Cobb-Douglas production function.'}
-lnK <- seq(0, 3, length.out = 200)
-lnY <- 1 + 0.5 * lnK
-plot(lnK, lnY, type = "n", xlim = c(0, 3), ylim = c(0, 3),
+Regression is a statistical technique that finds the straight line that best fits a cloud of data points. It works by minimising the total vertical distance between the line and all the points. If you have data on output, capital and labour from many firms or many years, you regress $\ln Y$ on $\ln K$ and $\ln L$. The slope of the best-fit line gives you $\alpha$ and $\beta$ directly, while the intercept gives you $\ln A$.
+
+The diagram below shows what this looks like in a simplified case where only capital varies (labour is held constant). Each grey dot is an observation from a different firm or year. The blue line is the best fit found by regression.
+
+```{r, echo=FALSE, fig.height=7, fig.width=5, fig.align='center', fig.alt='A scatter plot of many data points showing the natural logarithm of output against the natural logarithm of capital, with a straight blue line of best fit running through them.'}
+set.seed(42)
+lnK_data <- runif(40, min = 0.2, max = 2.8)
+lnY_data <- 1 + 0.5 * lnK_data + rnorm(40, sd = 0.2)
+lnK_line <- seq(0, 3, length.out = 200)
+lnY_line <- 1 + 0.5 * lnK_line
+
+plot(lnK_data, lnY_data, type = "n", xlim = c(0, 3), ylim = c(0, 3),
      xlab = expression(ln*K), ylab = expression(ln*Y),
      main = expression(ln*Y == ln*A + alpha*ln*K),
      xaxp = c(0, 3, 3), yaxp = c(0, 3, 3),
-     panel.first = grid())
-lines(lnK, lnY, lwd = 2)
-points(1, 1.5, col = "blue", pch = 19, cex = 1.3)
+     axes = FALSE)
+abline(h = 0:3, v = 0:3, col = "grey90", lty = "dotted")
+axis(1, at = 0:3)
+axis(2, at = 0:3, las = 1)
+box()
+points(lnK_data, lnY_data, pch = 19, col = "darkgrey", cex = 0.9)
+lines(lnK_line, lnY_line, lwd = 2, col = "blue")
 ```
 ::::
 

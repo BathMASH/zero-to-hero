@@ -58,7 +58,11 @@ knitr::include_graphics("./img/types_of_numbers.jpeg")
 :::: {.callout-caution}
 ## Economics example
 
-Greek letters appear frequently in economics. $\pi$ (pi) is used for profit, $\Delta$ (delta) for change, and $\varepsilon$ (epsilon) for elasticity. A demand elasticity of $\varepsilon = -1.5$ means that a $1\%$ increase in price leads to a $1.5\%$ decrease in quantity demanded.
+Greek letters appear frequently in economics. For example, $\pi$ (pi) is often used for profit, and $\Delta$ (capital delta) is used as a prefix before another variable to refer to the change in that variable. A change in quantity might therefore be written $\Delta Q$. Another common Greek letter in economics is $\varepsilon$ (epsilon) which is used to refer to elasticity.
+
+Elasticity is one of the most common words in economics, but on its own it means almost nothing. Strictly speaking, elasticity is just another name for a ratio: it tells you how much one thing changes when another thing changes. Saying "the elasticity is 2" is about as informative as saying "the ratio is 2". You immediately need to ask, "A ratio of what to what?"
+
+To make sense of the word, you always need to specify which elasticity you mean. You may come across price elasticity and income elasticity for example. For now, just remember that $\varepsilon$ is the Greek letter economists often use when they talk about ratios or percentage changes.
 ::::
 
 :::

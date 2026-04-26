@@ -150,7 +150,25 @@ Lots of work with fractions here!
 :::: {.callout-caution}
 ## Economics example
 
-If £1000 is invested at an annual interest rate of $4\%$, its value after $t$ years is $V = 1000 \times (1.04)^t$. After 5 years the investment is worth $1000 \times (1.04)^5$, which is approximately $1216.65$.
+If £1000 is invested at an annual interest rate of $4\%$, its value after $t$ years is:
+
+$$
+V = 1000 \times (1.04)^t
+$$
+
+After 5 years the investment is worth $1000 \times (1.04)^5$ and the profit is
+
+$$
+1000 \times (1.04)^5 - 1000 \approx 216.65
+$$
+
+After 25 years the investment has made
+
+$$
+1000 \times (1.04)^25 - 1000 \approx 1665.84
+$$
+
+Note that this profit is a lot more than simply 5 times the profit after 5 years. That is because the interest itself earns interest over time. We say the interest **compounds** and that this is an example of **compound interest**.
 ::::
 
 :::

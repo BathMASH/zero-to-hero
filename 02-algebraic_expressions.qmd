@@ -116,7 +116,15 @@ $$
 \end{aligned}
 $$
 
-The simplified profit function is $\pi = 7q - 200$. The firm needs to sell about 29 units before it starts making a profit.
+The simplified profit function is $\pi = 7q - 200$.
+
+At low quantities the firm makes a loss. Each unit contributes £7 towards the £200 fixed cost, but until enough units are sold that contribution is still smaller than the overhead. The switchover from loss to profit occurs when profit is exactly zero. Set the profit function equal to zero and solve:
+
+$$
+7q - 200 = 0 \quad \Rightarrow \quad q = \frac{200}{7} \approx 28.57
+$$
+
+The firm cannot sell 0.57 of a unit, so it must sell the first whole number larger than 28.57. That is 29 units.
 ::::
 
 :::
