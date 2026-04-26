@@ -22,6 +22,7 @@ book:
 
 format:
   html:
+    css: styles.css
     theme:
       light: cosmo
       dark: darkly
