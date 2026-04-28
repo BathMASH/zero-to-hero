@@ -108,6 +108,7 @@ window.Quarto = {
 };
 </script>
 
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -546,25 +547,15 @@ Note
 <p><span class="math display">\[
 TC = 3Q^2 + 10Q + 50
 \]</span></p>
-<p>then the <strong>marginal cost</strong> is the derivative:</p>
+<p>economists often want to know how much it costs to increase output by one unit when production is already at some specific level. This extra cost is called the <strong>marginal cost</strong> at that level. It is found by differentiating total cost with respect to quantity and evaluating at the output level in question:</p>
 <p><span class="math display">\[
 MC = \frac{dTC}{dQ} = 6Q + 10
 \]</span></p>
-<p>This tells us the extra cost of producing one more unit. For example, when <span class="math inline">\(Q = 5\)</span>:</p>
+<p>For example, if the firm is currently producing <span class="math inline">\(Q = 5\)</span> units, the marginal cost is:</p>
 <p><span class="math display">\[
 MC = 6(5) + 10 = 40
 \]</span></p>
-<p>So the 6th unit adds approximately £40 to total cost. The diagram below shows the total cost curve with a tangent at <span class="math inline">\(Q = 5\)</span>. The slope of this tangent is the marginal cost.</p>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="09-differentiation_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="A graph showing the total cost curve TC equals 3Q squared plus 10Q plus 50. At Q equals 5 a tangent line is drawn. A right triangle shows that for a horizontal distance of 1 the vertical rise is 40, which is the marginal cost at that point." width="480"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>Marginal cost is the additional cost of producing one more unit at a given output level. It is usually evaluated at the quantity currently being produced, or at the equilibrium quantity.</p>
+<p>This means that when output is 5 units, the next unit adds approximately £40 to total cost. The derivative gives the rate of change at a particular point; economists call that rate the marginal cost when it measures the cost of one more unit at the current output level.</p>
 </div>
 </div>
 <div class="callout callout-style-default callout-caution callout-titled">
@@ -585,16 +576,17 @@ TC = 5Q^{1.5} + 100
 <p><span class="math display">\[
 MC = \frac{dTC}{dQ} = 1.5 \times 5 \times Q^{0.5} = 7.5Q^{0.5}
 \]</span></p>
-<p>Notice that the exponent <span class="math inline">\(1.5\)</span> becomes <span class="math inline">\(0.5\)</span>. When <span class="math inline">\(Q = 4\)</span>:</p>
+<p>Notice that the exponent <span class="math inline">\(1.5\)</span> becomes <span class="math inline">\(0.5\)</span>. Because the cost function contains a fractional power, the gradient is different at every value of <span class="math inline">\(Q\)</span>. This means marginal cost is not a single number; it depends on where you are on the curve. You must always specify the output level when you quote a marginal cost.</p>
+<p>When <span class="math inline">\(Q = 4\)</span>:</p>
 <p><span class="math display">\[
 MC = 7.5 \times 4^{0.5} = 7.5 \times 2 = 15
 \]</span></p>
-<p>So the 5th unit adds approximately £15 to total cost.</p>
+<p>So at an output of 4 units, the 5th unit adds approximately £15 to total cost.</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="09-differentiation_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="A graph showing a marginal cost curve with a fractional power, MC equals 7.5 times the square root of Q. The point at Q equals 4 has a value of MC equals 15." width="480"></p>
+<p><img src="09-differentiation_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="A graph showing a marginal cost curve with a fractional power, MC equals 7.5 times the square root of Q. The point at Q equals 4 has a value of MC equals 15." width="480"></p>
 </figure>
 </div>
 </div>

@@ -254,7 +254,7 @@
     "href": "06-straight_line_graphs.html#coordinates",
     "title": "7  Straight line graphs",
     "section": "",
-    "text": "\\(x\\)\n\\(y\\)\n\n\n\n\n\\(0\\)\n\\(\\frac{1}{2}(0)+1=1\\)\n\n\n\\(1\\)\n\\(\\frac{1}{2}(1)+1=1.5\\)\n\n\n\\(2\\)\n\\(\\frac{1}{2}(2)+1=2\\)",
+    "text": "\\(x\\)\n\\(y\\)\n\n\n\n\n\\(0\\)\n\\(\\frac{1}{2}(0)+1=1\\)\n\n\n\\(1\\)\n\\(\\frac{1}{2}(1)+1=1.5\\)\n\n\n\\(2\\)\n\\(\\frac{1}{2}(2)+1=2\\)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipCurves and straight lines\n\n\n\nIn mathematics, a straight line is technically a special type of curve, just one with no curvature at all. You will often hear mathematicians refer to any line, straight or otherwise, as a “curve”, particularly when its exact shape has not yet been determined.",
     "crumbs": [
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Straight line graphs</span>"
     ]
@@ -394,7 +394,7 @@
     "href": "10-exponetial_function.html#the-exponential-function",
     "title": "11  Exponential functions",
     "section": "11.2 The exponential function",
-    "text": "11.2 The exponential function\nThere is one exponential function that is so important that it is called the exponential function. It is written as \\(y=e^x\\) where \\(e\\) is an irrational number (an infinitely long decimal number that doesn’t repeat itself, \\(/pi\\) is an irrational number too). The value of \\(e\\) is:\n\\[\ne = 2.71828182845904523536028747135266249775724709369995...\n\\] ish.\nThe reason why it is special is that when \\(y=e^x\\), the derivative is itself, that is \\(\\frac{dy}{dx}=e^x\\). Below is a graph of \\(y=a^x\\) (solid red line) and it derivative (dashed blue line), you can open it up and change the value of \\(a\\) from \\(2\\) to \\(4\\). \\(a\\) is set to \\(2\\) to begin with, notice how the derivative is beneath the curve \\(y=a^x\\). When \\(a\\) is increased the derivative moves above \\(y=a^x\\). The point where the two curves overlap is when \\(a=e\\).\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nIf \\(y=e^x\\) then \\(\\frac{dy}{dx}=e^x\\).",
+    "text": "11.2 The exponential function\nThere is one exponential function that is so important that it is called the exponential function. It is written as \\(y=e^x\\) where \\(e\\) is an irrational number (an infinitely long decimal number that doesn’t repeat itself, \\(\\pi\\) is an irrational number too). The value of \\(e\\) is:\n\\[\ne = 2.71828182845904523536028747135266249775724709369995...\n\\] ish.\nThe reason why it is special is that when \\(y=e^x\\), the derivative is itself, that is \\(\\frac{dy}{dx}=e^x\\). Below is a graph of \\(y=a^x\\) (solid red line) and it derivative (dashed blue line), you can open it up and change the value of \\(a\\) from \\(2\\) to \\(4\\). \\(a\\) is set to \\(2\\) to begin with, notice how the derivative is beneath the curve \\(y=a^x\\). When \\(a\\) is increased the derivative moves above \\(y=a^x\\). The point where the two curves overlap is when \\(a=e\\).\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nIf \\(y=e^x\\) then \\(\\frac{dy}{dx}=e^x\\).",
     "crumbs": [
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>Exponential functions</span>"
     ]

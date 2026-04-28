@@ -107,6 +107,7 @@ window.Quarto = {
 };
 </script>
 
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -551,7 +552,8 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><strong>First order condition</strong> or FOC is when <span class="math inline">\(f'(x) = 0\)</span>. <strong>Second order condition</strong> or SOC is checking the sign of <span class="math inline">\(f''(x)\)</span> to calssify the turning point.</p>
+<p><strong>First order condition</strong> or FOC is when <span class="math inline">\(f'(x) = 0\)</span>. This finds the stationary points: the places where the curve is momentarily flat. A stationary point could be a maximum, a minimum, or a point of inflection, so the FOC alone does not tell you which.</p>
+<p><strong>Second order condition</strong> or SOC is checking the sign of <span class="math inline">\(f''(x)\)</span> to classify the turning point. If <span class="math inline">\(f''(x) &lt; 0\)</span> at a stationary point, the curve is concave there and the point is a local maximum. If <span class="math inline">\(f''(x) &gt; 0\)</span>, the curve is convex and the point is a local minimum.</p>
 </div>
 </div>
 </section>
@@ -655,10 +657,10 @@ y &amp;= 3 + \frac{(3 + 3)^{2}}{- 3} \\
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>A demand function for a generic good, where <span class="math inline">\(P\)</span> is the price and <span class="math inline">\(q\)</span> is the quantity is: <span class="math inline">\(P = 121 - q\)</span>. The Marginal Cost is given by, <span class="math inline">\(MC = 7q+25\)</span>, and fixed cost is, <span class="math inline">\(FC = 23\)</span>. Find the quantity <span class="math inline">\(q\)</span> to maximise profits.</p>
-<p>Marginal Cost, <span class="math inline">\(MC\)</span>, is the cost that changes with quantity of the goods produced.</p>
-<p>Fixed Cost, <span class="math inline">\(FC\)</span>, is a one off cost.</p>
-<p>The total profit can be found by calculating the total revenue (price times quantity) subtract the total cost (marginal cost times quantity add fixed costs).</p>
+<p>A demand function for a generic good, where <span class="math inline">\(P\)</span> is the price and <span class="math inline">\(q\)</span> is the quantity is: <span class="math inline">\(P = 121 - q\)</span>. The Marginal Cost is given by, <span class="math inline">\(MC = 7q+25\)</span>, and fixed cost is <span class="math inline">\(FC = 23\)</span>. Find the quantity <span class="math inline">\(q\)</span> to maximise profits.</p>
+<p>The Marginal Cost, <span class="math inline">\(MC\)</span>, is the cost that changes with quantity of the goods produced.</p>
+<p>The Fixed Cost, <span class="math inline">\(FC\)</span>, is a one off cost.</p>
+<p>The total profit can be found by calculating the total revenue (price times quantity) subtracting the total cost (marginal cost times quantity add fixed costs).</p>
 <p>Since the letter <span class="math inline">\(P\)</span> has been used for price I’ll use <span class="math inline">\(\pi\)</span>, the greek version of <span class="math inline">\(P\)</span> for profit. The equation for profit looks like:</p>
 <p><span class="math display">\[
 \begin{split} \pi   &amp;= TR - TC \\

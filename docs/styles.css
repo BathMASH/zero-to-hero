@@ -1,0 +1,57 @@
+/* Reserve space for lazy-loaded iframes to prevent CLS.
+   iframes are display:inline by default, which creates unstable
+   line-box spacing (baseline alignment + line-height). When the
+   iframe content loads as it scrolls into view the line box
+   recalculates and the page jumps. display:block removes this.
+   overflow-anchor:none stops the browser from using the cell as
+   a scroll anchor when the iframe content loads. */
+iframe[data-external="1"],
+iframe[src*="numbas"],
+iframe[src*="desmos"],
+iframe[src*="vimeo"] {
+  display: block;
+  max-width: 100%;
+  min-height: 500px;
+  background: #f8f9fa;
+}
+
+.cell:has(iframe) {
+  overflow-anchor: none;
+}
+
+/* Specific heights based on iframe height attribute */
+iframe[height="800px"] { min-height: 800px; }
+iframe[height="650px"] { min-height: 650px; }
+iframe[height="600px"] { min-height: 600px; }
+iframe[height="500px"] { min-height: 500px; }
+iframe[height="405px"] { min-height: 405px; }
+iframe[height="340px"] { min-height: 340px; }
+
+/* Prevent sticky sidebar and TOC from scrolling up when the footer enters viewport.
+   Quarto places both in grid rows that stretch to page-bottom. When the footer is
+   tall the stretched grid track shrinks from the top, pulling the sticky element
+   with it. align-self:start stops the stretch so sticky only cares about the
+   element's own height. */
+#quarto-sidebar,
+#quarto-margin-sidebar {
+  align-self: start !important;
+}
+
+/* Reduce wasted whitespace in page navigation and footer.
+   The 14 px top padding on .page-navigation comes from a blanket
+   #quarto-content > * rule and serves no purpose here.
+   The footer min-height rules force ~60 px of mostly empty space
+   on desktop where .toc-actions is hidden. */
+#quarto-content > .page-navigation {
+  padding-top: 0;
+}
+
+.nav-footer {
+  min-height: auto;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.nav-footer-center {
+  min-height: auto;
+}

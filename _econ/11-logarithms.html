@@ -108,6 +108,7 @@ window.Quarto = {
 };
 </script>
 
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -524,20 +525,30 @@ window.Quarto = {
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>The Cobb-Douglas production function is widely used in economics:</p>
+<p>The <strong>Cobb-Douglas</strong> production function is widely used in economics:</p>
 <p><span class="math display">\[
 Y = A K^{\alpha} L^{\beta}
 \]</span></p>
+<p>The letters stand for:</p>
+<ul>
+<li><span class="math inline">\(Y\)</span>: total output (what the firm or country produces)</li>
+<li><span class="math inline">\(K\)</span>: capital (machinery, buildings, equipment, infrastructure)</li>
+<li><span class="math inline">\(L\)</span>: labour (hours worked or number of workers)</li>
+<li><span class="math inline">\(A\)</span>: total factor productivity, a catch-all for technology, efficiency and anything else that affects output besides capital and labour</li>
+<li><span class="math inline">\(\alpha\)</span> and <span class="math inline">\(\beta\)</span>: the output elasticities of capital and labour. They tell you by what percentage output changes when capital or labour increases by one percent</li>
+</ul>
 <p>Taking natural logarithms of both sides and applying the log rules gives:</p>
 <p><span class="math display">\[
 \ln Y = \ln A + \alpha \ln K + \beta \ln L
 \]</span></p>
-<p>This turns a multiplicative relationship into a linear one, making it straightforward to estimate <span class="math inline">\(\alpha\)</span> and <span class="math inline">\(\beta\)</span> from data. For example, if output <span class="math inline">\(Y\)</span>, capital <span class="math inline">\(K\)</span> and labour <span class="math inline">\(L\)</span> are all measured over time, regressing <span class="math inline">\(\ln Y\)</span> on <span class="math inline">\(\ln K\)</span> and <span class="math inline">\(\ln L\)</span> will give the coefficients <span class="math inline">\(\alpha\)</span> and <span class="math inline">\(\beta\)</span> directly.</p>
+<p>This turns a multiplicative relationship into a linear one. Once the equation is linear, economists can use <strong>regression</strong> to estimate <span class="math inline">\(\alpha\)</span> and <span class="math inline">\(\beta\)</span> from real data.</p>
+<p>Regression is a statistical technique that finds the straight line that best fits a cloud of data points. It works by minimising the total vertical distance between the line and all the points. If you have data on output, capital and labour from many firms or many years, you regress <span class="math inline">\(\ln Y\)</span> on <span class="math inline">\(\ln K\)</span> and <span class="math inline">\(\ln L\)</span>. The slope of the best-fit line gives you <span class="math inline">\(\alpha\)</span> and <span class="math inline">\(\beta\)</span> directly, while the intercept gives you <span class="math inline">\(\ln A\)</span>.</p>
+<p>The diagram below shows what this looks like in a simplified case where only capital varies (labour is held constant). Each grey dot is an observation from a different firm or year. The blue line is the best fit found by regression.</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="11-logarithms_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="A graph showing a straight line representing the natural logarithm of output against the natural logarithm of capital for a Cobb-Douglas production function." width="480"></p>
+<p><img src="11-logarithms_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="A scatter plot of many data points showing the natural logarithm of output against the natural logarithm of capital, with a straight blue line of best fit running through them." width="480"></p>
 </figure>
 </div>
 </div>

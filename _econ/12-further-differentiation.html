@@ -108,6 +108,7 @@ window.Quarto = {
 };
 </script>
 
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -510,7 +511,17 @@ y=-u^4
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>A firm’s revenue is given by <span class="math inline">\(R = (100 - 2q)^3\)</span>, where <span class="math inline">\(q\)</span> is quantity. To find the marginal revenue we use the chain rule. Let <span class="math inline">\(u = 100 - 2q\)</span>, so <span class="math inline">\(R = u^3\)</span>. Then <span class="math inline">\(\frac{dR}{dq} = \frac{dR}{du} \times \frac{du}{dq} = 3u^2 \times (-2) = -6(100-2q)^2\)</span>.</p>
+<p>A firm’s revenue is related to the quantity it sells. Suppose revenue is given by:</p>
+<p><span class="math display">\[
+R = (100 - 2q)^3
+\]</span></p>
+<p>where <span class="math inline">\(q\)</span> is quantity. This is a simplified example, but it captures a common problem in economics: the variable <span class="math inline">\(q\)</span> appears inside a linear expression <span class="math inline">\((100 - 2q)\)</span>, and that whole expression is then raised to a power. You cannot apply the basic power rule directly to <span class="math inline">\(q\)</span> because <span class="math inline">\(q\)</span> is not the base; it is inside the brackets.</p>
+<p>To find the marginal revenue (the derivative of revenue with respect to quantity) we need the <strong>chain rule</strong>. The chain rule is used whenever one function is inside another.</p>
+<p>Let <span class="math inline">\(u = 100 - 2q\)</span>, so that <span class="math inline">\(R = u^3\)</span>. Then:</p>
+<p><span class="math display">\[
+\frac{dR}{dq} = \frac{dR}{du} \times \frac{du}{dq} = 3u^2 \times (-2) = -6(100 - 2q)^2
+\]</span></p>
+<p>The marginal revenue tells us how much extra revenue the firm gets from selling one more unit. Because revenue depends on quantity through the composite function <span class="math inline">\((100 - 2q)^3\)</span>, the chain rule is essential.</p>
 </div>
 </div>
 </section>
