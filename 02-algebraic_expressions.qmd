@@ -59,8 +59,8 @@ $$
 $$
 You can practice these techniques with the following questions. The numbers change each time to try them as much as you like.
 
-```{r, echo=FALSE}
-knitr::include_url("https://numbas.mathcentre.ac.uk/question/126318/algebra-substitution/embed/?token=83a5d483-0d29-43d9-9569-f3b4d04ca26e", height="800px")
+```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
+knitr::include_url("https://numbas.mathcentre.ac.uk/question/126318/algebra-substitution/embed/?token=83a5d483-0d29-43d9-9569-f3b4d04ca26e", height="400px")
 ```
 
 ## Simplification
@@ -131,6 +131,6 @@ The firm cannot sell 0.57 of a unit, so it must sell the first whole number larg
 
 Have a go at simplifying with these questions.
 
-```{r, echo=FALSE}
-knitr::include_url("https://numbas.mathcentre.ac.uk/question/104233/collect-like-terms/embed/?token=e5fdc25c-98a0-4df2-9a2f-45cc8a15b5f4", height="800px")
+```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
+knitr::include_url("https://numbas.mathcentre.ac.uk/question/104233/collect-like-terms/embed/?token=e5fdc25c-98a0-4df2-9a2f-45cc8a15b5f4", height="400px")
 ```

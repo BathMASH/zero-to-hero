@@ -78,7 +78,7 @@ $$
 
 This turns a multiplicative relationship into a linear one. Once the equation is linear, economists can use **regression** to estimate $\alpha$ and $\beta$ from real data.
 
-Regression is a statistical technique that finds the straight line that best fits a cloud of data points. It works by minimising the total vertical distance between the line and all the points. If you have data on output, capital and labour from many firms or many years, you regress $\ln Y$ on $\ln K$ and $\ln L$. The slope of the best-fit line gives you $\alpha$ and $\beta$ directly, while the intercept gives you $\ln A$.
+Regression is a statistical technique that finds the straight line that best fits a cloud of data points. It works by minimising the sum of squared vertical distances between the line and all the points. If you have data on output, capital and labour from many firms or many years, you regress $\ln Y$ on $\ln K$ and $\ln L$. The slope for each input gives you the corresponding elasticity directly: the slope on $\ln K$ is $\alpha$ and the slope on $\ln L$ is $\beta$. The intercept gives you $\ln A$.
 
 The diagram below shows what this looks like in a simplified case where only capital varies (labour is held constant). Each grey dot is an observation from a different firm or year. The blue line is the best fit found by regression.
 
@@ -107,7 +107,7 @@ lines(lnK_line, lnY_line, lwd = 2, col = "blue")
 
 Have a go at these simplification questions.
 
-```{r, echo=FALSE}
+```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
 knitr::include_url("https://numbas.mathcentre.ac.uk/question/98284/logarithms-simplifying-expressions-2/embed/?token=236a0071-445b-43bf-a8a9-9611b4dcb5ae", height="340px")
 ```
 
@@ -137,7 +137,7 @@ $$
 
 Have a go at the following questions:
 
-```{r, echo=FALSE}
+```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
 knitr::include_url("https://numbas.mathcentre.ac.uk/question/98356/logarithms-solving-logarithmic-equations-6-sum-of-logarithms/embed/?token=4dafb5d1-ca07-4bc5-a59f-7b18b7ff8ed8", height="340px")
 ```
 
@@ -183,6 +183,6 @@ if $y = k\ln{ax}$ then $\frac{dy}{dx}= \frac{k}{x}$.
 
 Use that rule to try the following questions.
 
-```{r, echo=FALSE}
-knitr::include_url("https://numbas.mathcentre.ac.uk/question/62763/differentiation-using-a-table-of-derivatives-3/embed/?token=187473c8-cd94-4a87-b1cc-5f134572c64b", height="800px")
+```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
+knitr::include_url("https://numbas.mathcentre.ac.uk/question/62763/differentiation-using-a-table-of-derivatives-3/embed/?token=187473c8-cd94-4a87-b1cc-5f134572c64b", height="400px")
 ```

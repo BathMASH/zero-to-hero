@@ -35,7 +35,7 @@ Whenever you see something in this box it will directly link the statistics cove
 
 :::
 
-## What do tthe boxes mean?
+## What do the boxes mean?
 
 :::{.callout-note title="Key point"}
 
@@ -45,13 +45,13 @@ Key points are summarised in boxes like this.
 
 :::{.callout-tip title="Answers and Mathematical notation"}
 
-Notes on mathematical properties and answers to *Test yourself* quizes are in this colour boxes.
+Notes on mathematical properties and answers to *Test yourself* quizzes are in this colour boxes.
 
 :::
 
 :::{.callout-important title="Gotcha!"}
 
-Sources of potential confusion are directly delt with in this box.
+Sources of potential confusion are directly dealt with in this box.
 
 :::
 

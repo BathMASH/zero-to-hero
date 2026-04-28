@@ -48,8 +48,8 @@ $$
 $$.
 
 You can practice these techniques with the following questions. You can refresh the question to change the numbers. Try them as much as you like.
-```{r, echo=FALSE}
-knitr::include_url("https://numbas.mathcentre.ac.uk/question/125598/negative-numbers-multiplication-and-division/embed/", height="800px")
+```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
+knitr::include_url("https://numbas.mathcentre.ac.uk/question/125598/negative-numbers-multiplication-and-division/embed/", height="400px")
 ```
 
 ### But why?!!?
@@ -70,7 +70,7 @@ $$
 \end{array}
 $$
 
-The result of the mulitplication decreases by two each time - the pattern continues into the negative numbers.
+The result of the multiplication decreases by two each time - the pattern continues into the negative numbers.
 
 Now lets look at the patter with the negative two times table.
 
@@ -86,9 +86,9 @@ $$
 \end{array}
 $$
 
-Notice how as we multiply $-2$ by a smaller number the result increases. Continuing the pattern to multiply $-2$ by a negative number naturally gives us a postive result.
+Notice how as we multiply $-2$ by a smaller number the result increases. Continuing the pattern to multiply $-2$ by a negative number naturally gives us a positive result.
 
-Our definition fits the pattern. Horrah!
+Our definition fits the pattern. Hurrah!
 
 ## Addition and subtraction
 
@@ -133,6 +133,6 @@ If a firm's revenue is £500,000 and its costs are £550,000, its profit is $500
 
 You can practice these techniques with the following questions. The numbers change each time to try them as much as you like.
 
-```{r, echo=FALSE}
-knitr::include_url("https://numbas.mathcentre.ac.uk/question/126315/negative-numbers-addition-and-subtraction/embed/?token=1a99ce84-edc0-4467-a780-e6e9bcc6fda8", height="800px")
+```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
+knitr::include_url("https://numbas.mathcentre.ac.uk/question/126315/negative-numbers-addition-and-subtraction/embed/?token=1a99ce84-edc0-4467-a780-e6e9bcc6fda8", height="400px")
 ```

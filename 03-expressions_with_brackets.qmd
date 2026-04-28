@@ -51,8 +51,8 @@ $$
 
 Here are some practice questions.
 
-```{r, echo=FALSE}
-knitr::include_url("https://numbas.mathcentre.ac.uk/question/127002/algebra-expanding-single-brackets/embed/?token=7f05cd3a-ac38-4f05-8866-e3fa3c6b280c", height="800px")
+```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
+knitr::include_url("https://numbas.mathcentre.ac.uk/question/127002/algebra-expanding-single-brackets/embed/?token=7f05cd3a-ac38-4f05-8866-e3fa3c6b280c", height="400px")
 ```
 
 ::: {.content-visible when-profile="econ"}
@@ -101,8 +101,8 @@ Notice that $3x$ is a factor of both $12x^2$ and $-15x$. Also, if we expand our 
 
 Here are some practice questions.
 
-```{r, echo=FALSE}
-knitr::include_url("https://numbas.mathcentre.ac.uk/question/127099/algebra-factorising-single-brackets/embed/?token=29498934-17cf-45ab-96cb-ab4a6d7523ed", height="800px")
+```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
+knitr::include_url("https://numbas.mathcentre.ac.uk/question/127099/algebra-factorising-single-brackets/embed/?token=29498934-17cf-45ab-96cb-ab4a6d7523ed", height="400px")
 ```
 
 ### Factorising - pairs of brackets

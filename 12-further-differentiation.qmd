@@ -56,7 +56,7 @@ Notice that $\sqrt{x}$ was rewritten as $x^{1/2}$ to be able to apply the rule $
 
 Try some differentiation with some fractional powers:
 
-```{r, echo=FALSE}
+```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
 knitr::include_url("https://numbas.mathcentre.ac.uk/question/67872/differentiation-harder-powers-negative-and-fractions-2/embed/?token=b5b58960-1ea3-4d94-9695-bc2e4070486e", height="340px")
 ```
 
@@ -119,7 +119,7 @@ $$
 
 Phew! Time for a cup of tea, or maybe some more questions...
 
-```{r, echo=FALSE}
+```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
 knitr::include_url("https://numbas.mathcentre.ac.uk/question/91317/differentiation-chain-rule-3/embed/?token=0ac77949-e57a-40a4-9e69-200c7817cc9e", height="340px")
 ```
 
@@ -212,7 +212,7 @@ $$
 
 Now your turn...
 
-```{r, echo=FALSE}
+```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
 knitr::include_url("https://numbas.mathcentre.ac.uk/question/101423/differentiation-product-rule-6/embed/?token=95bdacf5-d008-407f-86b9-4605fa18c389", height="340px")
 ```
 
@@ -260,7 +260,7 @@ $$
 
 Now your turn...
 
-```{r, echo=FALSE}
+```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
 knitr::include_url("https://numbas.mathcentre.ac.uk/question/91346/differentiation-product-rule-7/embed/", height="340px")
 ```
 
@@ -334,7 +334,7 @@ $$
 
 Now have a go at these:
 
-```{r, echo=FALSE}
+```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
 knitr::include_url("https://numbas.mathcentre.ac.uk/question/67315/differentiation-quotient-rule-4/embed/?token=bce25b63-b091-4e64-811d-5e064743c9d4", height="340px")
 ```
 
@@ -380,7 +380,7 @@ $$
 
 Now have a go at these:
 
-```{r, echo=FALSE}
+```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
 knitr::include_url("https://numbas.mathcentre.ac.uk/question/67156/differentiation-quotient-rule-1/embed/", height="340px")
 ```
 

@@ -1,6 +1,6 @@
 # Lagrangian Multipliers
 
-This is a quick start guide to a method of optimization used for when you have multiple variables and another function that constrains them. I'm not going to prove anything here and we'll only cover situations with two variables. It's also the most complex thing in this guide.
+This is a quick start guide to a method of optimisation used for when you have multiple variables and another function that constrains them. I'm not going to prove anything here and we'll only cover situations with two variables. It's also the most complex thing in this guide.
 
 ## Tools needed
 
@@ -74,7 +74,7 @@ $$
 
 Now try some questions for yourself.
 
-```{r, echo=FALSE}
+```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
 knitr::include_url("https://numbas.mathcentre.ac.uk/question/175769/partial-differentiation-1/embed/?token=cc7bd675-94c9-4ae3-a096-3a7a30ee0219", height="600px")
 ```
 
@@ -116,7 +116,7 @@ $$
 
 :::{.callout-note}
 
-Here are other notation for taking the determinant. For a matix $A$.
+Here are other notation for taking the determinant. For a matrix $A$.
 $$
 \boldsymbol{A}=\begin{pmatrix}
 a & b \\
@@ -155,8 +155,8 @@ $$
 
 #### Have a go
 
-```{r, echo=FALSE}
-knitr::include_url("https://numbas.mathcentre.ac.uk/question/175721/determinant-of-a-2x2-matrix/embed/", height="800px")
+```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
+knitr::include_url("https://numbas.mathcentre.ac.uk/question/175721/determinant-of-a-2x2-matrix/embed/", height="400px")
 ```
 
 
@@ -249,11 +249,11 @@ $$
 
 ## Lagrangian Multipliers
 
-Now we have the tools we need lets look at an example. In a nutshell the method of using a lagrangian multiplier collects all the equations we need to solve a constrained ovptimization problem in one place. Optimization means, find the biggest or smallest values and constrained means we are limiting the values to try. Under the hood the method finds the points where the gradient of the function we want to optimize is parallel to the gradient of the constraint. This is where the Greek letter lambda $\lambda$ comes from it allows gradients that are parallel but different magnitudes to be equal to one another.
+Now we have the tools we need lets look at an example. In a nutshell the method of using a lagrangian multiplier collects all the equations we need to solve a constrained optimisation problem in one place. Optimisation means, find the biggest or smallest values and constrained means we are limiting the values to try. Under the hood the method finds the points where the gradient of the function we want to optimise is parallel to the gradient of the constraint. This is where the Greek letter lambda $\lambda$ comes from it allows gradients that are parallel but different magnitudes to be equal to one another.
 
 ### Method
 
-If we have a function that we want to optimize, say $f(x,y)$, that is subject to the constraint $g(x,y)=k$ where $k$ is a constant. The we create the equation:
+If we have a function that we want to optimise, say $f(x,y)$, that is subject to the constraint $g(x,y)=k$ where $k$ is a constant. The we create the equation:
 
 $$
 L(x,y,\lambda) = f(x,y) - \lambda(g(x,y)-k)
@@ -261,9 +261,9 @@ $$
 
 Notice we have the extra variable $\lambda$ and we have rearranged the constraint to make it equal zero. 
 
-We then find the partial derivatives of $L$ with respect to each variable $x$, $y$ and $\lambda$. Set them equal to zero (just like regular optimization), then solve this system of equations.
+We then find the partial derivatives of $L$ with respect to each variable $x$, $y$ and $\lambda$. Set them equal to zero (just like regular optimisation), then solve this system of equations.
 
-We then look at the determinant of the bordered hessian (this is a special second derivative test for Lagrangian Multipliers and much like the second derivative test in normal optimization). The bordered hessian is:
+We then look at the determinant of the bordered hessian (this is a special second derivative test for Lagrangian Multipliers and much like the second derivative test in normal optimisation). The bordered hessian is:
 
 $$
 B = \begin{vmatrix}
@@ -308,7 +308,7 @@ $$
 L(x,y,\lambda) = x^2y - \lambda(x^2 +2y^2 - 6)
 $$
 
-Omiting the variables and differentiating with respect to each variable we have.
+Omitting the variables and differentiating with respect to each variable we have.
 
 $$
 L_x = 2xy - 2\lambda x = 0 \tag{1}
@@ -398,7 +398,7 @@ $$
 \end{aligned}
 $$
 
-So either $y=0$ or $\lambda = 0$. We reject $y=0$ since subistuting $x=0$ and $y=0$ into $(3)$, $x^2 +2y^2 = 6$, we get $0^2 + 0^2 = 6$ which is nonsense. So taking the case where $\lambda = 0$ and $y$ is non zero we have.
+So either $y=0$ or $\lambda = 0$. We reject $y=0$ since substituting $x=0$ and $y=0$ into $(3)$, $x^2 +2y^2 = 6$, we get $0^2 + 0^2 = 6$ which is nonsense. So taking the case where $\lambda = 0$ and $y$ is non zero we have.
 
 $$
 \begin{aligned} 
@@ -528,7 +528,7 @@ $(0,-\sqrt{3})$, $(2,-1)$ and $(-2,-1)$ are minima.
 
 Note that we don't know if these are local maxima and minima or global ones.
 
-Phew! So the final answer is $(0,\sqrt{3})$, $(2,1)$ and $(-2,1)$ are the local maximum values of $x^2y$ subject to $x^2 +2y^2 = 6$. To find the absolute maximum values we would have to substitute them into the orginial function.
+Phew! So the final answer is $(0,\sqrt{3})$, $(2,1)$ and $(-2,1)$ are the local maximum values of $x^2y$ subject to $x^2 +2y^2 = 6$. To find the absolute maximum values we would have to substitute them into the original function.
 
 ### An example for you to try
 
