@@ -1,3 +1,11 @@
+/* Font family: explicit stack to reduce cross-browser variance.
+   Bootstrap/Cosmo already uses sans-serif, but we reinforce it
+   with named fallbacks for metric compatibility. */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Nimbus Sans",
+    "Liberation Sans", sans-serif;
+}
+
 /* Reserve space for lazy-loaded iframes to prevent CLS.
    iframes are display:inline by default, which creates unstable
    line-box spacing (baseline alignment + line-height). When the
