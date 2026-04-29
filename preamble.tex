@@ -1,6 +1,31 @@
 \usepackage{cancel}
 \usepackage{ragged2e}
+\usepackage{titlesec}
 \setmainfont{TeX Gyre Heros}
 \RaggedRight
 \setlength{\parskip}{0.5em}
 \setlength{\parindent}{0pt}
+
+\titleformat{\section}
+  {\normalfont\Large\bfseries}
+  {\thesection}{1em}{}
+  [\vspace{0.5em}\titlerule]
+\titleformat{\subsection}
+  {\normalfont\large\bfseries}
+  {\thesubsection}{1em}{}
+\titleformat{\subsubsection}
+  {\normalfont\normalsize\bfseries}
+  {\thesubsubsection}{1em}{}
+
+\AtBeginDocument{%
+  \definecolor{quarto-callout-note-color}{HTML}{2780e3}%
+  \definecolor{quarto-callout-note-color-frame}{HTML}{2780e3}%
+  \definecolor{quarto-callout-tip-color}{HTML}{3fb618}%
+  \definecolor{quarto-callout-tip-color-frame}{HTML}{3fb618}%
+  \definecolor{quarto-callout-warning-color}{HTML}{ff7518}%
+  \definecolor{quarto-callout-warning-color-frame}{HTML}{ff7518}%
+  \definecolor{quarto-callout-caution-color}{HTML}{f0ad4e}%
+  \definecolor{quarto-callout-caution-color-frame}{HTML}{f0ad4e}%
+  \definecolor{quarto-callout-important-color}{HTML}{ff0039}%
+  \definecolor{quarto-callout-important-color-frame}{HTML}{ff0039}%
+}
