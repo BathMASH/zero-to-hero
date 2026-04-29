@@ -1,21 +1,45 @@
 \usepackage{cancel}
 \usepackage{ragged2e}
 \usepackage{titlesec}
+\usepackage{setspace}
 \setmainfont{TeX Gyre Heros}
 \RaggedRight
-\setlength{\parskip}{0.5em}
+\setlength{\parskip}{1em}
 \setlength{\parindent}{0pt}
+\setstretch{1.3}
 
 \titleformat{\section}
   {\normalfont\Large\bfseries}
   {\thesection}{1em}{}
-  [\vspace{0.5em}\titlerule]
+  [\vspace{0.5em}\titlerule\vspace{0.5em}]
 \titleformat{\subsection}
   {\normalfont\large\bfseries}
   {\thesubsection}{1em}{}
 \titleformat{\subsubsection}
   {\normalfont\normalsize\bfseries}
   {\thesubsubsection}{1em}{}
+
+\titlespacing*{\section}{0pt}{0pt}{0pt}
+\titlespacing*{\subsection}{0pt}{0pt}{0pt}
+\titlespacing*{\subsubsection}{0pt}{0pt}{0pt}
+
+\usepackage[skins,breakable]{tcolorbox}
+\usepackage{etoolbox}
+
+% Table styling: match HTML Bootstrap tables
+\makeatletter
+\AtBeginEnvironment{longtable}{%
+  % Full-width tables
+  \setlength{\LTleft}{0pt}%
+  \setlength{\LTright}{0pt}%
+  % Increased cell padding
+  \renewcommand{\arraystretch}{1.3}%
+  % Horizontal rules between all rows
+  \apptocmd{\LT@tabularcr}{\hline}{}{}%
+}
+\makeatother
+\renewcommand{\midrule}{}
+\renewcommand{\bottomrule}{}
 
 \AtBeginDocument{%
   \definecolor{quarto-callout-note-color}{HTML}{2780e3}%
@@ -28,4 +52,9 @@
   \definecolor{quarto-callout-caution-color-frame}{HTML}{f0ad4e}%
   \definecolor{quarto-callout-important-color}{HTML}{ff0039}%
   \definecolor{quarto-callout-important-color-frame}{HTML}{ff0039}%
+  \tcbset{
+    before skip=12pt,
+    after skip=12pt,
+    before upper=\setlength{\parskip}{1em}\setlength{\parindent}{0pt}
+  }%
 }
