@@ -48,7 +48,8 @@ $$
 $$.
 
 You can practice these techniques with the following questions. You can refresh the question to change the numbers. Try them as much as you like.
-```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
+
+```{r, echo=FALSE}
 knitr::include_url("https://numbas.mathcentre.ac.uk/question/125598/negative-numbers-multiplication-and-division/embed/", height="400px")
 ```
 
@@ -133,6 +134,6 @@ If a firm's revenue is £500,000 and its costs are £550,000, its profit is $500
 
 You can practice these techniques with the following questions. The numbers change each time to try them as much as you like.
 
-```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
+```{r, echo=FALSE}
 knitr::include_url("https://numbas.mathcentre.ac.uk/question/126315/negative-numbers-addition-and-subtraction/embed/?token=1a99ce84-edc0-4467-a780-e6e9bcc6fda8", height="400px")
 ```

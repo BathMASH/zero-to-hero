@@ -51,7 +51,7 @@ $$
 
 Here are some practice questions.
 
-```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
+```{r, echo=FALSE}
 knitr::include_url("https://numbas.mathcentre.ac.uk/question/127104/algebra-cancelling-fractions/embed/?token=17a9a4e4-a12e-4563-affd-e77faf02f68e", height="400px")
 ```
 

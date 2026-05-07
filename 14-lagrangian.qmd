@@ -74,7 +74,7 @@ $$
 
 Now try some questions for yourself.
 
-```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
+```{r, echo=FALSE}
 knitr::include_url("https://numbas.mathcentre.ac.uk/question/175769/partial-differentiation-1/embed/?token=cc7bd675-94c9-4ae3-a096-3a7a30ee0219", height="600px")
 ```
 
@@ -155,7 +155,7 @@ $$
 
 #### Have a go
 
-```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
+```{r, echo=FALSE}
 knitr::include_url("https://numbas.mathcentre.ac.uk/question/175721/determinant-of-a-2x2-matrix/embed/", height="400px")
 ```
 

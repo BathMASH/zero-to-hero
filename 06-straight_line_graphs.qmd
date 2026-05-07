@@ -23,14 +23,14 @@ To build a picture of a function we work out pairs of values that satisfy the fu
 | $2$ | $\frac{1}{2}(2)+1=2$ |
 
 Once we have these values they can be plotted on graph.
-```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
+```{r, echo=FALSE}
 knitr::include_url("https://www.desmos.com/calculator/jzyasdusre?embed", height="500px")
 ```
 The red dots show the points and the blue line shows the equation.
 
 By working out some co-ordinates in the following question try to generate the correct line. 
 
-```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
+```{r, echo=FALSE}
 knitr::include_url("https://numbas.mathcentre.ac.uk/question/68532/linear-graphs-plotting-1-integer-values/embed/?token=c4963f30-f814-4d6f-91bc-b631f0ed1ec3", height="400px")
 ```
 
@@ -82,7 +82,7 @@ $$
 
 Click on the graph below and play with the slider for $c$. Notice how the graph moves up and down.
 
-```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
+```{r, echo=FALSE}
 knitr::include_url("https://www.desmos.com/calculator/llcrsdgmvo?embed", height="500px")
 ```
 
@@ -100,13 +100,13 @@ The gradient can also be found by calculating the change in the $y$ direction di
 A change in a quantity is often represented by the Greek letter delta, $\Delta$, so we can rewrite $m$ as: $m = \frac{\Delta y}{\Delta x}$
 :::
 
-```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
+```{r, echo=FALSE}
 knitr::include_url("https://www.desmos.com/calculator/a3c9vcaede?embed", height="500px")
 ```
 
 Click on the graph below and then change the value of $m$ with the slider. Notice how the gradient changes but the $y$ intercept stays the same.
 
-```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
+```{r, echo=FALSE}
 knitr::include_url("https://www.desmos.com/calculator/z9r3fkyrcf?embed", height="500px")
 ```
 
@@ -171,6 +171,6 @@ Because the curve slopes downward the gradient is negative, and economists write
 
 Using your knowledge of $y=mx+c$ try the following questions. Don't be afraid to look at the answers and then try a fresh set of questions if it seems tricky at first.
 
-```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
+```{r, echo=FALSE}
 knitr::include_url("https://numbas.mathcentre.ac.uk/question/104226/linear-graphs-reading-gradient-and-intercept-from-an-equation/embed/?token=2d71329a-7508-4dfa-9115-96abe822746a", height="400px")
 ```

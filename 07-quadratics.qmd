@@ -4,7 +4,7 @@ Quadratics often appear in mathematics, they occur when you have something squar
 
 A plot of $y=x^2$ is below:
 
-```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
+```{r, echo=FALSE}
 knitr::include_url("https://www.desmos.com/calculator/ufd5zwqegu?embed", height="500px")
 ```
 
@@ -64,7 +64,7 @@ $$
 
 Here are some practice questions. 
 
-```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
+```{r, echo=FALSE}
 knitr::include_url("https://numbas.mathcentre.ac.uk/question/175469/ed-s-copy-of-quadratics-factorisation-1-to-be-fixe/embed/", height="400px")
 ```
 
@@ -103,7 +103,7 @@ We can quickly get from the factorised quadratic to the solutions by *flipping* 
 
 Try some questions. 
 
-```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
+```{r, echo=FALSE}
 knitr::include_url("https://numbas.mathcentre.ac.uk/question/105345/quadratics-solving-by-factorisation/embed/?token=84458480-2b4c-4902-9920-c43792afedcd", height="400px")
 ```
 
@@ -195,7 +195,7 @@ points(c(2, 6), c(0, 0), col = "blue", pch = 19)
 
 :::
 
-```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
+```{r, echo=FALSE}
 knitr::include_url("https://numbas.mathcentre.ac.uk/question/64345/quadratics-using-the-quadratic-formula/embed/?token=df746faf-a094-4dd6-8e2b-19ae44306fc8", height="400px")
 ```
 
@@ -257,6 +257,6 @@ notice our answers look a lot like co-ordinates on a graph. That's because they 
 
 Here are some practice questions. Don't forget you can graph them if it helps.
 
-```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
+```{r, echo=FALSE}
 knitr::include_url("https://numbas.mathcentre.ac.uk/question/65155/simultaneous-equations-quadratics-1/embed/?token=582d176f-c880-4353-abdf-8f51e0c575b6", height="400px")
 ```

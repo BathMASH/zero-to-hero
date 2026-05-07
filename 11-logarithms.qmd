@@ -107,7 +107,7 @@ lines(lnK_line, lnY_line, lwd = 2, col = "blue")
 
 Have a go at these simplification questions.
 
-```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
+```{r, echo=FALSE}
 knitr::include_url("https://numbas.mathcentre.ac.uk/question/98284/logarithms-simplifying-expressions-2/embed/?token=236a0071-445b-43bf-a8a9-9611b4dcb5ae", height="340px")
 ```
 
@@ -137,7 +137,7 @@ $$
 
 Have a go at the following questions:
 
-```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
+```{r, echo=FALSE}
 knitr::include_url("https://numbas.mathcentre.ac.uk/question/98356/logarithms-solving-logarithmic-equations-6-sum-of-logarithms/embed/?token=4dafb5d1-ca07-4bc5-a59f-7b18b7ff8ed8", height="340px")
 ```
 
@@ -183,6 +183,6 @@ if $y = k\ln{ax}$ then $\frac{dy}{dx}= \frac{k}{x}$.
 
 Use that rule to try the following questions.
 
-```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
+```{r, echo=FALSE}
 knitr::include_url("https://numbas.mathcentre.ac.uk/question/62763/differentiation-using-a-table-of-derivatives-3/embed/?token=187473c8-cd94-4a87-b1cc-5f134572c64b", height="400px")
 ```

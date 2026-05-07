@@ -11,7 +11,7 @@ Brace yourself! The questions here are long and multi-stepped. Take your time, h
 
 The largest or smallest values of a function can be found either at it's **turning points** or at it's **extreme values**. At the turning point of a function it's gradient will be zero, imagine walking to the top of a hill, once you get to the top you can't go any higher and the hill levels out, it's gradient is zero. The extreme values of a function also need to be checked since the gradient might not be zero here but it could be a maximum or minimum value.
 
-```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
+```{r, echo=FALSE}
 knitr::include_url("https://www.desmos.com/calculator/xknnmfqryk?embed", height="500px")
 ```
 
@@ -31,7 +31,7 @@ Sometimes it's not easy to sketch the function you are working with and you need
 
 We can classify the turning points by looking at the values of the first and second derivatives, $f'(x)$ and $f''(x)$. The graph below shows $f(x)$, $f'(x)$ and $f''(x)$ all plotted on the same axes. As you move the point notice how when $f(x)$ is at it's maximum,  $f'(x) = 0$ and $f''(x) < 0$. The three different lines are as follows: $f(x)$ is solid red, $f'(x)$ is dashed blue and $f''(x)$ is dotty and green. There is a lot going on in the graph below but it's worth taking some time to play with the points to see what is going on.
 
-```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
+```{r, echo=FALSE}
 knitr::include_url("https://www.desmos.com/calculator/ybaguwnu8g?embed", height="500px")
 ```
 
@@ -90,7 +90,7 @@ Now either $2x=0$ or $3x-4 =0$. Solving these two equations we get that $x$ is e
 
 Have a go at this question on classifying critical points.
 
-```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
+```{r, echo=FALSE}
 knitr::include_url("https://numbas.mathcentre.ac.uk/question/67953/differentiation-stationary-points-and-their-nature-1/embed/", height="600px")
 ```
 
@@ -185,7 +185,7 @@ Congratulations if you made it this far!
 
 Now you can have a go at one yourself.
 
-```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
+```{r, echo=FALSE}
 knitr::include_url("https://numbas.mathcentre.ac.uk/question/169213/differentiation-contextualized-stationary-points-and-their-nature/embed/", height="500px")
 ```
 
@@ -255,7 +255,7 @@ So finally the quantity $q$ that maximises profits is $6$.
 
 Now you can try one for yourself:
 
-```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
+```{r, echo=FALSE}
 knitr::include_url("https://numbas.mathcentre.ac.uk/question/140935/optimisation-find-quantity-to-maximise-profits/embed/", height="500px")
 ```
 

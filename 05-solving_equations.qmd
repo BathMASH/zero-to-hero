@@ -37,7 +37,7 @@ The nice thing here is that we can leave the answer as $\frac{2}{3}$. No need to
 
 Solve the following equations by applying the same operation to both sides. Remember the questions come with full solutions, so, if you get stuck have a look at the answers and then try a different one.
 
-```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
+```{r, echo=FALSE}
 knitr::include_url("https://numbas.mathcentre.ac.uk/question/90637/equations-linear-equations-1a-rational-answers/embed/?token=8b0eebe4-9011-49a1-a3aa-d0a1298634be", height="400px")
 ```
 
@@ -66,7 +66,7 @@ $$
 
 Have a go at some questions. You'll need a pen and paper to work these out.
 
-```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
+```{r, echo=FALSE}
 knitr::include_url("https://numbas.mathcentre.ac.uk/question/104234/equations-linear-equations-2-unknowns-on-both-sides/embed/?token=c65c1027-db21-4273-bc3c-7e1a348e8510", height="400px")
 ```
 
@@ -263,7 +263,7 @@ When $Q=3$ and $P=5$, the quantity supplied equals the quantity demanded, and th
 
 You can try other examples in the exercise below. Sometime you may have to multiply both of your starting equations in order to get the same amount of one variable. Also, don't worry if you have eliminated the other variable - it doesn't matter which you get rid of first, you should get the same answer in the end.
 
-```{r, echo=FALSE, eval=(knitr::pandoc_to("html"))}
+```{r, echo=FALSE}
 knitr::include_url("https://numbas.mathcentre.ac.uk/question/104646/simultaneous-equations-linear-equations-with-integer-solutions/embed/?token=22ea59f8-3c89-478a-acd8-d114edcba808", height="400px")
 ```
 
