@@ -17,6 +17,15 @@ book:
 
   margin-footer: "margin-footer.md"
 
+# TEMPORARY (numbas-outage branch): remove once Numbas is back up.
+website:
+  announcement:
+    content: "**The interactive practice questions are currently unavailable.** Our question provider (Numbas) is down, so the embedded questions won't load. The rest of the notes still work as normal."
+    type: warning
+    icon: exclamation-triangle
+    dismissable: true
+    position: below-navbar
+
 format:
   html:
     css: styles.css

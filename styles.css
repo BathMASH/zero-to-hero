@@ -63,3 +63,16 @@ iframe[height="340px"] { min-height: 340px; }
 .nav-footer-center {
   min-height: auto;
 }
+
+/* TEMPORARY (numbas-outage branch): warn above each Numbas question
+   while the service is down. Delete this block once it is back. */
+.cell:has(iframe[src*="numbas"])::before {
+  content: "⚠ This practice question is temporarily unavailable because the Numbas question service is down. Please try again later.";
+  display: block;
+  margin-bottom: 0.5rem;
+  padding: 0.6rem 0.9rem;
+  border-left: 4px solid #f0ad4e;
+  border-radius: 0.25rem;
+  background: rgba(240, 173, 78, 0.15);
+  font-size: 0.95rem;
+}
