@@ -5,3 +5,8 @@
 /*cache/
 
 **/*.quarto_ipynb
+
+# Claude Code
+.claude/
+CLAUDE.md
+CLAUDE.local.md
