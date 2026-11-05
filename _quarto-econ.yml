@@ -3,6 +3,12 @@ project:
   output-dir: _econ
 
 book:
+  title: "Zero to Hero: Applied Economics"
+  author: 
+    - name: "Andrew Wainwright - Applied economics content"
+      note: "Applied economics content"
+    - name: "Simona Montagnana - Applied economics content"
+      note: "Applied economics content"
   chapters:
     - index.qmd                          # preface
     - 01-negative_numbers.qmd            # ch 1

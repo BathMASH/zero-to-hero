@@ -1,5 +1,13 @@
 # Readme
 
+## NUMBAS outage
+
+Once Numbas is back: run git switch master, re-render and publish. You can delete the branch with git branch -D numbas-outage.
+
+
+## Notes
+
+
 This is the repo for the zero to hero project written in quarto. This resource was originally developed for PGT students studying applied economics who have studied maths previously but need a but need refreshing. It has now been expanded to be used by other departments.
 
 This repo contains the base project. Different subsets for other subjects are derived from this base project. 
@@ -10,7 +18,7 @@ Alternatively you can find the [version hosted on github.com here](https://bathm
 
 If you would like to [download the pdf](https://github.bath.ac.uk/edrs20/z2hq/blob/master/docs/Zero-to-Hero.pdf) from the bath github you can too.
 
-TODO:
+## TODO:
 
 ~~Add a License to the project. Probably [Attribution-ShareAlike 4.0 International](https://creativecommons.org/choose/)~~
 

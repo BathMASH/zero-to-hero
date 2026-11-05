@@ -2,19 +2,25 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.10.19">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Ed Southwood">
-<meta name="dcterms.date" content="2026-01-06">
+<meta name="dcterms.date" content="2026-10-28">
 
 <title>Zero to Hero</title>
 <style>
-code{white-space: pre-wrap;}
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,14 +45,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b626d73c4c936ccc3cb08be7d45d1df6.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-cfa6e57e7a045108cb5ffec6e5b6de18.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-fd2d0e702bf84cec103ab811febaeca8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-cfa6e57e7a045108cb5ffec6e5b6de18.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-631496449bf32ff9b0bb69a6bfd9195d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-a64f2b92d8b4b45ab5f5d9261e8b8c9d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-631496449bf32ff9b0bb69a6bfd9195d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -74,8 +80,10 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script type="application/javascript" src="scripts/wait.js"></script>
 
 
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -257,6 +265,9 @@ ul.task-list li input[type="checkbox"] {
       </button>
     </div>
   </nav>
+  <div id="quarto-announcement" data-announcement-id="c7ec45a6a4040cc62dd1ec4c58f414e3" class="alert alert-warning hidden"><i class="bi bi-exclamation-triangle quarto-announcement-icon"></i><div class="quarto-announcement-content">
+<p><strong>The interactive practice questions are currently unavailable.</strong> Our question provider (Numbas) is down, so the embedded questions won’t load. The rest of the notes still work as normal.</p>
+</div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
@@ -372,10 +383,16 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome">Welcome</a></li>
+  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome">Welcome</a>
+  <ul class="collapse">
+  <li><a href="#subject-specific" id="toc-subject-specific" class="nav-link" data-scroll-target="#subject-specific">Subject specific</a></li>
+  <li><a href="#what-do-the-boxes-mean" id="toc-what-do-the-boxes-mean" class="nav-link" data-scroll-target="#what-do-the-boxes-mean">What do the boxes mean?</a></li>
+  <li><a href="#id-love-to-hear-from-you" id="toc-id-love-to-hear-from-you" class="nav-link" data-scroll-target="#id-love-to-hear-from-you">I’d love to hear from you</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/BathMASH/zero-to-hero/blob/master/index.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/BathMASH/zero-to-hero/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     <div class="quarto-margin-footer"><div class="margin-footer-item">
+<!-- markdownlint-disable MD041 MD033 MD045 -->
 <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="./img/uob-logo.light.png" class="img-fluid" alt="Zero to Hero © 2023 by Ed Southwood, Skills Centre, University of Bath is licensed under Attribution-NonCommercial-ShareAlike 4.0 International"></a> <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="./img/cc-logo.png" class="img-fluid" alt="Zero to Hero © 2023 by Ed Southwood, Skills Centre, University of Bath is licensed under Attribution-NonCommercial-ShareAlike 4.0 International"></a> <link rel="preload" href="./img/uob-logo.dark.png" as="image"></p>
 </div></div></div>
 <!-- main -->
@@ -401,7 +418,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">January 6, 2026</p>
+      <p class="date">October 28, 2026</p>
     </div>
   </div>
   
@@ -421,22 +438,84 @@ ul.task-list li input[type="checkbox"] {
 The graphs and diagrams created in <a href="https://www.desmos.com/calculator">desmos</a> are interactive just click on the <em>edit in desmos button</em> to open the desmos graph in a new tab.
 </p>
 <p>This is a work in progress, the videos are appearing and things may change! If you find a mistake please email <a href="mailto:edrs20@bath.ac.uk">edrs20@bath.ac.uk</a> and good luck!</p>
+<section id="subject-specific" class="level2">
+<h2 class="anchored" data-anchor-id="subject-specific">Subject specific</h2>
+<p>You’re a busy person! So, with the help of your lecturer, I’ve tried to make this as relevant and concise as possible.</p>
+<div class="callout callout-style-default callout-warning callout-titled" title="Directly applicable">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>Directly applicable
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Whenever you see something in this box it will directly link the statistics covered in this resource to your course.</p>
+</div>
+</div>
+</section>
+<section id="what-do-the-boxes-mean" class="level2">
+<h2 class="anchored" data-anchor-id="what-do-the-boxes-mean">What do the boxes mean?</h2>
+<div class="callout callout-style-default callout-note callout-titled" title="Key point">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Key point
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Key points are summarised in boxes like this.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled" title="Answers and Mathematical notation">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Answers and Mathematical notation
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Notes on mathematical properties and answers to <em>Test yourself</em> quizzes are in this colour boxes.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-important callout-titled" title="Gotcha!">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Gotcha!
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Sources of potential confusion are directly dealt with in this box.</p>
+</div>
+</div>
+</section>
+<section id="id-love-to-hear-from-you" class="level2">
+<h2 class="anchored" data-anchor-id="id-love-to-hear-from-you">I’d love to hear from you</h2>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Let me know what you think
+<span class="screen-reader-only">Tip</span>Let me know what you think
 </div>
 </div>
 <div class="callout-body-container callout-body">
 <p>If you’ve got some spare time to <a href="https://bathreg.onlinesurveys.ac.uk/zero-to-hero">fill in this survey</a> about this resource, I’d love to know what you think of it.</p>
 </div>
 </div>
-<p>Zero to Hero © 2025 by Ed Southwood, Skills Centre, University of Bath is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International</a>.</p>
+<p>Zero to Hero © 2026 by Ed Southwood, Skills Centre, University of Bath is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International</a>.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -504,13 +583,14 @@ Let me know what you think
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

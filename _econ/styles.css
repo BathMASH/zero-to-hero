@@ -1,3 +1,11 @@
+/* Font family: explicit stack to reduce cross-browser variance.
+   Bootstrap/Cosmo already uses sans-serif, but we reinforce it
+   with named fallbacks for metric compatibility. */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Nimbus Sans",
+    "Liberation Sans", sans-serif;
+}
+
 /* Reserve space for lazy-loaded iframes to prevent CLS.
    iframes are display:inline by default, which creates unstable
    line-box spacing (baseline alignment + line-height). When the
@@ -54,4 +62,17 @@ iframe[height="340px"] { min-height: 340px; }
 
 .nav-footer-center {
   min-height: auto;
+}
+
+/* TEMPORARY (numbas-outage branch): warn above each Numbas question
+   while the service is down. Delete this block once it is back. */
+.cell:has(iframe[src*="numbas"])::before {
+  content: "⚠ This practice question is temporarily unavailable because the Numbas question service is down. Please try again later.";
+  display: block;
+  margin-bottom: 0.5rem;
+  padding: 0.6rem 0.9rem;
+  border-left: 4px solid #f0ad4e;
+  border-radius: 0.25rem;
+  background: rgba(240, 173, 78, 0.15);
+  font-size: 0.95rem;
 }

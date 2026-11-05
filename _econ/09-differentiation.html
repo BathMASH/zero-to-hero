@@ -2,20 +2,23 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.28">
+<meta name="generator" content="quarto-1.10.19">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>10&nbsp; Differentiation – Zero to Hero</title>
+<title>10&nbsp; Differentiation – Zero to Hero: Applied Economics</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -41,14 +44,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-49e51e44f424ea8c7044b429bdbbbfe2.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-73d08f1ec3e13e4e2982b78c5de5b9cd.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-49e51e44f424ea8c7044b429bdbbbfe2.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b626d73c4c936ccc3cb08be7d45d1df6.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-d78f47b8ab7568745c7a0aa131578ed3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-3b965ebef6075a108311dde5874eb40f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-d78f47b8ab7568745c7a0aa131578ed3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-631496449bf32ff9b0bb69a6bfd9195d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-a64f2b92d8b4b45ab5f5d9261e8b8c9d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-631496449bf32ff9b0bb69a6bfd9195d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -79,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
 <script type="application/javascript" src="scripts/wait.js"></script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 const typesetMath = (el) => {
@@ -290,6 +293,9 @@ window.Quarto = {
       </button>
     </div>
   </nav>
+  <div id="quarto-announcement" data-announcement-id="c7ec45a6a4040cc62dd1ec4c58f414e3" class="alert alert-warning hidden"><i class="bi bi-exclamation-triangle quarto-announcement-icon"></i><div class="quarto-announcement-content">
+<p><strong>The interactive practice questions are currently unavailable.</strong> Our question provider (Numbas) is down, so the embedded questions won’t load. The rest of the notes still work as normal.</p>
+</div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
@@ -297,10 +303,10 @@ window.Quarto = {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Zero to Hero</a> 
+      <a href="./">Zero to Hero: Applied Economics</a> 
         <div class="sidebar-tools-main tools-wide">
     <a href="https://github.com/BathMASH/zero-to-hero" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
-    <a href="./Zero-to-Hero.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
+    <a href="./Zero-to-Hero--Applied-Economics.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
   <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
   <div class="quarto-reader-toggle-btn">
@@ -423,6 +429,7 @@ window.Quarto = {
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/BathMASH/zero-to-hero/blob/master/09-differentiation.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/BathMASH/zero-to-hero/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     <div class="quarto-margin-footer"><div class="margin-footer-item">
+<!-- markdownlint-disable MD041 MD033 MD045 -->
 <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="./img/uob-logo.light.png" class="img-fluid" alt="Zero to Hero © 2023 by Ed Southwood, Skills Centre, University of Bath is licensed under Attribution-NonCommercial-ShareAlike 4.0 International"></a> <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="./img/cc-logo.png" class="img-fluid" alt="Zero to Hero © 2023 by Ed Southwood, Skills Centre, University of Bath is licensed under Attribution-NonCommercial-ShareAlike 4.0 International"></a> <link rel="preload" href="./img/uob-logo.dark.png" as="image"></p>
 </div></div></div>
 <!-- main -->
@@ -517,7 +524,7 @@ Note
 <p>The take away from this is that constant terms, terms without <span class="math inline">\(x\)</span> in, disappear, and terms with just <span class="math inline">\(x\)</span> in loose the <span class="math inline">\(x\)</span>.</p>
 <p>Try these questions to get to grips with the rules of differentiation.</p>
 <div class="cell">
-<iframe src="https://numbas.mathcentre.ac.uk/question/62756/differentiation-using-a-table-of-derivatives-2/embed/?token=f1dc60aa-32b9-4906-98f2-4ddde19c9b79" width="672" height="800px" data-external="1">
+<iframe src="https://numbas.mathcentre.ac.uk/question/62756/differentiation-using-a-table-of-derivatives-2/embed/?token=f1dc60aa-32b9-4906-98f2-4ddde19c9b79" width="672" height="400px" data-external="1">
 </iframe>
 </div>
 </section>
