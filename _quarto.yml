@@ -17,8 +17,8 @@ book:
 
   margin-footer: "margin-footer.md"
 
-# TEMPORARY (numbas-outage branch): remove once Numbas is back up.
-website:
+  # TEMPORARY: remove this announcement block once Numbas is back up.
+  # Must sit under book: because Quarto 1.11 ignores website: in book projects.
   announcement:
     content: "**The interactive practice questions are currently unavailable.** Our question provider (Numbas) is down, so the embedded questions won't load. The rest of the notes still work as normal."
     type: warning

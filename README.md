@@ -2,7 +2,16 @@
 
 ## NUMBAS outage
 
-Once Numbas is back: run git switch master, re-render and publish. You can delete the branch with git branch -D numbas-outage.
+The outage banner and question notices are on `master`, so switching branches won't remove them. Once Numbas is back:
+
+1. Delete the `announcement:` block and its `TEMPORARY` comment under `book:` in `_quarto.yml`.
+2. Delete the `TEMPORARY` block at the end of `styles.css`.
+3. Re-render `docs/`, commit it and run `git push origin master`.
+4. Publish the other sites with `./econ.sh`, `./cs.sh` and `./apeb.sh`.
+5. Delete the old branch with `git branch -d numbas-outage`.
+6. Delete this section.
+
+The banner must stay under `book:`, because Quarto 1.11 ignores it under `website:`.
 
 
 ## Notes
